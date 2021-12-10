@@ -16,7 +16,7 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
         }
         onClick=ChooseUID
     }
-    const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/' + props.uid + '.png')
+    const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/' + props.uid + '.png'
     return (
         <button 
         className={IsActive? "UnitButton": "UnitButton Disabled"}
