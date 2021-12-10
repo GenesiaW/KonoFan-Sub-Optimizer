@@ -3,7 +3,7 @@ import Inventory from "./components/Inventory";
 import data from "./data/database.json";
 import SubOptimizer from "./components/SubOptimizer";
 import InventoryImport from "./components/InventoryImport";
-import OptimizeTeam from "./components/OptimizeTeam";
+// import OptimizeTeam from "./components/OptimizeTeam";
 import KFAlerts from "./components/KFAlerts";
 import {Modal,Container, Button,Navbar, DropdownButton,Dropdown,Row,Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -125,8 +125,8 @@ function App() {
           <Row>
         <Navbar bg="primary" variant="dark">
             <Navbar.Brand style={{marginLeft:"0.5rem"}}>KonoFan Sub Optimizer</Navbar.Brand>
-                <Col align="end"><OptimizeTeam props={Ownership}/></Col>
-                <InventoryImport align="end" props={Ownership} setOwned={setOwned} setAlert={setAlertText} handleAlertShow={handleAlertShow}/>
+                {/* <Col align="end"><OptimizeTeam props={Ownership}/></Col> */}
+                <Col align="end"><InventoryImport align="end" props={Ownership} setOwned={setOwned} setAlert={setAlertText} handleAlertShow={handleAlertShow}/></Col>
                 <Button align="end" variant="outline-light" onClick={handleShow} style={{marginRight:"0.5rem"}}>Inventory</Button>
         </Navbar>
         </Row>
