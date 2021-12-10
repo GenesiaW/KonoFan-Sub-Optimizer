@@ -11,6 +11,9 @@ function OptimizeTeam({props}) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    const Dummy = () =>{
+        return MultiProps
+    }
     const HeaderHelper ={
         0:"First",
         1:"Second",
@@ -35,7 +38,7 @@ function OptimizeTeam({props}) {
                    <Modal.Title>Select {HeaderHelper[MultiProps.stage]} Unit </Modal.Title>
                </Modal.Header>
                <Modal.Body className="Multistage">
-                    <Inventory props={AvailUnits}/>
+                    <Inventory props={AvailUnits} />
                 </Modal.Body>
            </Modal>
         </div>
