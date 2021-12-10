@@ -1,0 +1,69 @@
+.UnitButton {
+    border: 0;
+    margin: 0.05rem;
+    padding:0;
+}
+
+.UnitButton.Disabled{
+    filter:grayscale(100%) contrast(75%)
+}
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+.modal-dialog.modal-cw.modal-dialog-centered{
+    width:100%;
+    max-width: 1080px!important;
+}
+
+.Inventory .col{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left:0;
+    padding-right:0;
+}
+
+.modal-title.h4{
+    white-space:nowrap;
+}
+
+.Inventory.modal-body::-webkit-scrollbar{
+    display:none;
+}
+
+.SubOptimizer.container-fluid .row .col{
+    margin:0;
+    padding:0;
+    border:0;
+    overflow:hidden;
+}
+
+.SubOptimizer.container-fluid .col{
+    margin:0;
+    padding:0;
+    padding-right:0px;
+    padding-left:0px;
+    border:0;
+    overflow:hidden;
+}
+
+.SubOptimizer.container-fluid .row .Selector.col-3{
+    margin:0;
+    border:0;
+    overflow:hidden;
+}
+
+.col-9 {
+    margin:0;
+    padding:0;
+}
+
+.col-9 .table.table-striped.table-bordered.table-borderless .UnitButton{
+    max-width: 243.54px;
+    max-height:121.76px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    cursor:unset;
+}
