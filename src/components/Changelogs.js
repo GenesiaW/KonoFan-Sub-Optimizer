@@ -14,7 +14,8 @@ function Changelogs({show,handleClose}) {
             <Modal.Body>
                 <h4>14 December 2021 (Ver 2.0.0)</h4>
                 <ul>• Added stats for 4 Xmas units.</ul>
-                <ul>• Added Optimize Team for optimizing 5 members at once</ul>
+                <ul>• Added Optimize Team for optimizing 5 members in sequence</ul>
+                <ul>• More details at https://www.reddit.com/r/FantasticDays/comments/rfun0c/konofan_sub_optimizer_ver_200 </ul>
                 <ul>• Added Changelog for documenting changes.</ul>
                 <ul>• Added Rank Selection for optimal setup, allowing choice of best setup to 5th best.</ul>
                 <ul>• Added Rarity Filter to inventory</ul>
