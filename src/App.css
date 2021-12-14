@@ -2,10 +2,12 @@
     border: 0;
     margin: 0.05rem;
     padding:0;
+    user-select: none;
 }
 
 .UnitButton.Disabled{
-    filter:grayscale(100%) contrast(75%)
+    filter:grayscale(100%) contrast(75%);
+    user-select: none;
 }
 
 body::-webkit-scrollbar{
@@ -26,9 +28,14 @@ body::-webkit-scrollbar{
 
 .modal-title.h4{
     white-space:nowrap;
+    user-select: none;
 }
 
 .Inventory.modal-body::-webkit-scrollbar{
+    display:none;
+}
+
+.modal-body::-webkit-scrollbar{
     display:none;
 }
 
@@ -59,11 +66,28 @@ body::-webkit-scrollbar{
     padding:0;
 }
 
-.col-9 .table.table-striped.table-bordered.table-borderless .UnitButton{
-    max-width: 243.54px;
-    max-height:121.76px;
+.table.table-striped.table-bordered.table-borderless .UnitButton{
     padding: 0px;
     margin: 0px;
     border: 0px;
     cursor:unset;
+    user-select: none;
+}
+
+
+.col-9 .table.table-striped.table-bordered.table-borderless .UnitButton{
+    max-width: 240.54px;
+    max-height:120.26px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    cursor:unset;
+    user-select: none;
+}
+
+.col-2 {
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+    max-width:140.3px;
 }

@@ -100,15 +100,34 @@ function Optimize(props,ChosenUid){
             }
         }
     }
-    const newFinalArray = FinalArray.filter(x => x.PhyD > 0)
-    const PhyMaxV = Math.max.apply(Math,newFinalArray.map(o => o.PhyD))
-    const PhyMax = newFinalArray.find(x=>x.PhyD===PhyMaxV)
-    const EPhyMaxV = Math.max.apply(Math,newFinalArray.map(o => o.PhyEd))
-    const EPhyMax = newFinalArray.find(x=>x.PhyEd===EPhyMaxV)
-    const MagMaxV = Math.max.apply(Math,newFinalArray.map(o => o.MagD))
-    const MagMax = newFinalArray.find(x=>x.MagD===MagMaxV)
-    const RecMaxV = Math.max.apply(Math,newFinalArray.map(o => o.R))
-    const RecMax = newFinalArray.find(x=>x.R===RecMaxV)
+    let newFinalArray = FinalArray.filter(x => x.PhyD > 0)
+    let PhyMax = []
+    let EPhyMax = []
+    let MagMax =[]
+    let RecMax = []
+    while (PhyMax.length <5) {
+      const PhyMaxV = Math.max.apply(Math,newFinalArray.map(o => o.PhyD))
+      PhyMax.push(newFinalArray.find(x=>x.PhyD===PhyMaxV))
+      newFinalArray.splice(newFinalArray.indexOf(newFinalArray.find(x=>x.PhyD===PhyMaxV)),1)
+    }
+    newFinalArray = FinalArray.filter(x => x.PhyD > 0)
+    while (EPhyMax.length <5) {
+      const EPhyMaxV = Math.max.apply(Math,newFinalArray.map(o => o.PhyEd))
+      EPhyMax.push(newFinalArray.find(x=>x.PhyEd===EPhyMaxV))
+      newFinalArray.splice(newFinalArray.indexOf(newFinalArray.find(x=>x.PhyEd===EPhyMaxV)),1)
+    }
+    newFinalArray = FinalArray.filter(x => x.PhyD > 0)
+    while (MagMax.length <5) {
+      const MagMaxV = Math.max.apply(Math,newFinalArray.map(o => o.MagD))
+      MagMax.push(newFinalArray.find(x=>x.MagD===MagMaxV))
+      newFinalArray.splice(newFinalArray.indexOf(newFinalArray.find(x=>x.MagD===MagMaxV)),1)
+    }
+    newFinalArray = FinalArray.filter(x => x.PhyD > 0)
+    while (RecMax.length <5) {
+      const RecMaxV = Math.max.apply(Math,newFinalArray.map(o => o.R))
+      RecMax.push(newFinalArray.find(x=>x.R===RecMaxV))
+      newFinalArray.splice(newFinalArray.indexOf(newFinalArray.find(x=>x.R===RecMaxV)),1)
+    }
     const container = {
         PhyMax:PhyMax,
         EPhyMax:EPhyMax,
@@ -119,4 +138,5 @@ function Optimize(props,ChosenUid){
     return container
 }
 
+export {CalculateDamage}
 export default Optimize

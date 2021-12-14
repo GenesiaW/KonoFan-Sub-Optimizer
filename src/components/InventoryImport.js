@@ -1,12 +1,6 @@
 import { Modal,Button, ModalTitle, Form} from "react-bootstrap"
-import { useState } from "react";
 
-function InventoryImport({props,setOwned,setAlert,handleAlertShow}) {
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
+function InventoryImport({props,setOwned,setAlert,handleAlertShow,show,handleClose}) {
     const ExcelValues = {
         "001":1001100,
         "002":1002100,
@@ -184,13 +178,12 @@ function InventoryImport({props,setOwned,setAlert,handleAlertShow}) {
     }
     return (
         <div>
-            <Button variant="outline-light" onClick={handleShow} style={{marginRight:"0.5rem"}}>Import Inventory</Button>
             <Modal 
             show={show} 
             onHide={handleClose} 
             animation={false} 
             dialogClassName="modal-cw">
-                <Modal.Header closeButton><ModalTitle>Import from Google Sheets Version</ModalTitle></Modal.Header>
+                <Modal.Header closeButton><ModalTitle>Import from Google Sheets</ModalTitle></Modal.Header>
                 <Modal.Body>
                     <Form>
                         <Form.Group controlId="InvCodeField">

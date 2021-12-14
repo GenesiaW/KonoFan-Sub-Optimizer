@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose}) {
+export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose,setMultiProps}) {
     const [IsActive,ToggleActive] = useState(props.owned)
     if (ToggleOwned){
         const HandleToggle = () => {
@@ -15,6 +15,10 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
             handleClose()
         }
         onClick=ChooseUID
+    }
+    if (setMultiProps){
+        onClick= () => {
+            setMultiProps(props.uid)}
     }
     const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/' + props.uid + '.png'
     return (

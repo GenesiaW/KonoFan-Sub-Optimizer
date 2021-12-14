@@ -6,7 +6,7 @@ function SubOptimizer({props,setUid,ChosenUid,results}) {
     return (
         <Container className="SubOptimizer" fluid>
             <Row>
-                <Col className="Selector" xs={3}><LargeMember props={props} setUid={setUid} ChosenUid={ChosenUid} Header="Main"/></Col>
+                <Col className="Selector" xs={3 }><LargeMember props={props} setUid={setUid} ChosenUid={ChosenUid} Header="Main"/></Col>
                 <Col xs={9}><OptimizedContainer props={results} /></Col>
             </Row>
         </Container>
