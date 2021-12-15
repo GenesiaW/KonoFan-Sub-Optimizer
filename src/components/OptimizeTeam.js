@@ -4,7 +4,8 @@ import Optimize from "./calculations"
 import { useState} from "react";
 import OptimizeTeamResults from "./OptimizeTeamResults";
 
-function OptimizeTeam({props,show,handleClose}) {
+function OptimizeTeam({props,show,handleClose,fastMode}) {
+    const [counter,setCounter] = useState(0)
     const [Exclusions,setExclusions] = useState([])
     const [SubList,setSubList]= useState([])
     const [BackSubListOne,setBackSubListOne] = useState([])
@@ -50,28 +51,59 @@ function OptimizeTeam({props,show,handleClose}) {
     }
 
     const ModifyProps = (uid) => {
+        let fastModeHelper = false
+        if(fastMode){
+            fastModeHelper = true
+        }
         const newExclusion = [...Exclusions]
         newExclusion.push(uid)
         const results = Optimize(AvailUnits,uid)
         let newSubList = []
-        newSubList.push(results.PhyMax[0].stats.SubOne)
-        newSubList.push(results.PhyMax[0].stats.SubTwo)
-        newSubList.push(results.EPhyMax[0].stats.SubOne)
-        newSubList.push(results.EPhyMax[0].stats.SubTwo)
-        newSubList.push(results.MagMax[0].stats.SubOne)
-        newSubList.push(results.MagMax[0].stats.SubTwo)
-        newSubList.push(results.RecMax[0].stats.SubOne)
-        newSubList.push(results.RecMax[0].stats.SubTwo)
+        if (fastMode){
+            newSubList.push({uid:"maxphy",container:[results.PhyMax[0].stats.SubOne,results.PhyMax[0].stats.SubTwo],owned:fastModeHelper})
+            newSubList.push({uid:"maxephy",container:[results.EPhyMax[0].stats.SubOne,results.EPhyMax[0].stats.SubTwo],owned:fastModeHelper})
+            newSubList.push({uid:"maxmag",container:[results.MagMax[0].stats.SubOne,results.MagMax[0].stats.SubTwo],owned:fastModeHelper})
+            newSubList.push({uid:"maxrec",container:[results.RecMax[0].stats.SubOne,results.RecMax[0].stats.SubTwo],owned:fastModeHelper})
+        }
+        else{
+            newSubList.push({uid:"maxphy",container:[results.PhyMax[0].stats.SubOne,results.PhyMax[0].stats.SubTwo],owned:fastModeHelper})
+            newSubList.push(results.PhyMax[0].stats.SubOne)
+            newSubList.push(results.PhyMax[0].stats.SubTwo)
+            newSubList.push({uid:"maxephy",container:[results.EPhyMax[0].stats.SubOne,results.EPhyMax[0].stats.SubTwo],owned:fastModeHelper})
+            newSubList.push(results.EPhyMax[0].stats.SubOne)
+            newSubList.push(results.EPhyMax[0].stats.SubTwo)
+            newSubList.push({uid:"maxmag",container:[results.MagMax[0].stats.SubOne,results.MagMax[0].stats.SubTwo],owned:fastModeHelper})
+            newSubList.push(results.MagMax[0].stats.SubOne)
+            newSubList.push(results.MagMax[0].stats.SubTwo)
+            newSubList.push({uid:"maxrec",container:[results.RecMax[0].stats.SubOne,results.RecMax[0].stats.SubTwo],owned:fastModeHelper})
+            newSubList.push(results.RecMax[0].stats.SubOne)
+            newSubList.push(results.RecMax[0].stats.SubTwo)
+        }
         setSubList(newSubList)
         setBackSubListOne(newSubList)
         setExclusions(newExclusion)
     }
-    const SelectSubUnits = (uid) => {
+    const SelectSubUnits = (uid,props) => {
         const newExclusion = [...Exclusions]
-        newExclusion.push(uid)
-
-        const newSubList = SubList.filter(x=>x.uid !== uid)
-        setSubList(newSubList)
+        let newSubList = []
+        const maxHelper = ["maxphy","maxephy","maxmag","maxrec"]
+        if (fastMode){
+            if (maxHelper.includes(uid)){
+                newExclusion.push(props[0].uid)
+                newExclusion.push(props[1].uid)
+                setCounter(counter+1)
+            } 
+        }
+        else{
+            if (maxHelper.includes(uid)){
+                return
+            }
+            else{
+                newExclusion.push(uid) 
+                newSubList = SubList.filter(x=>x.uid !== uid)
+                setSubList(newSubList)
+            }
+        }
         if (newExclusion.length %3 === 2){
             setBackSubListTwo(newSubList)
         }
@@ -81,6 +113,14 @@ function OptimizeTeam({props,show,handleClose}) {
     const HandleBack = () => {
         const newExclusions = [...Exclusions]
         if(Exclusions.length){
+            if (counter){
+                if(Exclusions.length%2){
+                    newExclusions.pop()
+                }
+                else{
+                }
+                setCounter(counter-1)
+            }
             newExclusions.pop()
             setExclusions(newExclusions)
         }
@@ -145,7 +185,7 @@ function OptimizeTeam({props,show,handleClose}) {
                    {Exclusions[0]? 
                    (Exclusions.length === 15 ? 
                     <OptimizeTeamResults props={PureList} exclusions={Exclusions}/>:
-                   (Exclusions.length % 3? (<Inventory props={SubList} setMultiProps={SelectSubUnits}/>)
+                   (Exclusions.length % 3? (<Inventory props={SubList} SelectSubUnits={SelectSubUnits}/>)
                    :(<Inventory props={FilteredUnits} setMultiProps={ModifyProps}/>))):
                    (<Inventory props={FilteredUnits} setMultiProps={ModifyProps}/>)}                  
                 </Modal.Body>

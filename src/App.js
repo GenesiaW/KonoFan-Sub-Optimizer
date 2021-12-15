@@ -3,8 +3,8 @@ import InventoryButton from "./components/InventoryButton";
 import data from "./data/database.json";
 import SubOptimizer from "./components/SubOptimizer";
 import InventoryImport from "./components/InventoryImport";
-// import ExportInventory from "./components/ExportInventory";
 import OptimizeTeam from "./components/OptimizeTeam";
+import OptimizeTeamFast from "./components/OptimizeTeamFast";
 import Changelogs from "./components/Changelogs";
 import KFAlerts from "./components/KFAlerts";
 import {Container, Navbar, Row,Dropdown,DropdownButton, Col} from "react-bootstrap";
@@ -22,84 +22,85 @@ function App() {
   //Ownership
   const [Ownership,setOwned] = useState([])
 
-    // Sub Optimizer
-    const [ChosenUid, ChangeUid] = useState(1001100)
-    const setUid = (uid) => {
-      ChangeUid(uid)
-    }
-    //Alerts
-    const [showAlert, setAlertShow] = useState(false);
-    const [AlertText,setAlertText] = useState("This is an Alert");
-  
-    const handleAlertShow = () =>setAlertShow(true);
-    const handleAlertClose = () =>setAlertShow(false);
-  
-    //Optimizer
-    const [OptimizedResults,modifyResult] = useState({
-      PhyMax:[{
-          stats:{
-              SubOne:{uid:1001100,owned:true},
-              SubTwo:{uid:1001100,owned:true}
-          }
-      }],
-      EPhyMax:[{
-          stats:{
-              SubOne:{uid:1001100,owned:true},
-              SubTwo:{uid:1001100,owned:true}
-          }
-      }],
-      MagMax:[{
-          stats:{
-              SubOne:{uid:1001100,owned:true},
-              SubTwo:{uid:1001100,owned:true}
-          }
-      }],
-      RecMax:[{
-          stats:{
-              SubOne:{uid:1001100,owned:true},
-              SubTwo:{uid:1001100,owned:true}
-          }
-      }],
+  // Sub Optimizer
+  const [ChosenUid, ChangeUid] = useState(1001100)
+  const setUid = (uid) => {
+    ChangeUid(uid)
+  }
+  //Alerts
+  const [showAlert, setAlertShow] = useState(false);
+  const [AlertText,setAlertText] = useState("This is an Alert");
+
+  const handleAlertShow = () =>setAlertShow(true);
+  const handleAlertClose = () =>setAlertShow(false);
+
+  //Optimizer
+  const [OptimizedResults,modifyResult] = useState({
+    PhyMax:[{
+        stats:{
+            SubOne:{uid:1001100,owned:true},
+            SubTwo:{uid:1001100,owned:true}
+        }
+    }],
+    EPhyMax:[{
+        stats:{
+            SubOne:{uid:1001100,owned:true},
+            SubTwo:{uid:1001100,owned:true}
+        }
+    }],
+    MagMax:[{
+        stats:{
+            SubOne:{uid:1001100,owned:true},
+            SubTwo:{uid:1001100,owned:true}
+        }
+    }],
+    RecMax:[{
+        stats:{
+            SubOne:{uid:1001100,owned:true},
+            SubTwo:{uid:1001100,owned:true}
+        }
+    }],
   })
-    useEffect(() => {
-      const FilteredOwnership= Ownership.filter(x=>x.owned)
-      if (FilteredOwnership.find(x => x.uid === ChosenUid)){
-        modifyResult(Optimize(FilteredOwnership,ChosenUid))
-      }
-    }, [Ownership,ChosenUid])
-    //Import Inventory Helper
-    const [showImpInv, setShowImpInv] = useState(false);
-  
-    const handleCloseImpInv = () => setShowImpInv(false);
-    const handleShowImpInv = () => setShowImpInv(true);
-    //Optimize Team Helper
-    const [showOpTeam, setShowOpTeam] = useState(false);
-  
-    const handleCloseOpTeam = () => setShowOpTeam(false);
-    const handleShowOpTeam = () => setShowOpTeam(true);
-  
-    //Changelogs Helper
-    const [showCL, setShowCL] = useState(false);
-  
-    const handleCloseCL= () => setShowCL(false);
-    const handleShowCL = () => setShowCL(true);
-
-    //Export Inventory Helper
-    // const [showEI, setShowEI] = useState(false);
-  
-    // const handleCloseEI= () => setShowEI(false);
-    // const handleShowEI = () => setShowEI(true);
-
-    const FuncHelper = {
-      "ImpInv":handleShowImpInv,
-      "OpTeam":handleShowOpTeam,
-      "CL":handleShowCL,
-      // "EI":handleShowEI,
+  useEffect(() => {
+    const FilteredOwnership= Ownership.filter(x=>x.owned)
+    if (FilteredOwnership.find(x => x.uid === ChosenUid)){
+      modifyResult(Optimize(FilteredOwnership,ChosenUid))
     }
-  
-    const HandleFuncHelper = (eventKey) => {
-      FuncHelper[eventKey]()
-    } 
+  }, [Ownership,ChosenUid])
+  //Import Inventory Helper
+  const [showImpInv, setShowImpInv] = useState(false);
+
+  const handleCloseImpInv = () => setShowImpInv(false);
+  const handleShowImpInv = () => setShowImpInv(true);
+  //Optimize Team Helper
+  const [showOpTeam, setShowOpTeam] = useState(false);
+
+  const handleCloseOpTeam = () => setShowOpTeam(false);
+  const handleShowOpTeam = () => setShowOpTeam(true);
+
+  //Optimize Team Helper
+  const [showOpTeamFast, setShowOpTeamFast] = useState(false);
+
+  const handleCloseOpTeamFast = () => setShowOpTeamFast(false);
+  const handleShowOpTeamFast = () => setShowOpTeamFast(true);
+
+  //Changelogs Helper
+  const [showCL, setShowCL] = useState(false);
+
+  const handleCloseCL= () => setShowCL(false);
+  const handleShowCL = () => setShowCL(true);
+
+  const FuncHelper = {
+    "ImpInv":handleShowImpInv,
+    "OpTeam":handleShowOpTeam,
+    "OpTeamFast":handleShowOpTeamFast,
+    "CL":handleShowCL,
+    "null":console.log
+  }
+
+  const HandleFuncHelper = (eventKey) => {
+    FuncHelper[eventKey]()
+  } 
 
   useEffect(() => {
     const Inv = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
@@ -153,19 +154,20 @@ function App() {
         <Container fluid>
           <Row>
         <Navbar bg="primary" variant="dark">
-            <Navbar.Brand style={{marginLeft:"0.5rem"}}>KonoFan Sub Optimizer</Navbar.Brand>
+            <Navbar.Brand style={{marginLeft:"0.5rem"}}>{"KonoFan Sub Optimizer Ver. "+ Version}</Navbar.Brand>
                 <Col align="end">
                 <DropdownButton variant="outline-light" title="More" onSelect={HandleFuncHelper} align="end" style={{marginRight:"10px"}}>
-                  <Dropdown.Item eventKey="OpTeam">Optimize Team</Dropdown.Item>
-                  {/* <Dropdown.Item eventKey="EI">Import/Export Inventory</Dropdown.Item> */}
-                  <Dropdown.Item eventKey="ImpInv">Import Inventory (Sheets)</Dropdown.Item>
+                <Dropdown.Item eventKey="OpTeamFast">Optimize Team</Dropdown.Item>
+                  <Dropdown.Item eventKey="OpTeam">Optimize Team (Slow)</Dropdown.Item>
+                  <Dropdown.Item eventKey="ImpInv">Import/Export Inventory</Dropdown.Item>
+                  <Dropdown.Item eventKey="null" href={"https://github.com/GenesiaW/KonoFan-Sub-Optimizer/wiki"} target="_blank" rel="noopener noreferrer">Guide</Dropdown.Item>
                   <Dropdown.Item eventKey="CL">Changelog</Dropdown.Item>
                 </DropdownButton>
                 </Col>
                 <InventoryImport props={Ownership} setOwned={setOwned} setAlert={setAlertText} handleAlertShow={handleAlertShow} show={showImpInv} handleClose={handleCloseImpInv}/>
                 <Changelogs show={showCL} handleClose={handleCloseCL} />
                 <OptimizeTeam props={Ownership} show={showOpTeam} handleClose={handleCloseOpTeam}/>
-                {/* <ExportInventory show={showEI} handleClose={handleCloseEI} setOwned={setOwned} Ownership={Ownership} handleAlertShow={handleAlertShow} setAlertText={setAlertText}/> */}
+                <OptimizeTeamFast props={Ownership} show={showOpTeamFast} handleClose={handleCloseOpTeamFast} fastMode={true}/>
                 <InventoryButton Ownership={Ownership} ToggleOwned={ToggleOwned}/>
         </Navbar>
         </Row>

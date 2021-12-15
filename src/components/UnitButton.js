@@ -1,13 +1,28 @@
 import { useState } from "react"
 
-export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose,setMultiProps}) {
+export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose,setMultiProps,selectSubUnits,HandleUnitExclusion}) {
     const [IsActive,ToggleActive] = useState(props.owned)
+    if(!props.container){
+        props.container=[]
+    }
     if (ToggleOwned){
         const HandleToggle = () => {
             ToggleOwned(props.uid)
             ToggleActive(!IsActive)
         }
         onClick=HandleToggle
+    }
+    if (HandleUnitExclusion){
+        const UnitExclusion = () => {
+            ToggleActive(!IsActive)
+            if(IsActive){
+                HandleUnitExclusion(props.uid,true)
+            }
+            else{
+                HandleUnitExclusion(props.uid,false)
+            }
+        }
+        onClick=UnitExclusion
     }
     if (setUid) {
         const ChooseUID = () => {
@@ -17,10 +32,16 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
         onClick=ChooseUID
     }
     if (setMultiProps){
-        onClick= () => {
+        onClick = () => {
             setMultiProps(props.uid)}
     }
-    const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/' + props.uid + '.png'
+    if (selectSubUnits){
+        onClick = () => {
+            selectSubUnits(props.uid,props.container)
+        }
+    }
+    // const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/' + props.uid + '.png'
+    const logo = require("../assets/MediumMember/"+props.uid + '.png').default
     return (
         <button 
         className={IsActive? "UnitButton": "UnitButton Disabled"}
