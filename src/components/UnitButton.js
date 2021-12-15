@@ -40,8 +40,8 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
             selectSubUnits(props.uid,props.container)
         }
     }
-    // const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/' + props.uid + '.png'
-    const logo = require("../assets/MediumMember/"+props.uid + '.png').default
+    const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/' + props.uid + '.png'
+    // const logo = require("../assets/MediumMember/"+props.uid + '.png').default
     return (
         <button 
         className={IsActive? "UnitButton": "UnitButton Disabled"}
