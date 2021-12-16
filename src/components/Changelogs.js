@@ -13,6 +13,11 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>16 December 2021 (Ver 2.2.0)</h4>
+                    <ul>• Added Toggle to Optimize Megumin based on Super damage. Accessed via More &gt; Settings </ul>
+                    <ul>• Added performance tracking of web app</ul>
+                </div>
+                <div>
                     <h4>15 December 2021 (Ver 2.1.0)</h4>
                     <ul>• Added Version Number to Navbar heading</ul>
                     <ul>• Added Optimize Team, previous version has been renamed to (Slow)</ul>

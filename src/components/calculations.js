@@ -31,7 +31,7 @@ function CalculateStats(Ownership,Main,SubOne,SubTwo){
     return stats
   }
   
-function CalculateDamage(Ownership,Main,SubOne,SubTwo){
+function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper){
     const stats= CalculateStats(Ownership,Main,SubOne,SubTwo)
     let collection = {
       stats:stats,
@@ -54,6 +54,10 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo){
       return collection
     }
     const MainUnit= stats.Main
+    let UnitElement = MainUnit.element
+    if (MeguminSuper && MainUnit.class==="Megumin"){
+      UnitElement ="Fire"
+    }
     const SubUnitOne= stats.SubOne
     const SubUnitTwo= stats.SubTwo
     const PhyD = stats.patk * (1+ MainUnit.phy_boost + SubUnitOne.phy_boost + SubUnitTwo.phy_boost) * 3.6
@@ -72,8 +76,8 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo){
       return collection
     }
     else{
-      PhyEd = stats.patk * (1 + MainUnit.phy_boost + SubUnitOne.phy_boost + SubUnitTwo.phy_boost + MainUnit[ElementTable[MainUnit.element]]+SubUnitOne[ElementTable[MainUnit.element]]+SubUnitTwo[ElementTable[MainUnit.element]]) * 3.6
-      MagEd = stats.matk * (1 + MainUnit.mag_boost + SubUnitOne.mag_boost + SubUnitTwo.mag_boost + MainUnit[ElementTable[MainUnit.element]]+SubUnitOne[ElementTable[MainUnit.element]]+SubUnitTwo[ElementTable[MainUnit.element]]) * 3.6
+      PhyEd = stats.patk * (1 + MainUnit.phy_boost + SubUnitOne.phy_boost + SubUnitTwo.phy_boost + MainUnit[ElementTable[UnitElement]]+SubUnitOne[ElementTable[UnitElement]]+SubUnitTwo[ElementTable[UnitElement]]) * 3.6
+      MagEd = stats.matk * (1 + MainUnit.mag_boost + SubUnitOne.mag_boost + SubUnitTwo.mag_boost + MainUnit[ElementTable[UnitElement]]+SubUnitOne[ElementTable[UnitElement]]+SubUnitTwo[ElementTable[UnitElement]]) * 3.6
     }
     collection = {
       stats:stats,
@@ -85,7 +89,7 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo){
     return collection
 }
 
-function Optimize(props,ChosenUid){
+function Optimize(props,ChosenUid,MeguminSuper){
     const newprops = props
     let iterated = []
     let FinalArray = []
@@ -95,7 +99,7 @@ function Optimize(props,ChosenUid){
             if (iterated.includes(j)){
             }
             else{
-                const ThingsToPush = CalculateDamage(newprops,ChosenUid,newprops[i].uid,newprops[j].uid)
+                const ThingsToPush = CalculateDamage(newprops,ChosenUid,newprops[i].uid,newprops[j].uid,MeguminSuper)
                 FinalArray.push(ThingsToPush)
             }
         }

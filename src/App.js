@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import ReactGA from 'react-ga';
 import InventoryButton from "./components/InventoryButton";
 import data from "./data/database.json";
 import SubOptimizer from "./components/SubOptimizer";
@@ -7,6 +8,7 @@ import OptimizeTeam from "./components/OptimizeTeam";
 import OptimizeTeamFast from "./components/OptimizeTeamFast";
 import Changelogs from "./components/Changelogs";
 import KFAlerts from "./components/KFAlerts";
+import Settings from "./components/Settings";
 import {Container, Navbar, Row,Dropdown,DropdownButton, Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
@@ -19,6 +21,8 @@ const LOCAL_STORAGE_KEY = "konofan-optimizer.inv"
 const version_key ="konofan-optimizer.version"
 
 function App() {
+  ReactGA.initialize('UA-215563439-1');
+
   //Ownership
   const [Ownership,setOwned] = useState([])
 
@@ -61,12 +65,18 @@ function App() {
         }
     }],
   })
+
+  //Megumin Ulti
+  const [MeguminSuper, setMeguminSuper] = useState(false)
+
+  const handleMeguminSuper = () => {setMeguminSuper(!MeguminSuper)}
+
   useEffect(() => {
     const FilteredOwnership= Ownership.filter(x=>x.owned)
     if (FilteredOwnership.find(x => x.uid === ChosenUid)){
-      modifyResult(Optimize(FilteredOwnership,ChosenUid))
+      modifyResult(Optimize(FilteredOwnership,ChosenUid,MeguminSuper))
     }
-  }, [Ownership,ChosenUid])
+  }, [Ownership,ChosenUid,MeguminSuper])
   //Import Inventory Helper
   const [showImpInv, setShowImpInv] = useState(false);
 
@@ -90,15 +100,34 @@ function App() {
   const handleCloseCL= () => setShowCL(false);
   const handleShowCL = () => setShowCL(true);
 
+  //Settings Helper
+  const [showSettings, setShowSettings] = useState(false);
+
+  const handleCloseSettings= () => setShowSettings(false);
+  const handleShowSettings = () => setShowSettings(true);
+
   const FuncHelper = {
     "ImpInv":handleShowImpInv,
     "OpTeam":handleShowOpTeam,
     "OpTeamFast":handleShowOpTeamFast,
     "CL":handleShowCL,
+    "settings":handleShowSettings,
     "null":console.log
   }
 
   const HandleFuncHelper = (eventKey) => {
+    const AnalyticsHelper ={
+      "ImpInv":"Import Inventory",
+      "OpTeam": "Optimize Team (Slow)",
+      "OpTeamFast":"Optimize Team (Fast)",
+      "CL":"Changelog",
+      "settings":"Settings",
+      "null":"Guide"
+    }
+    ReactGA.event({
+      category:"User",
+      action:AnalyticsHelper[eventKey]
+    })
     FuncHelper[eventKey]()
   } 
 
@@ -135,6 +164,7 @@ function App() {
       setAlertText("Inventory Initialized.")
       handleAlertShow()
     }
+    ReactGA.pageview('/');
   },[])
 
   useEffect(() => {
@@ -148,9 +178,9 @@ function App() {
     Ownerships.owned = !Ownerships.owned
     setOwned(newOwned)
   }
-
   return (
     <div className="ContainerWrapper">
+
         <Container fluid>
           <Row>
         <Navbar bg="primary" variant="dark">
@@ -161,13 +191,15 @@ function App() {
                   <Dropdown.Item eventKey="OpTeam">Optimize Team (Slow)</Dropdown.Item>
                   <Dropdown.Item eventKey="ImpInv">Import/Export Inventory</Dropdown.Item>
                   <Dropdown.Item eventKey="null" href={"https://github.com/GenesiaW/KonoFan-Sub-Optimizer/wiki"} target="_blank" rel="noopener noreferrer">Guide</Dropdown.Item>
+                  <Dropdown.Item eventKey="settings">Settings</Dropdown.Item>
                   <Dropdown.Item eventKey="CL">Changelog</Dropdown.Item>
                 </DropdownButton>
                 </Col>
                 <InventoryImport props={Ownership} setOwned={setOwned} setAlert={setAlertText} handleAlertShow={handleAlertShow} show={showImpInv} handleClose={handleCloseImpInv}/>
                 <Changelogs show={showCL} handleClose={handleCloseCL} />
-                <OptimizeTeam props={Ownership} show={showOpTeam} handleClose={handleCloseOpTeam}/>
-                <OptimizeTeamFast props={Ownership} show={showOpTeamFast} handleClose={handleCloseOpTeamFast} fastMode={true}/>
+                <OptimizeTeam props={Ownership} show={showOpTeam} handleClose={handleCloseOpTeam} MeguminSuper={MeguminSuper}/>
+                <OptimizeTeamFast props={Ownership} show={showOpTeamFast} handleClose={handleCloseOpTeamFast}  MeguminSuper={MeguminSuper}/>
+                <Settings show={showSettings} handleClose={handleCloseSettings} handleMeguminSuper={handleMeguminSuper} MeguminSuper={MeguminSuper}/>
                 <InventoryButton Ownership={Ownership} ToggleOwned={ToggleOwned}/>
         </Navbar>
         </Row>

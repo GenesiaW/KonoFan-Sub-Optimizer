@@ -4,7 +4,7 @@ import Optimize from "./calculations"
 import { useState,useEffect} from "react";
 import OptimizeTeamResults from "./OptimizeTeamResults";
 
-function OptimizeTeamFast({props,show,handleClose,fastMode}) {
+function OptimizeTeamFast({props,show,handleClose,MeguminSuper}) {
     const [Exclusions,setExclusions] = useState([])
     const [ClassFilter,setClassFilter] = useState([])
     const [SetupList,setSetupList] = useState([])
@@ -99,7 +99,7 @@ function OptimizeTeamFast({props,show,handleClose,fastMode}) {
                 let uid = ExclusionsCopy.shift()
                 const FavailUnits = props.filter(x=>x.owned).filter(x=>!(ExclusionsCopy.includes(x.uid)) && !(FinalExclusion.includes(x.uid))).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
                 let criteria =SetupListCopy.shift()
-                let result= Optimize(FavailUnits,uid)[SetupHelper[criteria]][0]
+                let result= Optimize(FavailUnits,uid,MeguminSuper)[SetupHelper[criteria]][0]
                 FinalExclusion.push(uid)
                 FinalExclusion.push(result.stats.SubOne.uid)
                 FinalExclusion.push(result.stats.SubTwo.uid)
@@ -109,7 +109,7 @@ function OptimizeTeamFast({props,show,handleClose,fastMode}) {
             setExclusions(FinalExclusion)
             setSetupList([])
         }
-    }, [Exclusions,SetupList,props])
+    }, [Exclusions,SetupList,props,MeguminSuper])
 
     return(
         <div>
@@ -155,7 +155,7 @@ function OptimizeTeamFast({props,show,handleClose,fastMode}) {
                <Modal.Body>
                    {Exclusions[0]? 
                    ((Exclusions.length + SetupList.length) === 15 ? 
-                    <OptimizeTeamResults props={PureList} exclusions={Exclusions}/>:
+                    <OptimizeTeamResults props={PureList} exclusions={Exclusions} MeguminSuper={MeguminSuper}/>:
                    ((Exclusions.length + SetupList.length) % 2? (<Inventory props={SubList} SelectSubUnits={SelectSubUnits}/>)
                    :(<Inventory props={FilteredUnits} setMultiProps={ModifyProps}/>))):
                    (<Inventory props={FilteredUnits} setMultiProps={ModifyProps}/>)}                  

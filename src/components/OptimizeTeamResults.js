@@ -3,7 +3,7 @@ import { useState,useEffect} from "react"
 import {Table} from "react-bootstrap"
 import UnitButton from "./UnitButton"
 
-function OptimizeTeamResults({props,exclusions}) {
+function OptimizeTeamResults({props,exclusions,MeguminSuper}) {
     const [UnitList,setUnitList] = useState([{
         PhyD:0,
         stats:{
@@ -53,11 +53,11 @@ function OptimizeTeamResults({props,exclusions}) {
                 excludedList.push(exclusions.splice(0,3))
             }
             for (let i = 0; i < excludedList.length; i++) {
-                ResultList.push(CalculateDamage(props,excludedList[i][0],excludedList[i][1],excludedList[i][2]))
+                ResultList.push(CalculateDamage(props,excludedList[i][0],excludedList[i][1],excludedList[i][2],MeguminSuper))
             }
             setUnitList(ResultList)
         }
-    },[exclusions,props])
+    },[exclusions,props,MeguminSuper])
 
     const UnitOne = UnitList[0]
     const UnitTwo = UnitList[1]
