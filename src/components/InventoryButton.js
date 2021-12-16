@@ -1,6 +1,7 @@
 import Inventory from "./Inventory"
 import { Modal, Button,DropdownButton, Dropdown, Container,Row,Col } from "react-bootstrap"
 import { useState } from "react"
+import ReactGA from 'react-ga';
 
 
 function InventoryButton({Ownership,ToggleOwned}) {
@@ -8,7 +9,11 @@ function InventoryButton({Ownership,ToggleOwned}) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleShow = () => {
+      ReactGA.event({category:"User",
+      action:"Inventory Management"});
+      setShow(true);
+    }
     //Menu Filter
     const [TempFilter,setFilter] = useState("Select a Filter")
     const FilterList = {
