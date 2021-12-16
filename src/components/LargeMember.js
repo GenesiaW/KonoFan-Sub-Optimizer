@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Inventory from "./Inventory";
 import { Modal,Dropdown,Container,Row,Col,DropdownButton} from "react-bootstrap";
+import ReactGA from 'react-ga';
 
 export default function LargeMember({props,setUid,ChosenUid,Header}) {
     const [show, setShow] = useState(false);
@@ -16,8 +17,13 @@ export default function LargeMember({props,setUid,ChosenUid,Header}) {
         "Dark": (x => x.element === "Dark"),
     }
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleClose = () => {ReactGA.pageview("/");setShow(false);}
+    const handleShow = () => {
+        ReactGA.modalview("/single-unit-optimize")
+        ReactGA.event({category:"User",
+        action:"Optimize Single unit"});
+        setShow(true);
+      }
 
     const handleFilter = (eventKey) => setFilter(eventKey)
 
