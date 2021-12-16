@@ -81,36 +81,36 @@ function App() {
   //Import Inventory Helper
   const [showImpInv, setShowImpInv] = useState(false);
 
-  const handleCloseImpInv = () => {ReactGA.pageview("/");setShowImpInv(false);}
+  const handleCloseImpInv = () => {ReactGA.pageview("/import-to-root");setShowImpInv(false);}
   const handleShowImpInv = () => {ReactGA.modalview("/import-inventory");setShowImpInv(true);}
   //Optimize Team Helper
   const [showOpTeam, setShowOpTeam] = useState(false);
 
-  const handleCloseOpTeam = () => {ReactGA.pageview("/");setShowOpTeam(false);}
+  const handleCloseOpTeam = () => {ReactGA.pageview("/opteam-to-root");setShowOpTeam(false);}
   const handleShowOpTeam = () => {ReactGA.modalview("/optimize-team");setShowOpTeam(true);}
 
   //Optimize Team Helper
   const [showOpTeamFast, setShowOpTeamFast] = useState(false);
 
-  const handleCloseOpTeamFast = () => {ReactGA.pageview("/");setShowOpTeamFast(false);}
+  const handleCloseOpTeamFast = () => {ReactGA.pageview("/opteamfast-to-root");setShowOpTeamFast(false);}
   const handleShowOpTeamFast = () => {ReactGA.modalview("/optimize-team-fast");setShowOpTeamFast(true);}
 
   //Changelogs Helper
   const [showCL, setShowCL] = useState(false);
 
-  const handleCloseCL= () => {ReactGA.pageview("/");setShowCL(false);}
+  const handleCloseCL= () => {ReactGA.pageview("/changelog-to-root");setShowCL(false);}
   const handleShowCL = () => {ReactGA.modalview("/changelog");setShowCL(true);}
   
   //Privacy Policy Helper
   const [showPP, setShowPP] = useState(false);
 
-  const handleClosePP= () => {ReactGA.pageview("/");setShowPP(false);}
+  const handleClosePP= () => {ReactGA.pageview("/pp-to-root");setShowPP(false);}
   const handleShowPP = () => {ReactGA.modalview("/privacy-policy");setShowPP(true);}
 
   //Settings Helper
   const [showSettings, setShowSettings] = useState(false);
 
-  const handleCloseSettings= () => {ReactGA.pageview("/");setShowSettings(false);}
+  const handleCloseSettings= () => {ReactGA.pageview("/settings-to-root");setShowSettings(false);}
   const handleShowSettings = () => {ReactGA.modalview("/settings");setShowSettings(true);}
 
   const FuncHelper = {

@@ -17,7 +17,7 @@ export default function LargeMember({props,setUid,ChosenUid,Header}) {
         "Dark": (x => x.element === "Dark"),
     }
 
-    const handleClose = () => {ReactGA.pageview("/");setShow(false);}
+    const handleClose = () => {ReactGA.pageview("/singleop-to-root");setShow(false);}
     const handleShow = () => {
         ReactGA.modalview("/single-unit-optimize")
         ReactGA.event({category:"User",

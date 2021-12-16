@@ -7,7 +7,7 @@ import ReactGA from 'react-ga';
 function InventoryButton({Ownership,ToggleOwned}) {
     // Modal
     const [show, setShow] = useState(false);
-    const handleClose = () => {ReactGA.pageview("/");setShow(false);}
+    const handleClose = () => {ReactGA.pageview("/inventory-to-root");setShow(false);}
     const handleShow = () => {
       ReactGA.modalview("/inventory")
       ReactGA.event({category:"User",
