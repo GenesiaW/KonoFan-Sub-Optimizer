@@ -22,7 +22,7 @@ const LOCAL_STORAGE_KEY = "konofan-optimizer.inv"
 const version_key ="konofan-optimizer.version"
 
 function App() {
-  ReactGA.initialize('UA-215563439-1',{debug:true});
+  ReactGA.initialize('UA-215563439-1');
 
   //Ownership
   const [Ownership,setOwned] = useState([])
