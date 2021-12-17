@@ -91,3 +91,13 @@ body::-webkit-scrollbar{
     border: 0px;
     max-width:140.3px;
 }
+
+.modal-dialog.modal-cw.modal-dialog-scrollable.modal-fullscreen .modal-body .table .UnitButton{
+    max-width: 256.41px;
+    max-height:128.2px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    cursor:unset;
+    user-select: none;
+}

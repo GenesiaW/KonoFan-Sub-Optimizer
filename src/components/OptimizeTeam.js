@@ -4,7 +4,7 @@ import Optimize from "./calculations"
 import { useState} from "react";
 import OptimizeTeamResults from "./OptimizeTeamResults";
 
-function OptimizeTeam({props,show,handleClose,fastMode,MeguminSuper}) {
+function OptimizeTeam({props,show,handleClose,fastMode,MeguminSuper,OpUlt}) {
     const [counter,setCounter] = useState(0)
     const [Exclusions,setExclusions] = useState([])
     const [SubList,setSubList]= useState([])
@@ -57,7 +57,7 @@ function OptimizeTeam({props,show,handleClose,fastMode,MeguminSuper}) {
         }
         const newExclusion = [...Exclusions]
         newExclusion.push(uid)
-        const results = Optimize(AvailUnits,uid,MeguminSuper)
+        const results = Optimize(AvailUnits,uid,MeguminSuper,OpUlt)
         let newSubList = []
         if (fastMode){
             newSubList.push({uid:"maxphy",container:[results.PhyMax[0].stats.SubOne,results.PhyMax[0].stats.SubTwo],owned:fastModeHelper})
@@ -184,7 +184,7 @@ function OptimizeTeam({props,show,handleClose,fastMode,MeguminSuper}) {
                <Modal.Body>
                    {Exclusions[0]? 
                    (Exclusions.length === 15 ? 
-                    <OptimizeTeamResults props={PureList} exclusions={Exclusions} MeguminSuper={MeguminSuper}/>:
+                    <OptimizeTeamResults props={PureList} exclusions={Exclusions} MeguminSuper={MeguminSuper} OpUlt={OpUlt}/>:
                    (Exclusions.length % 3? (<Inventory props={SubList} SelectSubUnits={SelectSubUnits}/>)
                    :(<Inventory props={FilteredUnits} setMultiProps={ModifyProps}/>))):
                    (<Inventory props={FilteredUnits} setMultiProps={ModifyProps}/>)}                  

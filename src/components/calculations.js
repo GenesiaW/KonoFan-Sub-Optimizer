@@ -31,7 +31,7 @@ function CalculateStats(Ownership,Main,SubOne,SubTwo){
     return stats
   }
   
-function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper){
+function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper,OpUlt){
     const stats= CalculateStats(Ownership,Main,SubOne,SubTwo)
     let collection = {
       stats:stats,
@@ -39,6 +39,78 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper){
       PhyED:0,
       MagD:0,
       R:0
+    }
+    const UnitTable ={
+      Kazuma:100,
+      Aqua:101,
+      Megumin:102,
+      Darkness:103,
+      Chris:104,
+      Wiz:105,
+      Yunyun:106,
+      Iris:107,
+      Komekko:108,
+      Cecily:109,
+      Arue:110,
+      Mitsurugi:111,
+      Dust:112,
+      Rin:113,
+      Lia:114,
+      Cielo:115,
+      Erika:116,
+      Melissa:117,
+      Mia:118,
+      Amy:119,
+      Vanir:128,
+      Meru:151
+    }
+    const SuperVOne ={
+      Kazuma:"None",
+      Aqua:"Light",
+      Megumin:"Fire",
+      Darkness:"None",
+      Chris:"None",
+      Wiz:"Water",
+      Yunyun:"Light",
+      Iris:"Light",
+      Komekko:"None",
+      Cecily:"None",
+      Arue:"Dark",
+      Mitsurugi:"None",
+      Dust:"None",
+      Rin:"Wind",
+      Lia:"None",
+      Cielo:"None",
+      Erika:"None",
+      Melissa:"None",
+      Mia:"Earth",
+      Amy:"None",
+      Vanir:"Earth",
+      Meru:"Lightning"
+    }
+    const SuperVTwo ={
+      Kazuma:"None",
+      Aqua:"Water",
+      Megumin:"Fire",
+      Darkness:"None",
+      Chris:"Wind",
+      Wiz:"Earth",
+      Yunyun:"Lightning",
+      Iris:"None",
+      Komekko:"Fire",
+      Cecily:"Water",
+      Arue:"Light",
+      Mitsurugi:"Lightning",
+      Dust:"Wind",
+      Rin:"Dark",
+      Lia:"Water",
+      Cielo:"Wind",
+      Erika:"Fire",
+      Melissa:"Dark",
+      Mia:"None",
+      Amy:"Earth",
+      Vanir:"None",
+      Meru:"None"
     }
     const ElementTable ={
       "Water":"water_boost",
@@ -55,8 +127,32 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper){
     }
     const MainUnit= stats.Main
     let UnitElement = MainUnit.element
-    if (MeguminSuper && MainUnit.class==="Megumin"){
+    if (UnitTable["Megumin"] === Math.floor(MainUnit.uid/10000) && MeguminSuper){
       UnitElement ="Fire"
+    }
+    if (OpUlt.available){
+      if(OpUlt.version === 2){
+        if(Math.floor(MainUnit.uid/10000) === UnitTable[MainUnit.class]){
+          UnitElement = SuperVTwo[MainUnit.class]
+          if (UnitElement === "None"){
+            UnitElement = MainUnit.element
+          }
+        }
+        else{
+          UnitElement = MainUnit.element
+        }
+      }
+      else{
+        if(Math.floor(MainUnit.uid/10000) === UnitTable[MainUnit.class]){
+          UnitElement = SuperVOne[MainUnit.class]
+          if (UnitElement === "None"){
+            UnitElement = MainUnit.element
+          }
+        }
+        else{
+          UnitElement = MainUnit.element
+        }
+      }
     }
     const SubUnitOne= stats.SubOne
     const SubUnitTwo= stats.SubTwo
@@ -89,7 +185,7 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper){
     return collection
 }
 
-function Optimize(props,ChosenUid,MeguminSuper){
+function Optimize(props,ChosenUid,MeguminSuper,OpUlt){
     const newprops = props
     let iterated = []
     let FinalArray = []
@@ -99,7 +195,7 @@ function Optimize(props,ChosenUid,MeguminSuper){
             if (iterated.includes(j)){
             }
             else{
-                const ThingsToPush = CalculateDamage(newprops,ChosenUid,newprops[i].uid,newprops[j].uid,MeguminSuper)
+                const ThingsToPush = CalculateDamage(newprops,ChosenUid,newprops[i].uid,newprops[j].uid,MeguminSuper,OpUlt)
                 FinalArray.push(ThingsToPush)
             }
         }

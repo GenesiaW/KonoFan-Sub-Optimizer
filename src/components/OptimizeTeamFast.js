@@ -4,7 +4,7 @@ import Optimize from "./calculations"
 import { useState,useEffect} from "react";
 import OptimizeTeamResults from "./OptimizeTeamResults";
 
-function OptimizeTeamFast({props,show,handleClose,MeguminSuper}) {
+function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
     const [Exclusions,setExclusions] = useState([])
     const [ClassFilter,setClassFilter] = useState([])
     const [SetupList,setSetupList] = useState([])
@@ -42,7 +42,7 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper}) {
         7:"Team Optimizer: Select Criteria to Optimize",
         8:"Team Optimizer: Select Fifth Unit",
         9:"Team Optimizer: Select Criteria to Optimize",
-        10:"Team Optimizer: Results"
+        15:"Team Optimizer: Results"
 
     }
 
@@ -99,7 +99,7 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper}) {
                 let uid = ExclusionsCopy.shift()
                 const FavailUnits = props.filter(x=>x.owned).filter(x=>!(ExclusionsCopy.includes(x.uid)) && !(FinalExclusion.includes(x.uid))).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
                 let criteria =SetupListCopy.shift()
-                let result= Optimize(FavailUnits,uid,MeguminSuper)[SetupHelper[criteria]][0]
+                let result= Optimize(FavailUnits,uid,MeguminSuper,OpUlt)[SetupHelper[criteria]][0]
                 FinalExclusion.push(uid)
                 FinalExclusion.push(result.stats.SubOne.uid)
                 FinalExclusion.push(result.stats.SubTwo.uid)
@@ -109,7 +109,7 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper}) {
             setExclusions(FinalExclusion)
             setSetupList([])
         }
-    }, [Exclusions,SetupList,props,MeguminSuper])
+    }, [Exclusions,SetupList,props,MeguminSuper,OpUlt])
 
     return(
         <div>
@@ -155,7 +155,7 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper}) {
                <Modal.Body>
                    {Exclusions[0]? 
                    ((Exclusions.length + SetupList.length) === 15 ? 
-                    <OptimizeTeamResults props={PureList} exclusions={Exclusions} MeguminSuper={MeguminSuper}/>:
+                    <OptimizeTeamResults props={PureList} exclusions={Exclusions} MeguminSuper={MeguminSuper} OpUlt={OpUlt}/>:
                    ((Exclusions.length + SetupList.length) % 2? (<Inventory props={SubList} SelectSubUnits={SelectSubUnits}/>)
                    :(<Inventory props={FilteredUnits} setMultiProps={ModifyProps}/>))):
                    (<Inventory props={FilteredUnits} setMultiProps={ModifyProps}/>)}                  

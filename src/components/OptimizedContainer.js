@@ -56,6 +56,27 @@ function OptimizedContainer({props}) {
                         </td>
                     </tr>
                     <tr>
+                        <td>Main Trait</td>
+                        <td>{(props.PhyMax[CurrentIndex].stats.Main? props.PhyMax[CurrentIndex].stats.Main.display_trait :"NA")}</td>
+                        <td>{(props.EPhyMax[CurrentIndex].stats.Main? props.EPhyMax[CurrentIndex].stats.Main.display_trait :"NA")}</td>
+                        <td>{(props.MagMax[CurrentIndex].stats.Main? props.MagMax[CurrentIndex].stats.Main.display_trait :"NA")}</td>
+                        <td>{(props.RecMax[CurrentIndex].stats.Main? props.RecMax[CurrentIndex].stats.Main.display_trait :"NA")}</td>
+                    </tr>
+                    <tr>
+                        <td>Sub One Trait</td>
+                        <td>{(props.PhyMax[CurrentIndex].stats.SubOne? props.PhyMax[CurrentIndex].stats.SubOne.display_trait :"NA")}</td>
+                        <td>{(props.EPhyMax[CurrentIndex].stats.SubOne? props.EPhyMax[CurrentIndex].stats.SubOne.display_trait :"NA")}</td>
+                        <td>{(props.MagMax[CurrentIndex].stats.SubOne? props.MagMax[CurrentIndex].stats.SubOne.display_trait :"NA")}</td>
+                        <td>{(props.RecMax[CurrentIndex].stats.SubOne? props.RecMax[CurrentIndex].stats.SubOne.display_trait :"NA")}</td>
+                    </tr>
+                    <tr>
+                        <td>Sub Two Trait</td>
+                        <td>{(props.PhyMax[CurrentIndex].stats.SubTwo? props.PhyMax[CurrentIndex].stats.SubTwo.display_trait :"NA")}</td>
+                        <td>{(props.EPhyMax[CurrentIndex].stats.SubTwo? props.EPhyMax[CurrentIndex].stats.SubTwo.display_trait :"NA")}</td>
+                        <td>{(props.MagMax[CurrentIndex].stats.SubTwo? props.MagMax[CurrentIndex].stats.SubTwo.display_trait :"NA")}</td>
+                        <td>{(props.RecMax[CurrentIndex].stats.SubTwo? props.RecMax[CurrentIndex].stats.SubTwo.display_trait :"NA")}</td>
+                    </tr>
+                    <tr>
                         <td>Physical Damage</td>
                         <td>{(props.PhyMax[CurrentIndex]? Math.round(props.PhyMax[CurrentIndex].PhyD*100)/100 :0)}</td>
                         <td>{(props.PhyMax[CurrentIndex]? Math.round(props.EPhyMax[CurrentIndex].PhyD*100)/100 :0)}</td>

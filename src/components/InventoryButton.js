@@ -26,7 +26,7 @@ function InventoryButton({Ownership,ToggleOwned}) {
         "1★": (x=> x.rarity === 1),
     }
     const handleFilter = (eventKey) => setFilter(eventKey)
-    const NewOwnership = Ownership.filter(FilterList[TempFilter])
+    const NewOwnership = Ownership.filter(FilterList[TempFilter]).sort((a, b) => a.uid > b.uid ? 1 : -1)
     
     return (
     <div>

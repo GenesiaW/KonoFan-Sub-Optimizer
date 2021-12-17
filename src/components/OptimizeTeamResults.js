@@ -3,7 +3,7 @@ import { useState,useEffect} from "react"
 import {Table} from "react-bootstrap"
 import UnitButton from "./UnitButton"
 
-function OptimizeTeamResults({props,exclusions,MeguminSuper}) {
+function OptimizeTeamResults({props,exclusions,MeguminSuper,OpUlt}) {
     const [UnitList,setUnitList] = useState([{
         PhyD:0,
         stats:{
@@ -53,11 +53,11 @@ function OptimizeTeamResults({props,exclusions,MeguminSuper}) {
                 excludedList.push(exclusions.splice(0,3))
             }
             for (let i = 0; i < excludedList.length; i++) {
-                ResultList.push(CalculateDamage(props,excludedList[i][0],excludedList[i][1],excludedList[i][2],MeguminSuper))
+                ResultList.push(CalculateDamage(props,excludedList[i][0],excludedList[i][1],excludedList[i][2],MeguminSuper,OpUlt))
             }
             setUnitList(ResultList)
         }
-    },[exclusions,props,MeguminSuper])
+    },[exclusions,props,MeguminSuper,OpUlt])
 
     const UnitOne = UnitList[0]
     const UnitTwo = UnitList[1]
@@ -89,6 +89,24 @@ function OptimizeTeamResults({props,exclusions,MeguminSuper}) {
                         </td> 
                     </tr>
                     <tr>
+                        <td>Traits</td>                        
+                        <td>
+                            {UnitOne.PhyD? UnitOne.stats.Main.display_trait :"NA"}
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitTwo.stats.Main.display_trait :"NA"}    
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitThree.stats.Main.display_trait :"NA"}   
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitFour.stats.Main.display_trait :"NA"}
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitFive.stats.Main.display_trait :"NA"}
+                        </td> 
+                    </tr>
+                    <tr>
                         <td>Sub 1</td>
                         <td>
                             <UnitButton props={UnitOne.PhyD? UnitOne.stats.SubOne :{uid:1001100,owned:true}}/>
@@ -107,6 +125,24 @@ function OptimizeTeamResults({props,exclusions,MeguminSuper}) {
                         </td> 
                     </tr>
                     <tr>
+                        <td>Traits</td>                        
+                        <td>
+                            {UnitOne.PhyD? UnitOne.stats.SubOne.display_trait :"NA"}
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitTwo.stats.SubOne.display_trait :"NA"}    
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitThree.stats.SubOne.display_trait :"NA"}   
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitFour.stats.SubOne.display_trait :"NA"}
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitFive.stats.SubOne.display_trait :"NA"}
+                        </td> 
+                    </tr>
+                    <tr>
                         <td>Sub 2</td>
                         <td>
                             <UnitButton props={UnitOne.PhyD? UnitOne.stats.SubTwo:{uid:1001100,owned:true}}/>
@@ -122,6 +158,24 @@ function OptimizeTeamResults({props,exclusions,MeguminSuper}) {
                         </td>
                         <td>
                             <UnitButton props={UnitOne.PhyD? UnitFive.stats.SubTwo:{uid:1001100,owned:true}}/>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>Traits</td>                        
+                        <td>
+                            {UnitOne.PhyD? UnitOne.stats.SubTwo.display_trait :"NA"}
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitTwo.stats.SubTwo.display_trait :"NA"}    
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitThree.stats.SubTwo.display_trait :"NA"}   
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitFour.stats.SubTwo.display_trait :"NA"}
+                        </td>
+                        <td>
+                            {UnitOne.PhyD? UnitFive.stats.SubTwo.display_trait :"NA"}
                         </td> 
                     </tr>
                     <tr>

@@ -13,6 +13,15 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>17 December 2021 (Ver 2.3.0)</h4>
+                    <ul>• Added traits of units to display</ul>
+                    <ul>• Added Unit Exclusion to allow exclusion of unit during single unit optimization</ul>
+                    <ul>• Added Toggle to Optimize All Units based on Super. By default damage is optimize by element of skill 1 and 2</ul>
+                    <ul>• Added Toggle to switch optimization based on Super V1 or V2</ul>
+                    <ul>• Fixed heading for Optimize Team (Fast)</ul>
+                    <ul>• Fixed Bug where Fire Subs will be recommended for Rem when Toggle Optimize Megumin By Super is turned on</ul>
+                </div>
+                <div>
                     <h4>16 December 2021 (Ver 2.2.1)</h4>
                     <ul>• Added Toggle to Optimize Megumin based on Super damage. Accessed via More &gt; Settings </ul>
                     <ul>• Added performance tracking of web app</ul>
@@ -31,21 +40,21 @@ function Changelogs({show,handleClose}) {
                 </div>
                 <div>
                     <h4>14 December 2021 (Ver 2.0.0)</h4>
-                    <ul>• Added stats for 4 Xmas units.</ul>
+                    <ul>• Added stats for 4 Xmas units</ul>
                     <ul>• Added Optimize Team for optimizing 5 members in sequence</ul>
-                    <ul>• Added Changelog for documenting changes.</ul>
-                    <ul>• Added Rank Selection for optimal setup, allowing choice of best setup to 5th best.</ul>
+                    <ul>• Added Changelog for documenting changes</ul>
+                    <ul>• Added Rank Selection for optimal setup, allowing choice of best setup to 5th best</ul>
                     <ul>• Added Rarity Filter to inventory</ul>
-                    <ul>• Added Dropdown menu to NavBar to reduce clutter.</ul>
-                    <ul>• Shifted Import Inventory (Sheets) into dropdown menu.</ul>
+                    <ul>• Added Dropdown menu to NavBar to reduce clutter</ul>
+                    <ul>• Shifted Import Inventory (Sheets) into dropdown menu</ul>
                 </div>
                 <div>
                     <h4>11 December 2021 (Ver 1.0.2) </h4>
-                    <ul>• Fix crash when selecting 2★ Cecily (Priest) [due to an extra space in element].</ul>
+                    <ul>• Fix crash when selecting 2★ Cecily (Priest) [due to an extra space in element]</ul>
                 </div>
                 <div>
                     <h4>10 December 2021 (Ver 1.0.1)</h4>
-                    <ul>• Initial release of KonoFan Sub Optimizer.</ul>
+                    <ul>• Initial release of KonoFan Sub Optimizer</ul>
                     <ul>• Added display of stats</ul>
                 </div>
             </Modal.Body>

@@ -10,6 +10,7 @@ import Changelogs from "./components/Changelogs";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import KFAlerts from "./components/KFAlerts";
 import Settings from "./components/Settings";
+import UnitExclusionModule from "./components/UnitExclusionModule";
 import {Container, Navbar, Row,Dropdown,DropdownButton, Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
@@ -26,6 +27,10 @@ function App() {
 
   //Ownership
   const [Ownership,setOwned] = useState([])
+
+  //Unit Exclusions
+  const [UnitExclusionProps,setUnitExclusion]=useState([])
+  const [ExclusionList,setExclusionList] = useState([])
 
   // Sub Optimizer
   const [ChosenUid, ChangeUid] = useState(1001100)
@@ -67,17 +72,38 @@ function App() {
     }],
   })
 
-  //Megumin Ulti
+  //Megumin Ult
   const [MeguminSuper, setMeguminSuper] = useState(false)
 
   const handleMeguminSuper = () => {setMeguminSuper(!MeguminSuper)}
 
-  useEffect(() => {
-    const FilteredOwnership= Ownership.filter(x=>x.owned)
-    if (FilteredOwnership.find(x => x.uid === ChosenUid)){
-      modifyResult(Optimize(FilteredOwnership,ChosenUid,MeguminSuper))
+  //All Units Ult
+  const [OpUlt,setOpUlt] = useState({    
+    available:false,
+    version:1,  
+  })
+
+  const handleUltVersion = () => {
+    const newOpUlt = {...OpUlt}
+    const VersionHelper = {
+      1:2,
+      2:1
     }
-  }, [Ownership,ChosenUid,MeguminSuper])
+    newOpUlt.version = VersionHelper[OpUlt.version]
+    setOpUlt(newOpUlt)
+  }
+  const handleOpUlt = () => {
+    const newOpUlt = {...OpUlt}
+    newOpUlt.available = !OpUlt.available
+    setOpUlt(newOpUlt)
+  }
+
+  useEffect(() => {
+    const FilteredOwnership= Ownership.filter(x=>x.owned).filter(x=>!ExclusionList.includes(x.uid))
+    if (FilteredOwnership.find(x => x.uid === ChosenUid)){
+      modifyResult(Optimize(FilteredOwnership,ChosenUid,MeguminSuper,OpUlt))
+    }
+  }, [Ownership,ChosenUid,MeguminSuper,OpUlt,ExclusionList])
   //Import Inventory Helper
   const [showImpInv, setShowImpInv] = useState(false);
 
@@ -139,6 +165,11 @@ function App() {
     })
     FuncHelper[eventKey]()
   } 
+  useEffect(() =>{
+    let temp = JSON.stringify([...Ownership])
+    setUnitExclusion(JSON.parse(temp).filter(x=> x.owned))
+    setExclusionList([])
+  },[Ownership])
 
   useEffect(() => {
     const Inv = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
@@ -188,6 +219,22 @@ function App() {
     Ownerships.owned = !Ownerships.owned
     setOwned(newOwned)
   }
+
+  const ToggleExclusion = (uid) => {
+    const newExclusion = [...UnitExclusionProps]
+    const newExclusionList = [...ExclusionList]
+    const Exclusions = newExclusion.find(UnitExclusionProps => UnitExclusionProps.uid === uid)
+    Exclusions.owned = !Exclusions.owned
+    setUnitExclusion(newExclusion)
+    if (ExclusionList.includes(uid)){
+      newExclusionList.splice(newExclusionList.findIndex(element => element = uid),1)
+      setExclusionList(newExclusionList)
+    }
+    else{
+      newExclusionList.push(uid)
+      setExclusionList(newExclusionList)
+    }
+  }
   return (
     <div className="ContainerWrapper">
 
@@ -209,9 +256,12 @@ function App() {
                 <InventoryImport props={Ownership} setOwned={setOwned} setAlert={setAlertText} handleAlertShow={handleAlertShow} show={showImpInv} handleClose={handleCloseImpInv}/>
                 <Changelogs show={showCL} handleClose={handleCloseCL} />
                 <PrivacyPolicy show={showPP} handleClose={handleClosePP} />
-                <OptimizeTeam props={Ownership} show={showOpTeam} handleClose={handleCloseOpTeam} MeguminSuper={MeguminSuper}/>
-                <OptimizeTeamFast props={Ownership} show={showOpTeamFast} handleClose={handleCloseOpTeamFast}  MeguminSuper={MeguminSuper}/>
-                <Settings show={showSettings} handleClose={handleCloseSettings} handleMeguminSuper={handleMeguminSuper} MeguminSuper={MeguminSuper}/>
+                <OptimizeTeam props={Ownership} show={showOpTeam} handleClose={handleCloseOpTeam} MeguminSuper={MeguminSuper} OpUlt={OpUlt}/>
+                <OptimizeTeamFast props={Ownership} show={showOpTeamFast} handleClose={handleCloseOpTeamFast}  MeguminSuper={MeguminSuper} OpUlt={OpUlt}/>
+                <Settings show={showSettings} handleClose={handleCloseSettings} 
+                handleMeguminSuper={handleMeguminSuper} MeguminSuper={MeguminSuper} 
+                OpUlt={OpUlt} handleUltVersion={handleUltVersion} handleOpUlt={handleOpUlt}/>
+                <UnitExclusionModule UnitExclusionProps={UnitExclusionProps} ToggleExclusion={ToggleExclusion} setExclusionList={setExclusionList} ExclusionList={ExclusionList} setUnitExclusion={setUnitExclusion}/>
                 <InventoryButton Ownership={Ownership} ToggleOwned={ToggleOwned}/>
         </Navbar>
         </Row>
