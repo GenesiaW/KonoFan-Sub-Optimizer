@@ -13,6 +13,12 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>18 December 2021 (Ver 2.3.1)</h4>
+                    <ul>• Added "New Units" Filter to inventory</ul>
+                    <ul>• Added Contact to dropdown button</ul>
+                    <ul>• Added Formula used and explanation to guide/wiki.</ul>
+                </div>
+                <div>
                     <h4>17 December 2021 (Ver 2.3.0)</h4>
                     <ul>• Added traits of units to display</ul>
                     <ul>• Added Unit Exclusion to allow exclusion of unit during single unit optimization</ul>

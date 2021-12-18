@@ -18,6 +18,7 @@ function InventoryButton({Ownership,ToggleOwned}) {
     const [TempFilter,setFilter] = useState("Select a Filter")
     const FilterList = {
         "Select a Filter": (x => x),
+        "New": (x => x.new),
         "Owned": (x => x.owned),
         "Not Owned": (x => !x.owned),
         "4★": (x=> x.rarity === 4),
@@ -46,6 +47,7 @@ function InventoryButton({Ownership,ToggleOwned}) {
                   <Col align="end">
                     <DropdownButton variant="outline-primary" title={TempFilter} onSelect={handleFilter} align="end">
                       <Dropdown.Item eventKey="Select a Filter">Show All</Dropdown.Item>
+                      <Dropdown.Item eventKey="New">New</Dropdown.Item>
                       <Dropdown.Item eventKey="Owned">Owned</Dropdown.Item>
                       <Dropdown.Item eventKey="Not Owned">Not Owned</Dropdown.Item>
                       <Dropdown.Item eventKey="4★">4 ★</Dropdown.Item> 

@@ -10,6 +10,7 @@ import Changelogs from "./components/Changelogs";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import KFAlerts from "./components/KFAlerts";
 import Settings from "./components/Settings";
+// import TeamBuilder from "./components/TeamBuilder";
 import UnitExclusionModule from "./components/UnitExclusionModule";
 import {Container, Navbar, Row,Dropdown,DropdownButton, Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,7 +24,7 @@ const LOCAL_STORAGE_KEY = "konofan-optimizer.inv"
 const version_key ="konofan-optimizer.version"
 
 function App() {
-  ReactGA.initialize('UA-215563439-1');
+  // ReactGA.initialize('UA-215563439-1');
 
   //Ownership
   const [Ownership,setOwned] = useState([])
@@ -139,6 +140,12 @@ function App() {
   const handleCloseSettings= () => {ReactGA.pageview("/settings-to-root");setShowSettings(false);}
   const handleShowSettings = () => {ReactGA.modalview("/settings");setShowSettings(true);}
 
+    // //TeamBuilder Helper
+    // const [showTeamBuilder, setShowTeamBuilder] = useState(false);
+
+    // const handleCloseTeamBuilder= () => {ReactGA.pageview("/teambuilder-to-root");setShowTeamBuilder(false);}
+    // const handleShowTeamBuilder = () => {ReactGA.modalview("/teambuilder");setShowTeamBuilder(true);}
+
   const FuncHelper = {
     "ImpInv":handleShowImpInv,
     "OpTeam":handleShowOpTeam,
@@ -146,7 +153,9 @@ function App() {
     "CL":handleShowCL,
     "settings":handleShowSettings,
     "PP":handleShowPP,
-    "null":console.log
+    // "TeamBuilder":handleShowTeamBuilder,
+    "Guide":console.log,
+    "Contact":console.log
   }
 
   const HandleFuncHelper = (eventKey) => {
@@ -157,7 +166,9 @@ function App() {
       "CL":"Changelog",
       "PP":"Privacy Policy",
       "settings":"Settings",
-      "null":"Guide"
+      "Guide":"Guide",
+      "Contact":"Contact",
+      // "TeamBuilder":"TeamBuilder",
     }
     ReactGA.event({
       category:"User",
@@ -246,9 +257,11 @@ function App() {
                 <DropdownButton variant="outline-light" title="More" onSelect={HandleFuncHelper} align="end" style={{marginRight:"10px"}}>
                 <Dropdown.Item eventKey="OpTeamFast">Optimize Team</Dropdown.Item>
                   <Dropdown.Item eventKey="OpTeam">Optimize Team (Slow)</Dropdown.Item>
+                  {/* <Dropdown.Item eventKey="TeamBuilder">Team Builder</Dropdown.Item> */}
                   <Dropdown.Item eventKey="ImpInv">Import/Export Inventory</Dropdown.Item>
-                  <Dropdown.Item eventKey="null" href={"https://github.com/GenesiaW/KonoFan-Sub-Optimizer/wiki"} target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.pageview("/guide")}>Guide</Dropdown.Item>
+                  <Dropdown.Item eventKey="Guide" href={"https://github.com/GenesiaW/KonoFan-Sub-Optimizer/wiki"} target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.pageview("/guide")}>Guide</Dropdown.Item>
                   <Dropdown.Item eventKey="settings">Settings</Dropdown.Item>
+                  <Dropdown.Item eventKey="Contact" href={"https://forms.gle/BHmaZJk7UD3rdsbd7"} target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.pageview("/contact")}>Contact</Dropdown.Item>
                   <Dropdown.Item eventKey="CL">Changelog</Dropdown.Item>
                   <Dropdown.Item eventKey="PP">Privacy Policy</Dropdown.Item>
                 </DropdownButton>
@@ -261,6 +274,7 @@ function App() {
                 <Settings show={showSettings} handleClose={handleCloseSettings} 
                 handleMeguminSuper={handleMeguminSuper} MeguminSuper={MeguminSuper} 
                 OpUlt={OpUlt} handleUltVersion={handleUltVersion} handleOpUlt={handleOpUlt}/>
+                {/* <TeamBuilder Ownership={Ownership} show={showTeamBuilder} handleClose={handleCloseTeamBuilder} /> */}
                 <UnitExclusionModule UnitExclusionProps={UnitExclusionProps} ToggleExclusion={ToggleExclusion} setExclusionList={setExclusionList} ExclusionList={ExclusionList} setUnitExclusion={setUnitExclusion}/>
                 <InventoryButton Ownership={Ownership} ToggleOwned={ToggleOwned}/>
         </Navbar>
