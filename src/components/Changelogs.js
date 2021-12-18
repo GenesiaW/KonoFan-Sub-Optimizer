@@ -17,6 +17,7 @@ function Changelogs({show,handleClose}) {
                     <ul>• Added "New Units" Filter to inventory</ul>
                     <ul>• Added Contact to dropdown button</ul>
                     <ul>• Added Formula used and explanation to guide/wiki.</ul>
+					<ul>• Disabled Google Analytics until implementation of consent button</ul>
                 </div>
                 <div>
                     <h4>17 December 2021 (Ver 2.3.0)</h4>
