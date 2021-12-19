@@ -13,11 +13,12 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
-                    <h4>18 December 2021 (Ver 2.3.1)</h4>
+                    <h4>18 December 2021 (Ver 2.3.2)</h4>
                     <ul>• Added "New Units" Filter to inventory</ul>
                     <ul>• Added Contact to dropdown button</ul>
                     <ul>• Added Formula used and explanation to guide/wiki.</ul>
 					<ul>• Disabled Google Analytics until implementation of consent button</ul>
+                    <ul>• Added Consent button for Google Analytics. By default tracking is disabled.</ul>
                 </div>
                 <div>
                     <h4>17 December 2021 (Ver 2.3.0)</h4>

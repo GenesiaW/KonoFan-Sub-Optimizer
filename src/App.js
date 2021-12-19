@@ -10,6 +10,7 @@ import Changelogs from "./components/Changelogs";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import KFAlerts from "./components/KFAlerts";
 import Settings from "./components/Settings";
+import CookieConsent, {getCookieConsentValue,Cookies} from "react-cookie-consent";
 // import TeamBuilder from "./components/TeamBuilder";
 import UnitExclusionModule from "./components/UnitExclusionModule";
 import {Container, Navbar, Row,Dropdown,DropdownButton, Col} from "react-bootstrap";
@@ -24,7 +25,16 @@ const LOCAL_STORAGE_KEY = "konofan-optimizer.inv"
 const version_key ="konofan-optimizer.version"
 
 function App() {
-  // ReactGA.initialize('UA-215563439-1');
+  const handleAcceptCookie = () => {
+    ReactGA.initialize("UA-215563439-1");
+  };
+
+  const handleDeclineCookie = () => {
+    //remove google analytics cookies
+    Cookies.remove("_ga");
+    Cookies.remove("_gat");
+    Cookies.remove("_gid");
+  };
 
   //Ownership
   const [Ownership,setOwned] = useState([])
@@ -183,6 +193,10 @@ function App() {
   },[Ownership])
 
   useEffect(() => {
+    const isConsent = getCookieConsentValue();
+    if (isConsent === "true") {
+      handleAcceptCookie();
+    }
     const Inv = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
     const StoredVersion = JSON.parse(localStorage.getItem(version_key))
     setOwned(FilteredData)
@@ -247,8 +261,9 @@ function App() {
     }
   }
   return (
-    <div className="ContainerWrapper">
-
+    <div className="ContainerWrapper"> 
+            <CookieConsent location="bottom" buttonText="Accept" declineButtonText="Decline" enableDeclineButton onAccept={handleAcceptCookie} onDecline={handleDeclineCookie}
+             >This website uses cookies to enhance the user experience.</CookieConsent>
         <Container fluid>
           <Row>
         <Navbar bg="primary" variant="dark">
@@ -273,7 +288,7 @@ function App() {
                 <OptimizeTeamFast props={Ownership} show={showOpTeamFast} handleClose={handleCloseOpTeamFast}  MeguminSuper={MeguminSuper} OpUlt={OpUlt}/>
                 <Settings show={showSettings} handleClose={handleCloseSettings} 
                 handleMeguminSuper={handleMeguminSuper} MeguminSuper={MeguminSuper} 
-                OpUlt={OpUlt} handleUltVersion={handleUltVersion} handleOpUlt={handleOpUlt}/>
+                OpUlt={OpUlt} handleUltVersion={handleUltVersion} handleOpUlt={handleOpUlt} onAccept={handleAcceptCookie} onDecline={handleDeclineCookie}/>
                 {/* <TeamBuilder Ownership={Ownership} show={showTeamBuilder} handleClose={handleCloseTeamBuilder} /> */}
                 <UnitExclusionModule UnitExclusionProps={UnitExclusionProps} ToggleExclusion={ToggleExclusion} setExclusionList={setExclusionList} ExclusionList={ExclusionList} setUnitExclusion={setUnitExclusion}/>
                 <InventoryButton Ownership={Ownership} ToggleOwned={ToggleOwned}/>

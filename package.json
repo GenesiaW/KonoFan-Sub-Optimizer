@@ -1,6 +1,6 @@
 {
   "name": "konofan-calc",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
@@ -11,6 +11,7 @@
     "package.json": "^2.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.3",
+    "react-cookie-consent": "^7.0.1",
     "react-dom": "^17.0.2",
     "react-ga": "^3.3.0",
     "react-native-base64": "^0.2.1",
