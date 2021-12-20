@@ -21,8 +21,8 @@ function PrivacyPolicy({show,handleClose}) {
                     <ul>• Time Taken to load function</ul>
                     <ul>• Traffic Sources</ul>
 
-                    <p>Your data will only be used for optimizing and improving the load time of the features. By default, tracking is disabled. 
-                        To consent to the data collection please press Accept in the banner. Alternatively, it can be enabled in the settings. If you wish to opt out after consenting, please do so in settings as well.
+                    <p>Your data will only be used for optimizing and improving the load time of the features. By default, tracking is turned on. 
+                        To opt out of data collectino please click on decline. If you wish to opt out after consenting, please do so in settings.
                     </p>
                 </div>
             </Modal.Body>

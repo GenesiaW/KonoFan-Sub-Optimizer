@@ -10,7 +10,16 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
     const [SetupList,setSetupList] = useState([])
     const SubList =[{uid:"maxphy",owned:true},{uid:"maxephy",owned:true},{uid:"maxmag",owned:true},{uid:"maxrec",owned:true}]
     const [TempFilter,setFilter] = useState("Select a Filter")
-
+    const [TempSort,setSort] = useState("Sort By")
+    const SortList = {
+        "Sort By": ((a, b) => a.rarity > b.rarity ? -1 : 1),
+        "Rarity Ascending": ((a, b) => a.rarity > b.rarity ? 1 : -1),
+        "P.Atk Ascending": ((a, b) => a.patk > b.patk ? 1 : -1),
+        "P.Atk Descending": ((a, b) => a.patk > b.patk ? -1 : 1),
+        "M.Atk Ascending": ((a, b) => a.matk > b.matk ? 1 : -1),
+        "M.Atk Descending": ((a, b) => a.matk > b.matk ? -1 : 1),
+    }
+    const handleSort = (eventKey) => setSort(eventKey)
     const FilterList = {
         "Select a Filter": (x => x.owned),
         "Fire": (x => x.element === "Fire"),
@@ -82,7 +91,7 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
     }
     const PureList = props
     const AvailUnits = props.filter(x=>x.owned).filter(x=>!(Exclusions.includes(x.uid))&&!(ClassFilter.includes(Math.floor(x.uid/10000)))).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
-    const FilteredUnits = AvailUnits.filter(FilterList[TempFilter]).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
+    const FilteredUnits = AvailUnits.filter(FilterList[TempFilter]).sort(SortList[TempSort])
 
     useEffect(() => {
         let FinalExclusion = []
@@ -125,22 +134,34 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
                <Container fluid>
                         <Row>
                             <Col><Modal.Title>{HeaderHelper[(Exclusions.length + SetupList.length)]}</Modal.Title></Col>
-                            <Col align="end" style={{margin:"0px",padding:"0px"}}>
                                 {(Exclusions.length + SetupList.length) === 15?
                                 null:
                                 ((Exclusions.length + SetupList.length) %2 ===0?
-                                (<DropdownButton variant="outline-primary" title={TempFilter} onSelect={handleFilter} align="end" style={{marginRight:"10px"}}>
-                                <Dropdown.Item eventKey="Select a Filter">None</Dropdown.Item>
-                                <Dropdown.Item eventKey="Water">Water</Dropdown.Item>
-                                <Dropdown.Item eventKey="Fire">Fire</Dropdown.Item>
-                                <Dropdown.Item eventKey="Wind">Wind</Dropdown.Item>
-                                <Dropdown.Item eventKey="Earth">Earth</Dropdown.Item>
-                                <Dropdown.Item eventKey="Lightning">Lightning</Dropdown.Item>
-                                <Dropdown.Item eventKey="Light">Light</Dropdown.Item>
-                                <Dropdown.Item eventKey="Dark">Dark</Dropdown.Item>
-                            </DropdownButton>):null)    
+                                (
+                                <>
+                                <Col align="end">
+                                <DropdownButton variant="outline-primary" title={TempSort} onSelect={handleSort} align="end">
+                                    <Dropdown.Item eventKey="Sort By">Rarity Descending</Dropdown.Item>
+                                    <Dropdown.Item eventKey="Rarity Ascending">Rarity Ascending</Dropdown.Item>
+                                    <Dropdown.Item eventKey="P.Atk Ascending">P.Atk Ascending</Dropdown.Item>
+                                    <Dropdown.Item eventKey="P.Atk Descending">P.Atk Descending</Dropdown.Item>
+                                    <Dropdown.Item eventKey="M.Atk Ascending">M.Atk Ascending</Dropdown.Item>
+                                    <Dropdown.Item eventKey="M.Atk Descending">M.Atk Descending</Dropdown.Item>
+                                </DropdownButton></Col>
+                                <Col align="end"  style={{maxWidth:"133.3px",marginRight:"20px",marginLeft:"-10px"}}>
+                                    <DropdownButton variant="outline-primary" title={TempFilter} onSelect={handleFilter}>
+                                        <Dropdown.Item eventKey="Select a Filter">None</Dropdown.Item>
+                                        <Dropdown.Item eventKey="Water">Water</Dropdown.Item>
+                                        <Dropdown.Item eventKey="Fire">Fire</Dropdown.Item>
+                                        <Dropdown.Item eventKey="Wind">Wind</Dropdown.Item>
+                                        <Dropdown.Item eventKey="Earth">Earth</Dropdown.Item>
+                                        <Dropdown.Item eventKey="Lightning">Lightning</Dropdown.Item>
+                                        <Dropdown.Item eventKey="Light">Light</Dropdown.Item>
+                                        <Dropdown.Item eventKey="Dark">Dark</Dropdown.Item>
+                                    </DropdownButton>
+                                    </Col></>
+                                ):null)    
                             }
-                            </Col>
                             <Col align="end" xs={2}>
                                 {(Exclusions.length + SetupList.length) === 15?
                                     <Button variant="outline-primary" onClick={OptimizeAgain} style={{marginLeft:"-4.5rem",whiteSpace:"nowrap"}}>Optimize Another Team</Button>:

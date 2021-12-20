@@ -13,12 +13,21 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>20 December 2021 (Ver 3.0.0)</h4>
+                    <ul>• Added Team Builder</ul>
+                    <ul>• Added Sort Feature to single unit sub optimizer, team builder and optimize team</ul>
+                    <ul>• Removed Optimizer Team (Slow)</ul>
+                    <ul>• Privacy Policy changes</ul>
+                    <ul>• Changed Google Analytics to be on by default. Press decline on banner or toggle off in Settings</ul>
+                    <ul>Note: This is the final feature update for the sub optimizer. Subsequent updates will only be bug fixes and addition of new units</ul>
+                </div>
+                <div>
                     <h4>18 December 2021 (Ver 2.3.2)</h4>
                     <ul>• Added "New Units" Filter to inventory</ul>
                     <ul>• Added Contact to dropdown button</ul>
-                    <ul>• Added Formula used and explanation to guide/wiki.</ul>
-					<ul>• Disabled Google Analytics until implementation of consent button</ul>
-                    <ul>• Added Consent button for Google Analytics. By default tracking is disabled.</ul>
+                    <ul>• Added Formula used and explanation to guide/wiki</ul>
+					<ul><strike>• Disabled Google Analytics until the implementation of consent button</strike></ul>
+                    <ul><strike>• Added Consent button for Google Analytics. By default tracking is disabled</strike></ul>
                 </div>
                 <div>
                     <h4>17 December 2021 (Ver 2.3.0)</h4>

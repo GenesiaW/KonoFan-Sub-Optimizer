@@ -101,3 +101,11 @@ body::-webkit-scrollbar{
     cursor:unset;
     user-select: none;
 }
+
+.modal-dialog.modal-TB.modal-dialog-scrollable.modal-fullscreen .modal-body .table .UnitButton{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    max-width:256.41px;
+    cursor:pointer;
+}

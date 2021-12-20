@@ -2,7 +2,7 @@ import { Col,Row } from "react-bootstrap";
 import UnitButton from "./UnitButton";
 import { v4 as uuidv4 } from 'uuid';
 
-const Inventory = ({props, ToggleOwned,onClick,setUid,handleClose,setMultiProps,SelectSubUnits,ToggleExclusion}) => {
+const Inventory = ({props, ToggleOwned,onClick,setUid,handleClose,setMultiProps,SelectSubUnits,ToggleExclusion,UnitChange}) => {
     const columns = []
     props.forEach((element,index) => {
         if (setUid){
@@ -16,6 +16,9 @@ const Inventory = ({props, ToggleOwned,onClick,setUid,handleClose,setMultiProps,
         }
         else if(ToggleExclusion){
             columns.push((<Col key={uuidv4()}><UnitButton props={element} onClick={onClick} ToggleExclusion={ToggleExclusion}/></Col>))
+        }
+        else if(UnitChange){
+            columns.push((<Col key={element.uid}><UnitButton props={element} onClick={onClick} UnitChange={UnitChange}/></Col>))
         }
         else{
             columns.push((<Col key={element.uid}><UnitButton props={element} ToggleOwned={ToggleOwned} onClick={onClick}/></Col>))

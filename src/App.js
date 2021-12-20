@@ -4,14 +4,14 @@ import InventoryButton from "./components/InventoryButton";
 import data from "./data/database.json";
 import SubOptimizer from "./components/SubOptimizer";
 import InventoryImport from "./components/InventoryImport";
-import OptimizeTeam from "./components/OptimizeTeam";
+// import OptimizeTeam from "./components/OptimizeTeam";
 import OptimizeTeamFast from "./components/OptimizeTeamFast";
 import Changelogs from "./components/Changelogs";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import KFAlerts from "./components/KFAlerts";
 import Settings from "./components/Settings";
 import CookieConsent, {getCookieConsentValue,Cookies} from "react-cookie-consent";
-// import TeamBuilder from "./components/TeamBuilder";
+import TeamBuilder from "./components/TeamBuilder";
 import UnitExclusionModule from "./components/UnitExclusionModule";
 import {Container, Navbar, Row,Dropdown,DropdownButton, Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -121,10 +121,10 @@ function App() {
   const handleCloseImpInv = () => {ReactGA.pageview("/import-to-root");setShowImpInv(false);}
   const handleShowImpInv = () => {ReactGA.modalview("/import-inventory");setShowImpInv(true);}
   //Optimize Team Helper
-  const [showOpTeam, setShowOpTeam] = useState(false);
+  // const [showOpTeam, setShowOpTeam] = useState(false);
 
-  const handleCloseOpTeam = () => {ReactGA.pageview("/opteam-to-root");setShowOpTeam(false);}
-  const handleShowOpTeam = () => {ReactGA.modalview("/optimize-team");setShowOpTeam(true);}
+  // const handleCloseOpTeam = () => {ReactGA.pageview("/opteam-to-root");setShowOpTeam(false);}
+  // const handleShowOpTeam = () => {ReactGA.modalview("/optimize-team");setShowOpTeam(true);}
 
   //Optimize Team Helper
   const [showOpTeamFast, setShowOpTeamFast] = useState(false);
@@ -150,20 +150,21 @@ function App() {
   const handleCloseSettings= () => {ReactGA.pageview("/settings-to-root");setShowSettings(false);}
   const handleShowSettings = () => {ReactGA.modalview("/settings");setShowSettings(true);}
 
-    // //TeamBuilder Helper
-    // const [showTeamBuilder, setShowTeamBuilder] = useState(false);
+    //TeamBuilder Helper
+    const [showTeamBuilder, setShowTeamBuilder] = useState(false);
+    const [count, setCount] = useState(0);
 
-    // const handleCloseTeamBuilder= () => {ReactGA.pageview("/teambuilder-to-root");setShowTeamBuilder(false);}
-    // const handleShowTeamBuilder = () => {ReactGA.modalview("/teambuilder");setShowTeamBuilder(true);}
+    const handleCloseTeamBuilder= () => {ReactGA.pageview("/teambuilder-to-root");setShowTeamBuilder(false);}
+    const handleShowTeamBuilder = () => {ReactGA.modalview("/teambuilder");setShowTeamBuilder(true);setCount(1);}
 
   const FuncHelper = {
     "ImpInv":handleShowImpInv,
-    "OpTeam":handleShowOpTeam,
+    // "OpTeam":handleShowOpTeam,
     "OpTeamFast":handleShowOpTeamFast,
     "CL":handleShowCL,
     "settings":handleShowSettings,
     "PP":handleShowPP,
-    // "TeamBuilder":handleShowTeamBuilder,
+    "TeamBuilder":handleShowTeamBuilder,
     "Guide":console.log,
     "Contact":console.log
   }
@@ -178,7 +179,7 @@ function App() {
       "settings":"Settings",
       "Guide":"Guide",
       "Contact":"Contact",
-      // "TeamBuilder":"TeamBuilder",
+      "TeamBuilder":"TeamBuilder",
     }
     ReactGA.event({
       category:"User",
@@ -193,8 +194,13 @@ function App() {
   },[Ownership])
 
   useEffect(() => {
-    const isConsent = getCookieConsentValue();
-    if (isConsent === "true") {
+    if (getCookieConsentValue() === "true") {
+      handleAcceptCookie();
+    }
+    else if (getCookieConsentValue() === "false"){
+    }
+    else{
+      console.log("Please Accept or Decline the use of cookies")
       handleAcceptCookie();
     }
     const Inv = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
@@ -263,7 +269,7 @@ function App() {
   return (
     <div className="ContainerWrapper"> 
             <CookieConsent location="bottom" buttonText="Accept" declineButtonText="Decline" enableDeclineButton onAccept={handleAcceptCookie} onDecline={handleDeclineCookie}
-             >This website uses cookies to enhance the user experience.</CookieConsent>
+             >This website uses cookies to enhance the user experience. Press decline to opt out of data collection.</CookieConsent>
         <Container fluid>
           <Row>
         <Navbar bg="primary" variant="dark">
@@ -271,8 +277,8 @@ function App() {
                 <Col align="end">
                 <DropdownButton variant="outline-light" title="More" onSelect={HandleFuncHelper} align="end" style={{marginRight:"10px"}}>
                 <Dropdown.Item eventKey="OpTeamFast">Optimize Team</Dropdown.Item>
-                  <Dropdown.Item eventKey="OpTeam">Optimize Team (Slow)</Dropdown.Item>
-                  {/* <Dropdown.Item eventKey="TeamBuilder">Team Builder</Dropdown.Item> */}
+                  {/* <Dropdown.Item eventKey="OpTeam">Optimize Team (Slow)</Dropdown.Item> */}
+                  <Dropdown.Item eventKey="TeamBuilder">Team Builder</Dropdown.Item>
                   <Dropdown.Item eventKey="ImpInv">Import/Export Inventory</Dropdown.Item>
                   <Dropdown.Item eventKey="Guide" href={"https://github.com/GenesiaW/KonoFan-Sub-Optimizer/wiki"} target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.pageview("/guide")}>Guide</Dropdown.Item>
                   <Dropdown.Item eventKey="settings">Settings</Dropdown.Item>
@@ -284,12 +290,12 @@ function App() {
                 <InventoryImport props={Ownership} setOwned={setOwned} setAlert={setAlertText} handleAlertShow={handleAlertShow} show={showImpInv} handleClose={handleCloseImpInv}/>
                 <Changelogs show={showCL} handleClose={handleCloseCL} />
                 <PrivacyPolicy show={showPP} handleClose={handleClosePP} />
-                <OptimizeTeam props={Ownership} show={showOpTeam} handleClose={handleCloseOpTeam} MeguminSuper={MeguminSuper} OpUlt={OpUlt}/>
+                {/* <OptimizeTeam props={Ownership} show={showOpTeam} handleClose={handleCloseOpTeam} MeguminSuper={MeguminSuper} OpUlt={OpUlt}/> */}
                 <OptimizeTeamFast props={Ownership} show={showOpTeamFast} handleClose={handleCloseOpTeamFast}  MeguminSuper={MeguminSuper} OpUlt={OpUlt}/>
                 <Settings show={showSettings} handleClose={handleCloseSettings} 
                 handleMeguminSuper={handleMeguminSuper} MeguminSuper={MeguminSuper} 
                 OpUlt={OpUlt} handleUltVersion={handleUltVersion} handleOpUlt={handleOpUlt} onAccept={handleAcceptCookie} onDecline={handleDeclineCookie}/>
-                {/* <TeamBuilder Ownership={Ownership} show={showTeamBuilder} handleClose={handleCloseTeamBuilder} /> */}
+                <TeamBuilder props={Ownership} show={showTeamBuilder} handleClose={handleCloseTeamBuilder} count={count} setCount={setCount}/>
                 <UnitExclusionModule UnitExclusionProps={UnitExclusionProps} ToggleExclusion={ToggleExclusion} setExclusionList={setExclusionList} ExclusionList={ExclusionList} setUnitExclusion={setUnitExclusion}/>
                 <InventoryButton Ownership={Ownership} ToggleOwned={ToggleOwned}/>
         </Navbar>

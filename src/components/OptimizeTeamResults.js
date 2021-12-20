@@ -222,7 +222,7 @@ function OptimizeTeamResults({props,exclusions,MeguminSuper,OpUlt}) {
                         <td>{Math.round(UnitFive.stats.hp*100)/100}</td>
                     </tr>
                     <tr>
-                        <td>P. Atk</td>
+                        <td>P.Atk</td>
                         <td>{Math.round(UnitOne.stats.patk*100)/100}</td>
                         <td>{Math.round(UnitTwo.stats.patk*100)/100}</td>
                         <td>{Math.round(UnitThree.stats.patk*100)/100}</td>
@@ -230,7 +230,7 @@ function OptimizeTeamResults({props,exclusions,MeguminSuper,OpUlt}) {
                         <td>{Math.round(UnitFive.stats.patk*100)/100}</td>
                     </tr>
                     <tr>
-                        <td>M. Atk</td>
+                        <td>M.Atk</td>
                         <td>{Math.round(UnitOne.stats.matk*100)/100}</td>
                         <td>{Math.round(UnitTwo.stats.matk*100)/100}</td>
                         <td>{Math.round(UnitThree.stats.matk*100)/100}</td>
@@ -238,7 +238,7 @@ function OptimizeTeamResults({props,exclusions,MeguminSuper,OpUlt}) {
                         <td>{Math.round(UnitFive.stats.matk*100)/100}</td>
                     </tr>
                     <tr>
-                        <td>P. Def</td>
+                        <td>P.Def</td>
                         <td>{Math.round(UnitOne.stats.pdef*100)/100}</td>
                         <td>{Math.round(UnitTwo.stats.pdef*100)/100}</td>
                         <td>{Math.round(UnitThree.stats.pdef*100)/100}</td>
@@ -246,7 +246,7 @@ function OptimizeTeamResults({props,exclusions,MeguminSuper,OpUlt}) {
                         <td>{Math.round(UnitFive.stats.pdef*100)/100}</td>
                     </tr>
                     <tr>
-                        <td>M. Def</td>
+                        <td>M.Def</td>
                         <td>{Math.round(UnitOne.stats.mdef*100)/100}</td>
                         <td>{Math.round(UnitTwo.stats.mdef*100)/100}</td>
                         <td>{Math.round(UnitThree.stats.mdef*100)/100}</td>

@@ -6,6 +6,15 @@ import ReactGA from 'react-ga';
 export default function LargeMember({props,setUid,ChosenUid,Header}) {
     const [show, setShow] = useState(false);
     const [TempFilter,setFilter] = useState("Select a Filter")
+    const [TempSort,setSort] = useState("Sort By")
+    const SortList = {
+        "Sort By": ((a, b) => a.rarity > b.rarity ? -1 : 1),
+        "Rarity Ascending": ((a, b) => a.rarity > b.rarity ? 1 : -1),
+        "P.Atk Ascending": ((a, b) => a.patk > b.patk ? 1 : -1),
+        "P.Atk Descending": ((a, b) => a.patk > b.patk ? -1 : 1),
+        "M.Atk Ascending": ((a, b) => a.matk > b.matk ? 1 : -1),
+        "M.Atk Descending": ((a, b) => a.matk > b.matk ? -1 : 1),
+    }
     const FilterList = {
         "Select a Filter": (x => x.owned),
         "Fire": (x => x.element === "Fire"),
@@ -26,9 +35,10 @@ export default function LargeMember({props,setUid,ChosenUid,Header}) {
       }
 
     const handleFilter = (eventKey) => setFilter(eventKey)
+    const handleSort = (eventKey) => setSort(eventKey)
 
     const AvailUnits = props.filter(x => x.owned).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
-    const FilteredUnits = AvailUnits.filter(FilterList[TempFilter]).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
+    const FilteredUnits = AvailUnits.filter(FilterList[TempFilter]).sort(SortList[TempSort])
     
     const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/LargeMember/' + ChosenUid + '.png'
     return (    
@@ -52,6 +62,16 @@ export default function LargeMember({props,setUid,ChosenUid,Header}) {
                         <Row>
                             <Col><Modal.Title>Select Main Unit</Modal.Title></Col>
                             <Col align="end">
+                            <DropdownButton variant="outline-primary" title={TempSort} onSelect={handleSort} align="end">
+                                <Dropdown.Item eventKey="Sort By">Rarity Descending</Dropdown.Item>
+                                <Dropdown.Item eventKey="Rarity Ascending">Rarity Ascending</Dropdown.Item>
+                                <Dropdown.Item eventKey="P.Atk Ascending">P.Atk Ascending</Dropdown.Item>
+                                <Dropdown.Item eventKey="P.Atk Descending">P.Atk Descending</Dropdown.Item>
+                                <Dropdown.Item eventKey="M.Atk Ascending">M.Atk Ascending</Dropdown.Item>
+                                <Dropdown.Item eventKey="M.Atk Descending">M.Atk Descending</Dropdown.Item>
+                            </DropdownButton>
+                            </Col>
+                            <Col align="end" style={{maxWidth:"133.3px",marginRight:"20px",marginLeft:"-10px"}}>
                             <DropdownButton variant="outline-primary" title={TempFilter} onSelect={handleFilter}>
                                 <Dropdown.Item eventKey="Select a Filter">None</Dropdown.Item>
                                 <Dropdown.Item eventKey="Water">Water</Dropdown.Item>

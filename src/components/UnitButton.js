@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose,setMultiProps,selectSubUnits,HandleUnitExclusion,ToggleExclusion}) {
+export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose,setMultiProps,selectSubUnits,HandleUnitExclusion,ToggleExclusion,id,UnitChange}) {
     const [IsActive,ToggleActive] = useState(props.owned)
     if(!props.container){
         props.container=[]
@@ -43,6 +43,9 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
     if (ToggleExclusion){
         onClick =() => ToggleExclusion(props.uid)
     }
+    if (UnitChange){
+        onClick = () => UnitChange(props.uid)
+    }
     const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/' + props.uid + '.png'
     // const logo = require("../assets/MediumMember/"+props.uid + '.png').default
     return (
@@ -51,6 +54,7 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
         ><img src={logo} alt={props.display_name} 
         style={{width:"100%",height:"100%"}} 
         draggable={false}
+        id={id}
         onClick={onClick}/></button>
     )
 }

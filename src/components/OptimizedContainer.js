@@ -115,28 +115,28 @@ function OptimizedContainer({props}) {
                         <td>{(props.RecMax[CurrentIndex]? Math.round(props.RecMax[CurrentIndex].stats.hp*100)/100 :"0")}</td>
                     </tr>
 				  <tr>
-                        <td>P. Atk</td>
+                        <td>P.Atk</td>
                         <td>{(props.PhyMax[CurrentIndex]? Math.round(props.PhyMax[CurrentIndex].stats.patk*100)/100 :"0")}</td>
                         <td>{(props.EPhyMax[CurrentIndex]? Math.round(props.EPhyMax[CurrentIndex].stats.patk*100)/100 :"0")}</td>
                         <td>{(props.MagMax[CurrentIndex]? Math.round(props.MagMax[CurrentIndex].stats.patk*100)/100 :"0")}</td>
                         <td>{(props.RecMax[CurrentIndex]? Math.round(props.RecMax[CurrentIndex].stats.patk*100)/100 :"0")}</td>
                     </tr>
                     <tr>
-                        <td>M. Atk</td>
+                        <td>M.Atk</td>
                         <td>{(props.PhyMax[CurrentIndex]? Math.round(props.PhyMax[CurrentIndex].stats.matk*100)/100 :"0")}</td>
                         <td>{(props.EPhyMax[CurrentIndex]? Math.round(props.EPhyMax[CurrentIndex].stats.matk*100)/100 :"0")}</td>
                         <td>{(props.MagMax[CurrentIndex]? Math.round(props.MagMax[CurrentIndex].stats.matk*100)/100 :"0")}</td>
                         <td>{(props.RecMax[CurrentIndex]? Math.round(props.RecMax[CurrentIndex].stats.matk*100)/100 :"0")}</td>
                     </tr>
                     <tr>
-                        <td>P. Def</td>
+                        <td>P.Def</td>
                         <td>{(props.PhyMax[CurrentIndex]? Math.round(props.PhyMax[CurrentIndex].stats.pdef*100)/100 :"0")}</td>
                         <td>{(props.EPhyMax[CurrentIndex]? Math.round(props.EPhyMax[CurrentIndex].stats.pdef*100)/100 :"0")}</td>
                         <td>{(props.MagMax[CurrentIndex]? Math.round(props.MagMax[CurrentIndex].stats.pdef*100)/100 :"0")}</td>
                         <td>{(props.RecMax[CurrentIndex]? Math.round(props.RecMax[CurrentIndex].stats.pdef*100)/100 :"0")}</td>
                     </tr>
                     <tr>
-                        <td>M. Def</td>
+                        <td>M.Def</td>
                         <td>{(props.PhyMax[CurrentIndex]? Math.round(props.PhyMax[CurrentIndex].stats.mdef*100)/100 :"0")}</td>
                         <td>{(props.EPhyMax[CurrentIndex]? Math.round(props.EPhyMax[CurrentIndex].stats.mdef*100)/100 :"0")}</td>
                         <td>{(props.MagMax[CurrentIndex]? Math.round(props.MagMax[CurrentIndex].stats.mdef*100)/100 :"0")}</td>
