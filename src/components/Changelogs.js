@@ -13,6 +13,11 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>23 December 2021 (Ver 3.1.0)</h4>
+                    <ul>• Toggle Theater Units to available</ul>
+                    <ul>Note: Decided to release it early as I have the stats before they removed the gallery preview</ul>
+                </div>
+                <div>
                     <h4>20 December 2021 (Ver 3.0.0)</h4>
                     <ul>• Added Team Builder</ul>
                     <ul>• Added Sort Feature to single unit sub optimizer, team builder and optimize team</ul>

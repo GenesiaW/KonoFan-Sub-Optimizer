@@ -305,9 +305,9 @@
    "phy_boost": 0.06,
    "mag_boost": 0,
    "rec_boost": 0,
-   "available": false,
-   "owned": false,
-   "new":false
+   "available": true,
+   "owned": true,
+   "new":true
  },
  {
    "uid": 1004119,
@@ -553,9 +553,9 @@
    "phy_boost": 0,
    "mag_boost": 0,
    "rec_boost": 0,
-   "available": false,
-   "owned": false,
-   "new":false
+   "available": true,
+   "owned": true,
+   "new":true
  },
  {
    "uid": 1013120,
@@ -1547,7 +1547,7 @@
    "rec_boost": 0,
    "available": true,
    "owned": true,
-   "new":true
+   "new":false
  },
  {
    "uid": 1041100,
@@ -2167,7 +2167,7 @@
    "rec_boost": 0,
    "available": true,
    "owned": true,
-   "new":true
+   "new":false
  },
  {
    "uid": 1061100,
@@ -2351,9 +2351,9 @@
    "phy_boost": 0,
    "mag_boost": 0,
    "rec_boost": 0,
-   "available": false,
-   "owned": false,
-   "new":false
+   "available": true,
+   "owned": true,
+   "new":true
  },
  {
    "uid": 1063123,
@@ -2725,7 +2725,7 @@
    "rec_boost": 0,
    "available": true,
    "owned": true,
-   "new":true
+   "new":false
  },
  {
    "uid": 1074100,
@@ -3387,14 +3387,14 @@
    "class": "Arue",
    "element": "Light",
    "trait": "Light/Dark+ ",
-   "hp": null,
-   "patk": null,
-   "matk": null,
-   "pdef": null,
-   "mdef": null,
-   "agi": null,
-   "dex": null,
-   "luck": null,
+   "hp": 1479,
+   "patk": 252,
+   "matk": 308,
+   "pdef": 170,
+   "mdef": 211,
+   "agi": 68,
+   "dex": 70,
+   "luck": 70,
    "water_boost": 0,
    "fire_boost": 0,
    "wind_boost": 0,
@@ -3405,9 +3405,9 @@
    "phy_boost": 0,
    "mag_boost": 0,
    "rec_boost": 0,
-   "available": false,
-   "owned": false,
-   "new":false
+   "available": true,
+   "owned": true,
+   "new":true
  },
  {
    "uid": 1104127,
@@ -5794,7 +5794,7 @@
    "rec_boost": 0,
    "available": true,
    "owned": true,
-   "new":true
+   "new":false
  },
  {
    "uid": 1184100,
@@ -6262,7 +6262,7 @@
    "new":false
  },
  {
-   "version":"3.0.0",
+   "version":"3.1.0",
    "available":false
  }
 ]
