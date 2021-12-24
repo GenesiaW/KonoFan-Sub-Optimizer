@@ -38,7 +38,8 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper,OpUlt){
       PhyD:0,
       PhyED:0,
       MagD:0,
-      R:0
+      R:0,
+      traits:0,
     }
     const UnitTable ={
       Kazuma:100,
@@ -159,30 +160,122 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper,OpUlt){
     const PhyD = stats.patk * (1+ MainUnit.phy_boost + SubUnitOne.phy_boost + SubUnitTwo.phy_boost) * 3.6
     const MagD = stats.matk * (1+ MainUnit.mag_boost + SubUnitOne.mag_boost + SubUnitTwo.mag_boost) * 3.6
     const Rec = (stats.matk * 0.8 + 120)*(1+  MainUnit.rec_boost + SubUnitOne.rec_boost + SubUnitTwo.rec_boost)
+    let traits = [Math.round((1+ MainUnit.phy_boost + SubUnitOne.phy_boost + SubUnitTwo.phy_boost)*100)/100]
     let PhyEd = PhyD
     let MagEd = MagD
     if (MainUnit.element === "None"){
+      traits.push(Math.round((1+ MainUnit.phy_boost + SubUnitOne.phy_boost + SubUnitTwo.phy_boost)*100)/100)
+      traits.push(Math.round((1+ MainUnit.mag_boost + SubUnitOne.mag_boost + SubUnitTwo.mag_boost)*100)/100)
+      traits.push(Math.round((1+  MainUnit.rec_boost + SubUnitOne.rec_boost + SubUnitTwo.rec_boost)*100)/100)
       collection = {
         stats:stats,
         PhyD:PhyD,
         PhyEd:PhyD,
         MagD:MagD,
-        R:Rec
+        R:Rec,
+        traits:traits,
       }
       return collection
     }
     else{
       PhyEd = stats.patk * (1 + MainUnit.phy_boost + SubUnitOne.phy_boost + SubUnitTwo.phy_boost + MainUnit[ElementTable[UnitElement]]+SubUnitOne[ElementTable[UnitElement]]+SubUnitTwo[ElementTable[UnitElement]]) * 3.6
+      traits.push(Math.round((1 + MainUnit.phy_boost + SubUnitOne.phy_boost + SubUnitTwo.phy_boost + MainUnit[ElementTable[UnitElement]]+SubUnitOne[ElementTable[UnitElement]]+SubUnitTwo[ElementTable[UnitElement]])*100)/100)
       MagEd = stats.matk * (1 + MainUnit.mag_boost + SubUnitOne.mag_boost + SubUnitTwo.mag_boost + MainUnit[ElementTable[UnitElement]]+SubUnitOne[ElementTable[UnitElement]]+SubUnitTwo[ElementTable[UnitElement]]) * 3.6
+      traits.push(Math.round((1 + MainUnit.mag_boost + SubUnitOne.mag_boost + SubUnitTwo.mag_boost + MainUnit[ElementTable[UnitElement]]+SubUnitOne[ElementTable[UnitElement]]+SubUnitTwo[ElementTable[UnitElement]])*100)/100)
+      traits.push(Math.round((1 +  MainUnit.rec_boost + SubUnitOne.rec_boost + SubUnitTwo.rec_boost)*100)/100)
     }
     collection = {
       stats:stats,
       PhyD:PhyD,
       PhyEd:PhyEd,
       MagD:MagEd,
-      R:Rec
+      R:Rec,
+      traits:traits
     }
     return collection
+}
+
+function CheckWeapon(collection){
+  let PhyMax =[]
+  let PhyMaxValues = []
+  let EPhyMax = []
+  let EPhyMaxValues = []
+  let MagMax =[]
+  let MagMaxValues = []
+  let RecMax =[]
+  let RecMaxValues = []
+  for (let i = 0; i < collection.PhyMax.length; i++) {
+    PhyMax.push(collection.PhyMax[i].traits[0])
+    if (PhyMax){
+      if(PhyMax[i-1]<collection.PhyMax[i].traits[0]){
+        let bonus_amount = Math.round((((collection.PhyMax[i-1].stats.patk*collection.PhyMax[i-1].traits[0])-(collection.PhyMax[i].stats.patk*collection.PhyMax[i].traits[0]))/(collection.PhyMax[i].traits[0]-collection.PhyMax[i-1].traits[0]))*100)/100
+        PhyMaxValues.push(bonus_amount)
+        PhyMax[i-1] = 'True'
+        if (i === 4){
+          PhyMax[i] = 'False'
+        }
+      }
+      else{
+        PhyMaxValues.push(0)
+        PhyMax[i-1] = 'False'
+      }
+    }
+    if (i === 4){
+      PhyMax[i] = 'False'
+    }
+  }
+  for (let i = 0; i < collection.EPhyMax.length; i++) {
+    EPhyMax.push(collection.EPhyMax[i].traits[1])
+    if (EPhyMax){
+      if(EPhyMax[i-1]<collection.EPhyMax[i].traits[1]){
+        let bonus_amount = Math.round((((collection.EPhyMax[i-1].stats.patk*collection.EPhyMax[i-1].traits[1])-(collection.EPhyMax[i].stats.patk*collection.EPhyMax[i].traits[1]))/(collection.EPhyMax[i].traits[1]-collection.EPhyMax[i-1].traits[1]))*100)/100
+        EPhyMaxValues.push(bonus_amount)
+        EPhyMax[i-1] = 'True'
+      }
+      else{
+        EPhyMaxValues.push(0)
+        EPhyMax[i-1] = 'False'
+      }
+    }
+    if (i === 4){
+      EPhyMax[i] = 'False'
+    }
+  }
+  for (let i = 0; i < collection.MagMax.length; i++) {
+    MagMax.push(collection.MagMax[i].traits[2])
+    if (MagMax){
+      if(MagMax[i-1]<collection.MagMax[i].traits[2]){
+        let bonus_amount = Math.round((((collection.MagMax[i-1].stats.matk*collection.MagMax[i-1].traits[2])-(collection.MagMax[i].stats.matk*collection.MagMax[i].traits[2]))/(collection.MagMax[i].traits[2]-collection.MagMax[i-1].traits[2]))*100)/100
+        MagMaxValues.push(bonus_amount)
+        MagMax[i-1] = 'True'
+      }
+      else{
+        MagMaxValues.push(0)
+        MagMax[i-1] = 'False'
+      }
+    }
+    if (i === 4){
+      MagMax[i] = 'False'
+    }
+  }
+  for (let i = 0; i < collection.RecMax.length; i++) {
+    RecMax.push(collection.RecMax[i].traits[3])
+    if (RecMax){
+      if(RecMax[i-1]<collection.RecMax[i].traits[3]){
+        let bonus_amount = Math.round((((collection.RecMax[i-1].traits[3])*(120+0.8*collection.RecMax[i-1].stats.matk))-((collection.RecMax[i].traits[3])*(120+0.8*collection.RecMax[i].stats.matk)))/(0.8 * collection.RecMax[i].traits[3]- 0.8* collection.RecMax[i-1].traits[3])*100)/100
+        RecMaxValues.push(bonus_amount)
+        RecMax[i-1] = "True"
+      }
+      else{
+        RecMaxValues.push(0)
+        RecMax[i-1] = "False"
+      }
+    }
+    if (i === 4){
+      RecMax[i] = "False"
+    }
+  }
+  return {PhyMax:[PhyMax,PhyMaxValues],EPhyMax:[EPhyMax,EPhyMaxValues],MagMax:[MagMax,MagMaxValues],RecMax:[RecMax,RecMaxValues]}
 }
 
 function Optimize(props,ChosenUid,MeguminSuper,OpUlt){
@@ -201,39 +294,25 @@ function Optimize(props,ChosenUid,MeguminSuper,OpUlt){
         }
     }
     let newFinalArray = FinalArray.filter(x => x.PhyD > 0)
-    let PhyMax = []
-    let EPhyMax = []
-    let MagMax =[]
-    let RecMax = []
-    while (PhyMax.length <5) {
-      const PhyMaxV = Math.max.apply(Math,newFinalArray.map(o => o.PhyD))
-      PhyMax.push(newFinalArray.find(x=>x.PhyD===PhyMaxV))
-      newFinalArray.splice(newFinalArray.indexOf(newFinalArray.find(x=>x.PhyD===PhyMaxV)),1)
-    }
+    const PhyMaxV = newFinalArray.sort((a,b) => a.PhyD > b.PhyD? -1 : 1)
+    let PhyMax = [PhyMaxV[0],PhyMaxV[1],PhyMaxV[2],PhyMaxV[3],PhyMaxV[4]]
     newFinalArray = FinalArray.filter(x => x.PhyD > 0)
-    while (EPhyMax.length <5) {
-      const EPhyMaxV = Math.max.apply(Math,newFinalArray.map(o => o.PhyEd))
-      EPhyMax.push(newFinalArray.find(x=>x.PhyEd===EPhyMaxV))
-      newFinalArray.splice(newFinalArray.indexOf(newFinalArray.find(x=>x.PhyEd===EPhyMaxV)),1)
-    }
+    const EPhyMaxV = newFinalArray.sort((a,b) => a.PhyEd > b.PhyEd? -1 : 1)
+    let EPhyMax = [EPhyMaxV[0],EPhyMaxV[1],EPhyMaxV[2],EPhyMaxV[3],EPhyMaxV[4]]
     newFinalArray = FinalArray.filter(x => x.PhyD > 0)
-    while (MagMax.length <5) {
-      const MagMaxV = Math.max.apply(Math,newFinalArray.map(o => o.MagD))
-      MagMax.push(newFinalArray.find(x=>x.MagD===MagMaxV))
-      newFinalArray.splice(newFinalArray.indexOf(newFinalArray.find(x=>x.MagD===MagMaxV)),1)
-    }
+    const MagMaxV = newFinalArray.sort((a,b) => a.MagD > b.MagD? -1 : 1)
+    let MagMax = [MagMaxV[0],MagMaxV[1],MagMaxV[2],MagMaxV[3],MagMaxV[4]]
     newFinalArray = FinalArray.filter(x => x.PhyD > 0)
-    while (RecMax.length <5) {
-      const RecMaxV = Math.max.apply(Math,newFinalArray.map(o => o.R))
-      RecMax.push(newFinalArray.find(x=>x.R===RecMaxV))
-      newFinalArray.splice(newFinalArray.indexOf(newFinalArray.find(x=>x.R===RecMaxV)),1)
-    }
-    const container = {
+    const RecMaxV = newFinalArray.sort((a,b) => a.R > b.R? -1 : 1)
+    let RecMax = [RecMaxV[0],RecMaxV[1],RecMaxV[2],RecMaxV[3],RecMaxV[4]]
+    let container = {
         PhyMax:PhyMax,
         EPhyMax:EPhyMax,
         MagMax:MagMax,
-        RecMax:RecMax
+        RecMax:RecMax,
+        WeaponCheck:0,
     }
+    container.WeaponCheck = CheckWeapon(container)
     console.log(container)
     return container
 }

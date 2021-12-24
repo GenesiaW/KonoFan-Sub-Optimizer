@@ -77,6 +77,20 @@ function OptimizedContainer({props}) {
                         <td>{(props.RecMax[CurrentIndex].stats.SubTwo? props.RecMax[CurrentIndex].stats.SubTwo.display_trait :"NA")}</td>
                     </tr>
                     <tr>
+                        <td>Order Affected By Bonus Stats</td>
+                        <td>{props.WeaponCheck? props.WeaponCheck.PhyMax[0][CurrentIndex]:"NA"} </td>
+                        <td>{props.WeaponCheck? props.WeaponCheck.EPhyMax[0][CurrentIndex]:"NA"}</td>
+                        <td>{props.WeaponCheck? props.WeaponCheck.MagMax[0][CurrentIndex]:"NA"}</td>
+                        <td>{props.WeaponCheck? props.WeaponCheck.RecMax[0][CurrentIndex]:"NA"}</td>
+                    </tr>
+                    <tr>
+                        <td>Bonus Stats Required</td>
+                        <td>{props.WeaponCheck? props.WeaponCheck.PhyMax[1][CurrentIndex]:"NA"}</td>
+                        <td>{props.WeaponCheck? props.WeaponCheck.EPhyMax[1][CurrentIndex]:"NA"}</td>
+                        <td>{props.WeaponCheck? props.WeaponCheck.MagMax[1][CurrentIndex]:"NA"}</td>
+                        <td>{props.WeaponCheck? props.WeaponCheck.RecMax[1][CurrentIndex]:"NA"}</td>
+                    </tr>
+                    <tr>
                         <td>Physical Damage</td>
                         <td>{(props.PhyMax[CurrentIndex]? Math.round(props.PhyMax[CurrentIndex].PhyD*100)/100 :0)}</td>
                         <td>{(props.PhyMax[CurrentIndex]? Math.round(props.EPhyMax[CurrentIndex].PhyD*100)/100 :0)}</td>
@@ -114,7 +128,7 @@ function OptimizedContainer({props}) {
                         <td>{(props.MagMax[CurrentIndex]? Math.round(props.MagMax[CurrentIndex].stats.hp*100)/100 :"0")}</td>
                         <td>{(props.RecMax[CurrentIndex]? Math.round(props.RecMax[CurrentIndex].stats.hp*100)/100 :"0")}</td>
                     </tr>
-				  <tr>
+                    <tr>
                         <td>P.Atk</td>
                         <td>{(props.PhyMax[CurrentIndex]? Math.round(props.PhyMax[CurrentIndex].stats.patk*100)/100 :"0")}</td>
                         <td>{(props.EPhyMax[CurrentIndex]? Math.round(props.EPhyMax[CurrentIndex].stats.patk*100)/100 :"0")}</td>

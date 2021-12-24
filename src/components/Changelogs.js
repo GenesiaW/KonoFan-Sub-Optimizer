@@ -13,6 +13,14 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>24 December 2021 (Ver 3.2.0)</h4>
+                    <ul>• Added Order Affected by Bonus Stats Check for Single Unit Optimization</ul>
+                    <ul>• If Order Affected by Bonus Stats is true, the next setup will be better than the current setup if the bonus stats stated in the next setup can be met</ul>
+                    <ul>•  The bonus stats is the combined total from Trials, Affinities and Weapon. (P. Atk for Physical and Elemental Physical setup, while M. Atk for Magical and Recovery)</ul>
+                    <ul>• Full Details can be found on the guide/wiki under Single Sub Optimization section</ul>
+                    <ul>Note: Huge thanks to <a href={"https://www.reddit.com/user/dtfinch/"} target="_blank" rel="noopener noreferrer">u/dtfinch</a> for providing an example, allowing me to see the effects of bonus stats and performing the necessary calculations</ul>
+                </div>
+                <div>
                     <h4>23 December 2021 (Ver 3.1.0)</h4>
                     <ul>• Toggle Theater Units to available</ul>
                     <ul>Note: Decided to release it early as I have the stats before they removed the gallery preview</ul>
