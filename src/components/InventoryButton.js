@@ -7,7 +7,16 @@ import ReactGA from 'react-ga';
 function InventoryButton({Ownership,ToggleOwned}) {
     // Modal
     const [show, setShow] = useState(false);
-    const handleClose = () => {ReactGA.pageview("/inventory-to-root");setShow(false);}
+    const [InputFieldValue, SetInputFieldValue] = useState()
+    const handleClose = () => {ReactGA.pageview("/inventory-to-root");setShow(false);SetInputFieldValue();}
+    const getFilteredResults = (FilteredUnits,InputFieldValue) => {
+      if (InputFieldValue){
+          return FilteredUnits.filter(x=> (x.class).toLowerCase().includes(InputFieldValue.toLowerCase()) || (x.display_trait).toLowerCase().includes(InputFieldValue.toLowerCase()));
+      }
+      else{
+          return FilteredUnits
+      }
+    }
     const handleShow = () => {
       ReactGA.modalview("/inventory")
       ReactGA.event({category:"User",
@@ -27,7 +36,7 @@ function InventoryButton({Ownership,ToggleOwned}) {
         "1★": (x=> x.rarity === 1),
     }
     const handleFilter = (eventKey) => setFilter(eventKey)
-    const NewOwnership = Ownership.filter(FilterList[TempFilter]).sort((a, b) => a.uid > b.uid ? 1 : -1)
+    const NewOwnership = getFilteredResults(Ownership,InputFieldValue).filter(FilterList[TempFilter]).sort((a, b) => a.uid > b.uid ? 1 : -1)
     
     return (
     <div>
@@ -44,7 +53,10 @@ function InventoryButton({Ownership,ToggleOwned}) {
               <Container>
                 <Row>
                   <Col><Modal.Title>Inventory</Modal.Title></Col>
-                  <Col align="end">
+                  <Col align="end" style={{marginTop:"5px", marginLeft:"-10px"}}>
+                    <input value={InputFieldValue} placeholder="Search By Name or Trait" onChange={(e) => SetInputFieldValue(e.target.value)}/>
+                  </Col>
+                  <Col align="end" style={{maxWidth:"133.3px",marginRight:"20px",marginLeft:"-10px"}}>
                     <DropdownButton variant="outline-primary" title={TempFilter} onSelect={handleFilter} align="end">
                       <Dropdown.Item eventKey="Select a Filter">Show All</Dropdown.Item>
                       <Dropdown.Item eventKey="New">New</Dropdown.Item>

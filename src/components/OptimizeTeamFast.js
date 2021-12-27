@@ -8,9 +8,20 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
     const [Exclusions,setExclusions] = useState([])
     const [ClassFilter,setClassFilter] = useState([])
     const [SetupList,setSetupList] = useState([])
+    const [InputFieldValue, SetInputFieldValue] = useState()
     const SubList =[{uid:"maxphy",owned:true},{uid:"maxephy",owned:true},{uid:"maxmag",owned:true},{uid:"maxrec",owned:true}]
     const [TempFilter,setFilter] = useState("Select a Filter")
     const [TempSort,setSort] = useState("Sort By")
+
+    const getFilteredResults = (FilteredUnits,InputFieldValue) => {
+        if (InputFieldValue){
+            return FilteredUnits.filter(x=> (x.class).toLowerCase().includes(InputFieldValue.toLowerCase()) || (x.display_trait).toLowerCase().includes(InputFieldValue.toLowerCase()));
+        }
+        else{
+            return FilteredUnits
+        }
+    }
+
     const SortList = {
         "Sort By": ((a, b) => a.rarity > b.rarity ? -1 : 1),
         "Rarity Ascending": ((a, b) => a.rarity > b.rarity ? 1 : -1),
@@ -37,6 +48,7 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
         setExclusions([])
         setClassFilter([])
         setSetupList([])
+        SetInputFieldValue();
         handleClose()
     }
 
@@ -62,8 +74,9 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
         newClassFilter.push(Math.floor(uid/10000))
         setExclusions(newExclusion)
         setClassFilter(newClassFilter)
+        SetInputFieldValue();
     }
-    const SelectSubUnits = (uid,props) => {
+    const SelectSubUnits = (uid) => {
         const newSetupList = [...SetupList,uid]
         setSetupList(newSetupList)
     }
@@ -72,6 +85,7 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
         const newExclusions = [...Exclusions]
         const newSetupList = [...SetupList]
         const newClassFilter =[...ClassFilter]
+        SetInputFieldValue();
         if((Exclusions.length+SetupList.length)%2){
             newExclusions.pop()
             newClassFilter.pop()
@@ -87,11 +101,12 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
     const OptimizeAgain = () => {
         setExclusions([])
         setClassFilter([])
+        SetInputFieldValue();
         setSetupList([])
     }
     const PureList = props
     const AvailUnits = props.filter(x=>x.owned).filter(x=>!(Exclusions.includes(x.uid))&&!(ClassFilter.includes(Math.floor(x.uid/10000)))).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
-    const FilteredUnits = AvailUnits.filter(FilterList[TempFilter]).sort(SortList[TempSort])
+    const FilteredUnits = getFilteredResults(AvailUnits,InputFieldValue).filter(FilterList[TempFilter]).sort(SortList[TempSort])
 
     useEffect(() => {
         let FinalExclusion = []
@@ -139,7 +154,10 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
                                 ((Exclusions.length + SetupList.length) %2 ===0?
                                 (
                                 <>
-                                <Col align="end">
+                                <Col align="end" style={{marginTop:"5px", marginLeft:"-10px"}}>
+                                    <input value={InputFieldValue} placeholder="Search By Name or Trait" onChange={(e) => SetInputFieldValue(e.target.value)}/>
+                                </Col>
+                                <Col align="end" style={{maxWidth:"133.3px",marginRight:"20px",marginLeft:"-10px"}}>
                                 <DropdownButton variant="outline-primary" title={TempSort} onSelect={handleSort} align="end">
                                     <Dropdown.Item eventKey="Sort By">Rarity Descending</Dropdown.Item>
                                     <Dropdown.Item eventKey="Rarity Ascending">Rarity Ascending</Dropdown.Item>

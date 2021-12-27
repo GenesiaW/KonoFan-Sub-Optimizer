@@ -8,6 +8,7 @@ function TeamBuilder({props,show,handleClose,count,setCount}) {
     const AvailUnits = props.filter(x => x.owned)
     const [TempFilter,setFilter] = useState("Select a Filter")
     const [TempSort,setSort] = useState("Sort By")
+    const [InputFieldValue, SetInputFieldValue] = useState()
     const FilterList = {
         "Select a Filter": (x => x.owned),
         "Fire": (x => x.element === "Fire"),
@@ -259,6 +260,7 @@ function TeamBuilder({props,show,handleClose,count,setCount}) {
             "O":"SubOne",
             "T":"SubTwo"
         }
+        SetInputFieldValue();
         const newinvHelper = {...invHelper}
         let UnitChange = event.target.id.slice(0,event.target.id.length-1)
         let position = event.target.id[event.target.id.length-1]
@@ -285,7 +287,16 @@ function TeamBuilder({props,show,handleClose,count,setCount}) {
         handleClose()
     }
 
-    const FilteredUnits = AvailUnits.filter(FilterList[TempFilter]).sort(SortList[TempSort])
+    const getFilteredResults = (FilteredUnits,InputFieldValue) => {
+        if (InputFieldValue){
+            return FilteredUnits.filter(x=> (x.class).toLowerCase().includes(InputFieldValue) || (x.display_trait).toLowerCase().includes(InputFieldValue));
+        }
+        else{
+            return FilteredUnits
+        }
+    }
+
+    const FilteredUnits = getFilteredResults(AvailUnits,InputFieldValue).filter(FilterList[TempFilter]).sort(SortList[TempSort])
     return (
         <div>
             <Modal 
@@ -300,7 +311,10 @@ function TeamBuilder({props,show,handleClose,count,setCount}) {
                     <Container fluid>
                     <Row>
                         <Col><Modal.Title>Team Builder: Select Unit</Modal.Title></Col>
-                        <Col align="end">
+                        <Col align="end" style={{marginTop:"5px", marginLeft:"-10px"}}>
+                                <input value={InputFieldValue} placeholder="Search By Name or Trait" onChange={(e) => SetInputFieldValue(e.target.value)}/>
+                            </Col>
+                        <Col align="end" style={{maxWidth:"133.3px",marginRight:"20px",marginLeft:"-10px"}}>
                             <DropdownButton variant="outline-primary" title={TempSort} onSelect={handleSort} align="end">
                                 <Dropdown.Item eventKey="Sort By">Rarity Descending</Dropdown.Item>
                                 <Dropdown.Item eventKey="Rarity Ascending">Rarity Ascending</Dropdown.Item>

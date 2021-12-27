@@ -13,6 +13,12 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>27 December 2021 (Ver 3.3.0)</h4>
+                    <ul>• Added the ability to filter Units by Trait or Name</ul>
+                    <ul>• For Collab Characters, use their same face sub name. Example : Search Aqua for Emilia or Megumin for Rem</ul>
+                    <ul>• Added stats of all units found in Global version using the <a href={"https://konofan-wiki.web.app/"} target="_blank" rel="noopener noreferrer">datamine wiki</a>. They will be toggled when they are available in the game.</ul>
+                </div>
+                <div>
                     <h4>24 December 2021 (Ver 3.2.0)</h4>
                     <ul>• Added Order Affected by Bonus Stats Check for Single Unit Optimization</ul>
                     <ul>• If Order Affected by Bonus Stats is true, the next setup will be better than the current setup if the bonus stats stated in the next setup can be met</ul>

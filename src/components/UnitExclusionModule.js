@@ -6,6 +6,15 @@ import ReactGA from 'react-ga';
 function UnitExclusionModule({UnitExclusionProps,ToggleExclusion,setExclusionList,ExclusionList,setUnitExclusion}) {
     const [show, setShow] = useState(false);
     const [TempFilter,setFilter] = useState("Select a Filter")
+    const [InputFieldValue, SetInputFieldValue] = useState()
+    const getFilteredResults = (FilteredUnits,InputFieldValue) => {
+      if (InputFieldValue){
+          return FilteredUnits.filter(x=> (x.class).toLowerCase().includes(InputFieldValue.toLowerCase()) || (x.display_trait).toLowerCase().includes(InputFieldValue.toLowerCase()));
+      }
+      else{
+          return FilteredUnits
+      }
+    }
     const FilterList = {
         "Select a Filter": (x => x),
         "Excluded":(x=> !x.owned),
@@ -36,7 +45,7 @@ function UnitExclusionModule({UnitExclusionProps,ToggleExclusion,setExclusionLis
         setShow(true);
       }
     const AvailFUnits = UnitExclusionProps.sort((a, b) => a.rarity > b.rarity ? -1 : 1)
-    const FilteredUnits = AvailFUnits.filter(FilterList[TempFilter]).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
+    const FilteredUnits = getFilteredResults(AvailFUnits,InputFieldValue).filter(FilterList[TempFilter]).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
     return (
         <div>
             <Button variant="outline-light" align="end" onClick={handleShow} style={{marginRight:"10px"}}>Unit Exclusion</Button>
@@ -52,7 +61,10 @@ function UnitExclusionModule({UnitExclusionProps,ToggleExclusion,setExclusionLis
               <Container fluid>
                 <Row>
                   <Col align="start"><Modal.Title>Unit Exclusion</Modal.Title></Col>
-                  <Col align="end">
+                  <Col align="end" style={{marginTop:"5px", marginRight:"-15px"}}>
+                    <input value={InputFieldValue} placeholder="Search By Name or Trait" onChange={(e) => SetInputFieldValue(e.target.value)}/>
+                  </Col>
+                  <Col align="end" style={{maxWidth:"133.3px",marginRight:"5px",marginLeft:"-15px"}}>
                   <Button variant="outline-primary" onClick={handleClear}>Clear All</Button></Col>
                   <Col align="end" style={{maxWidth:"133.3px",marginRight:"20px",marginLeft:"-10px"}}>
                   <DropdownButton variant="outline-primary" title={TempFilter} onSelect={handleFilter} align="end" style={{marginRight:"10px"}}>

@@ -7,6 +7,7 @@ export default function LargeMember({props,setUid,ChosenUid,Header}) {
     const [show, setShow] = useState(false);
     const [TempFilter,setFilter] = useState("Select a Filter")
     const [TempSort,setSort] = useState("Sort By")
+    const [InputFieldValue, SetInputFieldValue] = useState()
     const SortList = {
         "Sort By": ((a, b) => a.rarity > b.rarity ? -1 : 1),
         "Rarity Ascending": ((a, b) => a.rarity > b.rarity ? 1 : -1),
@@ -26,7 +27,7 @@ export default function LargeMember({props,setUid,ChosenUid,Header}) {
         "Dark": (x => x.element === "Dark"),
     }
 
-    const handleClose = () => {ReactGA.pageview("/singleop-to-root");setShow(false);}
+    const handleClose = () => {ReactGA.pageview("/singleop-to-root");setShow(false);SetInputFieldValue();}
     const handleShow = () => {
         ReactGA.modalview("/single-unit-optimize")
         ReactGA.event({category:"User",
@@ -36,9 +37,18 @@ export default function LargeMember({props,setUid,ChosenUid,Header}) {
 
     const handleFilter = (eventKey) => setFilter(eventKey)
     const handleSort = (eventKey) => setSort(eventKey)
+    
+    const getFilteredResults = (FilteredUnits,InputFieldValue) => {
+        if (InputFieldValue){
+            return FilteredUnits.filter(x=> (x.class).toLowerCase().includes(InputFieldValue.toLowerCase()) || (x.display_trait).toLowerCase().includes(InputFieldValue.toLowerCase()));
+        }
+        else{
+            return FilteredUnits
+        }
+    }
 
     const AvailUnits = props.filter(x => x.owned).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
-    const FilteredUnits = AvailUnits.filter(FilterList[TempFilter]).sort(SortList[TempSort])
+    const FilteredUnits = getFilteredResults(AvailUnits,InputFieldValue).filter(FilterList[TempFilter]).sort(SortList[TempSort])
     
     const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/LargeMember/' + ChosenUid + '.png'
     return (    
@@ -61,7 +71,10 @@ export default function LargeMember({props,setUid,ChosenUid,Header}) {
                     <Container fluid>
                         <Row>
                             <Col><Modal.Title>Select Main Unit</Modal.Title></Col>
-                            <Col align="end">
+                            <Col align="end" style={{marginTop:"5px", marginLeft:"-10px"}}>
+                                <input value={InputFieldValue} placeholder="Search By Name or Trait" onChange={(e) => SetInputFieldValue(e.target.value)}/>
+                            </Col>
+                            <Col align="end" style={{maxWidth:"133.3px",marginRight:"20px",marginLeft:"-10px"}}>
                             <DropdownButton variant="outline-primary" title={TempSort} onSelect={handleSort} align="end">
                                 <Dropdown.Item eventKey="Sort By">Rarity Descending</Dropdown.Item>
                                 <Dropdown.Item eventKey="Rarity Ascending">Rarity Ascending</Dropdown.Item>
