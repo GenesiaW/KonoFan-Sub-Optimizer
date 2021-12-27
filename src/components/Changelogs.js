@@ -16,6 +16,7 @@ function Changelogs({show,handleClose}) {
                     <h4>27 December 2021 (Ver 3.3.0)</h4>
                     <ul>• Added the ability to filter Units by Trait or Name</ul>
                     <ul>• For Collab Characters, use their same face sub name. Example : Search Aqua for Emilia or Megumin for Rem</ul>
+                    <ul>• Added back button to optimize team results</ul>
                     <ul>• Added stats of all units found in Global version using the <a href={"https://konofan-wiki.web.app/"} target="_blank" rel="noopener noreferrer">datamine wiki</a>. They will be toggled when they are available in the game.</ul>
                 </div>
                 <div>

@@ -6,8 +6,10 @@ import OptimizeTeamResults from "./OptimizeTeamResults";
 
 function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
     const [Exclusions,setExclusions] = useState([])
+    const [TempExclusions,setTempExclusions] = useState([])
     const [ClassFilter,setClassFilter] = useState([])
     const [SetupList,setSetupList] = useState([])
+    const [TempSetupList,setTempSetupList] = useState([])
     const [InputFieldValue, SetInputFieldValue] = useState()
     const SubList =[{uid:"maxphy",owned:true},{uid:"maxephy",owned:true},{uid:"maxmag",owned:true},{uid:"maxrec",owned:true}]
     const [TempFilter,setFilter] = useState("Select a Filter")
@@ -46,8 +48,10 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
 
     const HandleCloseWipe = () => {
         setExclusions([])
+        setTempExclusions([])
         setClassFilter([])
         setSetupList([])
+        setTempSetupList([])
         SetInputFieldValue();
         handleClose()
     }
@@ -73,36 +77,44 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
         newExclusion.push(uid)
         newClassFilter.push(Math.floor(uid/10000))
         setExclusions(newExclusion)
+        setTempExclusions(newExclusion)
         setClassFilter(newClassFilter)
         SetInputFieldValue();
     }
     const SelectSubUnits = (uid) => {
         const newSetupList = [...SetupList,uid]
         setSetupList(newSetupList)
+        setTempSetupList(newSetupList)
     }
 
     const HandleBack = () => {
-        const newExclusions = [...Exclusions]
-        const newSetupList = [...SetupList]
+        let newExclusions = [...TempExclusions]
+        let newSetupList = [...TempSetupList]
         const newClassFilter =[...ClassFilter]
+        setExclusions(newExclusions)
+        setSetupList(newSetupList)
         SetInputFieldValue();
-        if((Exclusions.length+SetupList.length)%2){
+        if((newExclusions.length+newSetupList.length)%2){
             newExclusions.pop()
             newClassFilter.pop()
             setExclusions(newExclusions)
+            setTempExclusions(newExclusions)
             setClassFilter(newClassFilter)
         }
         else{
             newSetupList.pop()
             setSetupList(newSetupList)
+            setTempSetupList(newSetupList)
         }
     }
 
     const OptimizeAgain = () => {
         setExclusions([])
+        setTempExclusions([])
         setClassFilter([])
         SetInputFieldValue();
         setSetupList([])
+        setTempSetupList([])
     }
     const PureList = props
     const AvailUnits = props.filter(x=>x.owned).filter(x=>!(Exclusions.includes(x.uid))&&!(ClassFilter.includes(Math.floor(x.uid/10000)))).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
@@ -180,14 +192,15 @@ function OptimizeTeamFast({props,show,handleClose,MeguminSuper,OpUlt}) {
                                     </Col></>
                                 ):null)    
                             }
-                            <Col align="end" xs={2}>
                                 {(Exclusions.length + SetupList.length) === 15?
-                                    <Button variant="outline-primary" onClick={OptimizeAgain} style={{marginLeft:"-4.5rem",whiteSpace:"nowrap"}}>Optimize Another Team</Button>:
+                                    <>
+                                    <Col align="end" style={{maxWidth:"133.3px",marginLeft:"10px"}}><Button variant="outline-primary" onClick={HandleBack} style={{marginLeft:"-4.5rem",whiteSpace:"nowrap"}}>Previous Step</Button></Col>
+                                    <Col align="end" style={{maxWidth:"192.98px",marginLeft:"10px"}}><Button variant="outline-primary" onClick={OptimizeAgain} style={{marginLeft:"-4.5rem",whiteSpace:"nowrap"}}>Optimize Another Team</Button></Col>
+                                    </>:
                                     (Exclusions.length?
-                                    <Button variant="outline-primary" style={{marginRight:"5px",paddingLeft:"10px"}} onClick={HandleBack}>Previous Step</Button>
-                                    :<Button variant="outline-primary" style={{marginRight:"5px",paddingLeft:"10px"}} disabled>Previous Step</Button>)   
+                                     <Col align="end" xs={2}><Button variant="outline-primary" style={{marginRight:"5px",paddingLeft:"10px"}} onClick={HandleBack}>Previous Step</Button></Col>
+                                    :<Col align="end" xs={2}><Button variant="outline-primary" style={{marginRight:"5px",paddingLeft:"10px"}} disabled>Previous Step</Button></Col>)   
                                     }
-                            </Col>
                         </Row>
                     </Container>
                </Modal.Header>
