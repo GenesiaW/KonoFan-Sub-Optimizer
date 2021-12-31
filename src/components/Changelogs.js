@@ -13,8 +13,9 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
-                    <h4>30 December 2021 (Ver 3.4.0)</h4>
-                    <ul>• Added stats for New Year units</ul>
+                    <h4>31 December 2021 (Ver 3.4.1)</h4>
+                    <ul>• Toggled New Year Units to available</ul>
+                    <ul>• Fixed some minor typos</ul>
                 </div>
                 <div>
                     <h4>27 December 2021 (Ver 3.3.0)</h4>
