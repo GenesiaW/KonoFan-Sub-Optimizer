@@ -26,7 +26,7 @@ const version_key ="konofan-optimizer.version"
 
 function App() {
   const handleAcceptCookie = () => {
-    ReactGA.initialize("UA-215563439-1");
+    ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
   };
 
   const handleDeclineCookie = () => {

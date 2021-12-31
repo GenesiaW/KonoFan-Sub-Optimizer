@@ -46,7 +46,7 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
     if (UnitChange){
         onClick = () => UnitChange(props.uid)
     }
-    const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/' + props.uid + '.png'
+    const logo = process.env.REACT_APP_IMAGE_LINK + "MediumMember/" + props.uid + '.png'
     // const logo = require("../assets/MediumMember/"+props.uid + '.png').default
     return (
         <button 

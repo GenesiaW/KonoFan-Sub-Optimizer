@@ -50,7 +50,7 @@ export default function LargeMember({props,setUid,ChosenUid,Header}) {
     const AvailUnits = props.filter(x => x.owned).sort((a, b) => a.rarity > b.rarity ? -1 : 1)
     const FilteredUnits = getFilteredResults(AvailUnits,InputFieldValue).filter(FilterList[TempFilter]).sort(SortList[TempSort])
     
-    const logo = 'https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/LargeMember/' + ChosenUid + '.png'
+    const logo = process.env.REACT_APP_IMAGE_LINK+'LargeMember/' + ChosenUid + '.png'
     return (    
         <>  
             <button onClick={handleShow} className="card" style={{width:"100%",height:"100%"}}>
