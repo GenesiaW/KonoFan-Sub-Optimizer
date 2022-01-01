@@ -13,7 +13,7 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
-                    <h4>1 January 2021 (Ver 3.4.2)</h4>
+                    <h4>1 January 2022 (Ver 3.4.2)</h4>
                     <ul>• When new units are added, they are set to "not owned" by default (Used to be set to "owned").</ul>
                 </div>
                 <div>
