@@ -213,14 +213,26 @@ function App() {
       handleAlertShow()
     }
     else if (Inv){
-      const FilteredInv = Inv.filter(x => x.owned === false)
-      for (let i = 0; i < FilteredInv.length; i++) {
-        FilteredData.forEach(element => {
-          if (element.uid === FilteredInv[i].uid){
-            element.owned = FilteredInv[i].owned
-          }
-        });  
-      }
+      const FilteredInv = Inv.filter(x => x.owned === true)
+      let FilteredOwnedList = []
+      FilteredInv.forEach(element => {
+        FilteredOwnedList.push(element.uid)
+      });
+      FilteredData.forEach(element => {
+        if (FilteredOwnedList.includes(element.uid)){
+          element.owned = true
+        }
+        else{
+          element.owned = false
+        }
+      });
+      // for (let i = 0; i < FilteredInv.length; i++) {
+      //   FilteredData.forEach(element => {
+      //     if (element.uid === FilteredInv[i].uid){
+      //       element.owned = FilteredInv[i].owned
+      //     }
+      //   });  
+      // }
       setOwned(FilteredData)
       localStorage.setItem(version_key,JSON.stringify({"version":Version}))
       console.log("Inventory updated with latest units")
