@@ -13,6 +13,10 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>11 January 2022 (Ver 3.5.0)</h4>
+                    <ul>• Toggled Hot Spring P2 Units to available.</ul>
+                </div>
+                <div>
                     <h4>1 January 2022 (Ver 3.4.2)</h4>
                     <ul>• When new units are added, they are set to "not owned" by default (Used to be set to "owned").</ul>
                 </div>
