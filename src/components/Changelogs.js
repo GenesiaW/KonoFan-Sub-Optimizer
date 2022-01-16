@@ -13,6 +13,10 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>16 January 2022 (Ver 3.5.1)</h4>
+                    <ul>• Added Arena Stats. To access go to More &gt; Arena Stats</ul>
+                </div>
+                <div>
                     <h4>11 January 2022 (Ver 3.5.0)</h4>
                     <ul>• Toggled Hot Spring P2 Units to available.</ul>
                 </div>
