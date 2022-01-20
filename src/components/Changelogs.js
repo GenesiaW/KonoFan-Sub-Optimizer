@@ -13,6 +13,10 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>20 January 2022 (Ver 3.6.0)</h4>
+                    <ul>• Toggled Snow Play P2 Units to available</ul>
+                </div>
+                <div>
                     <h4>16 January 2022 (Ver 3.5.1)</h4>
                     <ul>• Added Arena Stats. To access go to More &gt; Arena Stats</ul>
                 </div>
