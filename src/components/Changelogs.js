@@ -13,6 +13,10 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>30 January 2022 (Ver 3.7.0)</h4>
+                    <ul>• Toggled Magic Academy Units to available</ul>
+                </div>
+                <div>
                     <h4>20 January 2022 (Ver 3.6.0)</h4>
                     <ul>• Toggled Snow Play P2 Units to available</ul>
                 </div>
