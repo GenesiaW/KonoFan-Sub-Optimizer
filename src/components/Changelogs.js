@@ -13,6 +13,10 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>5 February 2022 (Ver 3.8.0)</h4>
+                    <ul>• Toggled Valentines Units to available</ul>
+                </div>
+                <div>
                     <h4>2 February 2022 (Ver 3.7.1)</h4>
                     <ul>• Fixed typos in stats and passive</ul>
                 </div>

@@ -1938,9 +1938,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0.05,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1054100,
@@ -2346,7 +2346,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1064118,
@@ -2721,9 +2721,9 @@
 		"phy_boost": 0.06,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1091100,
@@ -3011,9 +3011,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1101100,
@@ -3854,7 +3854,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1124110,
@@ -4461,9 +4461,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1144100,
@@ -5884,7 +5884,7 @@
 		"rec_boost": 0.08,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1194100,
@@ -6061,7 +6061,7 @@
 		"new": false
 	},
 	{
-		"version":"3.7.1",
+		"version":"3.8.0",
 		"available":false
 	}
 ]
