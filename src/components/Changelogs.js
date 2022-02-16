@@ -13,8 +13,9 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
-                    <h4>16 February 2022 (Ver 3.9.0)</h4>
+                    <h4>16 February 2022 (Ver 3.9.1)</h4>
                     <ul>• Toggled Snow Play P3 and Cafe Units to available</ul>
+                    <ul>• Fixed Bonus Stats bug</ul>
                 </div>
                 <div>
                     <h4>5 February 2022 (Ver 3.8.0)</h4>
