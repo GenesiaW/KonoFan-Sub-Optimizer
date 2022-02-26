@@ -1,7 +1,7 @@
 import { Modal,Form} from "react-bootstrap"
 import {getCookieConsentValue,Cookies} from "react-cookie-consent";
 
-function Settings({show,handleClose,handleMeguminSuper,MeguminSuper,OpUlt,handleOpUlt,handleUltVersion,onAccept,onDecline}) {
+function Settings({show,handleClose,handleMeguminSuper,MeguminSuper,OpUlt,handleOpUlt,handleUltVersion,onAccept,onDecline,handleRegionSwitch,RegionSwitch}) {
     const HandleConsent = () => {
         if(getCookieConsentValue() === "true"){
             onDecline()
@@ -31,7 +31,10 @@ function Settings({show,handleClose,handleMeguminSuper,MeguminSuper,OpUlt,handle
                 <Modal.Header closeButton><Modal.Title>Settings</Modal.Title></Modal.Header>
                 <Modal.Body>
                     <Form>
-                    <Form.Group controlId="GAConsent">
+                        <Form.Group controlId="RegionSwitch">
+                            <Form.Check type="checkbox" onChange={handleRegionSwitch} label="Switch to Japan Server" defaultChecked={RegionSwitch}/>
+                        </Form.Group>
+                        <Form.Group controlId="GAConsent">
                             <Form.Check type="switch" onChange={HandleConsent} label="Consent to Google Analytics (Please refresh after opting out.)" defaultChecked={CheckHelper[getCookieConsentValue()]}/>
                         </Form.Group>
                         <Form.Group controlId="MeguminSuper">

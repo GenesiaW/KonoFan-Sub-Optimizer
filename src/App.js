@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import ReactGA from 'react-ga';
 import InventoryButton from "./components/InventoryButton";
 import data from "./data/database.json";
+import data_jp from "./data/database_jp.json";
 import SubOptimizer from "./components/SubOptimizer";
 import InventoryImport from "./components/InventoryImport";
 // import OptimizeTeam from "./components/OptimizeTeam";
@@ -20,11 +21,21 @@ import Optimize from "./components/calculations";
 
 const FilteredData = data.filter(x => x.available === true)
 const Version = data.pop().version
+const FilteredData_jp = data_jp.filter(x => x.available === true)
+const Version_jp = "JP Mode"
+
 
 const LOCAL_STORAGE_KEY = "konofan-optimizer.inv"
 const version_key ="konofan-optimizer.version"
+const Region_Switch ="konofan-optimizer.rs"
 
 function App() {
+  const [RegionSwitch,setRegionSwitch] = useState(false)
+  const handleRegionSwitch = () =>{
+    localStorage.setItem(Region_Switch,!RegionSwitch)
+    setRegionSwitch(!RegionSwitch)
+    window.location.reload(false)
+  }
   const handleAcceptCookie = () => {
     ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
   };
@@ -207,51 +218,69 @@ function App() {
     }
     const Inv = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
     const StoredVersion = JSON.parse(localStorage.getItem(version_key))
+    const CurrentRegion = JSON.parse(localStorage.getItem(Region_Switch))
+    setRegionSwitch(CurrentRegion)
     setOwned(FilteredData)
-    if (Inv && StoredVersion.version === Version){
-      setOwned(Inv)
-      console.log("Inventory Loaded!")
-      setAlertText("Inventory Loaded!")
-      handleAlertShow()
-    }
-    else if (Inv){
-      const FilteredInv = Inv.filter(x => x.owned === true)
-      let FilteredOwnedList = []
-      FilteredInv.forEach(element => {
-        FilteredOwnedList.push(element.uid)
-      });
-      FilteredData.forEach(element => {
-        if (FilteredOwnedList.includes(element.uid)){
-          element.owned = true
-        }
-        else{
-          element.owned = false
-        }
-      });
-      // for (let i = 0; i < FilteredInv.length; i++) {
-      //   FilteredData.forEach(element => {
-      //     if (element.uid === FilteredInv[i].uid){
-      //       element.owned = FilteredInv[i].owned
-      //     }
-      //   });  
-      // }
-      setOwned(FilteredData)
-      localStorage.setItem(version_key,JSON.stringify({"version":Version}))
-      console.log("Inventory updated with latest units")
-      handleShowCL()
-      setAlertText("Inventory updated with latest units")
-      handleAlertShow()
+    if (CurrentRegion){
+      if (Inv.length === FilteredData_jp.length){
+        setOwned(Inv)
+        console.log("Inventory Loaded!")
+        setAlertText("Inventory Loaded!")
+        localStorage.setItem(Region_Switch,true)
+        handleAlertShow()
+      }
+      else{
+        setOwned(FilteredData_jp)
+        localStorage.setItem(Region_Switch,true)
+        console.log("Inventory Initialized.")
+        setAlertText("Inventory Initialized.")
+        handleShowPP()
+        handleAlertShow()
+      }
     }
     else{
-      setOwned(FilteredData)
-      localStorage.setItem(version_key,JSON.stringify({"version":Version}))
-      console.log("Inventory Initialized.")
-      setAlertText("Inventory Initialized.")
-      handleShowPP()
-      handleAlertShow()
+      if (Inv && StoredVersion.version === Version && Inv.length=== FilteredData.length){
+        setOwned(Inv)
+        console.log("Inventory Loaded!")
+        setAlertText("Inventory Loaded!")
+        localStorage.setItem(Region_Switch,false)
+        handleAlertShow()
+      }
+      else if (Inv){
+        const FilteredInv = Inv.filter(x => x.owned === true)
+        let FilteredOwnedList = []
+        FilteredInv.forEach(element => {
+          FilteredOwnedList.push(element.uid)
+        });
+        FilteredData.forEach(element => {
+          if (FilteredOwnedList.includes(element.uid)){
+            element.owned = true
+          }
+          else{
+            element.owned = false
+          }
+        });
+        setOwned(FilteredData)
+        localStorage.setItem(version_key,JSON.stringify({"version":Version}))
+        console.log("Inventory updated with latest units")
+        handleShowCL()
+        setAlertText("Inventory updated with latest units")
+        localStorage.setItem(Region_Switch,false)
+        handleAlertShow()
+      }
+      else{
+        setOwned(FilteredData)
+        localStorage.setItem(version_key,JSON.stringify({"version":Version}))
+        console.log("Inventory Initialized.")
+        setAlertText("Inventory Initialized.")
+        localStorage.setItem(Region_Switch,false)
+        handleShowPP()
+        handleAlertShow()
+      }
     }
     ReactGA.pageview('/');
-  },[])
+  }
+  ,[])
 
   useEffect(() => {
     localStorage.setItem(LOCAL_STORAGE_KEY,JSON.stringify(Ownership))
@@ -280,6 +309,13 @@ function App() {
       setExclusionList(newExclusionList)
     }
   }
+  let Version_String = Version
+  if (RegionSwitch){
+    Version_String=Version_jp
+  }
+  else{
+    Version_String = Version
+  }
   return (
     <div className="ContainerWrapper"> 
             <CookieConsent location="bottom" buttonText="Accept" declineButtonText="Decline" enableDeclineButton onAccept={handleAcceptCookie} onDecline={handleDeclineCookie}
@@ -287,7 +323,7 @@ function App() {
         <Container fluid>
           <Row>
         <Navbar bg="primary" variant="dark">
-            <Navbar.Brand style={{marginLeft:"0.5rem"}}>{"KonoFan Sub Optimizer Ver. "+ Version}</Navbar.Brand>
+            <Navbar.Brand style={{marginLeft:"0.5rem"}}>{"KonoFan Sub Optimizer Ver. "+ Version_String}</Navbar.Brand>
                 <Col align="end">
                 <DropdownButton variant="outline-light" title="More" onSelect={HandleFuncHelper} align="end" style={{marginRight:"10px"}}>
                 <Dropdown.Item eventKey="OpTeamFast">Optimize Team</Dropdown.Item>
@@ -309,7 +345,8 @@ function App() {
                 <OptimizeTeamFast props={Ownership} show={showOpTeamFast} handleClose={handleCloseOpTeamFast}  MeguminSuper={MeguminSuper} OpUlt={OpUlt}/>
                 <Settings show={showSettings} handleClose={handleCloseSettings} 
                 handleMeguminSuper={handleMeguminSuper} MeguminSuper={MeguminSuper} 
-                OpUlt={OpUlt} handleUltVersion={handleUltVersion} handleOpUlt={handleOpUlt} onAccept={handleAcceptCookie} onDecline={handleDeclineCookie}/>
+                OpUlt={OpUlt} handleUltVersion={handleUltVersion} handleOpUlt={handleOpUlt} onAccept={handleAcceptCookie} onDecline={handleDeclineCookie}
+                RegionSwitch={RegionSwitch} handleRegionSwitch={handleRegionSwitch}/>
                 <TeamBuilder props={Ownership} show={showTeamBuilder} handleClose={handleCloseTeamBuilder} count={count} setCount={setCount}/>
                 <UnitExclusionModule UnitExclusionProps={UnitExclusionProps} ToggleExclusion={ToggleExclusion} setExclusionList={setExclusionList} ExclusionList={ExclusionList} setUnitExclusion={setUnitExclusion}/>
                 <InventoryButton Ownership={Ownership} ToggleOwned={ToggleOwned}/>

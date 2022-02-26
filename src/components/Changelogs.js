@@ -13,6 +13,11 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>26 February 2022 (Ver 4.0.0)</h4>
+                    <ul>• Added JP Mode to Sub Optimizer, now subs for new Japanese units can be optimized too</ul>
+                    <ul>• Toggled Maid P1 and Maid P2 Units to available</ul>
+                </div>
+                <div>
                     <h4>16 February 2022 (Ver 3.9.1)</h4>
                     <ul>• Toggled Snow Play P3 and Cafe Units to available</ul>
                     <ul>• Fixed Bonus Stats bug</ul>
