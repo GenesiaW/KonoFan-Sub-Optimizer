@@ -208,7 +208,7 @@ function CheckWeapon(collection){
     PhyMax.push(collection.PhyMax[i].traits[0])
     if (PhyMax){
       if(PhyMax[i-1]<collection.PhyMax[i].traits[0]){
-        let bonus_amount = Math.round((((collection.PhyMax[i-1].stats.patk*collection.PhyMax[i-1].traits[0])-(collection.PhyMax[i].stats.patk*collection.PhyMax[i].traits[0]))/collection.PhyMax[i].traits[0])*100)/100
+        let bonus_amount = Math.round((((collection.PhyMax[i-1].stats.patk*collection.PhyMax[i-1].traits[0])-(collection.PhyMax[i].stats.patk*collection.PhyMax[i].traits[0]))/(collection.PhyMax[i].traits[0]-collection.PhyMax[i-1].traits[0]))*100)/100
         PhyMaxValues.push(bonus_amount)
         PhyMax[i-1] = 'True'
         if (i === 4){
@@ -228,7 +228,7 @@ function CheckWeapon(collection){
     EPhyMax.push(collection.EPhyMax[i].traits[1])
     if (EPhyMax){
       if(EPhyMax[i-1]<collection.EPhyMax[i].traits[1]){
-        let bonus_amount = Math.round((((collection.EPhyMax[i-1].stats.patk*collection.EPhyMax[i-1].traits[1])-(collection.EPhyMax[i].stats.patk*collection.EPhyMax[i].traits[1]))/collection.EPhyMax[i].traits[1])*100)/100
+        let bonus_amount = Math.round((((collection.EPhyMax[i-1].stats.patk*collection.EPhyMax[i-1].traits[1])-(collection.EPhyMax[i].stats.patk*collection.EPhyMax[i].traits[1]))/(collection.EPhyMax[i].traits[1]-collection.EPhyMax[i-1].traits[1]))*100)/100
         EPhyMaxValues.push(bonus_amount)
         EPhyMax[i-1] = 'True'
       }
@@ -245,7 +245,7 @@ function CheckWeapon(collection){
     MagMax.push(collection.MagMax[i].traits[2])
     if (MagMax){
       if(MagMax[i-1]<collection.MagMax[i].traits[2]){
-        let bonus_amount = Math.round((((collection.MagMax[i-1].stats.matk*collection.MagMax[i-1].traits[2])-(collection.MagMax[i].stats.matk*collection.MagMax[i].traits[2]))/collection.MagMax[i].traits[2])*100)/100
+        let bonus_amount = Math.round((((collection.MagMax[i-1].stats.matk*collection.MagMax[i-1].traits[2])-(collection.MagMax[i].stats.matk*collection.MagMax[i].traits[2]))/(collection.MagMax[i].traits[2]-collection.MagMax[i-1].traits[2]))*100)/100
         MagMaxValues.push(bonus_amount)
         MagMax[i-1] = 'True'
       }
@@ -262,7 +262,7 @@ function CheckWeapon(collection){
     RecMax.push(collection.RecMax[i].traits[3])
     if (RecMax){
       if(RecMax[i-1]<collection.RecMax[i].traits[3]){
-        let bonus_amount = Math.round((((collection.RecMax[i-1].traits[3])*(120+0.8*collection.RecMax[i-1].stats.matk))-((collection.RecMax[i].traits[3])*(120+0.8*collection.RecMax[i].stats.matk)))/(0.8 * collection.RecMax[i].traits[3])*100)/100
+        let bonus_amount = Math.round((((collection.RecMax[i-1].traits[3])*(120+0.8*collection.RecMax[i-1].stats.matk))-((collection.RecMax[i].traits[3])*(120+0.8*collection.RecMax[i].stats.matk)))/(0.8 * collection.RecMax[i].traits[3]- 0.8* collection.RecMax[i-1].traits[3])*100)/100
         RecMaxValues.push(bonus_amount)
         RecMax[i-1] = "True"
       }
