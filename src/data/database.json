@@ -5333,7 +5333,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1174100,
@@ -6061,7 +6061,7 @@
 		"new": false
 	},
 	{
-		"version":"4.0.0",
+		"version":"4.0.1",
 		"available":false
 	}
 ]

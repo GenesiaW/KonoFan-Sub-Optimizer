@@ -13,9 +13,10 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
-                    <h4>26 February 2022 (Ver 4.0.0)</h4>
+                    <h4>26 February 2022 (Ver 4.0.1)</h4>
                     <ul>• Added JP Mode to Sub Optimizer, now subs for new Japanese units can be optimized too</ul>
                     <ul>• Toggled Maid P1 and Maid P2 Units to available</ul>
+					<ul>• Fixed bug where Cat Cuddler Melissa was tagged as new</ul>
                 </div>
                 <div>
                     <h4>16 February 2022 (Ver 3.9.1)</h4>
