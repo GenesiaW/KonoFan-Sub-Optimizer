@@ -13,6 +13,10 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>22 March 2022 (Ver 4.1.0)</h4>
+                    <ul>• Toggled Axel Hearts P1 and P2 Units to available</ul>
+                </div>
+                <div>
                     <h4>26 February 2022 (Ver 4.0.1)</h4>
                     <ul>• Added JP Mode to Sub Optimizer, now subs for new Japanese units can be optimized too</ul>
                     <ul>• Toggled Maid P1 and Maid P2 Units to available</ul>

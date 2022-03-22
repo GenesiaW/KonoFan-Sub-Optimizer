@@ -546,9 +546,9 @@
 		"phy_boost": 0.05,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1013129,
@@ -1041,7 +1041,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1024132,
@@ -1940,7 +1940,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1054100,
@@ -2288,7 +2288,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1064100,
@@ -2723,7 +2723,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1091100,
@@ -2984,7 +2984,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1094139,
@@ -3013,7 +3013,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1101100,
@@ -3765,9 +3765,9 @@
 		"phy_boost": 0.05,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1123134,
@@ -4463,7 +4463,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1144100,
@@ -4519,9 +4519,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1144130,
@@ -4780,9 +4780,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1154113,
@@ -5128,9 +5128,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1164130,
@@ -6061,7 +6061,7 @@
 		"new": false
 	},
 	{
-		"version":"4.0.1",
+		"version":"4.1.0",
 		"available":false
 	}
 ]
