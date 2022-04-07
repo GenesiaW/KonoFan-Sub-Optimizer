@@ -15,6 +15,7 @@ function Changelogs({show,handleClose}) {
                 <div>
                     <h4>7 Apr 2022 (Ver 4.2.0)</h4>
                     <ul>• Toggled Kenpo P1 and P2 Units to available</ul>
+                    <ul>• Toggled Ball Units to available</ul>
                 </div>
                 <div>
                     <h4>22 March 2022 (Ver 4.1.0)</h4>

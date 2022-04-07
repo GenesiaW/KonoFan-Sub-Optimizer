@@ -314,9 +314,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1004127,
@@ -2663,9 +2663,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1074129,
@@ -3245,7 +3245,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1104116,
@@ -3446,9 +3446,9 @@
 		"phy_boost": 0.05,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1113131,
@@ -3564,7 +3564,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1114114,
@@ -4057,7 +4057,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1133128,
@@ -4115,7 +4115,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1134100,
@@ -5681,7 +5681,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1184127,
@@ -5971,7 +5971,7 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true
+		"new": false
 	},
 	{
 		"uid": 1194125,
