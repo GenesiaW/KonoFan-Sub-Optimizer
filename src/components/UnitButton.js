@@ -46,7 +46,7 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
     if (UnitChange){
         onClick = () => UnitChange(props.uid)
     }
-    if (pros.uid.includes("max")){
+    if (props.uid.includes("max")){
         let image_link = "https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/"+ "MediumMember/"
     }
     else {
