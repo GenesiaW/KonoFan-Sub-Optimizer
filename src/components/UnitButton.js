@@ -49,7 +49,7 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
     let image_link = process.env.REACT_APP_IMAGE_LINK +"IconMiddleMember/Source/"
     let temporary_fix = ["maxephy","maxphy","maxmag","maxrec"]
     if (temporary_fix.includes(props.uid)){
-        image_link = "https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/ MediumMember/"
+        image_link = "https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/MediumMember/"
     }
     else {
         image_link = process.env.REACT_APP_IMAGE_LINK +"IconMiddleMember/Source/"
