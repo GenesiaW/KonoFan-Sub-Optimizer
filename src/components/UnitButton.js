@@ -46,12 +46,12 @@ export default function UnitButton({props,ToggleOwned,onClick,setUid,handleClose
     if (UnitChange){
         onClick = () => UnitChange(props.uid)
     }
-	if (pros.uid.includes("max")){
-	    let image_link = "https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/"+ "MediumMember/"
-	}
-	else {
-	    let image_link = process.env.REACT_APP_IMAGE_LINK + "IconMiddleMember/Source/"
-	}
+    if (pros.uid.includes("max")){
+        let image_link = "https://raw.githubusercontent.com/GenesiaW/KonoFan-Sub-Optimizer/main/src/assets/"+ "MediumMember/"
+    }
+    else {
+        let image_link = process.env.REACT_APP_IMAGE_LINK +"IconMiddleMember/Source/"
+    }
     const logo = image_link + props.uid + '.png'
     // const logo = require("../assets/MediumMember/"+props.uid + '.png').default
     return (
