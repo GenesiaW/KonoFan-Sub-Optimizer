@@ -1735,9 +1735,9 @@
 		"phy_boost": 0.06,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1051100,
@@ -2547,9 +2547,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1073135,
@@ -3620,9 +3620,9 @@
 		"phy_boost": 0.06,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1121100,
@@ -3910,9 +3910,9 @@
 		"phy_boost": 0.06,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1131100,
@@ -4084,9 +4084,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1133138,
@@ -4722,9 +4722,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1154100,
@@ -5070,9 +5070,9 @@
 		"phy_boost": 0.05,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1164100,
@@ -5708,9 +5708,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1191100,
@@ -5998,9 +5998,9 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
-		"new": false
+		"available": true,
+		"owned": true,
+		"new": true
 	},
 	{
 		"uid": 1474132,
@@ -6061,7 +6061,7 @@
 		"new": false
 	},
 	{
-		"version":"4.2.0",
+		"version":"4.3.0",
 		"available":false
 	}
 ]

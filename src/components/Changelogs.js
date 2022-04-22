@@ -13,6 +13,11 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>23 Apr 2022 (Ver 4.3.0)</h4>
+                    <ul>• Toggled Arabian P1 and P2 Units to available</ul>
+                    <ul>• Toggled Ninja P1 Units to available</ul>
+                </div>
+                <div>
                     <h4>7 Apr 2022 (Ver 4.2.0)</h4>
                     <ul>• Toggled Kenpo P1 and P2 Units to available</ul>
                     <ul>• Toggled Ball Units to available</ul>
