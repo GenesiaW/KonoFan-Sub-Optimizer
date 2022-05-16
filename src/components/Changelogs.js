@@ -13,6 +13,11 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>16 May 2022 (Ver 4.4.0)</h4>
+                    <ul>• Toggled Danmachi Units to available</ul>
+                    <ul>• Updated JP data to include Railgun</ul>
+                </div>
+                <div>
                     <h4>23 Apr 2022 (Ver 4.3.0)</h4>
                     <ul>• Toggled Arabian P1 and P2 Units to available</ul>
                     <ul>• Toggled Ninja P1 Units to available</ul>
