@@ -256,9 +256,9 @@
         "phy_boost": 0.05,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1003151,
@@ -430,9 +430,9 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1004141,
@@ -2172,7 +2172,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false
     },
     {
         "uid": 1044127,
@@ -3069,9 +3069,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1064154,
@@ -3245,7 +3245,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false
     },
     {
         "uid": 1073135,
@@ -3301,9 +3301,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1074100,
@@ -4316,9 +4316,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1104100,
@@ -5041,9 +5041,9 @@
         "phy_boost": 0.05,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1123155,
@@ -5188,7 +5188,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false
     },
     {
         "uid": 1124144,
@@ -5215,9 +5215,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1131100,
@@ -5505,9 +5505,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1134123,
@@ -5795,9 +5795,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1143139,
@@ -5998,9 +5998,9 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1151100,
@@ -6346,9 +6346,9 @@
         "phy_boost": 0,
         "mag_boost": 0.06,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1154151,
@@ -6723,9 +6723,9 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true
     },
     {
         "uid": 1164151,
@@ -8352,7 +8352,7 @@
         "new": true
     },
 	{
-		"version":"4.4.0",
+		"version":"4.5.0",
 		"available":false
 	}
 ]
