@@ -13,6 +13,14 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>29 July 2022 (Ver 4.6.0)</h4>
+                    <ul>• Changed Calculation method. Now supports Railgun/Shield Hero Units with more than 1 sub character</ul>
+                    <ul>• Changed Behavior of Search Box. Now Collab Characters can be searched directly</ul>
+                    <ul>• Updated JP database to include units up to Shield Hero</ul>
+                    <ul>• Toggled Summer Units to be available</ul>
+                    <ul>• Toggled Anniversary Units to be available</ul>
+                </div>
+                <div>
                     <h4>6 June 2022 (Ver 4.5.0)</h4>
                     <ul>• Toggled Ninja P3 Units to available</ul>
                     <ul>• Toggled Maid P3 Units to available</ul>

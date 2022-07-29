@@ -1,5 +1,45 @@
 
 //Calculations
+const class_map = {
+  100:"Kazuma",
+  101:"Aqua",
+  102:"Megumin",
+  103:"Darkness",
+  104:"Chris",
+  105:"Wiz",
+  106:"Yunyun",
+  107:"Iris",
+  108:"Komekko",
+  109:"Cecily",
+  110:"Arue",
+  111:"Mitsurugi",
+  112:"Dust",
+  113:"Rin",
+  114:"Lia",
+  115:"Cielo",
+  116:"Erika",
+  117:"Melissa",
+  118:"Mia",
+  119:"Amy",
+  128:"Vanir",
+  151:"Meru",
+  147:"Emilia",
+  150:"Rem",
+  158:"Bell",
+  160:"Aiz",
+  163:"Ainz",
+  164:"Albedo",
+  165:"Shalltear",
+  169:"Lolisa",
+  183:"Misaka",
+  184:"Kuroko",
+  185:"Accelerator",
+  186:"Misaka2",
+  192:"Naofumi",
+  193:"Raphtalia",
+  194:"Filo",
+}
+
 function CalculateStats(Ownership,Main,SubOne,SubTwo){
     let stats ={
       hp:0,
@@ -15,8 +55,8 @@ function CalculateStats(Ownership,Main,SubOne,SubTwo){
       const MainUnit = Ownership.find(Ownership => Ownership.uid === Main)
       const SubUnitOne = Ownership.find(Ownership => Ownership.uid === SubOne)
       const SubUnitTwo = Ownership.find(Ownership => Ownership.uid === SubTwo)
-      const FirstHalf = (MainUnit.class === SubUnitOne.class ? 0.4 : 0.3)
-      const SecondHalf = (MainUnit.class === SubUnitTwo.class ? 0.4 : 0.3)
+      const FirstHalf = (MainUnit.bonus.includes(Math.floor(SubUnitOne.uid/10000)) ? 0.4 : 0.3)
+      const SecondHalf = (MainUnit.bonus.includes(Math.floor(SubUnitTwo.uid/10000)) ? 0.4 : 0.3)
       stats ={
           Main:MainUnit,
           SubOne:SubUnitOne,
@@ -133,8 +173,8 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper,OpUlt){
     }
     if (OpUlt.available){
       if(OpUlt.version === 2){
-        if(Math.floor(MainUnit.uid/10000) === UnitTable[MainUnit.class]){
-          UnitElement = SuperVTwo[MainUnit.class]
+        if(Math.floor(MainUnit.uid/10000) === UnitTable[class_map[Math.floor(MainUnit.uid/10000)]]){
+          UnitElement = SuperVTwo[class_map[Math.floor(MainUnit.uid/10000)]]
           if (UnitElement === "None"){
             UnitElement = MainUnit.element
           }
@@ -144,8 +184,8 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper,OpUlt){
         }
       }
       else{
-        if(Math.floor(MainUnit.uid/10000) === UnitTable[MainUnit.class]){
-          UnitElement = SuperVOne[MainUnit.class]
+        if(Math.floor(MainUnit.uid/10000) === UnitTable[class_map[Math.floor(MainUnit.uid/10000)]]){
+          UnitElement = SuperVOne[class_map[Math.floor(MainUnit.uid/10000)]]
           if (UnitElement === "None"){
             UnitElement = MainUnit.element
           }

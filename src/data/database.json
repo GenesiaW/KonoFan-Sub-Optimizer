@@ -4,7 +4,6 @@
         "display_name": "1\u2605 Kazuma (Beginner)",
         "display_trait": "Water+ (5%)",
         "rarity": 1,
-        "class": "Kazuma",
         "element": "Water",
         "hp": 1391,
         "patk": 206,
@@ -26,14 +25,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1002100,
         "display_name": "2\u2605 Kazuma (Adventurer)",
         "display_trait": "Bind Res (12%)",
         "rarity": 2,
-        "class": "Kazuma",
         "element": "Fire",
         "hp": 1483,
         "patk": 220,
@@ -55,14 +57,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1002102,
         "display_name": "2\u2605 Kazuma (Day Job)",
         "display_trait": "Bind Res (12%)",
         "rarity": 2,
-        "class": "Kazuma",
         "element": "Earth",
         "hp": 1468,
         "patk": 221,
@@ -84,14 +89,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1003100,
         "display_name": "3\u2605 Kazuma (Tough Times)",
         "display_trait": "Poison Res (15%)",
         "rarity": 3,
-        "class": "Kazuma",
         "element": "Wind",
         "hp": 1669,
         "patk": 247,
@@ -113,14 +121,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1003104,
         "display_name": "3\u2605 Kazuma (Winter Layers)",
         "display_trait": "Bind Res (15%)",
         "rarity": 3,
-        "class": "Kazuma",
         "element": "Dark",
         "hp": 1652,
         "patk": 248,
@@ -142,14 +153,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1003107,
         "display_name": "3\u2605 Kazuma (Don't Mind Me)",
         "display_trait": "Poison Res (15%)",
         "rarity": 3,
-        "class": "Kazuma",
         "element": "Light",
         "hp": 1669,
         "patk": 249,
@@ -171,14 +185,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1003129,
         "display_name": "3\u2605 Kazuma (Pumpkin Battle)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Kazuma",
         "element": "Fire",
         "hp": 1652,
         "patk": 247,
@@ -200,14 +217,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1003137,
         "display_name": "3\u2605 Kazuma (Same as Last Year)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Kazuma",
         "element": "Earth",
         "hp": 1669,
         "patk": 249,
@@ -229,14 +249,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1003144,
         "display_name": "3\u2605 Kazuma (Dreamy School Life)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Kazuma",
         "element": "Dark",
         "hp": 1652,
         "patk": 247,
@@ -258,14 +281,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1003151,
         "display_name": "3\u2605 Kazuma (Dream Summer)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Kazuma",
         "element": "Water",
         "hp": 1669,
         "patk": 249,
@@ -285,16 +311,19 @@
         "phy_boost": 0.05,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1004100,
         "display_name": "4\u2605 Kazuma (Shut-In No More)",
         "display_trait": "Water+ (7%)",
         "rarity": 4,
-        "class": "Kazuma",
         "element": "Water",
         "hp": 1854,
         "patk": 274,
@@ -316,14 +345,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1004116,
         "display_name": "4\u2605 Kazuma (Household Hero)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Kazuma",
         "element": "Light",
         "hp": 1835,
         "patk": 276,
@@ -345,14 +377,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1004117,
         "display_name": "4\u2605 Kazuma (Exceptional Etiquette)",
         "display_trait": "Fire+ (Team 6%)",
         "rarity": 4,
-        "class": "Kazuma",
         "element": "Fire",
         "hp": 1854,
         "patk": 277,
@@ -374,14 +409,17 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1004119,
         "display_name": "4\u2605 Kazuma (A Ball for Two)",
         "display_trait": "Earth+ (7%)",
         "rarity": 4,
-        "class": "Kazuma",
         "element": "Earth",
         "hp": 1854,
         "patk": 277,
@@ -403,14 +441,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1004127,
         "display_name": "4\u2605 Kazuma (Novice Ninja)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Kazuma",
         "element": "Dark",
         "hp": 1835,
         "patk": 274,
@@ -432,14 +473,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1004141,
         "display_name": "4\u2605 Kazuma (Glamorous Guy)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Kazuma",
         "element": "Wind",
         "hp": 1854,
         "patk": 277,
@@ -459,16 +503,19 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1004142,
         "display_name": "4\u2605 Kazuma (Legendary Adventurer)",
         "display_trait": "Physical+ (9%)",
         "rarity": 4,
-        "class": "Kazuma",
         "element": "Lightning",
         "hp": 1835,
         "patk": 274,
@@ -490,14 +537,17 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            100,
+            158
+        ]
     },
     {
         "uid": 1011100,
         "display_name": "1\u2605 Aqua (Beginner)",
         "display_trait": "Recovery+ (7%)",
         "rarity": 1,
-        "class": "Aqua",
         "element": "Water",
         "hp": 1431,
         "patk": 218,
@@ -519,14 +569,17 @@
         "rec_boost": 0.07,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1012100,
         "display_name": "2\u2605 Aqua (Arch Priest)",
         "display_trait": "Seal Res (12%)",
         "rarity": 2,
-        "class": "Aqua",
         "element": "Light",
         "hp": 1526,
         "patk": 233,
@@ -548,14 +601,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1012102,
         "display_name": "2\u2605 Aqua (Day Job)",
         "display_trait": "Recover On Action (50)",
         "rarity": 2,
-        "class": "Aqua",
         "element": "Earth",
         "hp": 1511,
         "patk": 235,
@@ -577,14 +633,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1013100,
         "display_name": "3\u2605 Aqua (Order of Axis)",
         "display_trait": "Haze Res (15%)",
         "rarity": 3,
-        "class": "Aqua",
         "element": "Light",
         "hp": 1717,
         "patk": 262,
@@ -606,14 +665,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1013104,
         "display_name": "3\u2605 Aqua (Winter Layers)",
         "display_trait": "Recover On Action (60)",
         "rarity": 3,
-        "class": "Aqua",
         "element": "Water",
         "hp": 1700,
         "patk": 265,
@@ -635,14 +697,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1013116,
         "display_name": "3\u2605 Aqua (Life of the Party)",
         "display_trait": "Seal Res (15%)",
         "rarity": 3,
-        "class": "Aqua",
         "element": "None",
         "hp": 1717,
         "patk": 262,
@@ -664,14 +729,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1013120,
         "display_name": "3\u2605 Aqua (Forgive Me, Kazuma)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Aqua",
         "element": "Lightning",
         "hp": 1700,
         "patk": 265,
@@ -693,14 +761,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1013129,
         "display_name": "3\u2605 Aqua (Pumpkin Cuisine)",
         "display_trait": "Recover On Action (60)",
         "rarity": 3,
-        "class": "Aqua",
         "element": "None",
         "hp": 1717,
         "patk": 262,
@@ -722,14 +793,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1013150,
         "display_name": "3\u2605 Aqua (Lights Out)",
         "display_trait": "Water/Earth+ (5%)",
         "rarity": 3,
-        "class": "Aqua",
         "element": "Earth",
         "hp": 1700,
         "patk": 265,
@@ -751,14 +825,17 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1014100,
         "display_name": "4\u2605 Aqua (Nature's Beauty)",
         "display_trait": "Recovery+ (10%)",
         "rarity": 4,
-        "class": "Aqua",
         "element": "Water",
         "hp": 1908,
         "patk": 291,
@@ -780,14 +857,17 @@
         "rec_boost": 0.1,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1014107,
         "display_name": "4\u2605 Aqua (Hot Spring Heaven)",
         "display_trait": "Light+ (7%)",
         "rarity": 4,
-        "class": "Aqua",
         "element": "Light",
         "hp": 1889,
         "patk": 294,
@@ -809,14 +889,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1014123,
         "display_name": "4\u2605 Aqua (Sparkling Seas)",
         "display_trait": "Lightning/Light+ (6%)",
         "rarity": 4,
-        "class": "Aqua",
         "element": "Lightning",
         "hp": 1908,
         "patk": 291,
@@ -838,14 +921,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1014132,
         "display_name": "4\u2605 Aqua (Otherworldly Tour)",
         "display_trait": "Wind/Light+ (6%)",
         "rarity": 4,
-        "class": "Aqua",
         "element": "Wind",
         "hp": 1889,
         "patk": 294,
@@ -867,14 +953,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1014137,
         "display_name": "4\u2605 Aqua (God Smash)",
         "display_trait": "Earth/Light+ (6%)",
         "rarity": 4,
-        "class": "Aqua",
         "element": "Earth",
         "hp": 1908,
         "patk": 291,
@@ -896,14 +985,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1014142,
         "display_name": "4\u2605 Aqua (Legendary Adventurer)",
         "display_trait": "Physical/Super Gauge+ (5%/15%)",
         "rarity": 4,
-        "class": "Aqua",
         "element": "Water",
         "hp": 1889,
         "patk": 294,
@@ -923,16 +1015,19 @@
         "phy_boost": 0.05,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1014147,
         "display_name": "4\u2605 Aqua (Dungeon Goddess)",
         "display_trait": "Light+ (7%)",
         "rarity": 4,
-        "class": "Aqua",
         "element": "Light",
         "hp": 1908,
         "patk": 297,
@@ -954,14 +1049,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            101,
+            147
+        ]
     },
     {
         "uid": 1021100,
         "display_name": "1\u2605 Megumin (Beginner)",
         "display_trait": "Fire+ (5%)",
         "rarity": 1,
-        "class": "Megumin",
         "element": "Fire",
         "hp": 1148,
         "patk": 200,
@@ -983,14 +1081,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1022100,
         "display_name": "2\u2605 Megumin (Arch Wizard)",
         "display_trait": "Fire+ (5%)",
         "rarity": 2,
-        "class": "Megumin",
         "element": "Fire",
         "hp": 1224,
         "patk": 213,
@@ -1012,14 +1113,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1022102,
         "display_name": "2\u2605 Megumin (Day Off)",
         "display_trait": "Lightning+ (5%)",
         "rarity": 2,
-        "class": "Megumin",
         "element": "Lightning",
         "hp": 1212,
         "patk": 211,
@@ -1041,14 +1145,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1023100,
         "display_name": "3\u2605 Megumin (Magical Melodrama)",
         "display_trait": "Fire+ (6%)",
         "rarity": 3,
-        "class": "Megumin",
         "element": "Fire",
         "hp": 1377,
         "patk": 239,
@@ -1070,14 +1177,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1023104,
         "display_name": "3\u2605 Megumin (Winter Layers)",
         "display_trait": "Magic+ (5%)",
         "rarity": 3,
-        "class": "Megumin",
         "element": "Lightning",
         "hp": 1363,
         "patk": 237,
@@ -1099,14 +1209,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1023107,
         "display_name": "3\u2605 Megumin (Squeaky Clean)",
         "display_trait": "Magic+ (5%)",
         "rarity": 3,
-        "class": "Megumin",
         "element": "Light",
         "hp": 1377,
         "patk": 242,
@@ -1128,14 +1241,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1023123,
         "display_name": "3\u2605 Megumin (Beachgoer)",
         "display_trait": "Fire/Dark+ (5%)",
         "rarity": 3,
-        "class": "Megumin",
         "element": "Dark",
         "hp": 1363,
         "patk": 239,
@@ -1157,14 +1273,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1023145,
         "display_name": "3\u2605 Megumin (Nice Explosion)",
         "display_trait": "Fire/Water+ (5%)",
         "rarity": 3,
-        "class": "Megumin",
         "element": "Water",
         "hp": 1377,
         "patk": 237,
@@ -1186,14 +1305,17 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1024100,
         "display_name": "4\u2605 Megumin (Explosive)",
         "display_trait": "Fire+ (7%)",
         "rarity": 4,
-        "class": "Megumin",
         "element": "Fire",
         "hp": 1530,
         "patk": 266,
@@ -1215,14 +1337,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1024113,
         "display_name": "4\u2605 Megumin (Pajama Party)",
         "display_trait": "Dark+ (7%)",
         "rarity": 4,
-        "class": "Megumin",
         "element": "Dark",
         "hp": 1515,
         "patk": 263,
@@ -1244,14 +1369,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1024118,
         "display_name": "4\u2605 Megumin (Explosive Devotion)",
         "display_trait": "Fire/Water+ (6%)",
         "rarity": 4,
-        "class": "Megumin",
         "element": "Water",
         "hp": 1530,
         "patk": 269,
@@ -1273,14 +1401,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1024126,
         "display_name": "4\u2605 Megumin (Explosive Barista)",
         "display_trait": "Magic+ (6%)",
         "rarity": 4,
-        "class": "Megumin",
         "element": "Wind",
         "hp": 1515,
         "patk": 266,
@@ -1302,14 +1433,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1024132,
         "display_name": "4\u2605 Megumin (Group Pose)",
         "display_trait": "Fire/Light+ (6%)",
         "rarity": 4,
-        "class": "Megumin",
         "element": "Light",
         "hp": 1530,
         "patk": 263,
@@ -1331,14 +1465,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1024137,
         "display_name": "4\u2605 Megumin (New Year's Karuta Contest)",
         "display_trait": "Fire/Earth+ (6%)",
         "rarity": 4,
-        "class": "Megumin",
         "element": "Earth",
         "hp": 1515,
         "patk": 269,
@@ -1360,14 +1497,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1024141,
         "display_name": "4\u2605 Megumin (Singing Sensation)",
         "display_trait": "Fire/Light+ (6%)",
         "rarity": 4,
-        "class": "Megumin",
         "element": "Light",
         "hp": 1530,
         "patk": 266,
@@ -1387,16 +1527,19 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1024142,
         "display_name": "4\u2605 Megumin (Legendary Adventurer)",
         "display_trait": "Magic+ (Team 9%)",
         "rarity": 4,
-        "class": "Megumin",
         "element": "Fire",
         "hp": 1515,
         "patk": 263,
@@ -1418,14 +1561,17 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            102,
+            150
+        ]
     },
     {
         "uid": 1031100,
         "display_name": "1\u2605 Darkness (Beginner)",
         "display_trait": "Light+ (5%)",
         "rarity": 1,
-        "class": "Darkness",
         "element": "Light",
         "hp": 1593,
         "patk": 227,
@@ -1447,14 +1593,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1032100,
         "display_name": "2\u2605 Darkness (Crusader)",
         "display_trait": "Damage Absorption (20%)",
         "rarity": 2,
-        "class": "Darkness",
         "element": "Lightning",
         "hp": 1699,
         "patk": 242,
@@ -1476,14 +1625,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1032102,
         "display_name": "2\u2605 Darkness (Casual)",
         "display_trait": "Haze Res (12%)",
         "rarity": 2,
-        "class": "Darkness",
         "element": "Earth",
         "hp": 1716,
         "patk": 240,
@@ -1505,14 +1657,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1033100,
         "display_name": "3\u2605 Darkness (Human Shield)",
         "display_trait": "Damage Absorption (25%)",
         "rarity": 3,
-        "class": "Darkness",
         "element": "Earth",
         "hp": 1912,
         "patk": 272,
@@ -1534,14 +1689,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1033104,
         "display_name": "3\u2605 Darkness (Winter Layers)",
         "display_trait": "Recover On Action (60)",
         "rarity": 3,
-        "class": "Darkness",
         "element": "Wind",
         "hp": 1931,
         "patk": 269,
@@ -1563,14 +1721,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1033113,
         "display_name": "3\u2605 Darkness (Girl's Night)",
         "display_trait": "Seal Res (15%)",
         "rarity": 3,
-        "class": "Darkness",
         "element": "Fire",
         "hp": 1912,
         "patk": 272,
@@ -1592,14 +1753,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1033131,
         "display_name": "3\u2605 Darkness (Extension Request)",
         "display_trait": "Magic Reduction (7%)",
         "rarity": 3,
-        "class": "Darkness",
         "element": "None",
         "hp": 1931,
         "patk": 269,
@@ -1621,14 +1785,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1033137,
         "display_name": "3\u2605 Darkness (Crusader's Spirit)",
         "display_trait": "Physical Reduction (7%)",
         "rarity": 3,
-        "class": "Darkness",
         "element": "Earth",
         "hp": 1912,
         "patk": 272,
@@ -1650,14 +1817,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1033150,
         "display_name": "3\u2605 Darkness (Girlish Pursuits)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Darkness",
         "element": "Light",
         "hp": 1931,
         "patk": 269,
@@ -1679,14 +1849,17 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1034100,
         "display_name": "4\u2605 Darkness (Total Ecstasy)",
         "display_trait": "Bind Res (18%)",
         "rarity": 4,
-        "class": "Darkness",
         "element": "None",
         "hp": 2124,
         "patk": 302,
@@ -1708,14 +1881,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1034107,
         "display_name": "4\u2605 Darkness (Hot Water)",
         "display_trait": "Poison Res (18%)",
         "rarity": 4,
-        "class": "Darkness",
         "element": "None",
         "hp": 2145,
         "patk": 299,
@@ -1737,14 +1913,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1034123,
         "display_name": "4\u2605 Darkness (True Knight)",
         "display_trait": "Physical Reduction (8%)",
         "rarity": 4,
-        "class": "Darkness",
         "element": "None",
         "hp": 2124,
         "patk": 302,
@@ -1766,14 +1945,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1034135,
         "display_name": "4\u2605 Darkness (Secret Present)",
         "display_trait": "Magic Reduction (8%)",
         "rarity": 4,
-        "class": "Darkness",
         "element": "None",
         "hp": 2145,
         "patk": 299,
@@ -1795,14 +1977,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1034142,
         "display_name": "4\u2605 Darkness (Legendary Adventurer)",
         "display_trait": "Physical/Recover On Action (6%/100)",
         "rarity": 4,
-        "class": "Darkness",
         "element": "Light",
         "hp": 2124,
         "patk": 302,
@@ -1822,16 +2007,19 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1034147,
         "display_name": "4\u2605 Darkness (Sword Princess's Student)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Darkness",
         "element": "Wind",
         "hp": 2145,
         "patk": 299,
@@ -1853,14 +2041,17 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            103,
+            160
+        ]
     },
     {
         "uid": 1041100,
         "display_name": "1\u2605 Chris (Beginner)",
         "display_trait": "Wind+ (5%)",
         "rarity": 1,
-        "class": "Chris",
         "element": "Wind",
         "hp": 1337,
         "patk": 202,
@@ -1882,14 +2073,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1042100,
         "display_name": "2\u2605 Chris (Thief)",
         "display_trait": "Poison Res (12%)",
         "rarity": 2,
-        "class": "Chris",
         "element": "Light",
         "hp": 1426,
         "patk": 215,
@@ -1911,14 +2104,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1042102,
         "display_name": "2\u2605 Chris (Casual)",
         "display_trait": "Seal Res (12%)",
         "rarity": 2,
-        "class": "Chris",
         "element": "Lightning",
         "hp": 1411,
         "patk": 216,
@@ -1940,14 +2135,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1043100,
         "display_name": "3\u2605 Chris (Steal)",
         "display_trait": "Bind Res (15%)",
         "rarity": 3,
-        "class": "Chris",
         "element": "Water",
         "hp": 1604,
         "patk": 242,
@@ -1969,14 +2166,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1043114,
         "display_name": "3\u2605 Chris (Bunny Girl for a Day)",
         "display_trait": "Haze Res (15%)",
         "rarity": 3,
-        "class": "Chris",
         "element": "Lightning",
         "hp": 1588,
         "patk": 243,
@@ -1998,14 +2197,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1043138,
         "display_name": "3\u2605 Chris (Great Detective)",
         "display_trait": "Light+ (6%)",
         "rarity": 3,
-        "class": "Chris",
         "element": "Light",
         "hp": 1604,
         "patk": 244,
@@ -2025,16 +2226,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1043149,
         "display_name": "3\u2605 Chris (Festive Foodie)",
         "display_trait": "Fire+ (6%)",
         "rarity": 3,
-        "class": "Chris",
         "element": "Fire",
         "hp": 1588,
         "patk": 242,
@@ -2056,14 +2259,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1044100,
         "display_name": "4\u2605 Chris (High-Flying Thief)",
         "display_trait": "Wind+ (7%)",
         "rarity": 4,
-        "class": "Chris",
         "element": "Wind",
         "hp": 1782,
         "patk": 269,
@@ -2085,14 +2290,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1044110,
         "display_name": "4\u2605 Chris (Smiling Chaperone)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Chris",
         "element": "Lightning",
         "hp": 1764,
         "patk": 269,
@@ -2114,14 +2321,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1044117,
         "display_name": "4\u2605 Chris (Maid to Loot)",
         "display_trait": "Fire+ (7%)",
         "rarity": 4,
-        "class": "Chris",
         "element": "Fire",
         "hp": 1764,
         "patk": 270,
@@ -2143,14 +2352,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1044125,
         "display_name": "4\u2605 Chris (My Treasure)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Chris",
         "element": "Light",
         "hp": 1782,
         "patk": 271,
@@ -2172,14 +2383,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1044127,
         "display_name": "4\u2605 Chris (Shuriken Lesson)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Chris",
         "element": "Water",
         "hp": 1782,
         "patk": 271,
@@ -2201,14 +2414,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1044151,
         "display_name": "4\u2605 Chris (Beach Rendezvous)",
         "display_trait": "Earth/Wind+ (6%)",
         "rarity": 4,
-        "class": "Chris",
         "element": "Earth",
         "hp": 1764,
         "patk": 269,
@@ -2228,16 +2443,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            104
+        ]
     },
     {
         "uid": 1051100,
         "display_name": "1\u2605 Wiz (Beginner)",
         "display_trait": "Dark+ (5%)",
         "rarity": 1,
-        "class": "Wiz",
         "element": "Dark",
         "hp": 1188,
         "patk": 179,
@@ -2259,14 +2476,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1052100,
         "display_name": "2\u2605 Wiz (Arch Wizard)",
         "display_trait": "Water+ (5%)",
         "rarity": 2,
-        "class": "Wiz",
         "element": "Water",
         "hp": 1267,
         "patk": 190,
@@ -2288,14 +2507,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1052102,
         "display_name": "2\u2605 Wiz (Lich)",
         "display_trait": "Poison Res (12%)",
         "rarity": 2,
-        "class": "Wiz",
         "element": "Earth",
         "hp": 1255,
         "patk": 188,
@@ -2317,14 +2538,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1053100,
         "display_name": "3\u2605 Wiz (Shop Owner)",
         "display_trait": "Dark+ (6%)",
         "rarity": 3,
-        "class": "Wiz",
         "element": "Dark",
         "hp": 1426,
         "patk": 214,
@@ -2346,14 +2569,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1053115,
         "display_name": "3\u2605 Wiz (Bunny Buddy)",
         "display_trait": "Fire/Water+ (5%)",
         "rarity": 3,
-        "class": "Wiz",
         "element": "Fire",
         "hp": 1411,
         "patk": 212,
@@ -2375,14 +2600,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1053127,
         "display_name": "3\u2605 Wiz (Way of the Kunoichi)",
         "display_trait": "Water/Light+ (5%)",
         "rarity": 3,
-        "class": "Wiz",
         "element": "Light",
         "hp": 1426,
         "patk": 216,
@@ -2404,14 +2631,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1053139,
         "display_name": "3\u2605 Wiz (Baking With Chocolate)",
         "display_trait": "Magic+ (5%)",
         "rarity": 3,
-        "class": "Wiz",
         "element": "Water",
         "hp": 1411,
         "patk": 214,
@@ -2433,14 +2662,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1053148,
         "display_name": "3\u2605 Wiz (Stinging Sensation)",
         "display_trait": "Lightning/Earth+ (5%)",
         "rarity": 3,
-        "class": "Wiz",
         "element": "Lightning",
         "hp": 1426,
         "patk": 212,
@@ -2462,14 +2693,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1054100,
         "display_name": "4\u2605 Wiz (Ice Witch)",
         "display_trait": "Water+ (7%)",
         "rarity": 4,
-        "class": "Wiz",
         "element": "Water",
         "hp": 1584,
         "patk": 238,
@@ -2491,14 +2724,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1054113,
         "display_name": "4\u2605 Wiz (Sweet Dreams)",
         "display_trait": "Dark+ (7%)",
         "rarity": 4,
-        "class": "Wiz",
         "element": "Dark",
         "hp": 1568,
         "patk": 236,
@@ -2520,14 +2755,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1054114,
         "display_name": "4\u2605 Wiz (Bumbling Bunny Girl)",
         "display_trait": "Earth+ (7%)",
         "rarity": 4,
-        "class": "Wiz",
         "element": "Earth",
         "hp": 1568,
         "patk": 240,
@@ -2549,14 +2786,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1054123,
         "display_name": "4\u2605 Wiz (Water Blast)",
         "display_trait": "Magic+ (6%)",
         "rarity": 4,
-        "class": "Wiz",
         "element": "Lightning",
         "hp": 1584,
         "patk": 240,
@@ -2578,14 +2817,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1054130,
         "display_name": "4\u2605 Wiz (Fancy Dress)",
         "display_trait": "Earth/Wind+ (6%)",
         "rarity": 4,
-        "class": "Wiz",
         "element": "Wind",
         "hp": 1584,
         "patk": 236,
@@ -2607,14 +2848,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1054135,
         "display_name": "4\u2605 Wiz (Christmas Eve)",
         "display_trait": "Fire/Water+ (6%)",
         "rarity": 4,
-        "class": "Wiz",
         "element": "Fire",
         "hp": 1568,
         "patk": 238,
@@ -2636,14 +2879,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1054142,
         "display_name": "4\u2605 Wiz (Legendary Adventurer)",
         "display_trait": "Magic/Recover On Action (6%/100)",
         "rarity": 4,
-        "class": "Wiz",
         "element": "Water",
         "hp": 1584,
         "patk": 238,
@@ -2665,14 +2910,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            105
+        ]
     },
     {
         "uid": 1061100,
         "display_name": "1\u2605 Yunyun (Beginner)",
         "display_trait": "Lightning+ (5%)",
         "rarity": 1,
-        "class": "Yunyun",
         "element": "Lightning",
         "hp": 1215,
         "patk": 193,
@@ -2694,14 +2941,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1062100,
         "display_name": "2\u2605 Yunyun (Arch Wizard)",
         "display_trait": "Water+ (5%)",
         "rarity": 2,
-        "class": "Yunyun",
         "element": "Water",
         "hp": 1296,
         "patk": 206,
@@ -2723,14 +2972,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1062102,
         "display_name": "2\u2605 Yunyun (Crimson Demon)",
         "display_trait": "Earth+ (5%)",
         "rarity": 2,
-        "class": "Yunyun",
         "element": "Earth",
         "hp": 1283,
         "patk": 204,
@@ -2752,14 +3003,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1063100,
         "display_name": "3\u2605 Yunyun (Seeking Friends)",
         "display_trait": "Lightning+ (6%)",
         "rarity": 3,
-        "class": "Yunyun",
         "element": "Lightning",
         "hp": 1458,
         "patk": 232,
@@ -2781,14 +3034,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1063113,
         "display_name": "3\u2605 Yunyun (Wakey Wakey)",
         "display_trait": "Dark+ (6%)",
         "rarity": 3,
-        "class": "Yunyun",
         "element": "Dark",
         "hp": 1443,
         "patk": 230,
@@ -2810,14 +3065,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1063116,
         "display_name": "3\u2605 Yunyun (Grand Performance)",
         "display_trait": "Light+ (6%)",
         "rarity": 3,
-        "class": "Yunyun",
         "element": "Light",
         "hp": 1458,
         "patk": 234,
@@ -2839,14 +3096,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1063123,
         "display_name": "3\u2605 Yunyun (Beachcomber)",
         "display_trait": "Water/Light+ (5%)",
         "rarity": 3,
-        "class": "Yunyun",
         "element": "Water",
         "hp": 1443,
         "patk": 232,
@@ -2868,14 +3127,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1063126,
         "display_name": "3\u2605 Yunyun (Perfect Fit)",
         "display_trait": "Fire/Light+ (5%)",
         "rarity": 3,
-        "class": "Yunyun",
         "element": "Fire",
         "hp": 1458,
         "patk": 230,
@@ -2897,14 +3158,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1063140,
         "display_name": "3\u2605 Yunyun (Rival's Pride)",
         "display_trait": "Lightning/Earth+ (5%)",
         "rarity": 3,
-        "class": "Yunyun",
         "element": "Earth",
         "hp": 1443,
         "patk": 234,
@@ -2926,14 +3189,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1064100,
         "display_name": "4\u2605 Yunyun (Megumin's Friend)",
         "display_trait": "Light+ (7%)",
         "rarity": 4,
-        "class": "Yunyun",
         "element": "Light",
         "hp": 1620,
         "patk": 258,
@@ -2955,14 +3220,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1064107,
         "display_name": "4\u2605 Yunyun (Bath Battle)",
         "display_trait": "Wind/Light+ (6%)",
         "rarity": 4,
-        "class": "Yunyun",
         "element": "Wind",
         "hp": 1604,
         "patk": 258,
@@ -2984,14 +3251,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1064118,
         "display_name": "4\u2605 Yunyun (Magic Academy Memories)",
         "display_trait": "Water/Light+ (6%)",
         "rarity": 4,
-        "class": "Yunyun",
         "element": "Water",
         "hp": 1604,
         "patk": 255,
@@ -3013,14 +3282,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1064129,
         "display_name": "4\u2605 Yunyun (Friendly Halloween)",
         "display_trait": "Fire/Light+ (6%)",
         "rarity": 4,
-        "class": "Yunyun",
         "element": "Fire",
         "hp": 1620,
         "patk": 260,
@@ -3042,14 +3313,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1064144,
         "display_name": "4\u2605 Yunyun (Studious Sister)",
         "display_trait": "Lightning+ (7%)",
         "rarity": 4,
-        "class": "Yunyun",
         "element": "Lightning",
         "hp": 1620,
         "patk": 255,
@@ -3071,14 +3344,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1064154,
         "display_name": "4\u2605 Yunyun (Summer Fireworks)",
         "display_trait": "Magic+ (6%)",
         "rarity": 4,
-        "class": "Yunyun",
         "element": "Dark",
         "hp": 1604,
         "patk": 260,
@@ -3100,14 +3375,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            106
+        ]
     },
     {
         "uid": 1071100,
         "display_name": "1\u2605 Iris (Beginner)",
         "display_trait": "Light+ (5%)",
         "rarity": 1,
-        "class": "Iris",
         "element": "Light",
         "hp": 1350,
         "patk": 233,
@@ -3129,14 +3406,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1072100,
         "display_name": "2\u2605 Iris (First Princess of Belzerg)",
         "display_trait": "Light+ (5%)",
         "rarity": 2,
-        "class": "Iris",
         "element": "Light",
         "hp": 1440,
         "patk": 249,
@@ -3158,14 +3437,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1072102,
         "display_name": "2\u2605 Iris (Sneaking Out)",
         "display_trait": "Wind+ (5%)",
         "rarity": 2,
-        "class": "Iris",
         "element": "Wind",
         "hp": 1426,
         "patk": 251,
@@ -3187,14 +3468,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1073100,
         "display_name": "3\u2605 Iris (Avid Eater)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Iris",
         "element": "Earth",
         "hp": 1620,
         "patk": 280,
@@ -3216,14 +3499,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1073124,
         "display_name": "3\u2605 Iris (Camel Ride)",
         "display_trait": "Light+ (6%)",
         "rarity": 3,
-        "class": "Iris",
         "element": "Light",
         "hp": 1604,
         "patk": 283,
@@ -3245,14 +3530,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1073135,
         "display_name": "3\u2605 Iris (Play Santa)",
         "display_trait": "Fire/Light+ (5%)",
         "rarity": 3,
-        "class": "Iris",
         "element": "Fire",
         "hp": 1620,
         "patk": 281,
@@ -3274,14 +3561,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1073144,
         "display_name": "3\u2605 Iris (Spoiled Sister)",
         "display_trait": "Dark+ (6%)",
         "rarity": 3,
-        "class": "Iris",
         "element": "Dark",
         "hp": 1604,
         "patk": 283,
@@ -3303,14 +3592,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1074100,
         "display_name": "4\u2605 Iris (Royal Holiday)",
         "display_trait": "Light+ (7%)",
         "rarity": 4,
-        "class": "Iris",
         "element": "Light",
         "hp": 1800,
         "patk": 311,
@@ -3332,14 +3623,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1074114,
         "display_name": "4\u2605 Iris (First Casino Foray)",
         "display_trait": "Lightning+ (7%)",
         "rarity": 4,
-        "class": "Iris",
         "element": "Lightning",
         "hp": 1782,
         "patk": 314,
@@ -3361,14 +3654,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1074119,
         "display_name": "4\u2605 Iris (Siblings)",
         "display_trait": "Earth/Light+ (6%)",
         "rarity": 4,
-        "class": "Iris",
         "element": "Earth",
         "hp": 1800,
         "patk": 312,
@@ -3390,14 +3685,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1074129,
         "display_name": "4\u2605 Iris (Mischievous Princess)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Iris",
         "element": "Fire",
         "hp": 1782,
         "patk": 314,
@@ -3419,14 +3716,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1074139,
         "display_name": "4\u2605 Iris (Lovely Gift Giver)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Iris",
         "element": "Water",
         "hp": 1800,
         "patk": 312,
@@ -3448,14 +3747,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1074151,
         "display_name": "4\u2605 Iris (Splendid Sunlight)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Iris",
         "element": "Wind",
         "hp": 1782,
         "patk": 314,
@@ -3475,16 +3776,18 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            107
+        ]
     },
     {
         "uid": 1081100,
-        "display_name": "1\u2605 Not Required",
+        "display_name": "1\u2605 Komekko (Beginner)",
         "display_trait": "Light+ (5%)",
         "rarity": 1,
-        "class": "Komekko",
         "element": "Light",
         "hp": 1499,
         "patk": 202,
@@ -3504,16 +3807,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            108
+        ]
     },
     {
         "uid": 1082100,
-        "display_name": "2\u2605 Not Required",
+        "display_name": "2\u2605 Komekko (Devilish Little Sister)",
         "display_trait": "Dark+ (5%)",
         "rarity": 2,
-        "class": "Komekko",
         "element": "Dark",
         "hp": 1598,
         "patk": 215,
@@ -3533,16 +3838,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            108
+        ]
     },
     {
         "uid": 1082102,
-        "display_name": "2\u2605 Not Required",
+        "display_name": "2\u2605 Komekko (Casual)",
         "display_trait": "Fire+ (5%)",
         "rarity": 2,
-        "class": "Komekko",
         "element": "Fire",
         "hp": 1582,
         "patk": 213,
@@ -3562,16 +3869,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            108
+        ]
     },
     {
         "uid": 1083100,
-        "display_name": "3\u2605 Not Required",
+        "display_name": "3\u2605 Komekko (Worldly Wisdom)",
         "display_trait": "Magic+ (5%)",
         "rarity": 3,
-        "class": "Komekko",
         "element": "Fire",
         "hp": 1780,
         "patk": 240,
@@ -3591,16 +3900,18 @@
         "phy_boost": 0,
         "mag_boost": 0.05,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            108
+        ]
     },
     {
         "uid": 1083143,
         "display_name": "3\u2605 Komekko (Quest Success)",
         "display_trait": "Fire/Lightning+ (5%)",
         "rarity": 3,
-        "class": "Komekko",
         "element": "Lightning",
         "hp": 1798,
         "patk": 242,
@@ -3620,16 +3931,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            108
+        ]
     },
     {
         "uid": 1083151,
         "display_name": "3\u2605 Komekko (Summer Feast)",
         "display_trait": "Magic+ (5%)",
         "rarity": 3,
-        "class": "Komekko",
         "element": "Wind",
         "hp": 1798,
         "patk": 244,
@@ -3649,16 +3962,18 @@
         "phy_boost": 0,
         "mag_boost": 0.05,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            108
+        ]
     },
     {
         "uid": 1084100,
-        "display_name": "4\u2605 Not Required",
+        "display_name": "4\u2605 Komekko (Promising Future)",
         "display_trait": "Fire+ (7%)",
         "rarity": 4,
-        "class": "Komekko",
         "element": "Fire",
         "hp": 1998,
         "patk": 269,
@@ -3678,16 +3993,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            108
+        ]
     },
     {
         "uid": 1084113,
         "display_name": "4\u2605 Komekko (Sleepy Sister)",
         "display_trait": "Magic+ (6%)",
         "rarity": 4,
-        "class": "Komekko",
         "element": "Lightning",
         "hp": 1978,
         "patk": 266,
@@ -3709,14 +4026,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            108
+        ]
     },
     {
         "uid": 1084154,
         "display_name": "4\u2605 Komekko (Goldfish Catcher)",
         "display_trait": "Magic+ (6%)",
         "rarity": 4,
-        "class": "Komekko",
         "element": "Wind",
         "hp": 1998,
         "patk": 271,
@@ -3738,14 +4057,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            108
+        ]
     },
     {
         "uid": 1091100,
         "display_name": "1\u2605 Cecily (Beginner)",
         "display_trait": "Recovery+ (7%)",
         "rarity": 1,
-        "class": "Cecily",
         "element": "Water",
         "hp": 1350,
         "patk": 208,
@@ -3767,14 +4088,16 @@
         "rec_boost": 0.07,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1092100,
         "display_name": "2\u2605 Cecily (Priest)",
         "display_trait": "Seal Res (12%)",
         "rarity": 2,
-        "class": "Cecily",
         "element": "Wind",
         "hp": 1440,
         "patk": 222,
@@ -3796,14 +4119,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1092102,
         "display_name": "2\u2605 Cecily (Casual)",
         "display_trait": "Recovery+ (7%)",
         "rarity": 2,
-        "class": "Cecily",
         "element": "Light",
         "hp": 1426,
         "patk": 223,
@@ -3825,14 +4150,16 @@
         "rec_boost": 0.07,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1093100,
         "display_name": "3\u2605 Cecily (Axis Follower)",
         "display_trait": "Recovery+ (8%)",
         "rarity": 3,
-        "class": "Cecily",
         "element": "Lightning",
         "hp": 1620,
         "patk": 249,
@@ -3854,14 +4181,16 @@
         "rec_boost": 0.08,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1093123,
         "display_name": "3\u2605 Cecily (All Eyes on Me)",
         "display_trait": "Fire+ (6%)",
         "rarity": 3,
-        "class": "Cecily",
         "element": "Fire",
         "hp": 1604,
         "patk": 251,
@@ -3883,14 +4212,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1093130,
         "display_name": "3\u2605 Cecily (Persuasive Priestess)",
         "display_trait": "Recovery+ (8%)",
         "rarity": 3,
-        "class": "Cecily",
         "element": "Wind",
         "hp": 1620,
         "patk": 252,
@@ -3912,14 +4243,16 @@
         "rec_boost": 0.08,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1093145,
         "display_name": "3\u2605 Cecily (Covert Conversion)",
         "display_trait": "Water/Earth+ (5%)",
         "rarity": 3,
-        "class": "Cecily",
         "element": "Earth",
         "hp": 1604,
         "patk": 249,
@@ -3939,16 +4272,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1094100,
         "display_name": "4\u2605 Cecily (Big Sister)",
         "display_trait": "Recovery+ (10%)",
         "rarity": 4,
-        "class": "Cecily",
         "element": "Light",
         "hp": 1800,
         "patk": 277,
@@ -3970,14 +4305,16 @@
         "rec_boost": 0.1,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1094114,
         "display_name": "4\u2605 Cecily (Cottontail Cleric)",
         "display_trait": "Recovery+ (10%)",
         "rarity": 4,
-        "class": "Cecily",
         "element": "Earth",
         "hp": 1782,
         "patk": 279,
@@ -3999,14 +4336,16 @@
         "rec_boost": 0.1,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1094126,
         "display_name": "4\u2605 Cecily (Beautiful Barista)",
         "display_trait": "Wind+ (7%)",
         "rarity": 4,
-        "class": "Cecily",
         "element": "Wind",
         "hp": 1800,
         "patk": 280,
@@ -4028,14 +4367,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1094127,
         "display_name": "4\u2605 Cecily (Evangelist Ninja)",
         "display_trait": "Magic+ (6%)",
         "rarity": 4,
-        "class": "Cecily",
         "element": "Dark",
         "hp": 1800,
         "patk": 280,
@@ -4057,14 +4398,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1094139,
         "display_name": "4\u2605 Cecily (Chocolate Invitations)",
         "display_trait": "Water+ (7%)",
         "rarity": 4,
-        "class": "Cecily",
         "element": "Water",
         "hp": 1782,
         "patk": 277,
@@ -4086,14 +4429,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            109
+        ]
     },
     {
         "uid": 1101100,
         "display_name": "1\u2605 Arue (Beginner)",
         "display_trait": "Earth+ (5%)",
         "rarity": 1,
-        "class": "Arue",
         "element": "Earth",
         "hp": 1121,
         "patk": 191,
@@ -4115,14 +4460,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1102100,
         "display_name": "2\u2605 Arue (Arch Wizard)",
         "display_trait": "Light+ (5%)",
         "rarity": 2,
-        "class": "Arue",
         "element": "Light",
         "hp": 1195,
         "patk": 204,
@@ -4144,14 +4491,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1102102,
         "display_name": "2\u2605 Arue (Crimson Demon)",
         "display_trait": "Wind+ (5%)",
         "rarity": 2,
-        "class": "Arue",
         "element": "Wind",
         "hp": 1183,
         "patk": 202,
@@ -4173,14 +4522,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1103100,
         "display_name": "3\u2605 Arue (Aspiring Author)",
         "display_trait": "Water+ (6%)",
         "rarity": 3,
-        "class": "Arue",
         "element": "Water",
         "hp": 1345,
         "patk": 229,
@@ -4202,14 +4553,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1103107,
         "display_name": "3\u2605 Arue (Hot Spring Cleansing)",
         "display_trait": "Magic+ (5%)",
         "rarity": 3,
-        "class": "Arue",
         "element": "Earth",
         "hp": 1331,
         "patk": 229,
@@ -4231,14 +4584,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1103113,
         "display_name": "3\u2605 Arue (Midnight Match)",
         "display_trait": "Lightning/Light+ (5%)",
         "rarity": 3,
-        "class": "Arue",
         "element": "Lightning",
         "hp": 1345,
         "patk": 227,
@@ -4260,14 +4615,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1103118,
         "display_name": "3\u2605 Arue (Stylish Debut)",
         "display_trait": "Light+ (6%)",
         "rarity": 3,
-        "class": "Arue",
         "element": "Light",
         "hp": 1331,
         "patk": 227,
@@ -4289,14 +4646,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1103134,
         "display_name": "3\u2605 Arue (Damsel in Distress)",
         "display_trait": "Dark+ (6%)",
         "rarity": 3,
-        "class": "Arue",
         "element": "Dark",
         "hp": 1345,
         "patk": 232,
@@ -4318,14 +4677,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1104100,
         "display_name": "4\u2605 Arue (Best Bod)",
         "display_trait": "Dark+ (7%)",
         "rarity": 4,
-        "class": "Arue",
         "element": "Dark",
         "hp": 1494,
         "patk": 255,
@@ -4347,14 +4708,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1104110,
         "display_name": "4\u2605 Arue (Crimson Snow)",
         "display_trait": "Fire/Dark+ (6%)",
         "rarity": 4,
-        "class": "Arue",
         "element": "Fire",
         "hp": 1479,
         "patk": 255,
@@ -4376,14 +4739,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1104116,
         "display_name": "4\u2605 Arue (Dramatic Author)",
         "display_trait": "Light/Dark+ (6%)",
         "rarity": 4,
-        "class": "Arue",
         "element": "Light",
         "hp": 1479,
         "patk": 252,
@@ -4405,14 +4770,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1104127,
         "display_name": "4\u2605 Arue (Moonlit Meeting)",
         "display_trait": "Earth/Dark+ (6%)",
         "rarity": 4,
-        "class": "Arue",
         "element": "Earth",
         "hp": 1494,
         "patk": 257,
@@ -4434,14 +4801,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1104151,
         "display_name": "4\u2605 Arue (Crimson Sunset)",
         "display_trait": "Magic+ (6%)",
         "rarity": 4,
-        "class": "Arue",
         "element": "Wind",
         "hp": 1494,
         "patk": 252,
@@ -4461,16 +4830,18 @@
         "phy_boost": 0,
         "mag_boost": 0.06,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            110
+        ]
     },
     {
         "uid": 1111100,
         "display_name": "1\u2605 Mitsurugi (Beginner)",
         "display_trait": "Lightning+ (5%)",
         "rarity": 1,
-        "class": "Mitsurugi",
         "element": "Lightning",
         "hp": 1539,
         "patk": 229,
@@ -4492,14 +4863,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1112100,
         "display_name": "2\u2605 Mitsurugi (Sword Master)",
         "display_trait": "Poison Res (12%)",
         "rarity": 2,
-        "class": "Mitsurugi",
         "element": "Lightning",
         "hp": 1642,
         "patk": 244,
@@ -4521,14 +4894,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1112102,
         "display_name": "2\u2605 Mitsurugi (Casual)",
         "display_trait": "Seal Res (12%)",
         "rarity": 2,
-        "class": "Mitsurugi",
         "element": "Water",
         "hp": 1658,
         "patk": 242,
@@ -4550,14 +4925,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1113100,
         "display_name": "3\u2605 Mitsurugi (Follower of the Goddess)",
         "display_trait": "Light+ (6%)",
         "rarity": 3,
-        "class": "Mitsurugi",
         "element": "Light",
         "hp": 1847,
         "patk": 275,
@@ -4579,14 +4956,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1113119,
         "display_name": "3\u2605 Mitsurugi (Heroic Grace)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Mitsurugi",
         "element": "Earth",
         "hp": 1865,
         "patk": 272,
@@ -4608,14 +4987,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1113131,
         "display_name": "3\u2605 Mitsurugi (A Hero's Treasure)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Mitsurugi",
         "element": "Wind",
         "hp": 1847,
         "patk": 275,
@@ -4637,14 +5018,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1113140,
         "display_name": "3\u2605 Mitsurugi (Familiar Pattern)",
         "display_trait": "Super Gauge+ (15%)",
         "rarity": 3,
-        "class": "Mitsurugi",
         "element": "Dark",
         "hp": 1865,
         "patk": 272,
@@ -4664,16 +5047,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1113151,
         "display_name": "3\u2605 Mitsurugi (Splashing Swimmer)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Mitsurugi",
         "element": "Water",
         "hp": 1847,
         "patk": 275,
@@ -4693,16 +5078,18 @@
         "phy_boost": 0.05,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1114100,
         "display_name": "4\u2605 Mitsurugi (The Chosen One)",
         "display_trait": "Lightning+ (7%)",
         "rarity": 4,
-        "class": "Mitsurugi",
         "element": "Lightning",
         "hp": 2052,
         "patk": 305,
@@ -4724,14 +5111,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1114110,
         "display_name": "4\u2605 Mitsurugi (Personal Bodyguard)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Mitsurugi",
         "element": "Fire",
         "hp": 2073,
         "patk": 302,
@@ -4753,14 +5142,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1114114,
         "display_name": "4\u2605 Mitsurugi (Dreamy Dealer)",
         "display_trait": "Earth+ (7%)",
         "rarity": 4,
-        "class": "Mitsurugi",
         "element": "Earth",
         "hp": 2073,
         "patk": 302,
@@ -4782,14 +5173,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1114125,
         "display_name": "4\u2605 Mitsurugi (Luxurious Hero)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Mitsurugi",
         "element": "Light",
         "hp": 2052,
         "patk": 305,
@@ -4811,14 +5204,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1114127,
         "display_name": "4\u2605 Mitsurugi (Twilight Ninja)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Mitsurugi",
         "element": "Water",
         "hp": 2052,
         "patk": 305,
@@ -4840,14 +5235,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            111
+        ]
     },
     {
         "uid": 1121100,
         "display_name": "1\u2605 Dust (Beginner)",
         "display_trait": "Fire+ (5%)",
         "rarity": 1,
-        "class": "Dust",
         "element": "Fire",
         "hp": 1512,
         "patk": 231,
@@ -4869,14 +5266,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1122100,
         "display_name": "2\u2605 Dust (Warrior)",
         "display_trait": "Earth+ (5%)",
         "rarity": 2,
-        "class": "Dust",
         "element": "Earth",
         "hp": 1613,
         "patk": 246,
@@ -4898,14 +5297,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1122102,
         "display_name": "2\u2605 Dust (Casual)",
         "display_trait": "Dark+ (5%)",
         "rarity": 2,
-        "class": "Dust",
         "element": "Dark",
         "hp": 1597,
         "patk": 249,
@@ -4927,14 +5328,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1123100,
         "display_name": "3\u2605 Dust (Succubus Shop Regular)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Dust",
         "element": "Lightning",
         "hp": 1814,
         "patk": 277,
@@ -4956,14 +5359,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1123114,
         "display_name": "3\u2605 Dust (High Roller)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Dust",
         "element": "Earth",
         "hp": 1796,
         "patk": 280,
@@ -4985,14 +5390,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1123120,
         "display_name": "3\u2605 Dust (Begging Forgiveness)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Dust",
         "element": "Dark",
         "hp": 1796,
         "patk": 280,
@@ -5014,14 +5421,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1123134,
         "display_name": "3\u2605 Dust (A Man's Duty)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Dust",
         "element": "Light",
         "hp": 1814,
         "patk": 279,
@@ -5043,14 +5452,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1123155,
         "display_name": "3\u2605 Dust (Monster Bait)",
         "display_trait": "Water+ (6%)",
         "rarity": 3,
-        "class": "Dust",
         "element": "Water",
         "hp": 1814,
         "patk": 279,
@@ -5072,14 +5483,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1124100,
         "display_name": "4\u2605 Dust (Delinquent Adventurer)",
         "display_trait": "Lightning+ (7%)",
         "rarity": 4,
-        "class": "Dust",
         "element": "Lightning",
         "hp": 2016,
         "patk": 308,
@@ -5101,14 +5514,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1124107,
         "display_name": "4\u2605 Dust (Hot Spring Thrills)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Dust",
         "element": "Wind",
         "hp": 1996,
         "patk": 311,
@@ -5130,14 +5545,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1124110,
         "display_name": "4\u2605 Dust (Super Sledder)",
         "display_trait": "Water+ (7%)",
         "rarity": 4,
-        "class": "Dust",
         "element": "Water",
         "hp": 1996,
         "patk": 311,
@@ -5159,14 +5576,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1124125,
         "display_name": "4\u2605 Dust (My Treasure)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Dust",
         "element": "Light",
         "hp": 2016,
         "patk": 310,
@@ -5188,14 +5607,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1124144,
         "display_name": "4\u2605 Dust (School Bully)",
         "display_trait": "Earth/Wind+ (6%)",
         "rarity": 4,
-        "class": "Dust",
         "element": "Earth",
         "hp": 2016,
         "patk": 310,
@@ -5217,14 +5638,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            112
+        ]
     },
     {
         "uid": 1131100,
         "display_name": "1\u2605 Rin (Beginner)",
         "display_trait": "Wind+ (5%)",
         "rarity": 1,
-        "class": "Rin",
         "element": "Wind",
         "hp": 1323,
         "patk": 185,
@@ -5246,14 +5669,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1132100,
         "display_name": "2\u2605 Rin (Wizard)",
         "display_trait": "Haze Res (12%)",
         "rarity": 2,
-        "class": "Rin",
         "element": "Fire",
         "hp": 1411,
         "patk": 197,
@@ -5275,14 +5700,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1132102,
         "display_name": "2\u2605 Rin (Casual)",
         "display_trait": "Water+ (5%)",
         "rarity": 2,
-        "class": "Rin",
         "element": "Water",
         "hp": 1397,
         "patk": 195,
@@ -5304,14 +5731,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1133100,
         "display_name": "3\u2605 Rin (Single Lady)",
         "display_trait": "Earth+ (6%)",
         "rarity": 3,
-        "class": "Rin",
         "element": "Earth",
         "hp": 1588,
         "patk": 222,
@@ -5333,14 +5762,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1133115,
         "display_name": "3\u2605 Rin (Female Foe)",
         "display_trait": "Wind+ (6%)",
         "rarity": 3,
-        "class": "Rin",
         "element": "Wind",
         "hp": 1572,
         "patk": 220,
@@ -5362,14 +5793,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1133128,
         "display_name": "3\u2605 Rin (Watch Your Step)",
         "display_trait": "Wind/Dark+ (5%)",
         "rarity": 3,
-        "class": "Rin",
         "element": "Dark",
         "hp": 1588,
         "patk": 224,
@@ -5391,14 +5824,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1133138,
         "display_name": "3\u2605 Rin (Fateful Throw)",
         "display_trait": "Fire/Wind+ (5%)",
         "rarity": 3,
-        "class": "Rin",
         "element": "Fire",
         "hp": 1572,
         "patk": 222,
@@ -5420,14 +5855,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1134100,
         "display_name": "4\u2605 Rin (Certified Wizard)",
         "display_trait": "Wind+ (7%)",
         "rarity": 4,
-        "class": "Rin",
         "element": "Wind",
         "hp": 1764,
         "patk": 246,
@@ -5449,14 +5886,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1134110,
         "display_name": "4\u2605 Rin (Winter Wonderland)",
         "display_trait": "Magic+ (6%)",
         "rarity": 4,
-        "class": "Rin",
         "element": "Water",
         "hp": 1746,
         "patk": 244,
@@ -5478,14 +5917,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1134117,
         "display_name": "4\u2605 Rin (Laundry Day)",
         "display_trait": "Wind/Light+ (6%)",
         "rarity": 4,
-        "class": "Rin",
         "element": "Light",
         "hp": 1746,
         "patk": 246,
@@ -5507,14 +5948,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1134123,
         "display_name": "4\u2605 Rin (Sun-soaked)",
         "display_trait": "Fire/Wind+ (6%)",
         "rarity": 4,
-        "class": "Rin",
         "element": "Fire",
         "hp": 1764,
         "patk": 249,
@@ -5536,14 +5979,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1134127,
         "display_name": "4\u2605 Rin (Windstorm Kunoichi)",
         "display_trait": "Dark+ (7%)",
         "rarity": 4,
-        "class": "Rin",
         "element": "Dark",
         "hp": 1764,
         "patk": 244,
@@ -5565,14 +6010,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1134154,
         "display_name": "4\u2605 Rin (Summer Sharpshooter)",
         "display_trait": "Earth+ (7%)",
         "rarity": 4,
-        "class": "Rin",
         "element": "Earth",
         "hp": 1746,
         "patk": 249,
@@ -5594,14 +6041,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            113
+        ]
     },
     {
         "uid": 1141100,
         "display_name": "1\u2605 Lia (Beginner)",
         "display_trait": "Water+ (5%)",
         "rarity": 1,
-        "class": "Lia",
         "element": "Water",
         "hp": 1512,
         "patk": 216,
@@ -5623,14 +6072,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1142100,
         "display_name": "2\u2605 Lia (Lancer)",
         "display_trait": "Fire+ (5%)",
         "rarity": 2,
-        "class": "Lia",
         "element": "Fire",
         "hp": 1613,
         "patk": 231,
@@ -5652,14 +6103,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1142102,
         "display_name": "2\u2605 Lia (Casual)",
         "display_trait": "Poison Res (12%)",
         "rarity": 2,
-        "class": "Lia",
         "element": "Water",
         "hp": 1629,
         "patk": 228,
@@ -5681,14 +6134,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1143100,
         "display_name": "3\u2605 Lia (Rising Idol)",
         "display_trait": "Super Gauge+ (15%)",
         "rarity": 3,
-        "class": "Lia",
         "element": "Fire",
         "hp": 1814,
         "patk": 260,
@@ -5710,14 +6165,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1143112,
         "display_name": "3\u2605 Lia (Solo Photo Shoot)",
         "display_trait": "Earth+ (6%)",
         "rarity": 3,
-        "class": "Lia",
         "element": "Earth",
         "hp": 1833,
         "patk": 257,
@@ -5739,14 +6196,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1143123,
         "display_name": "3\u2605 Lia (Midsummer Match)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Lia",
         "element": "Lightning",
         "hp": 1814,
         "patk": 260,
@@ -5768,14 +6227,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1143127,
         "display_name": "3\u2605 Lia (Certified Kunoichi)",
         "display_trait": "Dark+ (6%)",
         "rarity": 3,
-        "class": "Lia",
         "element": "Dark",
         "hp": 1833,
         "patk": 257,
@@ -5797,14 +6258,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1143139,
         "display_name": "3\u2605 Lia (Amateur Pastry Chef)",
         "display_trait": "Water+ (6%)",
         "rarity": 3,
-        "class": "Lia",
         "element": "Water",
         "hp": 1814,
         "patk": 260,
@@ -5826,14 +6289,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1143143,
         "display_name": "3\u2605 Lia (Dancing Announcer)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Lia",
         "element": "Light",
         "hp": 1833,
         "patk": 257,
@@ -5853,16 +6318,18 @@
         "phy_boost": 0.05,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1144100,
         "display_name": "4\u2605 Lia (Dancing Adventurer)",
         "display_trait": "Water+ (7%)",
         "rarity": 4,
-        "class": "Lia",
         "element": "Water",
         "hp": 2016,
         "patk": 288,
@@ -5884,14 +6351,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1144105,
         "display_name": "4\u2605 Lia (Axel Hearts)",
         "display_trait": "Dark+ (7%)",
         "rarity": 4,
-        "class": "Lia",
         "element": "Dark",
         "hp": 2036,
         "patk": 286,
@@ -5913,14 +6382,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1144117,
         "display_name": "4\u2605 Lia (Maid for the Job)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Lia",
         "element": "Fire",
         "hp": 2016,
         "patk": 288,
@@ -5942,14 +6413,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1144130,
         "display_name": "4\u2605 Lia (Marvelous Martial Arts)",
         "display_trait": "Lightning+ (7%)",
         "rarity": 4,
-        "class": "Lia",
         "element": "Lightning",
         "hp": 2016,
         "patk": 288,
@@ -5971,14 +6444,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1144144,
         "display_name": "4\u2605 Lia (Picture Day)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Lia",
         "element": "Earth",
         "hp": 2036,
         "patk": 286,
@@ -6000,14 +6475,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            114
+        ]
     },
     {
         "uid": 1151100,
         "display_name": "1\u2605 Cielo (Beginner)",
         "display_trait": "Recovery+ (7%)",
         "rarity": 1,
-        "class": "Cielo",
         "element": "Wind",
         "hp": 1337,
         "patk": 195,
@@ -6029,14 +6506,16 @@
         "rec_boost": 0.07,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1152100,
         "display_name": "2\u2605 Cielo (Arch Priest)",
         "display_trait": "Poison Res (12%)",
         "rarity": 2,
-        "class": "Cielo",
         "element": "Fire",
         "hp": 1426,
         "patk": 208,
@@ -6058,14 +6537,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1152102,
         "display_name": "2\u2605 Cielo (Casual)",
         "display_trait": "Bind Res (12%)",
         "rarity": 2,
-        "class": "Cielo",
         "element": "Lightning",
         "hp": 1411,
         "patk": 206,
@@ -6087,14 +6568,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1153100,
         "display_name": "3\u2605 Cielo (Androphobe)",
         "display_trait": "Seal Res (15%)",
         "rarity": 3,
-        "class": "Cielo",
         "element": "Earth",
         "hp": 1604,
         "patk": 234,
@@ -6116,14 +6599,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1153112,
         "display_name": "3\u2605 Cielo (Moonlit Stage)",
         "display_trait": "Poison Res (15%)",
         "rarity": 3,
-        "class": "Cielo",
         "element": "Lightning",
         "hp": 1588,
         "patk": 232,
@@ -6145,14 +6630,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1153125,
         "display_name": "3\u2605 Cielo (Strict Teacher)",
         "display_trait": "Bind Res (15%)",
         "rarity": 3,
-        "class": "Cielo",
         "element": "Dark",
         "hp": 1604,
         "patk": 237,
@@ -6174,14 +6661,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1153143,
         "display_name": "3\u2605 Cielo (Exciting Magic)",
         "display_trait": "Wind+ (6%)",
         "rarity": 3,
-        "class": "Cielo",
         "element": "Wind",
         "hp": 1588,
         "patk": 234,
@@ -6203,14 +6692,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1153157,
         "display_name": "3\u2605 Cielo (Faith in Your Fists)",
         "display_trait": "Fire+ (Team 3%)",
         "rarity": 3,
-        "class": "Cielo",
         "element": "Fire",
         "hp": 1604,
         "patk": 232,
@@ -6232,14 +6723,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1154100,
         "display_name": "4\u2605 Cielo (Dancing Adventurer)",
         "display_trait": "Recovery+ (10%)",
         "rarity": 4,
-        "class": "Cielo",
         "element": "Wind",
         "hp": 1782,
         "patk": 260,
@@ -6261,14 +6754,16 @@
         "rec_boost": 0.1,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1154105,
         "display_name": "4\u2605 Cielo (Axel Hearts)",
         "display_trait": "Lightning+ (7%)",
         "rarity": 4,
-        "class": "Cielo",
         "element": "Lightning",
         "hp": 1764,
         "patk": 258,
@@ -6290,14 +6785,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1154113,
         "display_name": "4\u2605 Cielo (Fun Sleepover)",
         "display_trait": "Recovery+ (10%)",
         "rarity": 4,
-        "class": "Cielo",
         "element": "Dark",
         "hp": 1764,
         "patk": 260,
@@ -6317,16 +6814,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0.1,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1154117,
         "display_name": "4\u2605 Cielo (Maid in Training)",
         "display_trait": "Magic+ (6%)",
         "rarity": 4,
-        "class": "Cielo",
         "element": "Fire",
         "hp": 1782,
         "patk": 263,
@@ -6348,14 +6847,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1154151,
         "display_name": "4\u2605 Cielo (Summer Explorer)",
         "display_trait": "Water/Wind+ (6%)",
         "rarity": 4,
-        "class": "Cielo",
         "element": "Water",
         "hp": 1782,
         "patk": 258,
@@ -6375,16 +6876,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            115
+        ]
     },
     {
         "uid": 1161100,
         "display_name": "1\u2605 Erika (Beginner)",
         "display_trait": "Fire+ (5%)",
         "rarity": 1,
-        "class": "Erika",
         "element": "Fire",
         "hp": 1377,
         "patk": 200,
@@ -6406,14 +6909,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1162100,
         "display_name": "2\u2605 Erika (Ranger)",
         "display_trait": "Haze Res (12%)",
         "rarity": 2,
-        "class": "Erika",
         "element": "Dark",
         "hp": 1469,
         "patk": 213,
@@ -6435,14 +6940,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1162102,
         "display_name": "2\u2605 Erika (Casual)",
         "display_trait": "Lightning+ (5%)",
         "rarity": 2,
-        "class": "Erika",
         "element": "Lightning",
         "hp": 1454,
         "patk": 215,
@@ -6464,14 +6971,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1163100,
         "display_name": "3\u2605 Erika (Fan Service)",
         "display_trait": "Wind+ (6%)",
         "rarity": 3,
-        "class": "Erika",
         "element": "Wind",
         "hp": 1652,
         "patk": 239,
@@ -6493,14 +7002,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1163110,
         "display_name": "3\u2605 Erika (Cute Klutz)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Erika",
         "element": "Lightning",
         "hp": 1636,
         "patk": 242,
@@ -6522,14 +7033,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1163111,
         "display_name": "3\u2605 Erika (Snowball-Hurling Starlet)",
         "display_trait": "Haze Res (15%)",
         "rarity": 3,
-        "class": "Erika",
         "element": "Water",
         "hp": 1636,
         "patk": 242,
@@ -6551,14 +7064,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1163113,
         "display_name": "3\u2605 Erika (Extra Girly)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Erika",
         "element": "Light",
         "hp": 1652,
         "patk": 241,
@@ -6578,16 +7093,18 @@
         "phy_boost": 0.05,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1163124,
         "display_name": "3\u2605 Erika (Make Me Look Cute)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Erika",
         "element": "Dark",
         "hp": 1652,
         "patk": 241,
@@ -6609,14 +7126,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1164100,
         "display_name": "4\u2605 Erika (Dancing Adventurer)",
         "display_trait": "Fire+ (7%)",
         "rarity": 4,
-        "class": "Erika",
         "element": "Fire",
         "hp": 1836,
         "patk": 266,
@@ -6638,14 +7157,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1164105,
         "display_name": "4\u2605 Erika (Axel Hearts)",
         "display_trait": "Lightning+ (7%)",
         "rarity": 4,
-        "class": "Erika",
         "element": "Lightning",
         "hp": 1818,
         "patk": 269,
@@ -6667,14 +7188,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1164130,
         "display_name": "4\u2605 Erika (Martial Arts Shoot)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Erika",
         "element": "Wind",
         "hp": 1836,
         "patk": 267,
@@ -6696,14 +7219,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1164144,
         "display_name": "4\u2605 Erika (Tsundere Friend)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Erika",
         "element": "Dark",
         "hp": 1836,
         "patk": 267,
@@ -6725,14 +7250,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1164151,
         "display_name": "4\u2605 Erika (Secret Getaway)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Erika",
         "element": "Water",
         "hp": 1818,
         "patk": 269,
@@ -6752,16 +7279,18 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            116
+        ]
     },
     {
         "uid": 1171100,
         "display_name": "1\u2605 Melissa (Beginner)",
         "display_trait": "Dark+ (5%)",
         "rarity": 1,
-        "class": "Melissa",
         "element": "Dark",
         "hp": 1391,
         "patk": 223,
@@ -6783,14 +7312,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1172100,
         "display_name": "2\u2605 Melissa (Ranger)",
         "display_trait": "Poison Res (12%)",
         "rarity": 2,
-        "class": "Melissa",
         "element": "Dark",
         "hp": 1483,
         "patk": 237,
@@ -6812,14 +7343,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1172102,
         "display_name": "2\u2605 Melissa (Casual)",
         "display_trait": "Haze Res (12%)",
         "rarity": 2,
-        "class": "Melissa",
         "element": "Wind",
         "hp": 1468,
         "patk": 240,
@@ -6841,14 +7374,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1173100,
         "display_name": "3\u2605 Melissa (Seductress)",
         "display_trait": "Fire+ (6%)",
         "rarity": 3,
-        "class": "Melissa",
         "element": "Fire",
         "hp": 1669,
         "patk": 267,
@@ -6870,14 +7405,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1173117,
         "display_name": "3\u2605 Melissa (Kitten Crazy)",
         "display_trait": "Water+ (6%)",
         "rarity": 3,
-        "class": "Melissa",
         "element": "Water",
         "hp": 1652,
         "patk": 270,
@@ -6899,14 +7436,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1173136,
         "display_name": "3\u2605 Melissa (Cat Cuddler)",
         "display_trait": "Lightning+ (6%)",
         "rarity": 3,
-        "class": "Melissa",
         "element": "Lightning",
         "hp": 1669,
         "patk": 268,
@@ -6928,14 +7467,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1173148,
         "display_name": "3\u2605 Melissa (Quest Complete)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Melissa",
         "element": "Dark",
         "hp": 1652,
         "patk": 270,
@@ -6957,14 +7498,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1174100,
         "display_name": "4\u2605 Melissa (Treasure Hunter)",
         "display_trait": "Dark+ (7%)",
         "rarity": 4,
-        "class": "Melissa",
         "element": "Dark",
         "hp": 1854,
         "patk": 297,
@@ -6986,14 +7529,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1174107,
         "display_name": "4\u2605 Melissa (Hot Spring Dreams)",
         "display_trait": "Earth/Dark+ (6%)",
         "rarity": 4,
-        "class": "Melissa",
         "element": "Earth",
         "hp": 1835,
         "patk": 300,
@@ -7015,14 +7560,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1174123,
         "display_name": "4\u2605 Melissa (Elegance)",
         "display_trait": "Fire+ (7%)",
         "rarity": 4,
-        "class": "Melissa",
         "element": "Fire",
         "hp": 1835,
         "patk": 300,
@@ -7044,14 +7591,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1174125,
         "display_name": "4\u2605 Melissa (Ruins Hunter)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Melissa",
         "element": "Light",
         "hp": 1854,
         "patk": 298,
@@ -7073,14 +7622,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1174130,
         "display_name": "4\u2605 Melissa (Enchanting Dance)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Melissa",
         "element": "Lightning",
         "hp": 1854,
         "patk": 298,
@@ -7102,14 +7653,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            117
+        ]
     },
     {
         "uid": 1181100,
         "display_name": "1\u2605 Mia (Beginner)",
         "display_trait": "Earth+ (5%)",
         "rarity": 1,
-        "class": "Mia",
         "element": "Earth",
         "hp": 1404,
         "patk": 227,
@@ -7131,14 +7684,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1182100,
         "display_name": "2\u2605 Mia (Lancer)",
         "display_trait": "Bind Res (12%)",
         "rarity": 2,
-        "class": "Mia",
         "element": "Wind",
         "hp": 1498,
         "patk": 242,
@@ -7160,14 +7715,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1182102,
         "display_name": "2\u2605 Mia (Casual)",
         "display_trait": "Haze Res (12%)",
         "rarity": 2,
-        "class": "Mia",
         "element": "Lightning",
         "hp": 1513,
         "patk": 240,
@@ -7189,14 +7746,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1183100,
         "display_name": "3\u2605 Mia (Endless Eater)",
         "display_trait": "Bind Res (15%)",
         "rarity": 3,
-        "class": "Mia",
         "element": "Light",
         "hp": 1685,
         "patk": 272,
@@ -7218,14 +7777,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1183123,
         "display_name": "3\u2605 Mia (Yummy Quest)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Mia",
         "element": "Water",
         "hp": 1702,
         "patk": 269,
@@ -7247,14 +7808,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1183130,
         "display_name": "3\u2605 Mia (Meat Bun Master)",
         "display_trait": "Super Gauge+ (15%)",
         "rarity": 3,
-        "class": "Mia",
         "element": "Wind",
         "hp": 1702,
         "patk": 272,
@@ -7276,14 +7839,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1183135,
         "display_name": "3\u2605 Mia (Insatiable Santa)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Mia",
         "element": "Fire",
         "hp": 1685,
         "patk": 275,
@@ -7305,14 +7870,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1183154,
         "display_name": "3\u2605 Mia (Food Stall Frenzy)",
         "display_trait": "Dark+ (6%)",
         "rarity": 3,
-        "class": "Mia",
         "element": "Dark",
         "hp": 1685,
         "patk": 269,
@@ -7334,14 +7901,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1184100,
         "display_name": "4\u2605 Mia (Mischievous Beastman)",
         "display_trait": "Earth+ (7%)",
         "rarity": 4,
-        "class": "Mia",
         "element": "Earth",
         "hp": 1872,
         "patk": 302,
@@ -7363,14 +7932,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1184113,
         "display_name": "4\u2605 Mia (Pillow Fighter)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Mia",
         "element": "Dark",
         "hp": 1891,
         "patk": 302,
@@ -7390,16 +7961,18 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1184117,
         "display_name": "4\u2605 Mia (Harried Housekeeper)",
         "display_trait": "Earth/Wind+ (6%)",
         "rarity": 4,
-        "class": "Mia",
         "element": "Wind",
         "hp": 1891,
         "patk": 299,
@@ -7421,14 +7994,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1184127,
         "display_name": "4\u2605 Mia (Kunoichi)",
         "display_trait": "Water/Earth+ (6%)",
         "rarity": 4,
-        "class": "Mia",
         "element": "Water",
         "hp": 1872,
         "patk": 305,
@@ -7450,14 +8025,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1184149,
         "display_name": "4\u2605 Mia (Harvest Dance)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Mia",
         "element": "Fire",
         "hp": 1872,
         "patk": 299,
@@ -7479,14 +8056,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            118
+        ]
     },
     {
         "uid": 1191100,
         "display_name": "1\u2605 Amy (Beginner)",
         "display_trait": "Recovery+ (7%)",
         "rarity": 1,
-        "class": "Amy",
         "element": "Lightning",
         "hp": 1310,
         "patk": 183,
@@ -7508,14 +8087,16 @@
         "rec_boost": 0.07,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1192100,
         "display_name": "2\u2605 Amy (Sage)",
         "display_trait": "Haze Res (12%)",
         "rarity": 2,
-        "class": "Amy",
         "element": "Water",
         "hp": 1397,
         "patk": 195,
@@ -7537,14 +8118,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1192102,
         "display_name": "2\u2605 Amy (Casual)",
         "display_trait": "Recovery+ (7%)",
         "rarity": 2,
-        "class": "Amy",
         "element": "Light",
         "hp": 1383,
         "patk": 193,
@@ -7566,14 +8149,16 @@
         "rec_boost": 0.07,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1193100,
         "display_name": "3\u2605 Amy (Motherly Protector)",
         "display_trait": "Recovery+ (8%)",
         "rarity": 3,
-        "class": "Amy",
         "element": "Wind",
         "hp": 1571,
         "patk": 219,
@@ -7595,14 +8180,16 @@
         "rec_boost": 0.08,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1193127,
         "display_name": "3\u2605 Amy (Relaxing Kunoichi)",
         "display_trait": "Water/Earth+ (5%)",
         "rarity": 3,
-        "class": "Amy",
         "element": "Water",
         "hp": 1556,
         "patk": 219,
@@ -7624,14 +8211,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1193128,
         "display_name": "3\u2605 Amy (Clean Your Plate)",
         "display_trait": "Recovery+ (8%)",
         "rarity": 3,
-        "class": "Amy",
         "element": "Earth",
         "hp": 1556,
         "patk": 217,
@@ -7653,14 +8242,16 @@
         "rec_boost": 0.08,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1193136,
         "display_name": "3\u2605 Amy (Cake Creator)",
         "display_trait": "Recovery+ (8%)",
         "rarity": 3,
-        "class": "Amy",
         "element": "None",
         "hp": 1571,
         "patk": 221,
@@ -7682,14 +8273,16 @@
         "rec_boost": 0.08,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1193151,
         "display_name": "3\u2605 Amy (Shy Swimmer)",
         "display_trait": "Magic+ (5%)",
         "rarity": 3,
-        "class": "Amy",
         "element": "Dark",
         "hp": 1571,
         "patk": 217,
@@ -7709,16 +8302,18 @@
         "phy_boost": 0,
         "mag_boost": 0.05,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1194100,
         "display_name": "4\u2605 Amy (Soother of Spirits)",
         "display_trait": "Recovery+ (10%)",
         "rarity": 4,
-        "class": "Amy",
         "element": "Earth",
         "hp": 1746,
         "patk": 244,
@@ -7740,14 +8335,16 @@
         "rec_boost": 0.1,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1194113,
         "display_name": "4\u2605 Amy (Me Time)",
         "display_trait": "Light+ (7%)",
         "rarity": 4,
-        "class": "Amy",
         "element": "Light",
         "hp": 1729,
         "patk": 244,
@@ -7767,16 +8364,18 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false
+        "available": true,
+        "owned": true,
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1194117,
         "display_name": "4\u2605 Amy (Motherly Maiden)",
         "display_trait": "Wind+ (7%)",
         "rarity": 4,
-        "class": "Amy",
         "element": "Wind",
         "hp": 1729,
         "patk": 241,
@@ -7798,14 +8397,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1194125,
         "display_name": "4\u2605 Amy (Oasis Dancer)",
         "display_trait": "Dark+ (7%)",
         "rarity": 4,
-        "class": "Amy",
         "element": "Dark",
         "hp": 1746,
         "patk": 246,
@@ -7827,14 +8428,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1194149,
         "display_name": "4\u2605 Amy (Snow Country Starlight)",
         "display_trait": "Fire+ (7%)",
         "rarity": 4,
-        "class": "Amy",
         "element": "Fire",
         "hp": 1746,
         "patk": 241,
@@ -7856,14 +8459,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1194154,
         "display_name": "4\u2605 Amy (Blossoming Evening)",
         "display_trait": "Water+ (7%)",
         "rarity": 4,
-        "class": "Amy",
         "element": "Water",
         "hp": 1729,
         "patk": 246,
@@ -7885,14 +8490,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            119
+        ]
     },
     {
         "uid": 1281100,
         "display_name": "1\u2605 Vanir (Beginner)",
         "display_trait": "Earth+ (5%)",
         "rarity": 1,
-        "class": "Vanir",
         "element": "Earth",
         "hp": 1283,
         "patk": 183,
@@ -7914,14 +8521,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            128
+        ]
     },
     {
         "uid": 1282100,
         "display_name": "2\u2605 Vanir (Masked Demon)",
         "display_trait": "Earth+ (5%)",
         "rarity": 2,
-        "class": "Vanir",
         "element": "Earth",
         "hp": 1368,
         "patk": 195,
@@ -7943,14 +8552,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            128
+        ]
     },
     {
         "uid": 1282102,
         "display_name": "2\u2605 Vanir (Duke of Aprons)",
         "display_trait": "Dark+ (5%)",
         "rarity": 2,
-        "class": "Vanir",
         "element": "Dark",
         "hp": 1354,
         "patk": 193,
@@ -7972,14 +8583,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            128
+        ]
     },
     {
         "uid": 1283100,
         "display_name": "3\u2605 Vanir (Punishing Pose)",
         "display_trait": "Magic+ (5%)",
         "rarity": 3,
-        "class": "Vanir",
         "element": "Wind",
         "hp": 1524,
         "patk": 217,
@@ -8001,14 +8614,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            128
+        ]
     },
     {
         "uid": 1283157,
         "display_name": "3\u2605 Vanir (Perfect Dungeon)",
         "display_trait": "Earth+ (6%)",
         "rarity": 3,
-        "class": "Vanir",
         "element": "Earth",
         "hp": 1539,
         "patk": 219,
@@ -8030,14 +8645,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            128
+        ]
     },
     {
         "uid": 1284100,
         "display_name": "4\u2605 Vanir (Duke of Hell)",
         "display_trait": "Earth+ (Team 6%)",
         "rarity": 4,
-        "class": "Vanir",
         "element": "Earth",
         "hp": 1710,
         "patk": 244,
@@ -8059,14 +8676,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            128
+        ]
     },
     {
         "uid": 1474132,
         "display_name": "4\u2605 Emilia (Spiritual Arts User)",
         "display_trait": "Water+ (7%)",
         "rarity": 4,
-        "class": "Aqua",
         "element": "Water",
         "hp": 1800,
         "patk": 246,
@@ -8088,14 +8707,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            101
+        ]
     },
     {
         "uid": 1504132,
         "display_name": "4\u2605 Rem (Battle Maid)",
         "display_trait": "Water+ (7%)",
         "rarity": 4,
-        "class": "Megumin",
         "element": "Water",
         "hp": 1926,
         "patk": 309,
@@ -8117,14 +8738,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false
+        "new": false,
+        "bonus": [
+            102
+        ]
     },
     {
         "uid": 1511100,
         "display_name": "1\u2605 Mel (Beginner)",
         "display_trait": "Lightning+ (5%)",
         "rarity": 1,
-        "class": "Meru",
         "element": "Lightning",
         "hp": 1445,
         "patk": 231,
@@ -8146,14 +8769,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            151
+        ]
     },
     {
         "uid": 1512100,
         "display_name": "2\u2605 Mel (Lightning Spirit)",
         "display_trait": "Lightning+ (5%)",
         "rarity": 2,
-        "class": "Meru",
         "element": "Lightning",
         "hp": 1541,
         "patk": 246,
@@ -8175,14 +8800,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            151
+        ]
     },
     {
         "uid": 1512102,
         "display_name": "2\u2605 Mel (Casual)",
         "display_trait": "Bind Res (12%)",
         "rarity": 2,
-        "class": "Meru",
         "element": "Dark",
         "hp": 1525,
         "patk": 249,
@@ -8204,14 +8831,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            151
+        ]
     },
     {
         "uid": 1513100,
         "display_name": "3\u2605 Mel (Warm Welcome)",
         "display_trait": "Physical+ (5%)",
         "rarity": 3,
-        "class": "Meru",
         "element": "Fire",
         "hp": 1716,
         "patk": 280,
@@ -8233,14 +8862,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            151
+        ]
     },
     {
         "uid": 1513155,
         "display_name": "3\u2605 Mel (Excuse Me)",
         "display_trait": "Lightning+ (6%)",
         "rarity": 3,
-        "class": "Meru",
         "element": "Lightning",
         "hp": 1733,
         "patk": 277,
@@ -8262,14 +8893,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            151
+        ]
     },
     {
         "uid": 1514100,
         "display_name": "4\u2605 Mel (Spirit Power)",
         "display_trait": "Lightning+ (7%)",
         "rarity": 4,
-        "class": "Meru",
         "element": "Lightning",
         "hp": 1926,
         "patk": 308,
@@ -8291,14 +8924,16 @@
         "rec_boost": 0,
         "available": false,
         "owned": false,
-        "new": false
+        "new": false,
+        "bonus": [
+            151
+        ]
     },
     {
         "uid": 1584147,
         "display_name": "4\u2605 Bell (Little Rookie)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Kazuma",
         "element": "Fire",
         "hp": 1818,
         "patk": 297,
@@ -8320,14 +8955,16 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            100
+        ]
     },
     {
         "uid": 1604147,
         "display_name": "4\u2605 Ais (Sword Princess)",
         "display_trait": "Physical+ (6%)",
         "rarity": 4,
-        "class": "Darkness",
         "element": "Wind",
         "hp": 1782,
         "patk": 302,
@@ -8349,10 +8986,13 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true
+        "new": false,
+        "bonus": [
+            103
+        ]
     },
 	{
-		"version":"4.5.0",
+		"version":"4.6.0",
 		"available":false
 	}
 ]
