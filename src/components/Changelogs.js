@@ -13,8 +13,9 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
-                    <h4>3 September 2022 (Ver 4.7.0)</h4>
+                    <h4>3 September 2022 (Ver 4.7.1)</h4>
                     <ul>• Toggled Global September units to be available</ul>
+					<ul>• Toggled Ninja 4 Banner</ul>
                 </div>
                 <div>
                     <h4>29 July 2022 (Ver 4.6.0)</h4>
