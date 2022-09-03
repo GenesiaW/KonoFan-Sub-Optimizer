@@ -13,6 +13,10 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>3 September 2022 (Ver 4.7.0)</h4>
+                    <ul>• Toggled Global September units to be available</ul>
+                </div>
+                <div>
                     <h4>29 July 2022 (Ver 4.6.0)</h4>
                     <ul>• Changed Calculation method. Now supports Railgun/Shield Hero Units with more than 1 sub character</ul>
                     <ul>• Changed Behavior of Search Box. Now Collab Characters can be searched directly</ul>

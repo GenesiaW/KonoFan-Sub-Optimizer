@@ -505,7 +505,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false,
+        "new": true,
         "bonus": [
             100,
             158
@@ -1017,7 +1017,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false,
+        "new": true,
         "bonus": [
             101,
             147
@@ -2009,7 +2009,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false,
+        "new": true,
         "bonus": [
             103,
             160
@@ -2445,7 +2445,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false,
+        "new": true,
         "bonus": [
             104
         ]
@@ -3778,7 +3778,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false,
+        "new": true,
         "bonus": [
             107
         ]
@@ -3964,7 +3964,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false,
+        "new": true,
         "bonus": [
             108
         ]
@@ -5080,7 +5080,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false,
+        "new": true,
         "bonus": [
             111
         ]
@@ -6320,7 +6320,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false,
+        "new": true,
         "bonus": [
             114
         ]
@@ -7281,7 +7281,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": false,
+        "new": true,
         "bonus": [
             116
         ]
@@ -8992,7 +8992,7 @@
         ]
     },
 	{
-		"version":"4.7.0",
+		"version":"4.6.0",
 		"available":false
 	}
 ]
