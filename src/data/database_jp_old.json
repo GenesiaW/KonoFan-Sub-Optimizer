@@ -1,7 +1,7 @@
 [
 	{
 		"uid": 1001100,
-		"display_name": "1★ Kazuma (Beginner)",
+		"display_name": "1★ ［はじまり］カズマ",
 		"display_trait": "Water+ (5%)",
 		"rarity": 1,
 		"element": "Water",
@@ -28,12 +28,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1002100,
-		"display_name": "2★ Kazuma (Adventurer)",
+		"display_name": "2★ ［冒険者］カズマ",
 		"display_trait": "Bind Res (12%)",
 		"rarity": 2,
 		"element": "Fire",
@@ -60,12 +63,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1002102,
-		"display_name": "2★ Kazuma (Day Job)",
+		"display_name": "2★ ［工事現場］カズマ",
 		"display_trait": "Bind Res (12%)",
 		"rarity": 2,
 		"element": "Earth",
@@ -92,12 +98,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1003100,
-		"display_name": "3★ Kazuma (Tough Times)",
+		"display_name": "3★ ［苦労人］カズマ",
 		"display_trait": "Poison Res (15%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -124,12 +133,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1003104,
-		"display_name": "3★ Kazuma (Winter Layers)",
+		"display_name": "3★ ［凍えそうな季節］カズマ",
 		"display_trait": "Bind Res (15%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -156,12 +168,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1003107,
-		"display_name": "3★ Kazuma (Don't Mind Me)",
+		"display_name": "3★ ［お構いなく］カズマ",
 		"display_trait": "Poison Res (15%)",
 		"rarity": 3,
 		"element": "Light",
@@ -188,12 +203,50 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
+		]
+	},
+	{
+		"uid": 1003109,
+		"display_name": "3★ ［俺の勝負服］カズマ",
+		"display_trait": "Haze Res (15%)",
+		"rarity": 3,
+		"element": "Lightning",
+		"hp": 1652,
+		"patk": 247,
+		"matk": 242,
+		"pdef": 176,
+		"mdef": 168,
+		"agi": 73,
+		"dex": 77,
+		"luck": 89,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			100,
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1003129,
-		"display_name": "3★ Kazuma (Pumpkin Battle)",
+		"display_name": "3★ ［パンプキン対決］カズマ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -220,12 +273,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1003137,
-		"display_name": "3★ Kazuma (Same as Last Year)",
+		"display_name": "3★ ［今年もこんなもん］カズマ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -252,12 +308,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1003144,
-		"display_name": "3★ Kazuma (Dreamy School Life)",
+		"display_name": "3★ ［夢の学園生活］カズマ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -284,12 +343,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1003151,
-		"display_name": "3★ Kazuma (Dream Summer)",
+		"display_name": "3★ ［リア充の夏］カズマ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Water",
@@ -316,12 +378,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1004100,
-		"display_name": "4★ Kazuma (Shut-In No More)",
+		"display_name": "4★ ［引きこもり転生者］カズマ",
 		"display_trait": "Water+ (7%)",
 		"rarity": 4,
 		"element": "Water",
@@ -348,12 +413,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1004116,
-		"display_name": "4★ Kazuma (Household Hero)",
+		"display_name": "4★ ［小劇場の勇者］カズマ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Light",
@@ -380,12 +448,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1004117,
-		"display_name": "4★ Kazuma (Exceptional Etiquette)",
+		"display_name": "4★ ［作法は完璧］カズマ",
 		"display_trait": "Fire+ (Team 6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -407,17 +478,20 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1004119,
-		"display_name": "4★ Kazuma (A Ball for Two)",
+		"display_name": "4★ ［ふたりの舞踏会］カズマ",
 		"display_trait": "Earth+ (7%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -444,12 +518,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1004127,
-		"display_name": "4★ Kazuma (Novice Ninja)",
+		"display_name": "4★ ［新米忍者］カズマ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -476,12 +553,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1004141,
-		"display_name": "4★ Kazuma (Stage for Two)",
+		"display_name": "4★ ［ふたりのステージ］カズマ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -508,12 +588,15 @@
 		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1004142,
-		"display_name": "4★ Kazuma (Legendary Adventurer)",
+		"display_name": "4★ ［伝説の冒険者］カズマ",
 		"display_trait": "Physical+ (9%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -537,15 +620,88 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			100,
-			158
+			158,
+			163,
+			185,
+			192
+		]
+	},
+	{
+		"uid": 1004161,
+		"display_name": "4★ ［なりきり魔王］カズマ",
+		"display_trait": "Dark+ (7%)",
+		"rarity": 4,
+		"element": "Dark",
+		"hp": 1835,
+		"patk": 274,
+		"matk": 269,
+		"pdef": 196,
+		"mdef": 186,
+		"agi": 73,
+		"dex": 77,
+		"luck": 89,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0.07,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			100,
+			158,
+			163,
+			185,
+			192
+		]
+	},
+	{
+		"uid": 1004186,
+		"display_name": "4★ ［謎の腕利き冒険者］カズマ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Fire",
+		"hp": 1854,
+		"patk": 277,
+		"matk": 274,
+		"pdef": 194,
+		"mdef": 184,
+		"agi": 73,
+		"dex": 78,
+		"luck": 90,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			100,
+			158,
+			163,
+			185,
+			192
 		]
 	},
 	{
 		"uid": 1011100,
-		"display_name": "1★ Aqua (Beginner)",
+		"display_name": "1★ ［はじまり］アクア",
 		"display_trait": "Recovery+ (7%)",
 		"rarity": 1,
 		"element": "Water",
@@ -572,12 +728,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1012100,
-		"display_name": "2★ Aqua (Arch Priest)",
+		"display_name": "2★ ［アークプリースト］アクア",
 		"display_trait": "Seal Res (12%)",
 		"rarity": 2,
 		"element": "Light",
@@ -604,12 +761,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1012102,
-		"display_name": "2★ Aqua (Day Job)",
+		"display_name": "2★ ［工事現場］アクア",
 		"display_trait": "Recover On Action (50)",
 		"rarity": 2,
 		"element": "Earth",
@@ -636,12 +794,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1013100,
-		"display_name": "3★ Aqua (Order of Axis)",
+		"display_name": "3★ ［アクシズ教への誘い］アクア",
 		"display_trait": "Haze Res (15%)",
 		"rarity": 3,
 		"element": "Light",
@@ -668,12 +827,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1013104,
-		"display_name": "3★ Aqua (Winter Layers)",
+		"display_name": "3★ ［凍えそうな季節］アクア",
 		"display_trait": "Recover On Action (60)",
 		"rarity": 3,
 		"element": "Water",
@@ -700,12 +860,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1013116,
-		"display_name": "3★ Aqua (Life of the Party)",
+		"display_name": "3★ ［女神のはまり役］アクア",
 		"display_trait": "Seal Res (15%)",
 		"rarity": 3,
 		"element": "None",
@@ -732,12 +893,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1013120,
-		"display_name": "3★ Aqua (Forgive Me, Kazuma)",
+		"display_name": "3★ ［許してカズマさん］アクア",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -764,12 +926,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1013129,
-		"display_name": "3★ Aqua (Pumpkin Cuisine)",
+		"display_name": "3★ ［お手製パンプキン］アクア",
 		"display_trait": "Recover On Action (60)",
 		"rarity": 3,
 		"element": "None",
@@ -796,12 +959,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1013150,
-		"display_name": "3★ Aqua (Lights Out)",
+		"display_name": "3★ ［今夜はぐっすり］アクア",
 		"display_trait": "Water/Earth+ (5%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -823,17 +987,84 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
+		]
+	},
+	{
+		"uid": 1013190,
+		"display_name": "3★ ［チヤホヤしてよ］アクア",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Light",
+		"hp": 1700,
+		"patk": 265,
+		"matk": 285,
+		"pdef": 187,
+		"mdef": 200,
+		"agi": 65,
+		"dex": 75,
+		"luck": 10,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			101,
+			147,
+			193
+		]
+	},
+	{
+		"uid": 1013194,
+		"display_name": "3★ ［馬小屋の女神］アクア",
+		"display_trait": "Water/Light+ (5%)",
+		"rarity": 3,
+		"element": "Water",
+		"hp": 1717,
+		"patk": 267,
+		"matk": 288,
+		"pdef": 185,
+		"mdef": 198,
+		"agi": 66,
+		"dex": 77,
+		"luck": 10,
+		"water_boost": 0.05,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0.05,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			101,
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1014100,
-		"display_name": "4★ Aqua (Nature's Beauty)",
+		"display_name": "4★ ［花鳥風月］アクア",
 		"display_trait": "Recovery+ (10%)",
 		"rarity": 4,
 		"element": "Water",
@@ -860,12 +1091,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1014107,
-		"display_name": "4★ Aqua (Hot Spring Heaven)",
+		"display_name": "4★ ［水と温泉の都に乾杯］アクア",
 		"display_trait": "Light+ (7%)",
 		"rarity": 4,
 		"element": "Light",
@@ -892,12 +1124,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1014123,
-		"display_name": "4★ Aqua (Sparkling Seas)",
+		"display_name": "4★ ［きらめく海の世界］アクア",
 		"display_trait": "Lightning/Light+ (6%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -924,12 +1157,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1014132,
-		"display_name": "4★ Aqua (Otherworldly Tour)",
+		"display_name": "4★ ［異世界ツアー］アクア",
 		"display_trait": "Wind/Light+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -956,12 +1190,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1014137,
-		"display_name": "4★ Aqua (God Smash)",
+		"display_name": "4★ ［ゴッドスマッシュ］アクア",
 		"display_trait": "Earth/Light+ (6%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -988,12 +1223,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1014142,
-		"display_name": "4★ Aqua (Legendary Adventurer)",
+		"display_name": "4★ ［伝説の冒険者］アクア",
 		"display_trait": "Physical/Super Gauge+ (5%/15%)",
 		"rarity": 4,
 		"element": "Water",
@@ -1020,12 +1256,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1014147,
-		"display_name": "4★ Aqua (Dungeon Goddess)",
+		"display_name": "4★ ［女神対決］アクア",
 		"display_trait": "Light+ (7%)",
 		"rarity": 4,
 		"element": "Light",
@@ -1052,12 +1289,13 @@
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1014160,
-		"display_name": "4★ Aqua",
+		"display_name": "4★ ［いたずらパレード］アクア",
 		"display_trait": "Lightning+ (Team 6%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -1079,17 +1317,84 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			101,
-			147
+			147,
+			193
+		]
+	},
+	{
+		"uid": 1014186,
+		"display_name": "4★ ［謎の腕利き冒険者］アクア",
+		"display_trait": "Water/Earth+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 1908,
+		"patk": 297,
+		"matk": 320,
+		"pdef": 206,
+		"mdef": 220,
+		"agi": 66,
+		"dex": 76,
+		"luck": 10,
+		"water_boost": 0.06,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0.06,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			101,
+			147,
+			193
+		]
+	},
+	{
+		"uid": 1014195,
+		"display_name": "4★ ［ふわふわ尻尾］アクア",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 1889,
+		"patk": 294,
+		"matk": 316,
+		"pdef": 208,
+		"mdef": 222,
+		"agi": 67,
+		"dex": 78,
+		"luck": 10,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			101,
+			147,
+			193
 		]
 	},
 	{
 		"uid": 1021100,
-		"display_name": "1★ Megumin (Beginner)",
+		"display_name": "1★ ［はじまり］めぐみん",
 		"display_trait": "Fire+ (5%)",
 		"rarity": 1,
 		"element": "Fire",
@@ -1116,12 +1421,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1022100,
-		"display_name": "2★ Megumin (Arch Wizard)",
+		"display_name": "2★ ［アークウィザード］めぐみん",
 		"display_trait": "Fire+ (5%)",
 		"rarity": 2,
 		"element": "Fire",
@@ -1148,12 +1456,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1022102,
-		"display_name": "2★ Megumin (Day Off)",
+		"display_name": "2★ ［私服］めぐみん",
 		"display_trait": "Lightning+ (5%)",
 		"rarity": 2,
 		"element": "Lightning",
@@ -1180,12 +1491,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1023100,
-		"display_name": "3★ Megumin (Magical Melodrama)",
+		"display_name": "3★ ［中二病魔女］めぐみん",
 		"display_trait": "Fire+ (6%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -1212,12 +1526,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1023104,
-		"display_name": "3★ Megumin (Winter Layers)",
+		"display_name": "3★ ［凍えそうな季節］めぐみん",
 		"display_trait": "Magic+ (5%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -1244,12 +1561,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1023107,
-		"display_name": "3★ Megumin (Squeaky Clean)",
+		"display_name": "3★ ［きれいにしましょう］めぐみん",
 		"display_trait": "Magic+ (5%)",
 		"rarity": 3,
 		"element": "Light",
@@ -1276,12 +1596,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1023123,
-		"display_name": "3★ Megumin (Beachgoer)",
+		"display_name": "3★ ［海はこれから］めぐみん",
 		"display_trait": "Fire/Dark+ (5%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -1308,12 +1631,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1023145,
-		"display_name": "3★ Megumin (Nice Explosion)",
+		"display_name": "3★ ［ナイス…爆裂］めぐみん",
 		"display_trait": "Fire/Water+ (5%)",
 		"rarity": 3,
 		"element": "Water",
@@ -1337,15 +1663,53 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
+		]
+	},
+	{
+		"uid": 1023190,
+		"display_name": "3★ ［今日だけは妹］めぐみん",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Water",
+		"hp": 1363,
+		"patk": 242,
+		"matk": 283,
+		"pdef": 157,
+		"mdef": 189,
+		"agi": 69,
+		"dex": 71,
+		"luck": 72,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			102,
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1024100,
-		"display_name": "4★ Megumin (Explosive)",
+		"display_name": "4★ ［ナイス爆裂!!］めぐみん",
 		"display_trait": "Fire+ (7%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -1372,12 +1736,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1024113,
-		"display_name": "4★ Megumin (Pajama Party)",
+		"display_name": "4★ ［パジャマパーティー］めぐみん",
 		"display_trait": "Dark+ (7%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -1404,12 +1771,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1024118,
-		"display_name": "4★ Megumin (Explosive Devotion)",
+		"display_name": "4★ ［爆裂魔法を信じて］めぐみん",
 		"display_trait": "Fire/Water+ (6%)",
 		"rarity": 4,
 		"element": "Water",
@@ -1436,12 +1806,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1024126,
-		"display_name": "4★ Megumin (Explosive Barista)",
+		"display_name": "4★ ［爆裂カフェ店員］めぐみん",
 		"display_trait": "Magic+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -1468,12 +1841,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1024132,
-		"display_name": "4★ Megumin (Group Pose)",
+		"display_name": "4★ ［おそろいポーズ］めぐみん",
 		"display_trait": "Fire/Light+ (6%)",
 		"rarity": 4,
 		"element": "Light",
@@ -1500,12 +1876,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1024137,
-		"display_name": "4★ Megumin (New Year's Karuta Contest)",
+		"display_name": "4★ ［新春カルタ大会］めぐみん",
 		"display_trait": "Fire/Earth+ (6%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -1532,12 +1911,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1024141,
-		"display_name": "4★ Megumin (Singing Sensation)",
+		"display_name": "4★ ［今夜の主役］めぐみん",
 		"display_trait": "Fire/Light+ (6%)",
 		"rarity": 4,
 		"element": "Light",
@@ -1564,12 +1946,15 @@
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1024142,
-		"display_name": "4★ Megumin (Legendary Adventurer)",
+		"display_name": "4★ ［伝説の冒険者］めぐみん",
 		"display_trait": "Magic+ (Team 9%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -1591,17 +1976,195 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			102,
-			150
+			150,
+			165,
+			183,
+			186
+		]
+	},
+	{
+		"uid": 1024161,
+		"display_name": "4★ ［月夜の案内人］めぐみん",
+		"display_trait": "Fire/Light+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1530,
+		"patk": 269,
+		"matk": 317,
+		"pdef": 172,
+		"mdef": 208,
+		"agi": 68,
+		"dex": 71,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0.06,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0.06,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			102,
+			150,
+			165,
+			183,
+			186
+		]
+	},
+	{
+		"uid": 1024169,
+		"display_name": "4★ ［爆走プレゼント］めぐみん",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 1515,
+		"patk": 266,
+		"matk": 314,
+		"pdef": 174,
+		"mdef": 210,
+		"agi": 69,
+		"dex": 72,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			102,
+			150,
+			165,
+			183,
+			186
+		]
+	},
+	{
+		"uid": 1024186,
+		"display_name": "4★ ［謎の腕利き冒険者］めぐみん",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Fire",
+		"hp": 1530,
+		"patk": 263,
+		"matk": 317,
+		"pdef": 172,
+		"mdef": 208,
+		"agi": 68,
+		"dex": 71,
+		"luck": 72,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			102,
+			150,
+			165,
+			183,
+			186
+		]
+	},
+	{
+		"uid": 1024189,
+		"display_name": "4★ ［ビリビリ爆裂娘］めぐみん",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Lightning",
+		"hp": 1515,
+		"patk": 269,
+		"matk": 320,
+		"pdef": 171,
+		"mdef": 210,
+		"agi": 67,
+		"dex": 72,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			102,
+			150,
+			165,
+			183,
+			186
+		]
+	},
+	{
+		"uid": 1024191,
+		"display_name": "4★ ［ビーチでひと勝負］めぐみん",
+		"display_trait": "Magic/Dark+ (Team 3%/Team 3%)",
+		"rarity": 4,
+		"element": "Dark",
+		"hp": 1499,
+		"patk": 266,
+		"matk": 317,
+		"pdef": 172,
+		"mdef": 208,
+		"agi": 68,
+		"dex": 70,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			102,
+			150,
+			165,
+			183,
+			186
 		]
 	},
 	{
 		"uid": 1031100,
-		"display_name": "1★ Darkness (Beginner)",
+		"display_name": "1★ ［はじまり］ダクネス",
 		"display_trait": "Light+ (5%)",
 		"rarity": 1,
 		"element": "Light",
@@ -1628,12 +2191,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1032100,
-		"display_name": "2★ Darkness (Crusader)",
+		"display_name": "2★ ［クルセイダー］ダクネス",
 		"display_trait": "Damage Absorption (20%)",
 		"rarity": 2,
 		"element": "Lightning",
@@ -1660,12 +2224,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1032102,
-		"display_name": "2★ Darkness (Casual)",
+		"display_name": "2★ ［軽装］ダクネス",
 		"display_trait": "Haze Res (12%)",
 		"rarity": 2,
 		"element": "Earth",
@@ -1692,12 +2257,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1033100,
-		"display_name": "3★ Darkness (Human Shield)",
+		"display_name": "3★ ［壁代わり］ダクネス",
 		"display_trait": "Damage Absorption (25%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -1724,12 +2290,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1033104,
-		"display_name": "3★ Darkness (Winter Layers)",
+		"display_name": "3★ ［凍えそうな季節］ダクネス",
 		"display_trait": "Recover On Action (60)",
 		"rarity": 3,
 		"element": "Wind",
@@ -1756,12 +2323,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1033113,
-		"display_name": "3★ Darkness (Girl's Night)",
+		"display_name": "3★ ［おとな女子会］ダクネス",
 		"display_trait": "Seal Res (15%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -1788,12 +2356,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1033131,
-		"display_name": "3★ Darkness (Extension Request)",
+		"display_name": "3★ ［延長希望］ダクネス",
 		"display_trait": "Magic Reduction (7%)",
 		"rarity": 3,
 		"element": "None",
@@ -1820,12 +2389,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1033137,
-		"display_name": "3★ Darkness (Crusader's Spirit)",
+		"display_name": "3★ ［クルセイダーの抱負］ダクネス",
 		"display_trait": "Physical Reduction (7%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -1852,12 +2422,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1033150,
-		"display_name": "3★ Darkness (Girlish Pursuits)",
+		"display_name": "3★ ［乙女の嗜み］ダクネス",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Light",
@@ -1879,17 +2450,51 @@
 		"phy_boost": 0.05,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
+		]
+	},
+	{
+		"uid": 1033178,
+		"display_name": "3★ ［パティシエ熱闘中］ダクネス",
+		"display_trait": "Recover On Action (60)",
+		"rarity": 3,
+		"element": "Dark",
+		"hp": 1912,
+		"patk": 267,
+		"matk": 225,
+		"pdef": 217,
+		"mdef": 211,
+		"agi": 68,
+		"dex": 10,
+		"luck": 63,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			103,
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1034100,
-		"display_name": "4★ Darkness (Total Ecstasy)",
+		"display_name": "4★ ［溢れる歓喜］ダクネス",
 		"display_trait": "Bind Res (18%)",
 		"rarity": 4,
 		"element": "None",
@@ -1916,12 +2521,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1034107,
-		"display_name": "4★ Darkness (Hot Water)",
+		"display_name": "4★ ［湯あたり注意！］ダクネス",
 		"display_trait": "Poison Res (18%)",
 		"rarity": 4,
 		"element": "None",
@@ -1948,12 +2554,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1034123,
-		"display_name": "4★ Darkness (True Knight)",
+		"display_name": "4★ ［騎士の真骨頂］ダクネス",
 		"display_trait": "Physical Reduction (8%)",
 		"rarity": 4,
 		"element": "None",
@@ -1980,12 +2587,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1034135,
-		"display_name": "4★ Darkness (Secret Present)",
+		"display_name": "4★ ［秘密のクリスマス］ダクネス",
 		"display_trait": "Magic Reduction (8%)",
 		"rarity": 4,
 		"element": "None",
@@ -2012,12 +2620,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1034142,
-		"display_name": "4★ Darkness (Legendary Adventurer)",
+		"display_name": "4★ ［伝説の冒険者］ダクネス",
 		"display_trait": "Physical/Recover On Action (6%/100)",
 		"rarity": 4,
 		"element": "Light",
@@ -2044,12 +2653,13 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1034147,
-		"display_name": "4★ Darkness (Sword Princess's Student)",
+		"display_name": "4★ ［剣姫の教え］ダクネス",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -2076,12 +2686,112 @@
 		"new": false,
 		"bonus": [
 			103,
-			160
+			160,
+			164
+		]
+	},
+	{
+		"uid": 1034161,
+		"display_name": "4★ ［期待の眼差し］ダクネス",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Dark",
+		"hp": 2124,
+		"patk": 296,
+		"matk": 249,
+		"pdef": 241,
+		"mdef": 234,
+		"agi": 68,
+		"dex": 10,
+		"luck": 63,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			103,
+			160,
+			164
+		]
+	},
+	{
+		"uid": 1034183,
+		"display_name": "4★ ［親友との語らい］ダクネス",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Lightning",
+		"hp": 2124,
+		"patk": 296,
+		"matk": 249,
+		"pdef": 241,
+		"mdef": 234,
+		"agi": 68,
+		"dex": 10,
+		"luck": 65,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			103,
+			160,
+			164
+		]
+	},
+	{
+		"uid": 1034186,
+		"display_name": "4★ ［謎の腕利き冒険者］ダクネス",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 2145,
+		"patk": 299,
+		"matk": 252,
+		"pdef": 238,
+		"mdef": 232,
+		"agi": 67,
+		"dex": 10,
+		"luck": 65,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			103,
+			160,
+			164
 		]
 	},
 	{
 		"uid": 1041100,
-		"display_name": "1★ Chris (Beginner)",
+		"display_name": "1★ ［はじまり］クリス",
 		"display_trait": "Wind+ (5%)",
 		"rarity": 1,
 		"element": "Wind",
@@ -2107,12 +2817,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1042100,
-		"display_name": "2★ Chris (Thief)",
+		"display_name": "2★ ［盗賊］クリス",
 		"display_trait": "Poison Res (12%)",
 		"rarity": 2,
 		"element": "Light",
@@ -2138,12 +2850,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1042102,
-		"display_name": "2★ Chris (Casual)",
+		"display_name": "2★ ［軽装］クリス",
 		"display_trait": "Seal Res (12%)",
 		"rarity": 2,
 		"element": "Lightning",
@@ -2169,12 +2883,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1043100,
-		"display_name": "3★ Chris (Steal)",
+		"display_name": "3★ ［スティール］クリス",
 		"display_trait": "Bind Res (15%)",
 		"rarity": 3,
 		"element": "Water",
@@ -2200,12 +2916,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1043114,
-		"display_name": "3★ Chris (Bunny Girl for a Day)",
+		"display_name": "3★ ［1日バニーガール］クリス",
 		"display_trait": "Haze Res (15%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -2231,12 +2949,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1043138,
-		"display_name": "3★ Chris (Great Detective)",
+		"display_name": "3★ ［気分は名探偵］クリス",
 		"display_trait": "Light+ (6%)",
 		"rarity": 3,
 		"element": "Light",
@@ -2262,12 +2982,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1043149,
-		"display_name": "3★ Chris (Festive Foodie)",
+		"display_name": "3★ ［大食い奉納］クリス",
 		"display_trait": "Fire+ (6%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -2291,14 +3013,49 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
+		]
+	},
+	{
+		"uid": 1043171,
+		"display_name": "3★ ［お先に失礼］クリス",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Earth",
+		"hp": 1604,
+		"patk": 244,
+		"matk": 240,
+		"pdef": 171,
+		"mdef": 180,
+		"agi": 75,
+		"dex": 79,
+		"luck": 88,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1044100,
-		"display_name": "4★ Chris (High-Flying Thief)",
+		"display_name": "4★ ［空跳ぶ盗賊］クリス",
 		"display_trait": "Wind+ (7%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -2324,12 +3081,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1044110,
-		"display_name": "4★ Chris (Smiling Chaperone)",
+		"display_name": "4★ ［笑顔でエスコート］クリス",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -2355,12 +3114,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1044117,
-		"display_name": "4★ Chris (Maid to Loot)",
+		"display_name": "4★ ［盗賊メイド］クリス",
 		"display_trait": "Fire+ (7%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -2386,12 +3147,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1044125,
-		"display_name": "4★ Chris (My Treasure)",
+		"display_name": "4★ ［あたしのお宝］クリス",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Light",
@@ -2417,12 +3180,14 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1044127,
-		"display_name": "4★ Chris (Shuriken Lesson)",
+		"display_name": "4★ ［手裏剣レッスン］クリス",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Water",
@@ -2446,14 +3211,49 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
+		]
+	},
+	{
+		"uid": 1044142,
+		"display_name": "4★ ［伝説の冒険者］クリス",
+		"display_trait": "Debuff Physical+ (6%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 1782,
+		"patk": 271,
+		"matk": 269,
+		"pdef": 190,
+		"mdef": 196,
+		"agi": 77,
+		"dex": 78,
+		"luck": 89,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1044151,
-		"display_name": "4★ Chris (Beach Rendezvous)",
+		"display_name": "4★ ［親友と海辺で］クリス",
 		"display_trait": "Earth/Wind+ (6%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -2479,12 +3279,47 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			104
+			104,
+			184,
+			194
+		]
+	},
+	{
+		"uid": 1044183,
+		"display_name": "4★ ［連携攻撃］クリス",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Lightning",
+		"hp": 1764,
+		"patk": 269,
+		"matk": 266,
+		"pdef": 192,
+		"mdef": 198,
+		"agi": 76,
+		"dex": 76,
+		"luck": 91,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			104,
+			184,
+			194
 		]
 	},
 	{
 		"uid": 1051100,
-		"display_name": "1★ Wiz (Beginner)",
+		"display_name": "1★ ［はじまり］ウィズ",
 		"display_trait": "Dark+ (5%)",
 		"rarity": 1,
 		"element": "Dark",
@@ -2515,7 +3350,7 @@
 	},
 	{
 		"uid": 1052100,
-		"display_name": "2★ Wiz (Arch Wizard)",
+		"display_name": "2★ ［アークウィザード］ウィズ",
 		"display_trait": "Water+ (5%)",
 		"rarity": 2,
 		"element": "Water",
@@ -2546,7 +3381,7 @@
 	},
 	{
 		"uid": 1052102,
-		"display_name": "2★ Wiz (Lich)",
+		"display_name": "2★ ［リッチー］ウィズ",
 		"display_trait": "Poison Res (12%)",
 		"rarity": 2,
 		"element": "Earth",
@@ -2577,7 +3412,7 @@
 	},
 	{
 		"uid": 1053100,
-		"display_name": "3★ Wiz (Shop Owner)",
+		"display_name": "3★ ［魔道具店店主］ウィズ",
 		"display_trait": "Dark+ (6%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -2608,7 +3443,7 @@
 	},
 	{
 		"uid": 1053115,
-		"display_name": "3★ Wiz (Bunny Buddy)",
+		"display_name": "3★ ［ウサ耳で仲良く］ウィズ",
 		"display_trait": "Fire/Water+ (5%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -2639,7 +3474,7 @@
 	},
 	{
 		"uid": 1053127,
-		"display_name": "3★ Wiz (Way of the Kunoichi)",
+		"display_name": "3★ ［くノ一の心得］ウィズ",
 		"display_trait": "Water/Light+ (5%)",
 		"rarity": 3,
 		"element": "Light",
@@ -2670,7 +3505,7 @@
 	},
 	{
 		"uid": 1053139,
-		"display_name": "3★ Wiz (Baking With Chocolate)",
+		"display_name": "3★ ［チョコ作り教室］ウィズ",
 		"display_trait": "Magic+ (5%)",
 		"rarity": 3,
 		"element": "Water",
@@ -2701,7 +3536,7 @@
 	},
 	{
 		"uid": 1053148,
-		"display_name": "3★ Wiz (Stinging Sensation)",
+		"display_name": "3★ ［ピリピリします］ウィズ",
 		"display_trait": "Lightning/Earth+ (5%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -2725,14 +3560,76 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
+		"bonus": [
+			105
+		]
+	},
+	{
+		"uid": 1053179,
+		"display_name": "3★ ［私の後ろに］ウィズ",
+		"display_trait": "Recover On Action (60)",
+		"rarity": 3,
+		"element": "Water",
+		"hp": 1411,
+		"patk": 216,
+		"matk": 288,
+		"pdef": 208,
+		"mdef": 203,
+		"agi": 68,
+		"dex": 68,
+		"luck": 54,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			105
+		]
+	},
+	{
+		"uid": 1053191,
+		"display_name": "3★ ［夏の海の余韻］ウィズ",
+		"display_trait": "Recover On Action (60)",
+		"rarity": 3,
+		"element": "Earth",
+		"hp": 1426,
+		"patk": 214,
+		"matk": 290,
+		"pdef": 206,
+		"mdef": 201,
+		"agi": 67,
+		"dex": 69,
+		"luck": 53,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
 		"bonus": [
 			105
 		]
 	},
 	{
 		"uid": 1054100,
-		"display_name": "4★ Wiz (Ice Witch)",
+		"display_name": "4★ ［氷の魔女］ウィズ",
 		"display_trait": "Water+ (7%)",
 		"rarity": 4,
 		"element": "Water",
@@ -2762,8 +3659,39 @@
 		]
 	},
 	{
+		"uid": 1054107,
+		"display_name": "4★ ［のんびりできない］ウィズ",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1584,
+		"patk": 240,
+		"matk": 323,
+		"pdef": 229,
+		"mdef": 224,
+		"agi": 67,
+		"dex": 68,
+		"luck": 55,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			105
+		]
+	},
+	{
 		"uid": 1054113,
-		"display_name": "4★ Wiz (Sweet Dreams)",
+		"display_name": "4★ ［ゆっくりおやすみ］ウィズ",
 		"display_trait": "Dark+ (7%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -2794,7 +3722,7 @@
 	},
 	{
 		"uid": 1054114,
-		"display_name": "4★ Wiz (Bumbling Bunny Girl)",
+		"display_name": "4★ ［うっかりバニーガール］ウィズ",
 		"display_trait": "Earth+ (7%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -2816,8 +3744,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			105
@@ -2825,7 +3753,7 @@
 	},
 	{
 		"uid": 1054123,
-		"display_name": "4★ Wiz (Water Blast)",
+		"display_name": "4★ ［はじける水しぶき］ウィズ",
 		"display_trait": "Magic+ (6%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -2856,7 +3784,7 @@
 	},
 	{
 		"uid": 1054130,
-		"display_name": "4★ Wiz (Fancy Dress)",
+		"display_name": "4★ ［みんなでお着替え］ウィズ",
 		"display_trait": "Earth/Wind+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -2880,14 +3808,14 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			105
 		]
 	},
 	{
 		"uid": 1054135,
-		"display_name": "4★ Wiz (Christmas Eve)",
+		"display_name": "4★ ［今夜はクリスマス］ウィズ",
 		"display_trait": "Fire/Water+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -2918,7 +3846,7 @@
 	},
 	{
 		"uid": 1054142,
-		"display_name": "4★ Wiz (Legendary Adventurer)",
+		"display_name": "4★ ［伝説の冒険者］ウィズ",
 		"display_trait": "Magic/Recover On Action (6%/100)",
 		"rarity": 4,
 		"element": "Water",
@@ -2940,8 +3868,39 @@
 		"phy_boost": 0,
 		"mag_boost": 0.06,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			105
+		]
+	},
+	{
+		"uid": 1054172,
+		"display_name": "4★ ［華やぐ新春］ウィズ",
+		"display_trait": "Magic/Wind+ (Team 3%/Team 3%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 1568,
+		"patk": 236,
+		"matk": 320,
+		"pdef": 232,
+		"mdef": 226,
+		"agi": 66,
+		"dex": 67,
+		"luck": 55,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			105
@@ -2949,7 +3908,7 @@
 	},
 	{
 		"uid": 1061100,
-		"display_name": "1★ Yunyun (Beginner)",
+		"display_name": "1★ ［はじまり］ゆんゆん",
 		"display_trait": "Lightning+ (5%)",
 		"rarity": 1,
 		"element": "Lightning",
@@ -2975,12 +3934,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1062100,
-		"display_name": "2★ Yunyun (Arch Wizard)",
+		"display_name": "2★ ［アークウィザード］ゆんゆん",
 		"display_trait": "Water+ (5%)",
 		"rarity": 2,
 		"element": "Water",
@@ -3006,12 +3966,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1062102,
-		"display_name": "2★ Yunyun (Crimson Demon)",
+		"display_name": "2★ ［紅魔の里］ゆんゆん",
 		"display_trait": "Earth+ (5%)",
 		"rarity": 2,
 		"element": "Earth",
@@ -3037,12 +3998,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1063100,
-		"display_name": "3★ Yunyun (Seeking Friends)",
+		"display_name": "3★ ［お友達募集中］ゆんゆん",
 		"display_trait": "Lightning+ (6%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -3068,12 +4030,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1063113,
-		"display_name": "3★ Yunyun (Wakey Wakey)",
+		"display_name": "3★ ［夢から覚めて］ゆんゆん",
 		"display_trait": "Dark+ (6%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -3099,12 +4062,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1063116,
-		"display_name": "3★ Yunyun (Grand Performance)",
+		"display_name": "3★ ［渾身の演技］ゆんゆん",
 		"display_trait": "Light+ (6%)",
 		"rarity": 3,
 		"element": "Light",
@@ -3130,12 +4094,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1063123,
-		"display_name": "3★ Yunyun (Beachcomber)",
+		"display_name": "3★ ［楽しい砂浜遊び］ゆんゆん",
 		"display_trait": "Water/Light+ (5%)",
 		"rarity": 3,
 		"element": "Water",
@@ -3161,12 +4126,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1063126,
-		"display_name": "3★ Yunyun (Perfect Fit)",
+		"display_name": "3★ ［ぴったりサイズ］ゆんゆん",
 		"display_trait": "Fire/Light+ (5%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -3192,12 +4158,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1063140,
-		"display_name": "3★ Yunyun (Rival's Pride)",
+		"display_name": "3★ ［ライバルの意地］ゆんゆん",
 		"display_trait": "Lightning/Earth+ (5%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -3221,14 +4188,47 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
-			106
+			106,
+			184
+		]
+	},
+	{
+		"uid": 1063172,
+		"display_name": "3★ ［今年こそは］ゆんゆん",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Wind",
+		"hp": 1458,
+		"patk": 232,
+		"matk": 283,
+		"pdef": 168,
+		"mdef": 192,
+		"agi": 69,
+		"dex": 69,
+		"luck": 66,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1064100,
-		"display_name": "4★ Yunyun (Megumin's Friend)",
+		"display_name": "4★ ［めぐみんのお友達］ゆんゆん",
 		"display_trait": "Light+ (7%)",
 		"rarity": 4,
 		"element": "Light",
@@ -3254,12 +4254,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1064107,
-		"display_name": "4★ Yunyun (Bath Battle)",
+		"display_name": "4★ ［お風呂で勝負］ゆんゆん",
 		"display_trait": "Wind/Light+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -3285,12 +4286,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1064118,
-		"display_name": "4★ Yunyun (Magic Academy Memories)",
+		"display_name": "4★ ［思い出の魔法学園］ゆんゆん",
 		"display_trait": "Water/Light+ (6%)",
 		"rarity": 4,
 		"element": "Water",
@@ -3316,12 +4318,45 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
+		]
+	},
+	{
+		"uid": 1064125,
+		"display_name": "4★ ［憩いのオアシス］ゆんゆん",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 1604,
+		"patk": 258,
+		"matk": 311,
+		"pdef": 188,
+		"mdef": 216,
+		"agi": 70,
+		"dex": 69,
+		"luck": 66,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1064129,
-		"display_name": "4★ Yunyun (Friendly Halloween)",
+		"display_name": "4★ ［トリックオアお友達］ゆんゆん",
 		"display_trait": "Fire/Light+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -3347,12 +4382,45 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
+		]
+	},
+	{
+		"uid": 1064142,
+		"display_name": "4★ ［伝説の冒険者］ゆんゆん",
+		"display_trait": "Magic/Super Gauge+ (5%/15%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1604,
+		"patk": 255,
+		"matk": 311,
+		"pdef": 188,
+		"mdef": 216,
+		"agi": 68,
+		"dex": 67,
+		"luck": 68,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1064144,
-		"display_name": "4★ Yunyun (Studious Sister)",
+		"display_name": "4★ ［憧れのお姉さん］ゆんゆん",
 		"display_trait": "Lightning+ (7%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -3378,12 +4446,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1064154,
-		"display_name": "4★ Yunyun (Summer Fireworks)",
+		"display_name": "4★ ［夏の風物詩］ゆんゆん",
 		"display_trait": "Magic+ (6%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -3405,16 +4474,81 @@
 		"phy_boost": 0,
 		"mag_boost": 0.06,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
-			106
+			106,
+			184
+		]
+	},
+	{
+		"uid": 1064169,
+		"display_name": "4★ ［私のごちそう］ゆんゆん",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 1620,
+		"patk": 258,
+		"matk": 314,
+		"pdef": 186,
+		"mdef": 214,
+		"agi": 69,
+		"dex": 69,
+		"luck": 66,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			106,
+			184
+		]
+	},
+	{
+		"uid": 1064189,
+		"display_name": "4★ ［新米風紀委員］ゆんゆん",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 1620,
+		"patk": 260,
+		"matk": 314,
+		"pdef": 186,
+		"mdef": 214,
+		"agi": 69,
+		"dex": 68,
+		"luck": 68,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			106,
+			184
 		]
 	},
 	{
 		"uid": 1071100,
-		"display_name": "1★ Iris (Beginner)",
+		"display_name": "1★ ［はじまり］アイリス",
 		"display_trait": "Light+ (5%)",
 		"rarity": 1,
 		"element": "Light",
@@ -3440,12 +4574,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1072100,
-		"display_name": "2★ Iris (First Princess of Belzerg)",
+		"display_name": "2★ ［第一王女］アイリス",
 		"display_trait": "Light+ (5%)",
 		"rarity": 2,
 		"element": "Light",
@@ -3471,12 +4608,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1072102,
-		"display_name": "2★ Iris (Sneaking Out)",
+		"display_name": "2★ ［お忍び］アイリス",
 		"display_trait": "Wind+ (5%)",
 		"rarity": 2,
 		"element": "Wind",
@@ -3502,12 +4642,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1073100,
-		"display_name": "3★ Iris (Avid Eater)",
+		"display_name": "3★ ［ある日の食事］アイリス",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -3533,12 +4676,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1073124,
-		"display_name": "3★ Iris (Camel Ride)",
+		"display_name": "3★ ［ラクダに揺られて］アイリス",
 		"display_trait": "Light+ (6%)",
 		"rarity": 3,
 		"element": "Light",
@@ -3564,12 +4710,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1073135,
-		"display_name": "3★ Iris (Play Santa)",
+		"display_name": "3★ ［サンタに変身］アイリス",
 		"display_trait": "Fire/Light+ (5%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -3595,12 +4744,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1073144,
-		"display_name": "3★ Iris (Spoiled Sister)",
+		"display_name": "3★ ［甘えん坊な妹］アイリス",
 		"display_trait": "Dark+ (6%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -3626,12 +4778,83 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
+		]
+	},
+	{
+		"uid": 1073172,
+		"display_name": "3★ ［餅つき初体験］アイリス",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Lightning",
+		"hp": 1620,
+		"patk": 281,
+		"matk": 244,
+		"pdef": 182,
+		"mdef": 180,
+		"agi": 70,
+		"dex": 72,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			107,
+			183,
+			186,
+			193
+		]
+	},
+	{
+		"uid": 1073188,
+		"display_name": "3★ ［旅の贈り物］アイリス",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Dark",
+		"hp": 1604,
+		"patk": 283,
+		"matk": 249,
+		"pdef": 184,
+		"mdef": 178,
+		"agi": 71,
+		"dex": 71,
+		"luck": 74,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1074100,
-		"display_name": "4★ Iris (Royal Holiday)",
+		"display_name": "4★ ［王女の休日］アイリス",
 		"display_trait": "Light+ (7%)",
 		"rarity": 4,
 		"element": "Light",
@@ -3657,12 +4880,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1074114,
-		"display_name": "4★ Iris (First Casino Foray)",
+		"display_name": "4★ ［初めてのカジノ］アイリス",
 		"display_trait": "Lightning+ (7%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -3688,12 +4914,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1074119,
-		"display_name": "4★ Iris (Siblings)",
+		"display_name": "4★ ［お兄様と一緒に］アイリス",
 		"display_trait": "Earth/Light+ (6%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -3719,12 +4948,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1074129,
-		"display_name": "4★ Iris (Mischievous Princess)",
+		"display_name": "4★ ［いたずらお姫様］アイリス",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -3750,12 +4982,15 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1074139,
-		"display_name": "4★ Iris (Lovely Gift Giver)",
+		"display_name": "4★ ［素敵な贈り物］アイリス",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Water",
@@ -3781,12 +5016,49 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
+		]
+	},
+	{
+		"uid": 1074142,
+		"display_name": "4★ ［伝説の冒険者］アイリス",
+		"display_trait": "Physical/None+ (7%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1782,
+		"patk": 314,
+		"matk": 272,
+		"pdef": 204,
+		"mdef": 198,
+		"agi": 69,
+		"dex": 70,
+		"luck": 75,
+		"water_boost": 0.07,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.07,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1074151,
-		"display_name": "4★ Iris (Splendid Sunlight)",
+		"display_name": "4★ ［太陽の下で］アイリス",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -3812,12 +5084,49 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			107
+			107,
+			183,
+			186,
+			193
+		]
+	},
+	{
+		"uid": 1074169,
+		"display_name": "4★ ［うっとりクリスマス］アイリス",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Water",
+		"hp": 1800,
+		"patk": 317,
+		"matk": 274,
+		"pdef": 202,
+		"mdef": 196,
+		"agi": 70,
+		"dex": 72,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			107,
+			183,
+			186,
+			193
 		]
 	},
 	{
 		"uid": 1081100,
-		"display_name": "1★ Komekko (Beginner)",
+		"display_name": "1★ ［はじまり］こめっこ",
 		"display_trait": "Light+ (5%)",
 		"rarity": 1,
 		"element": "Light",
@@ -3843,12 +5152,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			108
+			108,
+			194
 		]
 	},
 	{
 		"uid": 1082100,
-		"display_name": "2★ Komekko (Devilish Little Sister)",
+		"display_name": "2★ ［魔性の妹］こめっこ",
 		"display_trait": "Dark+ (5%)",
 		"rarity": 2,
 		"element": "Dark",
@@ -3874,12 +5184,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			108
+			108,
+			194
 		]
 	},
 	{
 		"uid": 1082102,
-		"display_name": "2★ Komekko (Casual)",
+		"display_name": "2★ ［軽装］こめっこ",
 		"display_trait": "Fire+ (5%)",
 		"rarity": 2,
 		"element": "Fire",
@@ -3905,12 +5216,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			108
+			108,
+			194
 		]
 	},
 	{
 		"uid": 1083100,
-		"display_name": "3★ Komekko (Worldly Wisdom)",
+		"display_name": "3★ ［世渡り上手］こめっこ",
 		"display_trait": "Magic+ (5%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -3936,12 +5248,45 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			108
+			108,
+			194
+		]
+	},
+	{
+		"uid": 1083110,
+		"display_name": "3★ ［至福のうたた寝］こめっこ",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Light",
+		"hp": 1780,
+		"patk": 242,
+		"matk": 285,
+		"pdef": 196,
+		"mdef": 200,
+		"agi": 61,
+		"dex": 66,
+		"luck": 63,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			108,
+			194
 		]
 	},
 	{
 		"uid": 1083143,
-		"display_name": "3★ Komekko (Quest Success)",
+		"display_name": "3★ ［クエスト達成祝い］こめっこ",
 		"display_trait": "Fire/Lightning+ (5%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -3967,12 +5312,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			108
+			108,
+			194
 		]
 	},
 	{
 		"uid": 1083151,
-		"display_name": "3★ Komekko (Summer Feast)",
+		"display_name": "3★ ［夏のごちそう］こめっこ",
 		"display_trait": "Magic+ (5%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -3998,12 +5344,45 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			108
+			108,
+			194
+		]
+	},
+	{
+		"uid": 1083183,
+		"display_name": "3★ ［採れたてきのこ］こめっこ",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Lightning",
+		"hp": 1798,
+		"patk": 240,
+		"matk": 284,
+		"pdef": 198,
+		"mdef": 198,
+		"agi": 62,
+		"dex": 67,
+		"luck": 61,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			108,
+			194
 		]
 	},
 	{
 		"uid": 1084100,
-		"display_name": "4★ Komekko (Promising Future)",
+		"display_name": "4★ ［将来有望］こめっこ",
 		"display_trait": "Fire+ (7%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -4029,12 +5408,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			108
+			108,
+			194
 		]
 	},
 	{
 		"uid": 1084113,
-		"display_name": "4★ Komekko (Sleepy Sister)",
+		"display_name": "4★ ［おやすみの時間］こめっこ",
 		"display_trait": "Magic+ (6%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -4056,16 +5436,17 @@
 		"phy_boost": 0,
 		"mag_boost": 0.06,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
-			108
+			108,
+			194
 		]
 	},
 	{
 		"uid": 1084154,
-		"display_name": "4★ Komekko (Goldfish Catcher)",
+		"display_name": "4★ ［いざ！金魚すくい］こめっこ",
 		"display_trait": "Magic+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -4087,16 +5468,145 @@
 		"phy_boost": 0,
 		"mag_boost": 0.06,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
-			108
+			108,
+			194
+		]
+	},
+	{
+		"uid": 1084160,
+		"display_name": "4★ ［魔性の子猫］こめっこ",
+		"display_trait": "Water+ (Team 6%)",
+		"rarity": 4,
+		"element": "Water",
+		"hp": 1978,
+		"patk": 269,
+		"matk": 317,
+		"pdef": 218,
+		"mdef": 222,
+		"agi": 61,
+		"dex": 66,
+		"luck": 63,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			108,
+			194
+		]
+	},
+	{
+		"uid": 1084178,
+		"display_name": "4★ ［秘密のチョコレート］こめっこ",
+		"display_trait": "Dark+ (Team 6%)",
+		"rarity": 4,
+		"element": "Dark",
+		"hp": 1998,
+		"patk": 266,
+		"matk": 315,
+		"pdef": 220,
+		"mdef": 220,
+		"agi": 62,
+		"dex": 67,
+		"luck": 61,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			108,
+			194
+		]
+	},
+	{
+		"uid": 1084191,
+		"display_name": "4★ ［みんな飛び込め］こめっこ",
+		"display_trait": "Physical/Magic+ (Team 12%/Team 12%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 1978,
+		"patk": 271,
+		"matk": 317,
+		"pdef": 218,
+		"mdef": 222,
+		"agi": 63,
+		"dex": 66,
+		"luck": 62,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			108,
+			194
+		]
+	},
+	{
+		"uid": 1084195,
+		"display_name": "4★ ［一緒に食べ尽くせ］こめっこ",
+		"display_trait": "Super Gauge+ (15%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1998,
+		"patk": 269,
+		"matk": 320,
+		"pdef": 216,
+		"mdef": 220,
+		"agi": 62,
+		"dex": 67,
+		"luck": 61,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			108,
+			194
 		]
 	},
 	{
 		"uid": 1091100,
-		"display_name": "1★ Cecily (Beginner)",
+		"display_name": "1★ ［はじまり］セシリー",
 		"display_trait": "Recovery+ (7%)",
 		"rarity": 1,
 		"element": "Water",
@@ -4127,7 +5637,7 @@
 	},
 	{
 		"uid": 1092100,
-		"display_name": "2★ Cecily (Priest)",
+		"display_name": "2★ ［プリースト］セシリー",
 		"display_trait": "Seal Res (12%)",
 		"rarity": 2,
 		"element": "Wind",
@@ -4158,7 +5668,7 @@
 	},
 	{
 		"uid": 1092102,
-		"display_name": "2★ Cecily (Casual)",
+		"display_name": "2★ ［軽装］セシリー",
 		"display_trait": "Recovery+ (7%)",
 		"rarity": 2,
 		"element": "Light",
@@ -4189,7 +5699,7 @@
 	},
 	{
 		"uid": 1093100,
-		"display_name": "3★ Cecily (Axis Follower)",
+		"display_name": "3★ ［アクシズ教徒］セシリー",
 		"display_trait": "Recovery+ (8%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -4220,7 +5730,7 @@
 	},
 	{
 		"uid": 1093123,
-		"display_name": "3★ Cecily (All Eyes on Me)",
+		"display_name": "3★ ［視線を独り占め］セシリー",
 		"display_trait": "Fire+ (6%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -4251,7 +5761,7 @@
 	},
 	{
 		"uid": 1093130,
-		"display_name": "3★ Cecily (Persuasive Priestess)",
+		"display_name": "3★ ［新たな勧誘術］セシリー",
 		"display_trait": "Recovery+ (8%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -4282,7 +5792,7 @@
 	},
 	{
 		"uid": 1093145,
-		"display_name": "3★ Cecily (Covert Conversion)",
+		"display_name": "3★ ［こっそり入信式］セシリー",
 		"display_trait": "Water/Earth+ (5%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -4312,8 +5822,70 @@
 		]
 	},
 	{
+		"uid": 1093157,
+		"display_name": "3★ ［早押しプリースト］セシリー",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Light",
+		"hp": 1620,
+		"patk": 252,
+		"matk": 267,
+		"pdef": 175,
+		"mdef": 189,
+		"agi": 68,
+		"dex": 68,
+		"luck": 64,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			109
+		]
+	},
+	{
+		"uid": 1093169,
+		"display_name": "3★ ［歓喜の衣装］セシリー",
+		"display_trait": "Water+ (6%)",
+		"rarity": 3,
+		"element": "Water",
+		"hp": 1604,
+		"patk": 249,
+		"matk": 270,
+		"pdef": 173,
+		"mdef": 191,
+		"agi": 69,
+		"dex": 67,
+		"luck": 65,
+		"water_boost": 0.06,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			109
+		]
+	},
+	{
 		"uid": 1094100,
-		"display_name": "4★ Cecily (Big Sister)",
+		"display_name": "4★ ［美少女好き］セシリー",
 		"display_trait": "Recovery+ (10%)",
 		"rarity": 4,
 		"element": "Light",
@@ -4343,8 +5915,39 @@
 		]
 	},
 	{
+		"uid": 1094110,
+		"display_name": "4★ ［雪精のお迎え］セシリー",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Lightning",
+		"hp": 1782,
+		"patk": 277,
+		"matk": 300,
+		"pdef": 192,
+		"mdef": 212,
+		"agi": 69,
+		"dex": 67,
+		"luck": 65,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			109
+		]
+	},
+	{
 		"uid": 1094114,
-		"display_name": "4★ Cecily (Cottontail Cleric)",
+		"display_name": "4★ ［バニーガール布教中］セシリー",
 		"display_trait": "Recovery+ (10%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -4374,8 +5977,39 @@
 		]
 	},
 	{
+		"uid": 1094116,
+		"display_name": "4★ ［迫りし麗人］セシリー",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 1800,
+		"patk": 280,
+		"matk": 303,
+		"pdef": 190,
+		"mdef": 210,
+		"agi": 68,
+		"dex": 68,
+		"luck": 64,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			109
+		]
+	},
+	{
 		"uid": 1094126,
-		"display_name": "4★ Cecily (Beautiful Barista)",
+		"display_name": "4★ ［美人カフェ店員］セシリー",
 		"display_trait": "Wind+ (7%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -4406,7 +6040,7 @@
 	},
 	{
 		"uid": 1094127,
-		"display_name": "4★ Cecily (Evangelist Ninja)",
+		"display_name": "4★ ［布教くノ一］セシリー",
 		"display_trait": "Magic+ (6%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -4430,14 +6064,14 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			109
 		]
 	},
 	{
 		"uid": 1094139,
-		"display_name": "4★ Cecily (Chocolate Invitations)",
+		"display_name": "4★ ［チョコと入信書］セシリー",
 		"display_trait": "Water+ (7%)",
 		"rarity": 4,
 		"element": "Water",
@@ -4467,8 +6101,39 @@
 		]
 	},
 	{
+		"uid": 1094142,
+		"display_name": "4★ ［伝説の冒険者］セシリー",
+		"display_trait": "High HP Water+ (7%)",
+		"rarity": 4,
+		"element": "Water",
+		"hp": 1782,
+		"patk": 277,
+		"matk": 300,
+		"pdef": 192,
+		"mdef": 212,
+		"agi": 67,
+		"dex": 66,
+		"luck": 66,
+		"water_boost": 0.07,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			109
+		]
+	},
+	{
 		"uid": 1101100,
-		"display_name": "1★ Arue (Beginner)",
+		"display_name": "1★ ［はじまり］あるえ",
 		"display_trait": "Earth+ (5%)",
 		"rarity": 1,
 		"element": "Earth",
@@ -4499,7 +6164,7 @@
 	},
 	{
 		"uid": 1102100,
-		"display_name": "2★ Arue (Arch Wizard)",
+		"display_name": "2★ ［アークウィザード］あるえ",
 		"display_trait": "Light+ (5%)",
 		"rarity": 2,
 		"element": "Light",
@@ -4530,7 +6195,7 @@
 	},
 	{
 		"uid": 1102102,
-		"display_name": "2★ Arue (Crimson Demon)",
+		"display_name": "2★ ［紅魔の里］あるえ",
 		"display_trait": "Wind+ (5%)",
 		"rarity": 2,
 		"element": "Wind",
@@ -4561,7 +6226,7 @@
 	},
 	{
 		"uid": 1103100,
-		"display_name": "3★ Arue (Aspiring Author)",
+		"display_name": "3★ ［作家志望］あるえ",
 		"display_trait": "Water+ (6%)",
 		"rarity": 3,
 		"element": "Water",
@@ -4592,7 +6257,7 @@
 	},
 	{
 		"uid": 1103107,
-		"display_name": "3★ Arue (Hot Spring Cleansing)",
+		"display_name": "3★ ［疲れも流して］あるえ",
 		"display_trait": "Magic+ (5%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -4616,14 +6281,14 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			110
 		]
 	},
 	{
 		"uid": 1103113,
-		"display_name": "3★ Arue (Midnight Match)",
+		"display_name": "3★ ［夜中の真剣勝負］あるえ",
 		"display_trait": "Lightning/Light+ (5%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -4645,8 +6310,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			110
@@ -4654,7 +6319,7 @@
 	},
 	{
 		"uid": 1103118,
-		"display_name": "3★ Arue (Stylish Debut)",
+		"display_name": "3★ ［自己紹介は格好良く］あるえ",
 		"display_trait": "Light+ (6%)",
 		"rarity": 3,
 		"element": "Light",
@@ -4685,7 +6350,7 @@
 	},
 	{
 		"uid": 1103134,
-		"display_name": "3★ Arue (Damsel in Distress)",
+		"display_name": "3★ ［囚われの姫］あるえ",
 		"display_trait": "Dark+ (6%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -4715,8 +6380,70 @@
 		]
 	},
 	{
+		"uid": 1103159,
+		"display_name": "3★ ［紅魔の帰り道］あるえ",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Wind",
+		"hp": 1331,
+		"patk": 232,
+		"matk": 277,
+		"pdef": 153,
+		"mdef": 191,
+		"agi": 68,
+		"dex": 69,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			110
+		]
+	},
+	{
+		"uid": 1103191,
+		"display_name": "3★ ［それが望みかい］あるえ",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Dark",
+		"hp": 1345,
+		"patk": 229,
+		"matk": 280,
+		"pdef": 152,
+		"mdef": 189,
+		"agi": 67,
+		"dex": 70,
+		"luck": 70,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			110
+		]
+	},
+	{
 		"uid": 1104100,
-		"display_name": "4★ Arue (Best Bod)",
+		"display_name": "4★ ［紅魔族一の発育］あるえ",
 		"display_trait": "Dark+ (7%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -4747,7 +6474,7 @@
 	},
 	{
 		"uid": 1104110,
-		"display_name": "4★ Arue (Crimson Snow)",
+		"display_name": "4★ ［紅魔の雪景色］あるえ",
 		"display_trait": "Fire/Dark+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -4778,7 +6505,7 @@
 	},
 	{
 		"uid": 1104116,
-		"display_name": "4★ Arue (Dramatic Author)",
+		"display_name": "4★ ［演技派作家］あるえ",
 		"display_trait": "Light/Dark+ (6%)",
 		"rarity": 4,
 		"element": "Light",
@@ -4809,7 +6536,7 @@
 	},
 	{
 		"uid": 1104127,
-		"display_name": "4★ Arue (Moonlit Meeting)",
+		"display_name": "4★ ［月夜に見参］あるえ",
 		"display_trait": "Earth/Dark+ (6%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -4839,8 +6566,39 @@
 		]
 	},
 	{
+		"uid": 1104142,
+		"display_name": "4★ ［伝説の冒険者］あるえ",
+		"display_trait": "Debuff Dark+ (7%)",
+		"rarity": 4,
+		"element": "Dark",
+		"hp": 1494,
+		"patk": 255,
+		"matk": 311,
+		"pdef": 169,
+		"mdef": 210,
+		"agi": 67,
+		"dex": 70,
+		"luck": 70,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0.07,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			110
+		]
+	},
+	{
 		"uid": 1104151,
-		"display_name": "4★ Arue (Crimson Sunset)",
+		"display_name": "4★ ［夕陽を見つめて］あるえ",
 		"display_trait": "Magic+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -4870,8 +6628,39 @@
 		]
 	},
 	{
+		"uid": 1104169,
+		"display_name": "4★ ［こっそりプレゼント］あるえ",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Water",
+		"hp": 1479,
+		"patk": 257,
+		"matk": 308,
+		"pdef": 170,
+		"mdef": 212,
+		"agi": 68,
+		"dex": 69,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			110
+		]
+	},
+	{
 		"uid": 1111100,
-		"display_name": "1★ Mitsurugi (Beginner)",
+		"display_name": "1★ ［はじまり］ミツルギ",
 		"display_trait": "Lightning+ (5%)",
 		"rarity": 1,
 		"element": "Lightning",
@@ -4897,12 +6686,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1112100,
-		"display_name": "2★ Mitsurugi (Sword Master)",
+		"display_name": "2★ ［ソードマスター］ミツルギ",
 		"display_trait": "Poison Res (12%)",
 		"rarity": 2,
 		"element": "Lightning",
@@ -4928,12 +6718,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1112102,
-		"display_name": "2★ Mitsurugi (Casual)",
+		"display_name": "2★ ［軽装］ミツルギ",
 		"display_trait": "Seal Res (12%)",
 		"rarity": 2,
 		"element": "Water",
@@ -4959,12 +6750,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1113100,
-		"display_name": "3★ Mitsurugi (Follower of the Goddess)",
+		"display_name": "3★ ［女神の信者］ミツルギ",
 		"display_trait": "Light+ (6%)",
 		"rarity": 3,
 		"element": "Light",
@@ -4990,12 +6782,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1113119,
-		"display_name": "3★ Mitsurugi (Heroic Grace)",
+		"display_name": "3★ ［勇者のたしなみ］ミツルギ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -5021,12 +6814,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1113131,
-		"display_name": "3★ Mitsurugi (A Hero's Treasure)",
+		"display_name": "3★ ［勇者の宝物］ミツルギ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -5052,12 +6846,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1113140,
-		"display_name": "3★ Mitsurugi (Familiar Pattern)",
+		"display_name": "3★ ［いつかのパターン］ミツルギ",
 		"display_trait": "Super Gauge+ (15%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -5083,12 +6878,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1113151,
-		"display_name": "3★ Mitsurugi (Splashing Swimmer)",
+		"display_name": "3★ ［水もしたたる］ミツルギ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Water",
@@ -5114,12 +6910,45 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
+		]
+	},
+	{
+		"uid": 1113171,
+		"display_name": "3★ ［僕のパーティーに］ミツルギ",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Lightning",
+		"hp": 1865,
+		"patk": 272,
+		"matk": 219,
+		"pdef": 205,
+		"mdef": 185,
+		"agi": 71,
+		"dex": 70,
+		"luck": 60,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1114100,
-		"display_name": "4★ Mitsurugi (The Chosen One)",
+		"display_name": "4★ ［選ばれし勇者］ミツルギ",
 		"display_trait": "Lightning+ (7%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -5145,12 +6974,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1114110,
-		"display_name": "4★ Mitsurugi (Personal Bodyguard)",
+		"display_name": "4★ ［専属ボディガード］ミツルギ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -5176,12 +7006,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1114114,
-		"display_name": "4★ Mitsurugi (Dreamy Dealer)",
+		"display_name": "4★ ［好青年ディーラー］ミツルギ",
 		"display_trait": "Earth+ (7%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -5207,12 +7038,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1114125,
-		"display_name": "4★ Mitsurugi (Luxurious Hero)",
+		"display_name": "4★ ［休息はリッチに］ミツルギ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Light",
@@ -5234,16 +7066,17 @@
 		"phy_boost": 0.06,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1114127,
-		"display_name": "4★ Mitsurugi (Twilight Ninja)",
+		"display_name": "4★ ［黄昏の忍び］ミツルギ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Water",
@@ -5269,12 +7102,77 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			111
+			111,
+			192
+		]
+	},
+	{
+		"uid": 1114130,
+		"display_name": "4★ ［たゆまぬ修行］ミツルギ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Fire",
+		"hp": 2073,
+		"patk": 302,
+		"matk": 244,
+		"pdef": 228,
+		"mdef": 206,
+		"agi": 71,
+		"dex": 70,
+		"luck": 60,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			111,
+			192
+		]
+	},
+	{
+		"uid": 1114180,
+		"display_name": "4★ ［背中越しの優しさ］ミツルギ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 2052,
+		"patk": 299,
+		"matk": 241,
+		"pdef": 231,
+		"mdef": 208,
+		"agi": 70,
+		"dex": 71,
+		"luck": 59,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			111,
+			192
 		]
 	},
 	{
 		"uid": 1121100,
-		"display_name": "1★ Dust (Beginner)",
+		"display_name": "1★ ［はじまり］ダスト",
 		"display_trait": "Fire+ (5%)",
 		"rarity": 1,
 		"element": "Fire",
@@ -5300,12 +7198,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1122100,
-		"display_name": "2★ Dust (Warrior)",
+		"display_name": "2★ ［戦士］ダスト",
 		"display_trait": "Earth+ (5%)",
 		"rarity": 2,
 		"element": "Earth",
@@ -5331,12 +7230,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1122102,
-		"display_name": "2★ Dust (Casual)",
+		"display_name": "2★ ［軽装］ダスト",
 		"display_trait": "Dark+ (5%)",
 		"rarity": 2,
 		"element": "Dark",
@@ -5362,12 +7262,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1123100,
-		"display_name": "3★ Dust (Succubus Shop Regular)",
+		"display_name": "3★ ［サキュバスの店］ダスト",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -5393,12 +7294,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1123114,
-		"display_name": "3★ Dust (High Roller)",
+		"display_name": "3★ ［男の一本勝負］ダスト",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -5420,16 +7322,17 @@
 		"phy_boost": 0.05,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1123120,
-		"display_name": "3★ Dust (Begging Forgiveness)",
+		"display_name": "3★ ［気合いの土下座］ダスト",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -5455,12 +7358,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1123134,
-		"display_name": "3★ Dust (A Man's Duty)",
+		"display_name": "3★ ［男の使命］ダスト",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Light",
@@ -5486,12 +7390,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1123155,
-		"display_name": "3★ Dust (Monster Bait)",
+		"display_name": "3★ ［今日の生贄］ダスト",
 		"display_trait": "Water+ (6%)",
 		"rarity": 3,
 		"element": "Water",
@@ -5513,16 +7418,81 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
+		]
+	},
+	{
+		"uid": 1123183,
+		"display_name": "3★ ［まさかの告白］ダスト",
+		"display_trait": "Wind+ (6%)",
+		"rarity": 3,
+		"element": "Wind",
+		"hp": 1796,
+		"patk": 280,
+		"matk": 216,
+		"pdef": 191,
+		"mdef": 160,
+		"agi": 72,
+		"dex": 70,
+		"luck": 62,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0.06,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			112,
+			185
+		]
+	},
+	{
+		"uid": 1123191,
+		"display_name": "3★ ［チンピラ監視員］ダスト",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Water",
+		"hp": 1814,
+		"patk": 283,
+		"matk": 214,
+		"pdef": 189,
+		"mdef": 159,
+		"agi": 71,
+		"dex": 71,
+		"luck": 61,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1124100,
-		"display_name": "4★ Dust (Delinquent Adventurer)",
+		"display_name": "4★ ［チンピラ冒険者］ダスト",
 		"display_trait": "Lightning+ (7%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -5548,12 +7518,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1124107,
-		"display_name": "4★ Dust (Hot Spring Thrills)",
+		"display_name": "4★ ［温泉の醍醐味］ダスト",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -5579,12 +7550,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1124110,
-		"display_name": "4★ Dust (Super Sledder)",
+		"display_name": "4★ ［雪山の主役］ダスト",
 		"display_trait": "Water+ (7%)",
 		"rarity": 4,
 		"element": "Water",
@@ -5610,12 +7582,77 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
+		]
+	},
+	{
+		"uid": 1124113,
+		"display_name": "4★ ［寝坊の常習者］ダスト",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Fire",
+		"hp": 1996,
+		"patk": 311,
+		"matk": 240,
+		"pdef": 212,
+		"mdef": 178,
+		"agi": 72,
+		"dex": 70,
+		"luck": 62,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			112,
+			185
+		]
+	},
+	{
+		"uid": 1124117,
+		"display_name": "4★ ［サボりのプロ］ダスト",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Dark",
+		"hp": 2016,
+		"patk": 314,
+		"matk": 238,
+		"pdef": 210,
+		"mdef": 176,
+		"agi": 71,
+		"dex": 71,
+		"luck": 61,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1124125,
-		"display_name": "4★ Dust (My Treasure)",
+		"display_name": "4★ ［俺様のお宝］ダスト",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Light",
@@ -5641,12 +7678,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1124144,
-		"display_name": "4★ Dust (School Bully)",
+		"display_name": "4★ ［ちょいワル兄弟］ダスト",
 		"display_trait": "Earth/Wind+ (6%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -5672,12 +7710,13 @@
 		"owned": true,
 		"new": false,
 		"bonus": [
-			112
+			112,
+			185
 		]
 	},
 	{
 		"uid": 1131100,
-		"display_name": "1★ Rin (Beginner)",
+		"display_name": "1★ ［はじまり］リーン",
 		"display_trait": "Wind+ (5%)",
 		"rarity": 1,
 		"element": "Wind",
@@ -5708,7 +7747,7 @@
 	},
 	{
 		"uid": 1132100,
-		"display_name": "2★ Rin (Wizard)",
+		"display_name": "2★ ［ウィザード］リーン",
 		"display_trait": "Haze Res (12%)",
 		"rarity": 2,
 		"element": "Fire",
@@ -5739,7 +7778,7 @@
 	},
 	{
 		"uid": 1132102,
-		"display_name": "2★ Rin (Casual)",
+		"display_name": "2★ ［軽装］リーン",
 		"display_trait": "Water+ (5%)",
 		"rarity": 2,
 		"element": "Water",
@@ -5770,7 +7809,7 @@
 	},
 	{
 		"uid": 1133100,
-		"display_name": "3★ Rin (Single Lady)",
+		"display_name": "3★ ［紅一点］リーン",
 		"display_trait": "Earth+ (6%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -5801,7 +7840,7 @@
 	},
 	{
 		"uid": 1133115,
-		"display_name": "3★ Rin (Female Foe)",
+		"display_name": "3★ ［女の敵は逃さない］リーン",
 		"display_trait": "Wind+ (6%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -5832,7 +7871,7 @@
 	},
 	{
 		"uid": 1133128,
-		"display_name": "3★ Rin (Watch Your Step)",
+		"display_name": "3★ ［足もと注意］リーン",
 		"display_trait": "Wind/Dark+ (5%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -5863,7 +7902,7 @@
 	},
 	{
 		"uid": 1133138,
-		"display_name": "3★ Rin (Fateful Throw)",
+		"display_name": "3★ ［運命の一投］リーン",
 		"display_trait": "Fire/Wind+ (5%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -5893,8 +7932,39 @@
 		]
 	},
 	{
+		"uid": 1133178,
+		"display_name": "3★ ［乙女な気持ち］リーン",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Water",
+		"hp": 1588,
+		"patk": 220,
+		"matk": 268,
+		"pdef": 155,
+		"mdef": 184,
+		"agi": 69,
+		"dex": 74,
+		"luck": 72,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			113
+		]
+	},
+	{
 		"uid": 1134100,
-		"display_name": "4★ Rin (Certified Wizard)",
+		"display_name": "4★ ［正統派魔法使い］リーン",
 		"display_trait": "Wind+ (7%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -5925,7 +7995,7 @@
 	},
 	{
 		"uid": 1134110,
-		"display_name": "4★ Rin (Winter Wonderland)",
+		"display_name": "4★ ［きらめく雪景色］リーン",
 		"display_trait": "Magic+ (6%)",
 		"rarity": 4,
 		"element": "Water",
@@ -5956,7 +8026,7 @@
 	},
 	{
 		"uid": 1134117,
-		"display_name": "4★ Rin (Laundry Day)",
+		"display_name": "4★ ［お洗濯日和］リーン",
 		"display_trait": "Wind/Light+ (6%)",
 		"rarity": 4,
 		"element": "Light",
@@ -5987,7 +8057,7 @@
 	},
 	{
 		"uid": 1134123,
-		"display_name": "4★ Rin (Sun-soaked)",
+		"display_name": "4★ ［陽射しを浴びて］リーン",
 		"display_trait": "Fire/Wind+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -6018,7 +8088,7 @@
 	},
 	{
 		"uid": 1134127,
-		"display_name": "4★ Rin (Windstorm Kunoichi)",
+		"display_name": "4★ ［風起こしの術］リーン",
 		"display_trait": "Dark+ (7%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -6042,14 +8112,76 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
+		"bonus": [
+			113
+		]
+	},
+	{
+		"uid": 1134130,
+		"display_name": "4★ ［火力が大切］リーン",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Lightning",
+		"hp": 1764,
+		"patk": 246,
+		"matk": 303,
+		"pdef": 169,
+		"mdef": 204,
+		"agi": 69,
+		"dex": 74,
+		"luck": 72,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			113
+		]
+	},
+	{
+		"uid": 1134144,
+		"display_name": "4★ ［真面目な委員長］リーン",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1746,
+		"patk": 244,
+		"matk": 300,
+		"pdef": 170,
+		"mdef": 206,
+		"agi": 68,
+		"dex": 72,
+		"luck": 74,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
 		"bonus": [
 			113
 		]
 	},
 	{
 		"uid": 1134154,
-		"display_name": "4★ Rin (Summer Sharpshooter)",
+		"display_name": "4★ ［狙いを定めて］リーン",
 		"display_trait": "Earth+ (7%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -6071,8 +8203,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			113
@@ -6080,7 +8212,7 @@
 	},
 	{
 		"uid": 1141100,
-		"display_name": "1★ Lia (Beginner)",
+		"display_name": "1★ ［はじまり］リア",
 		"display_trait": "Water+ (5%)",
 		"rarity": 1,
 		"element": "Water",
@@ -6111,7 +8243,7 @@
 	},
 	{
 		"uid": 1142100,
-		"display_name": "2★ Lia (Lancer)",
+		"display_name": "2★ ［ランサー］リア",
 		"display_trait": "Fire+ (5%)",
 		"rarity": 2,
 		"element": "Fire",
@@ -6142,7 +8274,7 @@
 	},
 	{
 		"uid": 1142102,
-		"display_name": "2★ Lia (Casual)",
+		"display_name": "2★ ［軽装］リア",
 		"display_trait": "Poison Res (12%)",
 		"rarity": 2,
 		"element": "Water",
@@ -6173,7 +8305,7 @@
 	},
 	{
 		"uid": 1143100,
-		"display_name": "3★ Lia (Rising Idol)",
+		"display_name": "3★ ［アイドル練習生］リア",
 		"display_trait": "Super Gauge+ (15%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -6204,7 +8336,7 @@
 	},
 	{
 		"uid": 1143112,
-		"display_name": "3★ Lia (Solo Photo Shoot)",
+		"display_name": "3★ ［個別撮影会？］リア",
 		"display_trait": "Earth+ (6%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -6235,7 +8367,7 @@
 	},
 	{
 		"uid": 1143123,
-		"display_name": "3★ Lia (Midsummer Match)",
+		"display_name": "3★ ［真夏の真剣勝負］リア",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -6266,7 +8398,7 @@
 	},
 	{
 		"uid": 1143127,
-		"display_name": "3★ Lia (Certified Kunoichi)",
+		"display_name": "3★ ［正統派くノ一］リア",
 		"display_trait": "Dark+ (6%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -6297,7 +8429,7 @@
 	},
 	{
 		"uid": 1143139,
-		"display_name": "3★ Lia (Amateur Pastry Chef)",
+		"display_name": "3★ ［気分はパティシエ］リア",
 		"display_trait": "Water+ (6%)",
 		"rarity": 3,
 		"element": "Water",
@@ -6328,7 +8460,7 @@
 	},
 	{
 		"uid": 1143143,
-		"display_name": "3★ Lia (Dancing Announcer)",
+		"display_name": "3★ ［踊り子司会者］リア",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Light",
@@ -6358,8 +8490,39 @@
 		]
 	},
 	{
+		"uid": 1143190,
+		"display_name": "3★ ［雨上がりの空に］リア",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Wind",
+		"hp": 1814,
+		"patk": 254,
+		"matk": 235,
+		"pdef": 206,
+		"mdef": 191,
+		"agi": 72,
+		"dex": 73,
+		"luck": 69,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			114
+		]
+	},
+	{
 		"uid": 1144100,
-		"display_name": "4★ Lia (Dancing Adventurer)",
+		"display_name": "4★ ［踊り子冒険者］リア",
 		"display_trait": "Water+ (7%)",
 		"rarity": 4,
 		"element": "Water",
@@ -6390,7 +8553,7 @@
 	},
 	{
 		"uid": 1144105,
-		"display_name": "4★ Lia (Axel Hearts)",
+		"display_name": "4★ ［アクセルハーツ］リア",
 		"display_trait": "Dark+ (7%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -6420,8 +8583,39 @@
 		]
 	},
 	{
+		"uid": 1144110,
+		"display_name": "4★ ［寒空の待ち合わせ］リア",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 2036,
+		"patk": 286,
+		"matk": 263,
+		"pdef": 226,
+		"mdef": 210,
+		"agi": 73,
+		"dex": 72,
+		"luck": 70,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			114
+		]
+	},
+	{
 		"uid": 1144117,
-		"display_name": "4★ Lia (Maid for the Job)",
+		"display_name": "4★ ［メイドにお任せ］リア",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -6443,8 +8637,8 @@
 		"phy_boost": 0.06,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			114
@@ -6452,7 +8646,7 @@
 	},
 	{
 		"uid": 1144130,
-		"display_name": "4★ Lia (Marvelous Martial Arts)",
+		"display_name": "4★ ［華麗に拳法］リア",
 		"display_trait": "Lightning+ (7%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -6483,7 +8677,7 @@
 	},
 	{
 		"uid": 1144144,
-		"display_name": "4★ Lia (Picture Day)",
+		"display_name": "4★ ［思い出の記念写真］リア",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -6513,8 +8707,39 @@
 		]
 	},
 	{
+		"uid": 1144180,
+		"display_name": "4★ ［おすすめの一着］リア",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 2016,
+		"patk": 283,
+		"matk": 261,
+		"pdef": 228,
+		"mdef": 212,
+		"agi": 72,
+		"dex": 73,
+		"luck": 69,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			114
+		]
+	},
+	{
 		"uid": 1151100,
-		"display_name": "1★ Cielo (Beginner)",
+		"display_name": "1★ ［はじまり］シエロ",
 		"display_trait": "Recovery+ (7%)",
 		"rarity": 1,
 		"element": "Wind",
@@ -6545,7 +8770,7 @@
 	},
 	{
 		"uid": 1152100,
-		"display_name": "2★ Cielo (Arch Priest)",
+		"display_name": "2★ ［アークプリースト］シエロ",
 		"display_trait": "Poison Res (12%)",
 		"rarity": 2,
 		"element": "Fire",
@@ -6576,7 +8801,7 @@
 	},
 	{
 		"uid": 1152102,
-		"display_name": "2★ Cielo (Casual)",
+		"display_name": "2★ ［軽装］シエロ",
 		"display_trait": "Bind Res (12%)",
 		"rarity": 2,
 		"element": "Lightning",
@@ -6607,7 +8832,7 @@
 	},
 	{
 		"uid": 1153100,
-		"display_name": "3★ Cielo (Androphobe)",
+		"display_name": "3★ ［男性恐怖症］シエロ",
 		"display_trait": "Seal Res (15%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -6638,7 +8863,7 @@
 	},
 	{
 		"uid": 1153112,
-		"display_name": "3★ Cielo (Moonlit Stage)",
+		"display_name": "3★ ［月夜のステージ］シエロ",
 		"display_trait": "Poison Res (15%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -6669,7 +8894,7 @@
 	},
 	{
 		"uid": 1153125,
-		"display_name": "3★ Cielo (Strict Teacher)",
+		"display_name": "3★ ［スパルタ講師］シエロ",
 		"display_trait": "Bind Res (15%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -6700,7 +8925,7 @@
 	},
 	{
 		"uid": 1153143,
-		"display_name": "3★ Cielo (Exciting Magic)",
+		"display_name": "3★ ［ドキドキの魔法］シエロ",
 		"display_trait": "Wind+ (6%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -6724,14 +8949,14 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			115
 		]
 	},
 	{
 		"uid": 1153157,
-		"display_name": "3★ Cielo (Faith in Your Fists)",
+		"display_name": "3★ ［拳を信じて］シエロ",
 		"display_trait": "Fire+ (Team 3%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -6753,8 +8978,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			115
@@ -6762,7 +8987,7 @@
 	},
 	{
 		"uid": 1154100,
-		"display_name": "4★ Cielo (Dancing Adventurer)",
+		"display_name": "4★ ［踊り子冒険者］シエロ",
 		"display_trait": "Recovery+ (10%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -6793,7 +9018,7 @@
 	},
 	{
 		"uid": 1154105,
-		"display_name": "4★ Cielo (Axel Hearts)",
+		"display_name": "4★ ［アクセルハーツ］シエロ",
 		"display_trait": "Lightning+ (7%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -6823,8 +9048,39 @@
 		]
 	},
 	{
+		"uid": 1154107,
+		"display_name": "4★ ［心もぽかぽか］シエロ",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 1764,
+		"patk": 263,
+		"matk": 305,
+		"pdef": 198,
+		"mdef": 214,
+		"agi": 71,
+		"dex": 73,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			115
+		]
+	},
+	{
 		"uid": 1154113,
-		"display_name": "4★ Cielo (Fun Sleepover)",
+		"display_name": "4★ ［楽しいお泊り会］シエロ",
 		"display_trait": "Recovery+ (10%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -6855,7 +9111,7 @@
 	},
 	{
 		"uid": 1154117,
-		"display_name": "4★ Cielo (Maid in Training)",
+		"display_name": "4★ ［メイドも鍛錬］シエロ",
 		"display_trait": "Magic+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -6885,8 +9141,39 @@
 		]
 	},
 	{
+		"uid": 1154144,
+		"display_name": "4★ ［みんなと放課後］シエロ",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1782,
+		"patk": 260,
+		"matk": 308,
+		"pdef": 196,
+		"mdef": 212,
+		"agi": 70,
+		"dex": 74,
+		"luck": 70,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			115
+		]
+	},
+	{
 		"uid": 1154151,
-		"display_name": "4★ Cielo (Summer Explorer)",
+		"display_name": "4★ ［わくわく砂浜探索］シエロ",
 		"display_trait": "Water/Wind+ (6%)",
 		"rarity": 4,
 		"element": "Water",
@@ -6917,7 +9204,7 @@
 	},
 	{
 		"uid": 1161100,
-		"display_name": "1★ Erika (Beginner)",
+		"display_name": "1★ ［はじまり］エーリカ",
 		"display_trait": "Fire+ (5%)",
 		"rarity": 1,
 		"element": "Fire",
@@ -6948,7 +9235,7 @@
 	},
 	{
 		"uid": 1162100,
-		"display_name": "2★ Erika (Ranger)",
+		"display_name": "2★ ［レンジャー］エーリカ",
 		"display_trait": "Haze Res (12%)",
 		"rarity": 2,
 		"element": "Dark",
@@ -6979,7 +9266,7 @@
 	},
 	{
 		"uid": 1162102,
-		"display_name": "2★ Erika (Casual)",
+		"display_name": "2★ ［軽装］エーリカ",
 		"display_trait": "Lightning+ (5%)",
 		"rarity": 2,
 		"element": "Lightning",
@@ -7010,7 +9297,7 @@
 	},
 	{
 		"uid": 1163100,
-		"display_name": "3★ Erika (Fan Service)",
+		"display_name": "3★ ［ファンサービス］エーリカ",
 		"display_trait": "Wind+ (6%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -7041,7 +9328,7 @@
 	},
 	{
 		"uid": 1163110,
-		"display_name": "3★ Erika (Cute Klutz)",
+		"display_name": "3★ ［転んでも可愛い］エーリカ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -7072,7 +9359,7 @@
 	},
 	{
 		"uid": 1163111,
-		"display_name": "3★ Erika (Snowball-Hurling Starlet)",
+		"display_name": "3★ ［可愛い雪合戦］エーリカ",
 		"display_trait": "Haze Res (15%)",
 		"rarity": 3,
 		"element": "Water",
@@ -7103,7 +9390,7 @@
 	},
 	{
 		"uid": 1163113,
-		"display_name": "3★ Erika (Extra Girly)",
+		"display_name": "3★ ［女子力アップ］エーリカ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Light",
@@ -7134,7 +9421,7 @@
 	},
 	{
 		"uid": 1163124,
-		"display_name": "3★ Erika (Make Me Look Cute)",
+		"display_name": "3★ ［可愛く写して］エーリカ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -7164,8 +9451,39 @@
 		]
 	},
 	{
+		"uid": 1163176,
+		"display_name": "3★ ［可愛いは最強］エーリカ",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Earth",
+		"hp": 1636,
+		"patk": 242,
+		"matk": 237,
+		"pdef": 185,
+		"mdef": 164,
+		"agi": 73,
+		"dex": 74,
+		"luck": 77,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			116
+		]
+	},
+	{
 		"uid": 1164100,
-		"display_name": "4★ Erika (Dancing Adventurer)",
+		"display_name": "4★ ［踊り子冒険者］エーリカ",
 		"display_trait": "Fire+ (7%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -7196,7 +9514,7 @@
 	},
 	{
 		"uid": 1164105,
-		"display_name": "4★ Erika (Axel Hearts)",
+		"display_name": "4★ ［アクセルハーツ］エーリカ",
 		"display_trait": "Lightning+ (7%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -7227,7 +9545,7 @@
 	},
 	{
 		"uid": 1164130,
-		"display_name": "4★ Erika (Martial Arts Shoot)",
+		"display_name": "4★ ［ケンポー撮影会］エーリカ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -7258,7 +9576,7 @@
 	},
 	{
 		"uid": 1164144,
-		"display_name": "4★ Erika (Tsundere Friend)",
+		"display_name": "4★ ［ツンデレ幼馴染］エーリカ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -7289,7 +9607,7 @@
 	},
 	{
 		"uid": 1164151,
-		"display_name": "4★ Erika (Secret Getaway)",
+		"display_name": "4★ ［お忍びバカンス］エーリカ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Water",
@@ -7319,8 +9637,70 @@
 		]
 	},
 	{
+		"uid": 1164160,
+		"display_name": "4★ ［小悪魔パフォーマー］エーリカ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1836,
+		"patk": 271,
+		"matk": 260,
+		"pdef": 204,
+		"mdef": 180,
+		"agi": 74,
+		"dex": 75,
+		"luck": 76,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			116
+		]
+	},
+	{
+		"uid": 1164178,
+		"display_name": "4★ ［アタシとひと口］エーリカ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 1818,
+		"patk": 269,
+		"matk": 260,
+		"pdef": 206,
+		"mdef": 182,
+		"agi": 73,
+		"dex": 74,
+		"luck": 79,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			116
+		]
+	},
+	{
 		"uid": 1171100,
-		"display_name": "1★ Melissa (Beginner)",
+		"display_name": "1★ ［はじまり］メリッサ",
 		"display_trait": "Dark+ (5%)",
 		"rarity": 1,
 		"element": "Dark",
@@ -7351,7 +9731,7 @@
 	},
 	{
 		"uid": 1172100,
-		"display_name": "2★ Melissa (Ranger)",
+		"display_name": "2★ ［レンジャー］メリッサ",
 		"display_trait": "Poison Res (12%)",
 		"rarity": 2,
 		"element": "Dark",
@@ -7382,7 +9762,7 @@
 	},
 	{
 		"uid": 1172102,
-		"display_name": "2★ Melissa (Casual)",
+		"display_name": "2★ ［軽装］メリッサ",
 		"display_trait": "Haze Res (12%)",
 		"rarity": 2,
 		"element": "Wind",
@@ -7413,7 +9793,7 @@
 	},
 	{
 		"uid": 1173100,
-		"display_name": "3★ Melissa (Seductress)",
+		"display_name": "3★ ［色仕掛け］メリッサ",
 		"display_trait": "Fire+ (6%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -7444,7 +9824,7 @@
 	},
 	{
 		"uid": 1173117,
-		"display_name": "3★ Melissa (Kitten Crazy)",
+		"display_name": "3★ ［子猫にご奉仕］メリッサ",
 		"display_trait": "Water+ (6%)",
 		"rarity": 3,
 		"element": "Water",
@@ -7475,7 +9855,7 @@
 	},
 	{
 		"uid": 1173136,
-		"display_name": "3★ Melissa (Cat Cuddler)",
+		"display_name": "3★ ［子猫にご執心］メリッサ",
 		"display_trait": "Lightning+ (6%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -7506,7 +9886,7 @@
 	},
 	{
 		"uid": 1173148,
-		"display_name": "3★ Melissa (Quest Complete)",
+		"display_name": "3★ ［ミッション完了］メリッサ",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -7530,14 +9910,45 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
+		"bonus": [
+			117
+		]
+	},
+	{
+		"uid": 1173170,
+		"display_name": "3★ ［いいから帰るわよ］メリッサ",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Light",
+		"hp": 1669,
+		"patk": 268,
+		"matk": 227,
+		"pdef": 180,
+		"mdef": 167,
+		"agi": 75,
+		"dex": 75,
+		"luck": 77,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
 		"bonus": [
 			117
 		]
 	},
 	{
 		"uid": 1174100,
-		"display_name": "4★ Melissa (Treasure Hunter)",
+		"display_name": "4★ ［トレジャーハント］メリッサ",
 		"display_trait": "Dark+ (7%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -7568,7 +9979,7 @@
 	},
 	{
 		"uid": 1174107,
-		"display_name": "4★ Melissa (Hot Spring Dreams)",
+		"display_name": "4★ ［おとなの温泉旅］メリッサ",
 		"display_trait": "Earth/Dark+ (6%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -7592,14 +10003,76 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
+		"bonus": [
+			117
+		]
+	},
+	{
+		"uid": 1174113,
+		"display_name": "4★ ［至福のひととき］メリッサ",
+		"display_trait": "Wind+ (Team 6%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 1835,
+		"patk": 300,
+		"matk": 257,
+		"pdef": 202,
+		"mdef": 184,
+		"agi": 74,
+		"dex": 74,
+		"luck": 79,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			117
+		]
+	},
+	{
+		"uid": 1174114,
+		"display_name": "4★ ［チップはここに］メリッサ",
+		"display_trait": "Physical/Water+ (Team 3%/Team 3%)",
+		"rarity": 4,
+		"element": "Water",
+		"hp": 1854,
+		"patk": 303,
+		"matk": 255,
+		"pdef": 200,
+		"mdef": 182,
+		"agi": 75,
+		"dex": 75,
+		"luck": 78,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
 		"bonus": [
 			117
 		]
 	},
 	{
 		"uid": 1174123,
-		"display_name": "4★ Melissa (Elegance)",
+		"display_name": "4★ ［優雅なひととき］メリッサ",
 		"display_trait": "Fire+ (7%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -7630,7 +10103,7 @@
 	},
 	{
 		"uid": 1174125,
-		"display_name": "4★ Melissa (Ruins Hunter)",
+		"display_name": "4★ ［遺跡のハンター］メリッサ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Light",
@@ -7652,8 +10125,8 @@
 		"phy_boost": 0.06,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			117
@@ -7661,7 +10134,7 @@
 	},
 	{
 		"uid": 1174130,
-		"display_name": "4★ Melissa (Enchanting Dance)",
+		"display_name": "4★ ［魅惑の演舞］メリッサ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -7692,7 +10165,7 @@
 	},
 	{
 		"uid": 1181100,
-		"display_name": "1★ Mia (Beginner)",
+		"display_name": "1★ ［はじまり］ミーア",
 		"display_trait": "Earth+ (5%)",
 		"rarity": 1,
 		"element": "Earth",
@@ -7723,7 +10196,7 @@
 	},
 	{
 		"uid": 1182100,
-		"display_name": "2★ Mia (Lancer)",
+		"display_name": "2★ ［ランサー］ミーア",
 		"display_trait": "Bind Res (12%)",
 		"rarity": 2,
 		"element": "Wind",
@@ -7754,7 +10227,7 @@
 	},
 	{
 		"uid": 1182102,
-		"display_name": "2★ Mia (Casual)",
+		"display_name": "2★ ［軽装］ミーア",
 		"display_trait": "Haze Res (12%)",
 		"rarity": 2,
 		"element": "Lightning",
@@ -7785,7 +10258,7 @@
 	},
 	{
 		"uid": 1183100,
-		"display_name": "3★ Mia (Endless Eater)",
+		"display_name": "3★ ［食欲旺盛］ミーア",
 		"display_trait": "Bind Res (15%)",
 		"rarity": 3,
 		"element": "Light",
@@ -7816,7 +10289,7 @@
 	},
 	{
 		"uid": 1183123,
-		"display_name": "3★ Mia (Yummy Quest)",
+		"display_name": "3★ ［美味しいクエスト］ミーア",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Water",
@@ -7847,7 +10320,7 @@
 	},
 	{
 		"uid": 1183130,
-		"display_name": "3★ Mia (Meat Bun Master)",
+		"display_name": "3★ ［肉まんタイム］ミーア",
 		"display_trait": "Super Gauge+ (15%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -7871,14 +10344,14 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			118
 		]
 	},
 	{
 		"uid": 1183135,
-		"display_name": "3★ Mia (Insatiable Santa)",
+		"display_name": "3★ ［食いしん坊サンタ］ミーア",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -7909,7 +10382,7 @@
 	},
 	{
 		"uid": 1183154,
-		"display_name": "3★ Mia (Food Stall Frenzy)",
+		"display_name": "3★ ［屋台に夢中］ミーア",
 		"display_trait": "Dark+ (6%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -7931,8 +10404,39 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			118
+		]
+	},
+	{
+		"uid": 1183183,
+		"display_name": "3★ ［焚火ですやすや］ミーア",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Lightning",
+		"hp": 1702,
+		"patk": 275,
+		"matk": 230,
+		"pdef": 189,
+		"mdef": 171,
+		"agi": 74,
+		"dex": 65,
+		"luck": 72,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			118
@@ -7940,7 +10444,7 @@
 	},
 	{
 		"uid": 1184100,
-		"display_name": "4★ Mia (Mischievous Beastman)",
+		"display_name": "4★ ［やんちゃな獣人］ミーア",
 		"display_trait": "Earth+ (7%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -7970,8 +10474,39 @@
 		]
 	},
 	{
+		"uid": 1184110,
+		"display_name": "4★ ［わいわい雪遊び］ミーア",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1872,
+		"patk": 302,
+		"matk": 258,
+		"pdef": 208,
+		"mdef": 192,
+		"agi": 73,
+		"dex": 66,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			118
+		]
+	},
+	{
 		"uid": 1184113,
-		"display_name": "4★ Mia (Pillow Fighter)",
+		"display_name": "4★ ［枕投げ大会］ミーア",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -8002,7 +10537,7 @@
 	},
 	{
 		"uid": 1184117,
-		"display_name": "4★ Mia (Harried Housekeeper)",
+		"display_name": "4★ ［ドタバタ新米メイド］ミーア",
 		"display_trait": "Earth/Wind+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -8032,8 +10567,39 @@
 		]
 	},
 	{
+		"uid": 1184125,
+		"display_name": "4★ ［ゆらり砂漠旅］ミーア",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 1891,
+		"patk": 299,
+		"matk": 255,
+		"pdef": 210,
+		"mdef": 194,
+		"agi": 72,
+		"dex": 64,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			118
+		]
+	},
+	{
 		"uid": 1184127,
-		"display_name": "4★ Mia (Kunoichi)",
+		"display_name": "4★ ［おてんばくノ一］ミーア",
 		"display_trait": "Water/Earth+ (6%)",
 		"rarity": 4,
 		"element": "Water",
@@ -8064,7 +10630,7 @@
 	},
 	{
 		"uid": 1184149,
-		"display_name": "4★ Mia (Harvest Dance)",
+		"display_name": "4★ ［豊作を祈って］ミーア",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -8088,14 +10654,14 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			118
 		]
 	},
 	{
 		"uid": 1184160,
-		"display_name": "4★ 0",
+		"display_name": "4★ ［キラキラパンプキン］ミーア",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -8117,8 +10683,8 @@
 		"phy_boost": 0.06,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			118
@@ -8126,7 +10692,7 @@
 	},
 	{
 		"uid": 1191100,
-		"display_name": "1★ Amy (Beginner)",
+		"display_name": "1★ ［はじまり］エイミー",
 		"display_trait": "Recovery+ (7%)",
 		"rarity": 1,
 		"element": "Lightning",
@@ -8157,7 +10723,7 @@
 	},
 	{
 		"uid": 1192100,
-		"display_name": "2★ Amy (Sage)",
+		"display_name": "2★ ［賢者］エイミー",
 		"display_trait": "Haze Res (12%)",
 		"rarity": 2,
 		"element": "Water",
@@ -8188,7 +10754,7 @@
 	},
 	{
 		"uid": 1192102,
-		"display_name": "2★ Amy (Casual)",
+		"display_name": "2★ ［軽装］エイミー",
 		"display_trait": "Recovery+ (7%)",
 		"rarity": 2,
 		"element": "Light",
@@ -8219,7 +10785,7 @@
 	},
 	{
 		"uid": 1193100,
-		"display_name": "3★ Amy (Motherly Protector)",
+		"display_name": "3★ ［溢れる母性］エイミー",
 		"display_trait": "Recovery+ (8%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -8250,7 +10816,7 @@
 	},
 	{
 		"uid": 1193127,
-		"display_name": "3★ Amy (Relaxing Kunoichi)",
+		"display_name": "3★ ［くノ一の休息］エイミー",
 		"display_trait": "Water/Earth+ (5%)",
 		"rarity": 3,
 		"element": "Water",
@@ -8274,14 +10840,14 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			119
 		]
 	},
 	{
 		"uid": 1193128,
-		"display_name": "3★ Amy (Clean Your Plate)",
+		"display_name": "3★ ［残さず食べてね］エイミー",
 		"display_trait": "Recovery+ (8%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -8312,7 +10878,7 @@
 	},
 	{
 		"uid": 1193136,
-		"display_name": "3★ Amy (Cake Creator)",
+		"display_name": "3★ ［特製ケーキ］エイミー",
 		"display_trait": "Recovery+ (8%)",
 		"rarity": 3,
 		"element": "None",
@@ -8343,7 +10909,7 @@
 	},
 	{
 		"uid": 1193151,
-		"display_name": "3★ Amy (Shy Swimmer)",
+		"display_name": "3★ ［気になる視線］エイミー",
 		"display_trait": "Magic+ (5%)",
 		"rarity": 3,
 		"element": "Dark",
@@ -8374,7 +10940,7 @@
 	},
 	{
 		"uid": 1193160,
-		"display_name": "3★ Amy",
+		"display_name": "3★ ［仮装でお祝い］エイミー",
 		"display_trait": "Magic+ (5%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -8396,8 +10962,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0.05,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			119
@@ -8405,7 +10971,7 @@
 	},
 	{
 		"uid": 1194100,
-		"display_name": "4★ Amy (Soother of Spirits)",
+		"display_name": "4★ ［元気を出して］エイミー",
 		"display_trait": "Recovery+ (10%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -8435,8 +11001,39 @@
 		]
 	},
 	{
+		"uid": 1194110,
+		"display_name": "4★ ［熱々、いただきます］エイミー",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Lightning",
+		"hp": 1746,
+		"patk": 244,
+		"matk": 311,
+		"pdef": 182,
+		"mdef": 214,
+		"agi": 65,
+		"dex": 72,
+		"luck": 72,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			119
+		]
+	},
+	{
 		"uid": 1194113,
-		"display_name": "4★ Amy (Me Time)",
+		"display_name": "4★ ［私だけの時間］エイミー",
 		"display_trait": "Light+ (7%)",
 		"rarity": 4,
 		"element": "Light",
@@ -8467,7 +11064,7 @@
 	},
 	{
 		"uid": 1194117,
-		"display_name": "4★ Amy (Motherly Maiden)",
+		"display_name": "4★ ［幸せメイド体験］エイミー",
 		"display_trait": "Wind+ (7%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -8498,7 +11095,7 @@
 	},
 	{
 		"uid": 1194125,
-		"display_name": "4★ Amy (Oasis Dancer)",
+		"display_name": "4★ ［オアシスの舞姫］エイミー",
 		"display_trait": "Dark+ (7%)",
 		"rarity": 4,
 		"element": "Dark",
@@ -8529,7 +11126,7 @@
 	},
 	{
 		"uid": 1194149,
-		"display_name": "4★ Amy (Snow Country Starlight)",
+		"display_name": "4★ ［雪国の星空］エイミー",
 		"display_trait": "Fire+ (7%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -8553,14 +11150,14 @@
 		"rec_boost": 0,
 		"available": true,
 		"owned": true,
-		"new": true,
+		"new": false,
 		"bonus": [
 			119
 		]
 	},
 	{
 		"uid": 1194154,
-		"display_name": "4★ Amy (Blossoming Evening)",
+		"display_name": "4★ ［花咲く夜空］エイミー",
 		"display_trait": "Water+ (7%)",
 		"rarity": 4,
 		"element": "Water",
@@ -8582,8 +11179,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			119
@@ -8591,7 +11188,7 @@
 	},
 	{
 		"uid": 1281100,
-		"display_name": "1★ Vanir (Beginner)",
+		"display_name": "1★ ［はじまり］バニル",
 		"display_trait": "Earth+ (5%)",
 		"rarity": 1,
 		"element": "Earth",
@@ -8613,8 +11210,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			128
@@ -8622,7 +11219,7 @@
 	},
 	{
 		"uid": 1282100,
-		"display_name": "2★ Vanir (Masked Demon)",
+		"display_name": "2★ ［仮面の悪魔］バニル",
 		"display_trait": "Earth+ (5%)",
 		"rarity": 2,
 		"element": "Earth",
@@ -8644,8 +11241,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			128
@@ -8653,7 +11250,7 @@
 	},
 	{
 		"uid": 1282102,
-		"display_name": "2★ Vanir (Duke of Aprons)",
+		"display_name": "2★ ［仕事着］バニル",
 		"display_trait": "Dark+ (5%)",
 		"rarity": 2,
 		"element": "Dark",
@@ -8675,8 +11272,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			128
@@ -8684,7 +11281,7 @@
 	},
 	{
 		"uid": 1283100,
-		"display_name": "3★ Vanir (Punishing Pose)",
+		"display_name": "3★ ［おしおきの構え］バニル",
 		"display_trait": "Magic+ (5%)",
 		"rarity": 3,
 		"element": "Wind",
@@ -8706,8 +11303,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0.05,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			128
@@ -8715,7 +11312,7 @@
 	},
 	{
 		"uid": 1283157,
-		"display_name": "3★ Vanir (Perfect Dungeon)",
+		"display_name": "3★ ［自慢のダンジョン］バニル",
 		"display_trait": "Earth+ (6%)",
 		"rarity": 3,
 		"element": "Earth",
@@ -8737,8 +11334,39 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			128
+		]
+	},
+	{
+		"uid": 1283169,
+		"display_name": "3★ ［聖夜の商戦］バニル",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Dark",
+		"hp": 1539,
+		"patk": 221,
+		"matk": 277,
+		"pdef": 203,
+		"mdef": 200,
+		"agi": 71,
+		"dex": 73,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			128
@@ -8746,7 +11374,7 @@
 	},
 	{
 		"uid": 1284100,
-		"display_name": "4★ Vanir (Duke of Hell)",
+		"display_name": "4★ ［地獄の公爵］バニル",
 		"display_trait": "Earth+ (Team 6%)",
 		"rarity": 4,
 		"element": "Earth",
@@ -8768,8 +11396,132 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			128
+		]
+	},
+	{
+		"uid": 1284114,
+		"display_name": "4★ ［手札はお見通し］バニル",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Water",
+		"hp": 1710,
+		"patk": 246,
+		"matk": 308,
+		"pdef": 226,
+		"mdef": 222,
+		"agi": 71,
+		"dex": 73,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			128
+		]
+	},
+	{
+		"uid": 1284116,
+		"display_name": "4★ ［仮面のフィナーレ］バニル",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Lightning",
+		"hp": 1693,
+		"patk": 244,
+		"matk": 310,
+		"pdef": 224,
+		"mdef": 224,
+		"agi": 70,
+		"dex": 74,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			128
+		]
+	},
+	{
+		"uid": 1284172,
+		"display_name": "4★ ［本年も見通す］バニル",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 1693,
+		"patk": 241,
+		"matk": 310,
+		"pdef": 224,
+		"mdef": 223,
+		"agi": 72,
+		"dex": 75,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			128
+		]
+	},
+	{
+		"uid": 1284191,
+		"display_name": "4★ ［夕暮れの休息］バニル",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Fire",
+		"hp": 1710,
+		"patk": 241,
+		"matk": 308,
+		"pdef": 226,
+		"mdef": 222,
+		"agi": 71,
+		"dex": 75,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			128
@@ -8777,7 +11529,7 @@
 	},
 	{
 		"uid": 1474132,
-		"display_name": "4★ Emilia (Spiritual Arts User)",
+		"display_name": "4★ ［精霊術師］エミリア",
 		"display_trait": "Water+ (7%)",
 		"rarity": 4,
 		"element": "Water",
@@ -8808,7 +11560,7 @@
 	},
 	{
 		"uid": 1504132,
-		"display_name": "4★ Rem (Battle Maid)",
+		"display_name": "4★ ［戦うメイド］レム",
 		"display_trait": "Water+ (7%)",
 		"rarity": 4,
 		"element": "Water",
@@ -8839,7 +11591,7 @@
 	},
 	{
 		"uid": 1511100,
-		"display_name": "1★ Mel (Beginner)",
+		"display_name": "1★ ［はじまり］メル",
 		"display_trait": "Lightning+ (5%)",
 		"rarity": 1,
 		"element": "Lightning",
@@ -8861,8 +11613,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			151
@@ -8870,7 +11622,7 @@
 	},
 	{
 		"uid": 1512100,
-		"display_name": "2★ Mel (Lightning Spirit)",
+		"display_name": "2★ ［雷の精霊］メル",
 		"display_trait": "Lightning+ (5%)",
 		"rarity": 2,
 		"element": "Lightning",
@@ -8892,8 +11644,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			151
@@ -8901,7 +11653,7 @@
 	},
 	{
 		"uid": 1512102,
-		"display_name": "2★ Mel (Casual)",
+		"display_name": "2★ ［軽装］メル",
 		"display_trait": "Bind Res (12%)",
 		"rarity": 2,
 		"element": "Dark",
@@ -8923,8 +11675,8 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			151
@@ -8932,7 +11684,7 @@
 	},
 	{
 		"uid": 1513100,
-		"display_name": "3★ Mel (Warm Welcome)",
+		"display_name": "3★ ［いらっしゃいまし］メル",
 		"display_trait": "Physical+ (5%)",
 		"rarity": 3,
 		"element": "Fire",
@@ -8954,8 +11706,8 @@
 		"phy_boost": 0.05,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			151
@@ -8963,7 +11715,7 @@
 	},
 	{
 		"uid": 1513155,
-		"display_name": "3★ Mel (Excuse Me)",
+		"display_name": "3★ ［ごめんあそばせ］メル",
 		"display_trait": "Lightning+ (6%)",
 		"rarity": 3,
 		"element": "Lightning",
@@ -8985,8 +11737,70 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			151
+		]
+	},
+	{
+		"uid": 1513160,
+		"display_name": "3★ ［幸せお菓子］メル",
+		"display_trait": "Water+ (Team 3%)",
+		"rarity": 3,
+		"element": "Water",
+		"hp": 1733,
+		"patk": 279,
+		"matk": 262,
+		"pdef": 184,
+		"mdef": 180,
+		"agi": 72,
+		"dex": 67,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			151
+		]
+	},
+	{
+		"uid": 1513183,
+		"display_name": "3★ ［クエスト報酬］メル",
+		"display_trait": "Physical+ (5%)",
+		"rarity": 3,
+		"element": "Wind",
+		"hp": 1716,
+		"patk": 280,
+		"matk": 260,
+		"pdef": 185,
+		"mdef": 178,
+		"agi": 71,
+		"dex": 68,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.05,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			151
@@ -8994,7 +11808,7 @@
 	},
 	{
 		"uid": 1514100,
-		"display_name": "4★ Mel (Spirit Power)",
+		"display_name": "4★ ［精霊の力］メル",
 		"display_trait": "Lightning+ (7%)",
 		"rarity": 4,
 		"element": "Lightning",
@@ -9016,8 +11830,132 @@
 		"phy_boost": 0,
 		"mag_boost": 0,
 		"rec_boost": 0,
-		"available": false,
-		"owned": false,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			151
+		]
+	},
+	{
+		"uid": 1514105,
+		"display_name": "4★ ［ショータイム］メル",
+		"display_trait": "Light+ (Team 6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1907,
+		"patk": 311,
+		"matk": 286,
+		"pdef": 205,
+		"mdef": 198,
+		"agi": 73,
+		"dex": 69,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			151
+		]
+	},
+	{
+		"uid": 1514107,
+		"display_name": "4★ ［恥じらいなく］メル",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Fire",
+		"hp": 1926,
+		"patk": 310,
+		"matk": 291,
+		"pdef": 204,
+		"mdef": 200,
+		"agi": 72,
+		"dex": 67,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			151
+		]
+	},
+	{
+		"uid": 1514117,
+		"display_name": "4★ ［ご奉仕の電撃］メル",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Dark",
+		"hp": 1907,
+		"patk": 311,
+		"matk": 288,
+		"pdef": 206,
+		"mdef": 198,
+		"agi": 71,
+		"dex": 68,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			151
+		]
+	},
+	{
+		"uid": 1514191,
+		"display_name": "4★ ［しびれるレース］メル",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 1926,
+		"patk": 310,
+		"matk": 286,
+		"pdef": 204,
+		"mdef": 200,
+		"agi": 72,
+		"dex": 69,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
 		"new": false,
 		"bonus": [
 			151
@@ -9025,7 +11963,7 @@
 	},
 	{
 		"uid": 1584147,
-		"display_name": "4★ Bell (Little Rookie)",
+		"display_name": "4★ ［リトル・ルーキー］ベル",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Fire",
@@ -9056,7 +11994,7 @@
 	},
 	{
 		"uid": 1604147,
-		"display_name": "4★ Ais (Sword Princess)",
+		"display_name": "4★ ［美しき剣姫］アイズ",
 		"display_trait": "Physical+ (6%)",
 		"rarity": 4,
 		"element": "Wind",
@@ -9086,7 +12024,648 @@
 		]
 	},
 	{
-		"version": "4.8.0",
+		"uid": 1633161,
+		"display_name": "3★ ［レア度鑑定中］アインズ",
+		"display_trait": "Magic+ (5%)",
+		"rarity": 3,
+		"element": "Dark",
+		"hp": 1539,
+		"patk": 217,
+		"matk": 285,
+		"pdef": 209,
+		"mdef": 205,
+		"agi": 69,
+		"dex": 72,
+		"luck": 71,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.05,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			100,
+			163
+		]
+	},
+	{
+		"uid": 1634161,
+		"display_name": "4★ ［偉大なる不死者の王］アインズ",
+		"display_trait": "Magic+ (6%)",
+		"rarity": 4,
+		"element": "Dark",
+		"hp": 1710,
+		"patk": 241,
+		"matk": 323,
+		"pdef": 227,
+		"mdef": 226,
+		"agi": 69,
+		"dex": 73,
+		"luck": 70,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0.06,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			100,
+			163
+		]
+	},
+	{
+		"uid": 1644161,
+		"display_name": "4★ ［慈悲深き守護者統括］アルベド",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Dark",
+		"hp": 1980,
+		"patk": 302,
+		"matk": 255,
+		"pdef": 234,
+		"mdef": 232,
+		"agi": 70,
+		"dex": 71,
+		"luck": 70,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			103
+		]
+	},
+	{
+		"uid": 1654161,
+		"display_name": "4★ ［可憐なる吸血鬼］シャルティア",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1872,
+		"patk": 300,
+		"matk": 255,
+		"pdef": 206,
+		"mdef": 200,
+		"agi": 74,
+		"dex": 71,
+		"luck": 70,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			102
+		]
+	},
+	{
+		"uid": 1691100,
+		"display_name": "1★ ［はじまり］ロリーサ",
+		"display_trait": "Fire+ (5%)",
+		"rarity": 1,
+		"element": "Fire",
+		"hp": 1310,
+		"patk": 224,
+		"matk": 206,
+		"pdef": 168,
+		"mdef": 167,
+		"agi": 73,
+		"dex": 75,
+		"luck": 78,
+		"water_boost": 0,
+		"fire_boost": 0.05,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			169
+		]
+	},
+	{
+		"uid": 1692100,
+		"display_name": "2★ ［新人サキュバス］ロリーサ",
+		"display_trait": "Fire+ (5%)",
+		"rarity": 2,
+		"element": "Fire",
+		"hp": 1397,
+		"patk": 239,
+		"matk": 220,
+		"pdef": 179,
+		"mdef": 178,
+		"agi": 73,
+		"dex": 75,
+		"luck": 78,
+		"water_boost": 0,
+		"fire_boost": 0.05,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			169
+		]
+	},
+	{
+		"uid": 1692102,
+		"display_name": "2★ ［冒険者］ロリーサ",
+		"display_trait": "Wind+ (5%)",
+		"rarity": 2,
+		"element": "Wind",
+		"hp": 1383,
+		"patk": 240,
+		"matk": 217,
+		"pdef": 178,
+		"mdef": 176,
+		"agi": 74,
+		"dex": 76,
+		"luck": 77,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0.05,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			169
+		]
+	},
+	{
+		"uid": 1693100,
+		"display_name": "3★ ［本日の夢は］ロリーサ",
+		"display_trait": "Recover On Action (60)",
+		"rarity": 3,
+		"element": "Dark",
+		"hp": 1556,
+		"patk": 270,
+		"matk": 244,
+		"pdef": 201,
+		"mdef": 198,
+		"agi": 74,
+		"dex": 76,
+		"luck": 77,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			169
+		]
+	},
+	{
+		"uid": 1693182,
+		"display_name": "3★ ［涙は武器］ロリーサ",
+		"display_trait": "Fire+ (6%)",
+		"rarity": 3,
+		"element": "Fire",
+		"hp": 1571,
+		"patk": 268,
+		"matk": 247,
+		"pdef": 202,
+		"mdef": 200,
+		"agi": 73,
+		"dex": 75,
+		"luck": 78,
+		"water_boost": 0,
+		"fire_boost": 0.06,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			169
+		]
+	},
+	{
+		"uid": 1694100,
+		"display_name": "4★ ［侵入失敗］ロリーサ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Fire",
+		"hp": 1746,
+		"patk": 298,
+		"matk": 274,
+		"pdef": 224,
+		"mdef": 222,
+		"agi": 73,
+		"dex": 75,
+		"luck": 78,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			169
+		]
+	},
+	{
+		"uid": 1694107,
+		"display_name": "4★ ［彩りバスタイム］ロリーサ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1729,
+		"patk": 300,
+		"matk": 272,
+		"pdef": 223,
+		"mdef": 220,
+		"agi": 74,
+		"dex": 76,
+		"luck": 77,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			169
+		]
+	},
+	{
+		"uid": 1694191,
+		"display_name": "4★ ［背後に注意］ロリーサ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Water",
+		"hp": 1746,
+		"patk": 301,
+		"matk": 277,
+		"pdef": 222,
+		"mdef": 222,
+		"agi": 73,
+		"dex": 74,
+		"luck": 79,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			169
+		]
+	},
+	{
+		"uid": 1833189,
+		"display_name": "3★ ［お菓子でリラックス］御坂美琴",
+		"display_trait": "Lightning+ (6%)",
+		"rarity": 3,
+		"element": "Lightning",
+		"hp": 1620,
+		"patk": 270,
+		"matk": 247,
+		"pdef": 184,
+		"mdef": 180,
+		"agi": 73,
+		"dex": 70,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0.06,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			183,
+			186,
+			102,
+			107
+		]
+	},
+	{
+		"uid": 1834189,
+		"display_name": "4★ ［超電磁砲］御坂美琴",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Lightning",
+		"hp": 1800,
+		"patk": 300,
+		"matk": 274,
+		"pdef": 204,
+		"mdef": 200,
+		"agi": 73,
+		"dex": 70,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			183,
+			186,
+			102,
+			107
+		]
+	},
+	{
+		"uid": 1844189,
+		"display_name": "4★ ［空間移動］白井黒子",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Water",
+		"hp": 1692,
+		"patk": 269,
+		"matk": 260,
+		"pdef": 202,
+		"mdef": 198,
+		"agi": 74,
+		"dex": 77,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			184,
+			104,
+			106
+		]
+	},
+	{
+		"uid": 1854189,
+		"display_name": "4★ ［黒い翼］アクセラレータ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Earth",
+		"hp": 1710,
+		"patk": 308,
+		"matk": 238,
+		"pdef": 208,
+		"mdef": 208,
+		"agi": 67,
+		"dex": 68,
+		"luck": 68,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			185,
+			100,
+			112
+		]
+	},
+	{
+		"uid": 1864189,
+		"display_name": "4★ ［怖くないですよ］御坂妹",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Lightning",
+		"hp": 1800,
+		"patk": 300,
+		"matk": 274,
+		"pdef": 204,
+		"mdef": 200,
+		"agi": 73,
+		"dex": 70,
+		"luck": 73,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": false,
+		"bonus": [
+			186,
+			183,
+			102,
+			107
+		]
+	},
+	{
+		"uid": 1924195,
+		"display_name": "4★ ［盾の勇者］岩谷尚文",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Fire",
+		"hp": 2061,
+		"patk": 286,
+		"matk": 252,
+		"pdef": 228,
+		"mdef": 228,
+		"agi": 68,
+		"dex": 70,
+		"luck": 61,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": true,
+		"bonus": [
+			192,
+			100,
+			111
+		]
+	},
+	{
+		"uid": 1934195,
+		"display_name": "4★ ［盾の勇者の剣］ラフタリア",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Light",
+		"hp": 1764,
+		"patk": 302,
+		"matk": 274,
+		"pdef": 196,
+		"mdef": 196,
+		"agi": 74,
+		"dex": 71,
+		"luck": 66,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": true,
+		"bonus": [
+			193,
+			101,
+			107
+		]
+	},
+	{
+		"uid": 1944195,
+		"display_name": "4★ ［フィロリアルクイーン］フィーロ",
+		"display_trait": "Physical+ (6%)",
+		"rarity": 4,
+		"element": "Wind",
+		"hp": 1836,
+		"patk": 280,
+		"matk": 269,
+		"pdef": 200,
+		"mdef": 200,
+		"agi": 75,
+		"dex": 70,
+		"luck": 70,
+		"water_boost": 0,
+		"fire_boost": 0,
+		"wind_boost": 0,
+		"earth_boost": 0,
+		"lightning_boost": 0,
+		"light_boost": 0,
+		"dark_boost": 0,
+		"phy_boost": 0.06,
+		"mag_boost": 0,
+		"rec_boost": 0,
+		"available": true,
+		"owned": true,
+		"new": true,
+		"bonus": [
+			194,
+			108,
+			104
+		]
+	},
+	{
+		"version": "10.1.0",
 		"available": false
 	}
 ]

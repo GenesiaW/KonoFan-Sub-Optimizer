@@ -13,6 +13,10 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>15 September 2022 (Ver 4.8.0)</h4>
+                    <ul>• Updated JP database to include units up to Fes Lia/Erika</ul>
+                </div>
+                <div>
                     <h4>3 September 2022 (Ver 4.7.1)</h4>
                     <ul>• Toggled Global September units to be available</ul>
 					<ul>• Toggled Ninja 4 Banner</ul>
