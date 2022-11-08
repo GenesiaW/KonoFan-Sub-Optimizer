@@ -13,6 +13,12 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>8 November 2022 (Ver 4.9.0)</h4>
+                    <ul>• Updated JP database to include units up to Bofuri Collab</ul>
+                    <ul>• Toggled Global October and Novemeber units to be available</ul>
+                    <ul>• Note: I forgot to update it last month, but in the event that I forgot again, JP mode can be used instead (ensure that inventory is exported before switching over)</ul>
+                </div>
+                <div>
                     <h4>15 September 2022 (Ver 4.8.0)</h4>
                     <ul>• Updated JP database to include units up to Fes Lia/Erika</ul>
                 </div>

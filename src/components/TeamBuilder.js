@@ -42,6 +42,9 @@ const class_map = {
     192:"Naofumi",
     193:"Raphtalia",
     194:"Filo",
+    195:"Maple",
+    196:"Sally",
+    197:"Kasumi",
   }
 
 function TeamBuilder({props,show,handleClose,count,setCount}) {

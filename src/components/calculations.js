@@ -38,6 +38,9 @@ const class_map = {
   192:"Naofumi",
   193:"Raphtalia",
   194:"Filo",
+  195:"Maple",
+  196:"Sally",
+  197:"Kasumi",
 }
 
 function CalculateStats(Ownership,Main,SubOne,SubTwo){
@@ -103,7 +106,8 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper,OpUlt){
       Mia:118,
       Amy:119,
       Vanir:128,
-      Meru:151
+      Meru:151,
+      Lolisa:169
     }
     const SuperVOne ={
       Kazuma:"None",
@@ -127,7 +131,8 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper,OpUlt){
       Mia:"Earth",
       Amy:"None",
       Vanir:"Earth",
-      Meru:"Lightning"
+      Meru:"Lightning",
+      Lolisa:"None",
     }
     const SuperVTwo ={
       Kazuma:"None",
@@ -151,7 +156,8 @@ function CalculateDamage(Ownership,Main,SubOne,SubTwo,MeguminSuper,OpUlt){
       Mia:"None",
       Amy:"Earth",
       Vanir:"None",
-      Meru:"None"
+      Meru:"None",
+      Lolisa:"Fire",
     }
     const ElementTable ={
       "Water":"water_boost",

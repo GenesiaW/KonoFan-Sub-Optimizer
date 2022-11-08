@@ -43,8 +43,8 @@ function Settings({show,handleClose,handleMeguminSuper,MeguminSuper,OpUlt,handle
                         <Form.Group controlId="OpUlt">
                             <Form.Check type="switch" onChange={handleOpUlt} label="Optimize All Units by Super" defaultChecked={OpUlt.available}/>
                             {OpUlt.available? 
-                            <Form.Check type="switch" onChange={handleUltVersion} label="Toggle for Super V2 (Not out in global yet)" defaultChecked={VersionHelper[OpUlt.version]}/>
-                            :<Form.Check type="switch" onChange={handleUltVersion} label="Toggle for Super V2 (Not out in global yet)" defaultChecked={VersionHelper[OpUlt.version]} disabled/>}
+                            <Form.Check type="switch" onChange={handleUltVersion} label="Toggle for Super V2" defaultChecked={VersionHelper[OpUlt.version]}/>
+                            :<Form.Check type="switch" onChange={handleUltVersion} label="Toggle for Super V2" defaultChecked={VersionHelper[OpUlt.version]} disabled/>}
                         </Form.Group>
                     </Form>
                 </Modal.Body>
