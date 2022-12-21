@@ -407,9 +407,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false,
+        "available": true,
+        "owned": true,
+        "new": true,
         "bonus": [
             100,
             158
@@ -825,7 +825,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             101,
             147
@@ -1591,8 +1591,8 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             102,
@@ -1879,8 +1879,8 @@
         "phy_boost": 0.05,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             103,
@@ -2818,7 +2818,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             105
         ]
@@ -2940,8 +2940,8 @@
         "phy_boost": 0,
         "mag_boost": 0.06,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             105
@@ -3407,7 +3407,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             106
         ]
@@ -4089,7 +4089,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             108
         ]
@@ -5265,8 +5265,8 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             111
@@ -5453,7 +5453,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             112
         ]
@@ -5544,9 +5544,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false,
+        "available": true,
+        "owned": true,
+        "new": true,
         "bonus": [
             112
         ]
@@ -6102,9 +6102,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false,
+        "available": true,
+        "owned": true,
+        "new": true,
         "bonus": [
             113
         ]
@@ -6474,9 +6474,9 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false,
+        "available": true,
+        "owned": true,
+        "new": true,
         "bonus": [
             114
         ]
@@ -6784,9 +6784,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false,
+        "available": true,
+        "owned": true,
+        "new": true,
         "bonus": [
             115
         ]
@@ -7714,8 +7714,8 @@
         "phy_boost": 0.06,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             117
@@ -7995,7 +7995,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             118
         ]
@@ -8644,9 +8644,9 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
-        "new": false,
+        "available": true,
+        "owned": true,
+        "new": true,
         "bonus": [
             119
         ]
@@ -8675,8 +8675,8 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             128
@@ -8706,8 +8706,8 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             128
@@ -8737,8 +8737,8 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             128
@@ -8768,8 +8768,8 @@
         "phy_boost": 0,
         "mag_boost": 0.05,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             128
@@ -8799,8 +8799,8 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             128
@@ -8830,8 +8830,8 @@
         "phy_boost": 0,
         "mag_boost": 0,
         "rec_boost": 0,
-        "available": false,
-        "owned": false,
+        "available": true,
+        "owned": true,
         "new": false,
         "bonus": [
             128
@@ -9179,7 +9179,7 @@
         ]
     },
 	{
-		"version": "4.9.0",
+		"version": "4.10.0",
 		"available": false
 	}
 ]
