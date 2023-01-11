@@ -12,6 +12,11 @@ function Changelogs({show,handleClose}) {
         dialogClassName="modal-cw">
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
+			    <div>
+                    <h4>11 January 2022 (Ver 4.11.0)</h4>
+                    <ul>• Updated JP database to include units up to New Year Cecily</ul>
+                    <ul>• Toggled Global January units to be available</ul>
+                </div>
                 <div>
                     <h4>21 December 2022 (Ver 4.10.0)</h4>
                     <ul>• Updated JP database to include units up to Christmas Lolisa</ul>

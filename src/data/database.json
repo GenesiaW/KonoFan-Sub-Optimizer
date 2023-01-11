@@ -28,7 +28,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -60,7 +61,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -92,7 +94,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -124,7 +127,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -156,7 +160,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -188,7 +193,41 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
+        ]
+    },
+    {
+        "uid": 1003109,
+        "display_name": "3\u2605 Kazuma (Tacky Tracksuit)",
+        "display_trait": "Haze Res (15%)",
+        "rarity": 3,
+        "element": "Lightning",
+        "hp": 1652,
+        "patk": 247,
+        "matk": 242,
+        "pdef": 176,
+        "mdef": 168,
+        "agi": 73,
+        "dex": 77,
+        "luck": 89,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            100,
+            158,
+            163
         ]
     },
     {
@@ -220,7 +259,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -252,7 +292,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -284,7 +325,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -316,7 +358,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -348,7 +391,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -380,7 +424,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -409,10 +454,11 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -444,7 +490,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -476,7 +523,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -508,7 +556,8 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
         ]
     },
     {
@@ -540,7 +589,41 @@
         "new": false,
         "bonus": [
             100,
-            158
+            158,
+            163
+        ]
+    },
+    {
+        "uid": 1004161,
+        "display_name": "4\u2605 Kazuma (Devil King Incarnate)",
+        "display_trait": "Dark+ (7%)",
+        "rarity": 4,
+        "element": "Dark",
+        "hp": 1835,
+        "patk": 274,
+        "matk": 269,
+        "pdef": 196,
+        "mdef": 186,
+        "agi": 73,
+        "dex": 77,
+        "luck": 89,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0.07,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            100,
+            158,
+            163
         ]
     },
     {
@@ -1116,7 +1199,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1148,7 +1232,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1180,7 +1265,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1212,7 +1298,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1244,7 +1331,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1276,7 +1364,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1308,7 +1397,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1340,7 +1430,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1372,7 +1463,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1404,7 +1496,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1436,7 +1529,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1468,7 +1562,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1500,7 +1595,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1532,7 +1628,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1564,7 +1661,8 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
         ]
     },
     {
@@ -1596,7 +1694,74 @@
         "new": false,
         "bonus": [
             102,
-            150
+            150,
+            165
+        ]
+    },
+    {
+        "uid": 1024161,
+        "display_name": "4\u2605 Megumin (Moonlight Guide)",
+        "display_trait": "Fire/Light+ (6%)",
+        "rarity": 4,
+        "element": "Light",
+        "hp": 1530,
+        "patk": 269,
+        "matk": 317,
+        "pdef": 172,
+        "mdef": 208,
+        "agi": 68,
+        "dex": 71,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0.06,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0.06,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            102,
+            150,
+            165
+        ]
+    },
+    {
+        "uid": 1024169,
+        "display_name": "4\u2605 Megumin (Present Barrage)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Earth",
+        "hp": 1515,
+        "patk": 266,
+        "matk": 314,
+        "pdef": 174,
+        "mdef": 210,
+        "agi": 69,
+        "dex": 72,
+        "luck": 71,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            102,
+            150,
+            165
         ]
     },
     {
@@ -1628,7 +1793,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1660,7 +1826,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1692,7 +1859,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1724,7 +1892,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1756,7 +1925,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1788,7 +1958,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1820,7 +1991,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1852,7 +2024,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1884,7 +2057,41 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
+        ]
+    },
+    {
+        "uid": 1033178,
+        "display_name": "3\u2605 Darkness (Passionate Pastry Chef)",
+        "display_trait": "Recover On Action (60)",
+        "rarity": 3,
+        "element": "Dark",
+        "hp": 1912,
+        "patk": 267,
+        "matk": 225,
+        "pdef": 217,
+        "mdef": 211,
+        "agi": 68,
+        "dex": 10,
+        "luck": 63,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            103,
+            160,
+            164
         ]
     },
     {
@@ -1916,7 +2123,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1948,7 +2156,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -1980,7 +2189,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -2012,7 +2222,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -2044,7 +2255,8 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
         ]
     },
     {
@@ -2076,7 +2288,41 @@
         "new": false,
         "bonus": [
             103,
-            160
+            160,
+            164
+        ]
+    },
+    {
+        "uid": 1034161,
+        "display_name": "4\u2605 Darkness (Expectant Gaze)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Dark",
+        "hp": 2124,
+        "patk": 296,
+        "matk": 249,
+        "pdef": 241,
+        "mdef": 234,
+        "agi": 68,
+        "dex": 10,
+        "luck": 63,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            103,
+            160,
+            164
         ]
     },
     {
@@ -2297,6 +2543,37 @@
         ]
     },
     {
+        "uid": 1043171,
+        "display_name": "3\u2605 Chris (Thief at Heart)",
+        "display_trait": "Physical+ (5%)",
+        "rarity": 3,
+        "element": "Earth",
+        "hp": 1604,
+        "patk": 244,
+        "matk": 240,
+        "pdef": 171,
+        "mdef": 180,
+        "agi": 75,
+        "dex": 79,
+        "luck": 88,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.05,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            104
+        ]
+    },
+    {
         "uid": 1044100,
         "display_name": "4\u2605 Chris (High-Flying Thief)",
         "display_trait": "Wind+ (7%)",
@@ -2446,6 +2723,37 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            104
+        ]
+    },
+    {
+        "uid": 1044142,
+        "display_name": "4\u2605 Chris (Legendary Adventurer)",
+        "display_trait": "Debuff Physical+ (6%)",
+        "rarity": 4,
+        "element": "Wind",
+        "hp": 1782,
+        "patk": 271,
+        "matk": 269,
+        "pdef": 190,
+        "mdef": 196,
+        "agi": 77,
+        "dex": 78,
+        "luck": 89,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             104
@@ -2731,6 +3039,37 @@
         ]
     },
     {
+        "uid": 1053179,
+        "display_name": "3\u2605 Wiz (Lich Protector)",
+        "display_trait": "Recover On Action (60)",
+        "rarity": 3,
+        "element": "Water",
+        "hp": 1411,
+        "patk": 216,
+        "matk": 288,
+        "pdef": 208,
+        "mdef": 203,
+        "agi": 68,
+        "dex": 68,
+        "luck": 54,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            105
+        ]
+    },
+    {
         "uid": 1054100,
         "display_name": "4\u2605 Wiz (Ice Witch)",
         "display_trait": "Water+ (7%)",
@@ -2942,6 +3281,37 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            105
+        ]
+    },
+    {
+        "uid": 1054172,
+        "display_name": "4\u2605 Wiz (Gorgeous New Year)",
+        "display_trait": "Magic/Wind+ (Team 3%/Team 3%)",
+        "rarity": 4,
+        "element": "Wind",
+        "hp": 1568,
+        "patk": 236,
+        "matk": 320,
+        "pdef": 232,
+        "mdef": 226,
+        "agi": 66,
+        "dex": 67,
+        "luck": 55,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             105
@@ -3227,6 +3597,37 @@
         ]
     },
     {
+        "uid": 1063172,
+        "display_name": "3\u2605 Yunyun (Fervent Wisher)",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Wind",
+        "hp": 1458,
+        "patk": 232,
+        "matk": 283,
+        "pdef": 168,
+        "mdef": 192,
+        "agi": 69,
+        "dex": 69,
+        "luck": 66,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            106
+        ]
+    },
+    {
         "uid": 1064100,
         "display_name": "4\u2605 Yunyun (Megumin's Friend)",
         "display_trait": "Light+ (7%)",
@@ -3407,6 +3808,37 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            106
+        ]
+    },
+    {
+        "uid": 1064169,
+        "display_name": "4\u2605 Yunyun (My Feast!)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Earth",
+        "hp": 1620,
+        "patk": 258,
+        "matk": 314,
+        "pdef": 186,
+        "mdef": 214,
+        "agi": 69,
+        "dex": 69,
+        "luck": 66,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             106
@@ -3630,6 +4062,37 @@
         ]
     },
     {
+        "uid": 1073172,
+        "display_name": "3\u2605 Iris (Mochi Novice)",
+        "display_trait": "Physical+ (5%)",
+        "rarity": 3,
+        "element": "Lightning",
+        "hp": 1620,
+        "patk": 281,
+        "matk": 244,
+        "pdef": 182,
+        "mdef": 180,
+        "agi": 70,
+        "dex": 72,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.05,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            107
+        ]
+    },
+    {
         "uid": 1074100,
         "display_name": "4\u2605 Iris (Royal Holiday)",
         "display_trait": "Light+ (7%)",
@@ -3816,6 +4279,37 @@
         ]
     },
     {
+        "uid": 1074169,
+        "display_name": "4\u2605 Iris (Enchanting Wonderland)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Water",
+        "hp": 1800,
+        "patk": 317,
+        "matk": 274,
+        "pdef": 202,
+        "mdef": 196,
+        "agi": 70,
+        "dex": 72,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            107
+        ]
+    },
+    {
         "uid": 1081100,
         "display_name": "1\u2605 Komekko (Beginner)",
         "display_trait": "Light+ (5%)",
@@ -3934,6 +4428,37 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            108
+        ]
+    },
+    {
+        "uid": 1083110,
+        "display_name": "3\u2605 Komekko (Cozy Catnap)",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Light",
+        "hp": 1780,
+        "patk": 242,
+        "matk": 285,
+        "pdef": 196,
+        "mdef": 200,
+        "agi": 61,
+        "dex": 66,
+        "luck": 63,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             108
@@ -4108,6 +4633,37 @@
         "agi": 61,
         "dex": 66,
         "luck": 63,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            108
+        ]
+    },
+    {
+        "uid": 1084178,
+        "display_name": "4\u2605 Komekko (Secret Chocolate)",
+        "display_trait": "Dark+ (Team 6%)",
+        "rarity": 4,
+        "element": "Dark",
+        "hp": 1998,
+        "patk": 266,
+        "matk": 315,
+        "pdef": 220,
+        "mdef": 220,
+        "agi": 62,
+        "dex": 67,
+        "luck": 61,
         "water_boost": 0,
         "fire_boost": 0,
         "wind_boost": 0,
@@ -4343,6 +4899,68 @@
         ]
     },
     {
+        "uid": 1093157,
+        "display_name": "3\u2605 Cecily (Game Show Priestess)",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Light",
+        "hp": 1620,
+        "patk": 252,
+        "matk": 267,
+        "pdef": 175,
+        "mdef": 189,
+        "agi": 68,
+        "dex": 68,
+        "luck": 64,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            109
+        ]
+    },
+    {
+        "uid": 1093169,
+        "display_name": "3\u2605 Cecily (O Holy Axis)",
+        "display_trait": "Water+ (6%)",
+        "rarity": 3,
+        "element": "Water",
+        "hp": 1604,
+        "patk": 249,
+        "matk": 270,
+        "pdef": 173,
+        "mdef": 191,
+        "agi": 69,
+        "dex": 67,
+        "luck": 65,
+        "water_boost": 0.06,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            109
+        ]
+    },
+    {
         "uid": 1094100,
         "display_name": "4\u2605 Cecily (Big Sister)",
         "display_trait": "Recovery+ (10%)",
@@ -4368,6 +4986,37 @@
         "rec_boost": 0.1,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            109
+        ]
+    },
+    {
+        "uid": 1094110,
+        "display_name": "4\u2605 Cecily (Snow Sprite Recruiter)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Lightning",
+        "hp": 1782,
+        "patk": 277,
+        "matk": 300,
+        "pdef": 192,
+        "mdef": 212,
+        "agi": 69,
+        "dex": 67,
+        "luck": 65,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             109
@@ -4746,6 +5395,37 @@
         ]
     },
     {
+        "uid": 1103159,
+        "display_name": "3\u2605 Arue (Homeward Trek)",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Wind",
+        "hp": 1331,
+        "patk": 232,
+        "matk": 277,
+        "pdef": 153,
+        "mdef": 191,
+        "agi": 68,
+        "dex": 69,
+        "luck": 71,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            110
+        ]
+    },
+    {
         "uid": 1104100,
         "display_name": "4\u2605 Arue (Best Bod)",
         "display_trait": "Dark+ (7%)",
@@ -4895,6 +5575,37 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            110
+        ]
+    },
+    {
+        "uid": 1104169,
+        "display_name": "4\u2605 Arue (Secret Santa)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Water",
+        "hp": 1479,
+        "patk": 257,
+        "matk": 308,
+        "pdef": 170,
+        "mdef": 212,
+        "agi": 68,
+        "dex": 69,
+        "luck": 71,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             110
@@ -5149,6 +5860,37 @@
         ]
     },
     {
+        "uid": 1113171,
+        "display_name": "3\u2605 Mitsurugi (Hopeless Proposal)",
+        "display_trait": "Physical+ (5%)",
+        "rarity": 3,
+        "element": "Lightning",
+        "hp": 1865,
+        "patk": 272,
+        "matk": 219,
+        "pdef": 205,
+        "mdef": 185,
+        "agi": 71,
+        "dex": 70,
+        "luck": 60,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.05,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            111
+        ]
+    },
+    {
         "uid": 1114100,
         "display_name": "4\u2605 Mitsurugi (The Chosen One)",
         "display_trait": "Lightning+ (7%)",
@@ -5298,6 +6040,68 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            111
+        ]
+    },
+    {
+        "uid": 1114130,
+        "display_name": "4\u2605 Mitsurugi (Dedicated Disciple)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Fire",
+        "hp": 2073,
+        "patk": 302,
+        "matk": 244,
+        "pdef": 228,
+        "mdef": 206,
+        "agi": 71,
+        "dex": 70,
+        "luck": 60,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            111
+        ]
+    },
+    {
+        "uid": 1114180,
+        "display_name": "4\u2605 Mitsurugi (Supportive Kindness)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Earth",
+        "hp": 2052,
+        "patk": 299,
+        "matk": 241,
+        "pdef": 231,
+        "mdef": 208,
+        "agi": 70,
+        "dex": 71,
+        "luck": 59,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             111
@@ -5546,7 +6350,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             112
         ]
@@ -5640,6 +6444,37 @@
         "available": true,
         "owned": true,
         "new": false,
+        "bonus": [
+            112
+        ]
+    },
+    {
+        "uid": 1124113,
+        "display_name": "4\u2605 Dust (Chronic Oversleeper)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Fire",
+        "hp": 1996,
+        "patk": 311,
+        "matk": 240,
+        "pdef": 212,
+        "mdef": 178,
+        "agi": 72,
+        "dex": 70,
+        "luck": 62,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
         "bonus": [
             112
         ]
@@ -5924,6 +6759,37 @@
         ]
     },
     {
+        "uid": 1133178,
+        "display_name": "3\u2605 Rin (Tender Feelings)",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Water",
+        "hp": 1588,
+        "patk": 220,
+        "matk": 268,
+        "pdef": 155,
+        "mdef": 184,
+        "agi": 69,
+        "dex": 74,
+        "luck": 72,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            113
+        ]
+    },
+    {
         "uid": 1134100,
         "display_name": "4\u2605 Rin (Certified Wizard)",
         "display_trait": "Wind+ (7%)",
@@ -6079,6 +6945,37 @@
         ]
     },
     {
+        "uid": 1134130,
+        "display_name": "4\u2605 Rin (Firepower is Key)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Lightning",
+        "hp": 1764,
+        "patk": 246,
+        "matk": 303,
+        "pdef": 169,
+        "mdef": 204,
+        "agi": 69,
+        "dex": 74,
+        "luck": 72,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            113
+        ]
+    },
+    {
         "uid": 1134154,
         "display_name": "4\u2605 Rin (Summer Sharpshooter)",
         "display_trait": "Earth+ (7%)",
@@ -6104,7 +7001,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             113
         ]
@@ -6451,6 +7348,37 @@
         ]
     },
     {
+        "uid": 1144110,
+        "display_name": "4\u2605 Lia (Beneath a Snowy Sky)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Light",
+        "hp": 2036,
+        "patk": 286,
+        "matk": 263,
+        "pdef": 226,
+        "mdef": 210,
+        "agi": 73,
+        "dex": 72,
+        "luck": 70,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            114
+        ]
+    },
+    {
         "uid": 1144117,
         "display_name": "4\u2605 Lia (Maid for the Job)",
         "display_trait": "Physical+ (6%)",
@@ -6476,7 +7404,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             114
         ]
@@ -6538,6 +7466,37 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            114
+        ]
+    },
+    {
+        "uid": 1144180,
+        "display_name": "4\u2605 Lia (Fashionista Flair)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Wind",
+        "hp": 2016,
+        "patk": 283,
+        "matk": 261,
+        "pdef": 228,
+        "mdef": 212,
+        "agi": 72,
+        "dex": 73,
+        "luck": 69,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             114
@@ -6786,7 +7745,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             115
         ]
@@ -6848,6 +7807,37 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            115
+        ]
+    },
+    {
+        "uid": 1154107,
+        "display_name": "4\u2605 Cielo (Warmhearted)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Earth",
+        "hp": 1764,
+        "patk": 263,
+        "matk": 305,
+        "pdef": 198,
+        "mdef": 214,
+        "agi": 71,
+        "dex": 73,
+        "luck": 71,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             115
@@ -7195,6 +8185,37 @@
         ]
     },
     {
+        "uid": 1163176,
+        "display_name": "3\u2605 Erika (Cuteness Triumph)",
+        "display_trait": "Physical+ (5%)",
+        "rarity": 3,
+        "element": "Earth",
+        "hp": 1636,
+        "patk": 242,
+        "matk": 237,
+        "pdef": 185,
+        "mdef": 164,
+        "agi": 73,
+        "dex": 74,
+        "luck": 77,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.05,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            116
+        ]
+    },
+    {
         "uid": 1164100,
         "display_name": "4\u2605 Erika (Dancing Adventurer)",
         "display_trait": "Fire+ (7%)",
@@ -7363,6 +8384,37 @@
         "agi": 74,
         "dex": 75,
         "luck": 76,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            116
+        ]
+    },
+    {
+        "uid": 1164178,
+        "display_name": "4\u2605 Erika (Cute n' Sweet)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Earth",
+        "hp": 1818,
+        "patk": 269,
+        "matk": 260,
+        "pdef": 206,
+        "mdef": 182,
+        "agi": 73,
+        "dex": 74,
+        "luck": 79,
         "water_boost": 0,
         "fire_boost": 0,
         "wind_boost": 0,
@@ -7598,6 +8650,37 @@
         ]
     },
     {
+        "uid": 1173170,
+        "display_name": "3\u2605 Melissa (Conspicuous Exit)",
+        "display_trait": "Physical+ (5%)",
+        "rarity": 3,
+        "element": "Light",
+        "hp": 1669,
+        "patk": 268,
+        "matk": 227,
+        "pdef": 180,
+        "mdef": 167,
+        "agi": 75,
+        "dex": 75,
+        "luck": 77,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.05,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            117
+        ]
+    },
+    {
         "uid": 1174100,
         "display_name": "4\u2605 Melissa (Treasure Hunter)",
         "display_trait": "Dark+ (7%)",
@@ -7654,6 +8737,68 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            117
+        ]
+    },
+    {
+        "uid": 1174113,
+        "display_name": "4\u2605 Melissa (Blissful Moment)",
+        "display_trait": "Wind+ (Team 6%)",
+        "rarity": 4,
+        "element": "Wind",
+        "hp": 1835,
+        "patk": 300,
+        "matk": 257,
+        "pdef": 202,
+        "mdef": 184,
+        "agi": 74,
+        "dex": 74,
+        "luck": 79,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            117
+        ]
+    },
+    {
+        "uid": 1174114,
+        "display_name": "4\u2605 Melissa (Tips Welcome)",
+        "display_trait": "Physical/Water+ (Team 3%/Team 3%)",
+        "rarity": 4,
+        "element": "Water",
+        "hp": 1854,
+        "patk": 303,
+        "matk": 255,
+        "pdef": 200,
+        "mdef": 182,
+        "agi": 75,
+        "dex": 75,
+        "luck": 78,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             117
@@ -8026,6 +9171,37 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            118
+        ]
+    },
+    {
+        "uid": 1184110,
+        "display_name": "4\u2605 Mia (Silly Snow Day)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Light",
+        "hp": 1872,
+        "patk": 302,
+        "matk": 258,
+        "pdef": 208,
+        "mdef": 192,
+        "agi": 73,
+        "dex": 66,
+        "luck": 71,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             118
@@ -8497,6 +9673,37 @@
         ]
     },
     {
+        "uid": 1194110,
+        "display_name": "4\u2605 Amy (Nothing like a Hot Meal)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Lightning",
+        "hp": 1746,
+        "patk": 244,
+        "matk": 311,
+        "pdef": 182,
+        "mdef": 214,
+        "agi": 65,
+        "dex": 72,
+        "luck": 72,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            119
+        ]
+    },
+    {
         "uid": 1194113,
         "display_name": "4\u2605 Amy (Me Time)",
         "display_trait": "Light+ (7%)",
@@ -8646,7 +9853,7 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
-        "new": true,
+        "new": false,
         "bonus": [
             119
         ]
@@ -8807,6 +10014,37 @@
         ]
     },
     {
+        "uid": 1283169,
+        "display_name": "3\u2605 Vanir (Holy Night Profit)",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Dark",
+        "hp": 1539,
+        "patk": 221,
+        "matk": 277,
+        "pdef": 203,
+        "mdef": 200,
+        "agi": 71,
+        "dex": 73,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            128
+        ]
+    },
+    {
         "uid": 1284100,
         "display_name": "4\u2605 Vanir (Duke of Hell)",
         "display_trait": "Earth+ (Team 6%)",
@@ -8832,6 +10070,68 @@
         "rec_boost": 0,
         "available": true,
         "owned": true,
+        "new": false,
+        "bonus": [
+            128
+        ]
+    },
+    {
+        "uid": 1284114,
+        "display_name": "4\u2605 Vanir (Card Sharp)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Water",
+        "hp": 1710,
+        "patk": 246,
+        "matk": 308,
+        "pdef": 226,
+        "mdef": 222,
+        "agi": 71,
+        "dex": 73,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            128
+        ]
+    },
+    {
+        "uid": 1284172,
+        "display_name": "4\u2605 Vanir (New Year Predictions)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Wind",
+        "hp": 1693,
+        "patk": 241,
+        "matk": 310,
+        "pdef": 224,
+        "mdef": 223,
+        "agi": 72,
+        "dex": 75,
+        "luck": 71,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
         "new": false,
         "bonus": [
             128
@@ -9117,6 +10417,68 @@
         ]
     },
     {
+        "uid": 1514105,
+        "display_name": "4\u2605 Mel (Showtime)",
+        "display_trait": "Light+ (Team 6%)",
+        "rarity": 4,
+        "element": "Light",
+        "hp": 1907,
+        "patk": 311,
+        "matk": 286,
+        "pdef": 205,
+        "mdef": 198,
+        "agi": 73,
+        "dex": 69,
+        "luck": 71,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            151
+        ]
+    },
+    {
+        "uid": 1514107,
+        "display_name": "4\u2605 Mel (Unabashed)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Fire",
+        "hp": 1926,
+        "patk": 310,
+        "matk": 291,
+        "pdef": 204,
+        "mdef": 200,
+        "agi": 72,
+        "dex": 67,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            151
+        ]
+    },
+    {
         "uid": 1584147,
         "display_name": "4\u2605 Bell (Little Rookie)",
         "display_trait": "Physical+ (6%)",
@@ -9178,8 +10540,134 @@
             103
         ]
     },
+    {
+        "uid": 1633161,
+        "display_name": "3\u2605 Ainz (Rare Item Aficionado)",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Dark",
+        "hp": 1539,
+        "patk": 217,
+        "matk": 285,
+        "pdef": 209,
+        "mdef": 205,
+        "agi": 69,
+        "dex": 72,
+        "luck": 71,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            100,
+            163
+        ]
+    },
+    {
+        "uid": 1634161,
+        "display_name": "4\u2605 Ainz (Supreme Undead King)",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Dark",
+        "hp": 1710,
+        "patk": 241,
+        "matk": 323,
+        "pdef": 227,
+        "mdef": 226,
+        "agi": 69,
+        "dex": 73,
+        "luck": 70,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            100,
+            163
+        ]
+    },
+    {
+        "uid": 1644161,
+        "display_name": "4\u2605 Albedo (Guardian Overseer)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Dark",
+        "hp": 1980,
+        "patk": 302,
+        "matk": 255,
+        "pdef": 234,
+        "mdef": 232,
+        "agi": 70,
+        "dex": 71,
+        "luck": 70,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            103
+        ]
+    },
+    {
+        "uid": 1654161,
+        "display_name": "4\u2605 Shalltear (Captivating Vampire)",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Light",
+        "hp": 1872,
+        "patk": 300,
+        "matk": 255,
+        "pdef": 206,
+        "mdef": 200,
+        "agi": 74,
+        "dex": 71,
+        "luck": 70,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": false,
+        "owned": false,
+        "new": false,
+        "bonus": [
+            102
+        ]
+    },
 	{
-		"version": "4.10.0",
+		"version": "4.11.0",
 		"available": false
 	}
 ]
