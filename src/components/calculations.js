@@ -41,6 +41,9 @@ const class_map = {
   195:"Maple",
   196:"Sally",
   197:"Kasumi",
+  198:"Rudeus",
+  199:"Roxy",
+  200:"Eris",
 }
 
 function CalculateStats(Ownership,Main,SubOne,SubTwo){
