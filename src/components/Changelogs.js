@@ -13,6 +13,11 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>14 March 2023 (Ver 4.13.0)</h4>
+                    <ul>• Updated JP database to include units up to 3rd Anniversary</ul>
+                    <ul>• Toggled Global March units to be available</ul>
+                </div>
+                <div>
                     <h4>13 February 2023 (Ver 4.12.0)</h4>
                     <ul>• Updated JP database to include units up to Valentines</ul>
                     <ul>• Toggled Global February units to be available</ul>
