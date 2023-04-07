@@ -44,6 +44,8 @@ const class_map = {
   198:"Rudeus",
   199:"Roxy",
   200:"Eris",
+  181:"Funifura Dodonko",
+  126:"Claire"
 }
 
 function CalculateStats(Ownership,Main,SubOne,SubTwo){

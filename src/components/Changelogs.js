@@ -13,6 +13,11 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>7 April 2023 (Ver 4.14.0)</h4>
+                    <ul>• Updated JP database to include units up to Forbidden Megumin</ul>
+                    <ul>• Toggled Global April units to be available</ul>
+                </div>
+                <div>
                     <h4>14 March 2023 (Ver 4.13.0)</h4>
                     <ul>• Updated JP database to include units up to 3rd Anniversary</ul>
                     <ul>• Toggled Global March units to be available</ul>

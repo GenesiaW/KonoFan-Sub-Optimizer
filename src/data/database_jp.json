@@ -2550,6 +2550,42 @@
         ]
     },
     {
+        "uid": 1024200,
+        "display_name": "4\u2605 \uff3b\u7981\u65ad\u306e\u5192\u967a\u8005\uff3d\u3081\u3050\u307f\u3093",
+        "display_trait": "High HP Magic+ (6%)",
+        "rarity": 4,
+        "element": "Dark",
+        "hp": 1499,
+        "patk": 271,
+        "matk": 323,
+        "pdef": 169,
+        "mdef": 208,
+        "agi": 68,
+        "dex": 72,
+        "luck": 71,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            102,
+            150,
+            165,
+            183,
+            186,
+            199
+        ]
+    },
+    {
         "uid": 1024210,
         "display_name": "4\u2605 \uff3b\u8cd1\u3084\u304b\u306a\u5e30\u8def\uff3d\u3081\u3050\u307f\u3093",
         "display_trait": "Magic+ (6%)",
@@ -2608,6 +2644,42 @@
         "dark_boost": 0,
         "phy_boost": 0,
         "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            102,
+            150,
+            165,
+            183,
+            186,
+            199
+        ]
+    },
+    {
+        "uid": 1024215,
+        "display_name": "4\u2605 \uff3b\u30ec\u30c3\u30c9\u30d7\u30ea\u30ba\u30f3\uff3d\u3081\u3050\u307f\u3093",
+        "display_trait": "Fire+ (7%)",
+        "rarity": 4,
+        "element": "Fire",
+        "hp": 1515,
+        "patk": 266,
+        "matk": 320,
+        "pdef": 171,
+        "mdef": 206,
+        "agi": 69,
+        "dex": 70,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0.07,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
         "rec_boost": 0,
         "available": true,
         "owned": true,
@@ -5507,7 +5579,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5543,7 +5616,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5579,7 +5653,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5615,7 +5690,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5651,7 +5727,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5687,7 +5764,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5723,7 +5801,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5759,7 +5838,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5795,7 +5875,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5831,7 +5912,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5867,7 +5949,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5903,7 +5986,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5939,7 +6023,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -5975,7 +6060,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -6011,7 +6097,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -6047,7 +6134,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -6083,7 +6171,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -6119,7 +6208,8 @@
             186,
             193,
             197,
-            200
+            200,
+            126
         ]
     },
     {
@@ -6155,7 +6245,45 @@
             186,
             193,
             197,
-            200
+            200,
+            126
+        ]
+    },
+    {
+        "uid": 1074215,
+        "display_name": "4\u2605 \uff3b\u4f53\u9a13\u5165\u5b66\uff3d\u30a2\u30a4\u30ea\u30b9",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Lightning",
+        "hp": 1800,
+        "patk": 317,
+        "matk": 272,
+        "pdef": 202,
+        "mdef": 196,
+        "agi": 70,
+        "dex": 71,
+        "luck": 74,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            107,
+            183,
+            186,
+            193,
+            197,
+            200,
+            126
         ]
     },
     {
@@ -6428,6 +6556,38 @@
         "agi": 63,
         "dex": 66,
         "luck": 62,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            108,
+            194
+        ]
+    },
+    {
+        "uid": 1083216,
+        "display_name": "3\u2605 \uff3b\u5143\u6c17\u306b\u89e3\u7b54\uff3d\u3053\u3081\u3063\u3053",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Lightning",
+        "hp": 1798,
+        "patk": 242,
+        "matk": 288,
+        "pdef": 194,
+        "mdef": 198,
+        "agi": 62,
+        "dex": 67,
+        "luck": 61,
         "water_boost": 0,
         "fire_boost": 0,
         "wind_boost": 0,
@@ -12880,6 +13040,166 @@
         "new": true,
         "bonus": [
             119
+        ]
+    },
+    {
+        "uid": 1261100,
+        "display_name": "1\u2605 \uff3b\u306f\u3058\u307e\u308a\uff3d\u30af\u30ec\u30a2",
+        "display_trait": "Light+ (5%)",
+        "rarity": 1,
+        "element": "Light",
+        "hp": 1526,
+        "patk": 229,
+        "matk": 206,
+        "pdef": 162,
+        "mdef": 162,
+        "agi": 71,
+        "dex": 70,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0.05,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            126,
+            107
+        ]
+    },
+    {
+        "uid": 1262100,
+        "display_name": "2\u2605 \uff3b\u738b\u5973\u306e\u8b77\u885b\uff3d\u30af\u30ec\u30a2",
+        "display_trait": "Damage Absorption (20%)",
+        "rarity": 2,
+        "element": "Light",
+        "hp": 1627,
+        "patk": 244,
+        "matk": 220,
+        "pdef": 173,
+        "mdef": 173,
+        "agi": 71,
+        "dex": 70,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            126,
+            107
+        ]
+    },
+    {
+        "uid": 1263100,
+        "display_name": "3\u2605 \uff3b\u512a\u79c0\u306a\u308b\u5f93\u8005\uff3d\u30af\u30ec\u30a2",
+        "display_trait": "Physical+ (5%)",
+        "rarity": 3,
+        "element": "Fire",
+        "hp": 1831,
+        "patk": 275,
+        "matk": 247,
+        "pdef": 194,
+        "mdef": 194,
+        "agi": 71,
+        "dex": 70,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.05,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            126,
+            107
+        ]
+    },
+    {
+        "uid": 1263214,
+        "display_name": "3\u2605 \uff3b\u6975\u4e0a\u30b9\u30ad\u30e4\u30ad\uff3d\u30af\u30ec\u30a2",
+        "display_trait": "Light+ (6%)",
+        "rarity": 3,
+        "element": "Light",
+        "hp": 1812,
+        "patk": 277,
+        "matk": 244,
+        "pdef": 193,
+        "mdef": 192,
+        "agi": 72,
+        "dex": 71,
+        "luck": 72,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0.06,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            126,
+            107
+        ]
+    },
+    {
+        "uid": 1264100,
+        "display_name": "4\u2605 \uff3b\u738b\u5973\u306e\u305f\u3081\u306b\uff3d\u30af\u30ec\u30a2",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Light",
+        "hp": 2034,
+        "patk": 311,
+        "matk": 272,
+        "pdef": 214,
+        "mdef": 212,
+        "agi": 71,
+        "dex": 70,
+        "luck": 73,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            126,
+            107
         ]
     },
     {
