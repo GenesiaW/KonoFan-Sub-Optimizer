@@ -1224,6 +1224,39 @@
         ]
     },
     {
+        "uid": 1013218,
+        "display_name": "3\u2605 \uff3b\u3054\u6848\u30cb\u30e3\uff5e\u30a4\uff3d\u30a2\u30af\u30a2",
+        "display_trait": "Physical+ (5%)",
+        "rarity": 3,
+        "element": "Earth",
+        "hp": 1700,
+        "patk": 265,
+        "matk": 285,
+        "pdef": 187,
+        "mdef": 200,
+        "agi": 67,
+        "dex": 78,
+        "luck": 10,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.05,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            101,
+            147,
+            193
+        ]
+    },
+    {
         "uid": 1014100,
         "display_name": "4\u2605 \uff3b\u82b1\u9ce5\u98a8\u6708\uff3d\u30a2\u30af\u30a2",
         "display_trait": "Recovery+ (10%)",
@@ -1718,7 +1751,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -1754,7 +1788,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -1790,7 +1825,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -1826,7 +1862,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -1862,7 +1899,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -1898,7 +1936,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -1934,7 +1973,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -1970,7 +2010,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2006,7 +2047,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2042,7 +2084,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2078,7 +2121,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2114,7 +2158,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2150,7 +2195,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2186,7 +2232,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2222,7 +2269,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2258,7 +2306,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2294,7 +2343,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2330,7 +2380,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2366,7 +2417,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2402,7 +2454,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2438,7 +2491,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2474,7 +2528,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2510,7 +2565,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2546,7 +2602,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2582,7 +2639,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2618,7 +2676,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2654,7 +2713,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -2690,7 +2750,8 @@
             165,
             183,
             186,
-            199
+            199,
+            181
         ]
     },
     {
@@ -4084,6 +4145,41 @@
         "agi": 77,
         "dex": 77,
         "luck": 92,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0.06,
+        "mag_boost": 0,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            104,
+            184,
+            194,
+            196,
+            200
+        ]
+    },
+    {
+        "uid": 1044218,
+        "display_name": "4\u2605 \uff3b\u732b\u8033\u795e\u793e\u3078\u3088\u3046\u3053\u305d\uff3d\u30af\u30ea\u30b9",
+        "display_trait": "Physical+ (6%)",
+        "rarity": 4,
+        "element": "Earth",
+        "hp": 1764,
+        "patk": 269,
+        "matk": 269,
+        "pdef": 192,
+        "mdef": 198,
+        "agi": 76,
+        "dex": 79,
+        "luck": 88,
         "water_boost": 0,
         "fire_boost": 0,
         "wind_boost": 0,
@@ -5547,6 +5643,39 @@
         ]
     },
     {
+        "uid": 1064218,
+        "display_name": "4\u2605 \uff3b\u7d05\u9b54\u306e\u5deb\u5973\u3055\u3093\uff3d\u3086\u3093\u3086\u3093",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Earth",
+        "hp": 1604,
+        "patk": 260,
+        "matk": 317,
+        "pdef": 184,
+        "mdef": 216,
+        "agi": 68,
+        "dex": 69,
+        "luck": 66,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            106,
+            184,
+            199
+        ]
+    },
+    {
         "uid": 1071100,
         "display_name": "1\u2605 \uff3b\u306f\u3058\u307e\u308a\uff3d\u30a2\u30a4\u30ea\u30b9",
         "display_trait": "Light+ (5%)",
@@ -6863,6 +6992,38 @@
         ]
     },
     {
+        "uid": 1084217,
+        "display_name": "4\u2605 \uff3b\u6700\u5f37\u305f\u3093\u3066\u3044\u56e3\uff3d\u3053\u3081\u3063\u3053",
+        "display_trait": "Magic+ (6%)",
+        "rarity": 4,
+        "element": "Wind",
+        "hp": 1998,
+        "patk": 271,
+        "matk": 320,
+        "pdef": 216,
+        "mdef": 220,
+        "agi": 62,
+        "dex": 66,
+        "luck": 63,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            108,
+            194
+        ]
+    },
+    {
         "uid": 1091100,
         "display_name": "1\u2605 \uff3b\u306f\u3058\u307e\u308a\uff3d\u30bb\u30b7\u30ea\u30fc",
         "display_trait": "Recovery+ (7%)",
@@ -7713,6 +7874,37 @@
         "agi": 67,
         "dex": 70,
         "luck": 70,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            110
+        ]
+    },
+    {
+        "uid": 1103216,
+        "display_name": "3\u2605 \uff3b\u968f\u4e00\u306e\u767a\u80b2\uff3d\u3042\u308b\u3048",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Fire",
+        "hp": 1331,
+        "patk": 227,
+        "matk": 277,
+        "pdef": 153,
+        "mdef": 191,
+        "agi": 66,
+        "dex": 68,
+        "luck": 72,
         "water_boost": 0,
         "fire_boost": 0,
         "wind_boost": 0,
@@ -12795,6 +12987,37 @@
         ]
     },
     {
+        "uid": 1193216,
+        "display_name": "3\u2605 \uff3b\u5c0f\u3055\u306a\u63a2\u5075\u3055\u3093\uff3d\u30a8\u30a4\u30df\u30fc",
+        "display_trait": "Magic+ (5%)",
+        "rarity": 3,
+        "element": "Wind",
+        "hp": 1556,
+        "patk": 217,
+        "matk": 277,
+        "pdef": 166,
+        "mdef": 194,
+        "agi": 64,
+        "dex": 70,
+        "luck": 74,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.05,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            119
+        ]
+    },
+    {
         "uid": 1194100,
         "display_name": "4\u2605 \uff3b\u5143\u6c17\u3092\u51fa\u3057\u3066\uff3d\u30a8\u30a4\u30df\u30fc",
         "display_trait": "Recovery+ (10%)",
@@ -14685,6 +14908,38 @@
         "bonus": [
             169,
             195
+        ]
+    },
+    {
+        "uid": 1814100,
+        "display_name": "4\u2605 \uff3b2\u4eba\u306e\u696d\u706b\uff3d\u3075\u306b\u3075\u3089\uff06\u3069\u3069\u3093\u3053",
+        "display_trait": "Magic/Ult Damage+ (6%/10%)",
+        "rarity": 4,
+        "element": "Fire",
+        "hp": 1710,
+        "patk": 260,
+        "matk": 305,
+        "pdef": 192,
+        "mdef": 214,
+        "agi": 69,
+        "dex": 68,
+        "luck": 70,
+        "water_boost": 0,
+        "fire_boost": 0,
+        "wind_boost": 0,
+        "earth_boost": 0,
+        "lightning_boost": 0,
+        "light_boost": 0,
+        "dark_boost": 0,
+        "phy_boost": 0,
+        "mag_boost": 0.06,
+        "rec_boost": 0,
+        "available": true,
+        "owned": true,
+        "new": true,
+        "bonus": [
+            181,
+            102
         ]
     },
     {

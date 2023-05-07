@@ -13,6 +13,13 @@ function Changelogs({show,handleClose}) {
             <Modal.Header closeButton><Modal.Title>Changelog</Modal.Title></Modal.Header>
             <Modal.Body>
                 <div>
+                    <h4>7 May 2023 (Ver 4.15.0)</h4>
+                    <ul>• Updated JP database to include units up to Miko Chris</ul>
+                    <ul>• Toggled Global May units to be available</ul>
+                    <ul>• Removal of Links to Arena Stats/Contact. Latest Arena Stats can be found in the Unofficial Discord Server.</ul>
+                    <ul>• This may be the last update to the Sub Optimizer as I have no longer been playing the game for months. I may do a rewrite in June depending on my availability.</ul>
+                </div>
+                <div>
                     <h4>7 April 2023 (Ver 4.14.0)</h4>
                     <ul>• Updated JP database to include units up to Forbidden Megumin</ul>
                     <ul>• Toggled Global April units to be available</ul>

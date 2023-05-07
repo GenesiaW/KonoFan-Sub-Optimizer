@@ -330,10 +330,10 @@ function App() {
                   {/* <Dropdown.Item eventKey="OpTeam">Optimize Team (Slow)</Dropdown.Item> */}
                   <Dropdown.Item eventKey="TeamBuilder">Team Builder</Dropdown.Item>
                   <Dropdown.Item eventKey="ImpInv">Import/Export Inventory</Dropdown.Item>
-                  <Dropdown.Item eventKey="Arena Stats" href={"https://github.com/GenesiaW/KonoFan-Sub-Optimizer/wiki/Arena-Stats"} target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.pageview("/arena-stats")}>Arena Stats</Dropdown.Item>
+                  {/* <Dropdown.Item eventKey="Arena Stats" href={"https://github.com/GenesiaW/KonoFan-Sub-Optimizer/wiki/Arena-Stats"} target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.pageview("/arena-stats")}>Arena Stats</Dropdown.Item> */}
                   <Dropdown.Item eventKey="Guide" href={"https://github.com/GenesiaW/KonoFan-Sub-Optimizer/wiki"} target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.pageview("/guide")}>Guide</Dropdown.Item>
                   <Dropdown.Item eventKey="settings">Settings</Dropdown.Item>
-                  <Dropdown.Item eventKey="Contact" href={"https://forms.gle/BHmaZJk7UD3rdsbd7"} target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.pageview("/contact")}>Contact</Dropdown.Item>
+                  {/* <Dropdown.Item eventKey="Contact" href={"https://forms.gle/BHmaZJk7UD3rdsbd7"} target="_blank" rel="noopener noreferrer" onClick={() => ReactGA.pageview("/contact")}>Contact</Dropdown.Item> */}
                   <Dropdown.Item eventKey="CL">Changelog</Dropdown.Item>
                   <Dropdown.Item eventKey="PP">Privacy Policy</Dropdown.Item>
                 </DropdownButton>
